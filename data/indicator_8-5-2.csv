@@ -1,22 +1,22 @@
 Year,Units,Territorio,Serie,Sexo,Value
-2010,Porcentaje,ES70,Serie B,Hombres,29.15
-2011,Porcentaje,ES70,Serie B,Hombres,29.40
-2012,Porcentaje,ES70,Serie B,Hombres,31.94
-2013,Porcentaje,ES70,Serie B,Hombres,34.35
-2014,Porcentaje,ES70,Serie B,Hombres,31.81
-2015,Porcentaje,ES70,Serie B,Hombres,27.88
-2016,Porcentaje,ES70,Serie B,Hombres,24.38
-2017,Porcentaje,ES70,Serie B,Hombres,21.23
-2018,Porcentaje,ES70,Serie B,Hombres,18.90
-2010,Porcentaje,ES70,Serie C,Mujeres,27.91
-2011,Porcentaje,ES70,Serie C,Mujeres,29.13
-2012,Porcentaje,ES70,Serie C,Mujeres,33.32
-2013,Porcentaje,ES70,Serie C,Mujeres,33.01
-2014,Porcentaje,ES70,Serie C,Mujeres,33.12
-2015,Porcentaje,ES70,Serie C,Mujeres,30.56
-2016,Porcentaje,ES70,Serie C,Mujeres,28.00
-2017,Porcentaje,ES70,Serie C,Mujeres,25.97
-2018,Porcentaje,ES70,Serie C,Mujeres,21.42
+2010,Porcentaje,ES53,Serie B,Hombres,20.79
+2011,Porcentaje,ES53,Serie B,Hombres,22.35
+2012,Porcentaje,ES53,Serie B,Hombres,22.41
+2013,Porcentaje,ES53,Serie B,Hombres,22.53
+2014,Porcentaje,ES53,Serie B,Hombres,21.37
+2015,Porcentaje,ES53,Serie B,Hombres,17.34
+2016,Porcentaje,ES53,Serie B,Hombres,13.43
+2017,Porcentaje,ES53,Serie B,Hombres,12.4
+2018,Porcentaje,ES53,Serie B,Hombres,12.03
+2010,Porcentaje,ES53,Serie C,Mujeres,19.3
+2011,Porcentaje,ES53,Serie C,Mujeres,21.28
+2012,Porcentaje,ES53,Serie C,Mujeres,24.06
+2013,Porcentaje,ES53,Serie C,Mujeres,21.93
+2014,Porcentaje,ES53,Serie C,Mujeres,18.38
+2015,Porcentaje,ES53,Serie C,Mujeres,17.26
+2016,Porcentaje,ES53,Serie C,Mujeres,14.43
+2017,Porcentaje,ES53,Serie C,Mujeres,12.48
+2018,Porcentaje,ES53,Serie C,Mujeres,10.92
 2010,Porcentaje,ES,Serie B,Hombres,19.57
 2011,Porcentaje,ES,Serie B,Hombres,21.04
 2012,Porcentaje,ES,Serie B,Hombres,24.58
@@ -37,16 +37,16 @@ Year,Units,Territorio,Serie,Sexo,Value
 2017,Porcentaje,ES,Serie C,Mujeres,19.03
 2018,Porcentaje,ES,Serie C,Mujeres,17.02
 2019,Porcentaje,ES,Serie C,Mujeres,15.99
-2010,Porcentaje,ES70,Serie A,Ambos sexos,28.6
-2011,Porcentaje,ES70,Serie A,Ambos sexos,29.28
-2012,Porcentaje,ES70,Serie A,Ambos sexos,32.57
-2013,Porcentaje,ES70,Serie A,Ambos sexos,33.73
-2014,Porcentaje,ES70,Serie A,Ambos sexos,32.42
-2015,Porcentaje,ES70,Serie A,Ambos sexos,29.1
-2016,Porcentaje,ES70,Serie A,Ambos sexos,26.06
-2017,Porcentaje,ES70,Serie A,Ambos sexos,23.47
-2018,Porcentaje,ES70,Serie A,Ambos sexos,20.08
-2019,Porcentaje,ES70,Serie A,Ambos sexos,20.49
+2010,Porcentaje,ES53,Serie A,Ambos sexos,20.12
+2011,Porcentaje,ES53,Serie A,Ambos sexos,21.86
+2012,Porcentaje,ES53,Serie A,Ambos sexos,23.17
+2013,Porcentaje,ES53,Serie A,Ambos sexos,22.26
+2014,Porcentaje,ES53,Serie A,Ambos sexos,20
+2015,Porcentaje,ES53,Serie A,Ambos sexos,17.31
+2016,Porcentaje,ES53,Serie A,Ambos sexos,13.89
+2017,Porcentaje,ES53,Serie A,Ambos sexos,12.43
+2018,Porcentaje,ES53,Serie A,Ambos sexos,11.52
+2019,Porcentaje,ES53,Serie A,Ambos sexos,11.74
 2010,Porcentaje,ES,Serie A,Ambos sexos,19.86
 2011,Porcentaje,ES,Serie A,Ambos sexos,21.39
 2012,Porcentaje,ES,Serie A,Ambos sexos,24.79
@@ -57,11 +57,11 @@ Year,Units,Territorio,Serie,Sexo,Value
 2017,Porcentaje,ES,Serie A,Ambos sexos,17.22
 2018,Porcentaje,ES,Serie A,Ambos sexos,15.25
 2019,Porcentaje,ES,Serie A,Ambos sexos,14.1
-2019,Porcentaje,ES70,Serie B,Hombres,19.3
-2019,Porcentaje,ES70,Serie C,Mujeres,21.85
-2020,Porcentaje,ES70,Serie A,Ambos sexos,22.62
+2019,Porcentaje,ES53,Serie B,Hombres,10.29
+2019,Porcentaje,ES53,Serie C,Mujeres,13.41
+2020,Porcentaje,ES53,Serie A,Ambos sexos,16.14
 2020,Porcentaje,ES,Serie A,Ambos sexos,15.53
 2020,Porcentaje,ES,Serie B,Hombres,13.87
-2020,Porcentaje,ES70,Serie B,Hombres,21.45
+2020,Porcentaje,ES53,Serie B,Hombres,14.97
 2020,Porcentaje,ES,Serie C,Mujeres,17.43
-2020,Porcentaje,ES70,Serie C,Mujeres,23.94
+2020,Porcentaje,ES53,Serie C,Mujeres,17.49
