@@ -26,7 +26,8 @@ def check_args():
 
 
 def clean_key(k):
-    """ Función que limpia las claves para el archivo YAML y que no de error
+    """ Función que limpia las claves para el archivo YAML y que no de error.
+        Además se hace una limpieza de palabras de enlace para acortar las claves.
 
     Parámetros:
     k -- Cadena de texto con la clave
@@ -34,6 +35,23 @@ def clean_key(k):
     return  unidecode.unidecode(k.replace(' ', '_')
                                  .replace(':', '')
                                  .replace('.', '')
+                                 .replace(',', '')
+                                 .replace('(', '')
+                                 .replace(')', '')
+                                 .replace('%', '')
+                                 .replace('_de_', '_')
+                                 .replace('_los_', '_')
+                                 .replace('_las_', '_')
+                                 .replace('_el_', '_')
+                                 .replace('_la_', '_')
+                                 .replace('_por_', '_')
+                                 .replace('_en_', '_')
+                                 .replace('_con_', '_')
+                                 .replace('_que_', '_')
+                                 .replace('_del_', '_')
+                                 .replace('_o_', '_')
+                                 .replace('_a_', '_')
+                                 .replace('_y_', '_')
                                  .lower())
 
 
@@ -53,7 +71,7 @@ def extract_translations(csv_path, translation_file):
     desagregaciones = []
 
     for csv_name in csv_files:
-        with open(os.path.join('.', csv_name), 'r', encoding='utf-8', newline='') as file:
+        with open(os.path.join(csv_path, csv_name), 'r', encoding='utf-8', newline='') as file:
             csv_reader = csv.reader(file)
             current_headers = csv_reader.__next__()
             headers.extend([i for i in current_headers if i not in ['Year', 'Units', 'Value']])
