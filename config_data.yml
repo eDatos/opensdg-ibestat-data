@@ -103,6 +103,8 @@ map_layers:
    output_subfolder: regions
    filename_prefix: indicator_
 
+geo_code_column: Territorio
+
 
 # Documentation settings
 # ----------------------
