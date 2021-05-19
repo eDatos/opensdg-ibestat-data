@@ -1,10 +1,10 @@
-heading: "Indicadores de Desarrollo Sostenible de %name"
-download_all: Descargar todos los datos
-zip_file: 
-intro_title: 17 objetivos para transformar nuestro mundo
-intro_body: Los <a href="https://www.un.org/sustainabledevelopment/es">Objetivos de Desarrollo Sostenible (SDG)</a> son un llamado universal a la acción para terminar con la pobreza, proteger el planeta y mejorar las vidas y perspectivas de todos, en todas partes. Los 17 Objetivos fueron adoptados por todos los Estados Miembros de las Naciones Unidas en 2015, como parte de la <a href="https://www.un.org/ga/search/view_doc.asp?symbol=A/RES/70/1&Lang=S">2030 Agenda para el Desarrollo Sostenible</a>.
-download_methodology: Descargar Metodología
-texto_pagina_inicio_1: En el año 2015 la ONU aprobó la Agenda 2030 sobre el desarrollo sostenible, en la que se fijaron 17 objetivos y 169 metas, que incluyen desde la eliminación de la pobreza hasta el combate al cambio climático, la educación, la igualdad de la mujer, la defensa del medio ambiente o el diseño de nuestras ciudades. Para su seguimiento, se diseñaron 232 indicadores que pueden medirse a través de las series estadísticas que aquí se recogen.
-texto_pagina_inicio_2: Las series estadísticas mostradas están armonizadas y son comparables entre las distintas autonomías al ser fruto del trabajo conjunto de los diferentes Órganos Centrales de Estadística de las Comunidades Autónomas (OCECAS). A su vez, en línea con la política de datos abiertos, las series pueden descargase en formatos abiertos y reutilizarse según la licencia del Instituto.
-texto_pagina_inicio_3: A medida que se disponga de nuevos datos se incorporarán nuevas series.
-instructions: "Haga clic en cada objetivo, o busque, para consultar las estadísticas para los indicadores globales de los Objetivos de Desarrollo Sostenible."
+heading: "Indicadors de Desenvolupament Sostenible de %name"
+instructions: "Feu clic a cada objectiu, o feu una cerca, per consultar les estadístiques de Canàries per als indicadors globals dels Objectius de Desenvolupament Sostenible. També es poden descarregar totes les dades."
+download_all: Descarrega totes les dades
+zip_file: ''
+intro_title: 17 Objectius per transformar el nostre món
+intro_body: Els <a href="https://www.un.org/sustainabledevelopment/es">Objectius de Desenvolupament Sostenible (ODS)</a> són una crida universal a l’acció per acabar amb la pobresa, protegir el planeta i millorar les vides i perspectives de tots, a tot arreu. Els 17 Objectius van ser adoptats per tots els Estats Membres de les Nacions Unides el 2015, com a part de l’<a href="https://www.un.org/ga/search/view_doc.asp?symbol=A/RES/70/1&Lang=S">Agenda 2030 per al Desenvolupament Sostenible</a>.
+texto_pagina_inicio_1: L’any 2015 l’ONU va aprovar l’Agenda 2030 sobre el desenvolupament sostenible, en la qual es van fixar 17 objectius i 169 metes, que inclouen des de l’eliminació de la pobresa fins a la lluita contra el canvi climàtic, l’educació, la igualtat de la dona, la defensa del medi ambient o el disseny de les nostres ciutats. Per al seu seguiment, es van dissenyar 232 indicadors que poden mesurar-se a través de les sèries estadístiques que aquí es recullen.
+texto_pagina_inicio_2: Les sèries estadístiques mostrades estan harmonitzades i són comparables entre les diferents autonomies en ser fruit del treball conjunt dels diferents Òrgans Centrals d’Estadística de les Comunitats Autònomes (OCECA). Al mateix temps, en línia amb la política de dades obertes de l’ISTAC, les sèries es poden descarregar en formats oberts i es poden reutilitzar segons la llicència de l’Institut.
+texto_pagina_inicio_3: A mesura que es disposi de noves dades, s’incorporaran noves sèries.
+download_methodology: Descarrega la Metodologia

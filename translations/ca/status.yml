@@ -1,9 +1,9 @@
-overall_reporting_status: Disponibilidad general de los datos
-reporting_status: Disponibilidad de datos
-status_by_goal: Estados por objetivos
-status_by_field: Estado por %field
+overall_reporting_status: Disponibilitat general de les dades
+reporting_status: Disponibilitat de dades
+status_by_goal: Estats per objectius
+status_by_field: Estat per %field
 reported_online: Disponible
-statistics_in_progress: En progreso
-exploring_data_sources: Explorando fuentes de datos
-not_applicable: No procede
+statistics_in_progress: En curs
+exploring_data_sources: S’estan explorant les fonts de dades
+not_applicable: No procedeix
 texto_introductorio: "<p>Indicadores de Desarrollo Sostenible es una operación estadística en construcción, a la que se van a ir incorporando nuevas series según la disponibilidad de nuevos datos de fuentes oficiales. </p><p>La actualización de las series disponibles se realizará de manera trimestral, en función de la actualización de cada una de las fuentes de datos de partida de cada indicador.</p>"
