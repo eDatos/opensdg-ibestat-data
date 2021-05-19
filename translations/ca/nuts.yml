@@ -1,5 +1,5 @@
-ES: España
-ES70: Canarias
+ES: Espanya
+ES70: Canàries
 ES701: Las Palmas
 ES708: Lanzarote
 _35004: Arrecife
@@ -17,7 +17,7 @@ _35014: La Oliva
 _35015: Pájara
 _35017: Puerto del Rosario
 _35030: Tuineje
-ES705: Gran Canaria
+ES705: Gran Canària
 _35001: Agaete
 _35002: Agüimes
 _35005: Artenara
@@ -95,151 +95,82 @@ _38045: Tazacorte
 _38047: Tijarafe
 _38053: Villa de Mazo
 ES703: El Hierro
-_38013_1912: Frontera (hasta 2007)
+_38013_1912: Frontera (fins al 2007)
 _38013_2007: Frontera
 _38048: Valverde
 _38901: El Pinar de El Hierro
-ES706_ES703: La Gomera y El Hierro
-ES706_ES709: La Gomera y Tenerife
-ES11: Galicia
-ES111: A Coruña
+ES706_ES703: La Gomera i El Hierro
+ES706_ES709: La Gomera i Tenerife
+ES11: Galícia
+ES111: La Corunya
 ES112: Lugo
 ES113: Ourense
 ES114: Pontevedra
-ES12: Principado de Asturias
-ES120: Asturias
-ES13: Cantabria
-ES130: Cantabria
-ES21: País Vasco
-ES211: Araba / Álava
-ES212: Gipuzkoa
-ES213: Bizkaia
-ES22: Comunidad Foral de Navarra
+ES12: Principat d’Astúries
+ES120: Astúries
+ES13: Cantàbria
+ES130: Cantàbria
+ES21: País Basc
+ES211: Àlaba
+ES212: Gipúscoa
+ES213: Biscaia
+ES22: Comunitat Foral de Navarra
 ES220: Navarra
 ES23: La Rioja
 ES230: La Rioja
-ES24: Aragón
-ES241: Huesca
-ES242: Teruel
-ES243: Zaragoza
-ES30: Comunidad de Madrid
+ES24: Aragó
+ES241: Osca
+ES242: Terol
+ES243: Saragossa
+ES30: Comunitat de Madrid
 ES300: Madrid
-ES41: Castilla y León
-ES411: Ávila
+ES41: Castella i Lleó
+ES411: Àvila
 ES412: Burgos
-ES413: León
-ES414: Palencia
+ES413: Lleó
+ES414: Palència
 ES415: Salamanca
-ES416: Segovia
-ES417: Soria
+ES416: Segòvia
+ES417: Sòria
 ES418: Valladolid
 ES419: Zamora
-ES42: Castilla - La Mancha
+ES42: Castella - la Manxa
 ES421: Albacete
 ES422: Ciudad Real
-ES423: Cuenca
+ES423: Conca
 ES424: Guadalajara
 ES425: Toledo
 ES43: Extremadura
 ES431: Badajoz
-ES432: Cáceres
-ES51: Cataluña
+ES432: Càceres
+ES51: Catalunya
 ES511: Barcelona
 ES512: Girona
 ES513: Lleida
 ES514: Tarragona
-ES52: Comunidad Valenciana
-ES521: Alacant / Alicante
-ES522: Castelló / Castellón
-ES523: València / Valencia
+ES52: Comunitat Valenciana
+ES521: Alacant
+ES522: Castelló
+ES523: València
 ES53: Illes Balears
 ES530: Illes Balears
-ES531: Eivissa y Formentera
+ES531: Eivissa i Formentera
 ES532: Mallorca
 ES533: Menorca
-ES61: Andalucía
-ES611: Almería
-ES612: Cádiz
-ES613: Córdoba
+ES61: Andalusia
+ES611: Almeria
+ES612: Cadis
+ES613: Còrdova
 ES614: Granada
 ES615: Huelva
 ES616: Jaén
-ES617: Málaga
+ES617: Màlaga
 ES618: Sevilla
-ES62: Región de Murcia
-ES620: Murcia
-ES63_ES64: Ciudades Autónomas de Ceuta y Melilla
-ES630_ES640: Ceuta y Melilla
-ES63: Ciudad Autónoma de Ceuta
+ES62: Regió de Múrcia
+ES620: Múrcia
+ES63_ES64: Ciutats Autònomes de Ceuta i Melilla
+ES630_ES640: Ceuta i Melilla
+ES63: Ciutat Autònoma de Ceuta
 ES630: Ceuta
-ES64: Ciudad Autónoma de Melilla
+ES64: Ciutat Autònoma de Melilla
 ES640: Melilla
-ES531_072: Eivissa
-ES531_071: Formentera
-_07001: Alaró
-_07003: Alcúdia
-_07004: Algaida
-_07005: Andratx
-_07006: Artà
-_07007: Banyalbufar
-_07008: Binissalem
-_07009: Búger
-_07010: Bunyola
-_07011: Calvià
-_07012: Campanet
-_07013: Campos
-_07014: Capdepera
-_07016: Consell
-_07017: Costitx
-_07018: Deià
-_07019: Escorca
-_07020: Esporles
-_07021: Estellencs
-_07022: Felanitx
-_07025: Fornalutx
-_07027: Inca
-_07028: Lloret de Vistalegre
-_07029: Lloseta
-_07030: Llubí
-_07031: Llucmajor
-_07033: Manacor
-_07034: Mancor de la Vall
-_07035: Maria de la Salut
-_07036: Marratxí
-_07038: Montuïri
-_07039: Muro
-_07040: Palma
-_07041: Petra
-_07042: Pollença
-_07043: Porreres
-_07044: Sa Pobla
-_07045: Puigpunyent
-_07047: Sencelles
-_07049: Sant Joan
-_07051: Sant Llorenç des Cardassar
-_07053: Santa Eugènia
-_07055: Santa Margalida
-_07056: Santa Maria del Camí
-_07057: Santanyí
-_07058: Selva
-_07059: Ses Salines
-_07060: Sineu
-_07061: Sóller
-_07062: Son Servera
-_07063: Valldemossa
-_07065: Vilafranca de Bonany
-_07901: Ariany
-_07002: Alaior
-_07015: Ciutadella de Menorca
-_07023: Ferreries
-_07032: Maó
-_07037: Es Mercadal
-_07052: Sant Lluís
-_07064: Es Castell
-_07902: Es Migjorn Gran
-_07026: Eivissa
-_07046: Sant Antoni de Portmany
-_07048: Sant Josep de sa Talaia
-_07050: Sant Joan de Labritja
-_07054: Santa Eulària del Ríu
-_07024: Formentera
