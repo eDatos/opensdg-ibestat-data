@@ -96,12 +96,12 @@ map_options:
 # below and adjust if you would like to use the Open SDG mapping functionality.
 # Note that the GeoJSON files can either be remote (as in the example below) or
 # local, relative to the src_dir specified above.
-map_layers:
- - geojson_file: maps/islasBaleares.json
-   name_property: NOM
-   id_property: CODNUT3
-   output_subfolder: regions
-   filename_prefix: indicator_
+#map_layers:
+# - geojson_file: maps/islasBaleares.json
+#   name_property: NOM
+#   id_property: CODNUT3
+#   output_subfolder: regions
+#   filename_prefix: indicator_
 
 geo_code_column: Territorio
 
