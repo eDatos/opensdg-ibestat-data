@@ -5,7 +5,7 @@ target_id: '5.a.1a'
 reporting_status: complete
 data_non_statistical: false
 indicator_sort_order: 05-aa-1a-aa
-national_geographical_coverage: Canarias
+national_geographical_coverage: Canàries
 
 # Info de Subindicador
 nombre: subindicator.5-a-1a-SERIE-A-nombre
@@ -14,14 +14,10 @@ meta_global: global_targets.5-a-title
 objetivo_global: global_goals.5-title
 definicion: subindicator.5-a-1a-SERIE-A-definicion
 
-formula_teorica: '$$PPOA_{titulares}^{t} = \frac{TEA^{t}}{POA^{t}} \cdot 100$$ <br>
-donde: <br>
-$TEA^{t} =$ personas titulares de explotaciones agrícolas en el año $t$ <br>
-$POA^{t} =$ personas ocupadas en la agricultura en el año $t$'
-unidad_medida: "Porcentaje"
-fuentes_informacion: "Encuesta sobre la estructura de las explotaciones agrícolas, Instituto Nacional de Estadística (INE) <br>
-Censo agrario del 2009, Instituto Nacional de Estadística (INE)"
-periodicidad: "Trienal"
+formula_teorica: 5-a-1a-SERIE-A-formula-teorica
+unidad_medida: UNIDAD_MEDIDA.PT
+fuentes_informacion: 5-a-1a-SERIE-A-fuentes-informacion
+periodicidad: "Triennal"
 observaciones:
 
 # Info de Gráficas
@@ -30,7 +26,7 @@ graph_type: bar
 
 # Info de navegación
 sort_order: 1
-tab_name: Serie A
+tab_name: SERIE.SERIE_A
 
 #Coordinación con OCECAS
 coordinado_con_ocecas: true

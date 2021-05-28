@@ -4,7 +4,7 @@ target_id: 2.4.1
 reporting_status: complete
 data_non_statistical: false
 indicator_sort_order: 02-04-01-01
-national_geographical_coverage: Canarias
+national_geographical_coverage: Canàries
 
 # Info de Subindicador
 nombre: subindicator.2-4-1-SERIE-A-nombre
@@ -14,16 +14,11 @@ objetivo_global: global_goals.2-title
 definicion: subindicator.2-4-1-SERIE-A-definicion
 
 # Fórmula teórica escrita en formato MathJax
-formula_teorica: '$$PSA_{ecológica}^{t} = \frac{SA_{ecológica}^{t}}{SA^{t}} \cdot 100$$ <br>
-donde: <br>
-$SA_{ecológica}^t =$ superficie agrícola destinada a la producción ecológica en el año $t$ <br>
-$SA^{t} =$ superficie agrícola (cultivos, prados y pastizales) en el año $t$'
-unidad_medida: "Porcentaje"
-fuentes_informacion: "Estadística de la producción ecológica, Ministerio de Agricultura, Pesca y Alimentación<br>
-Encuesta de superficies y rendimientos de cultivo, Ministerio de Agricultura, Pesca y Alimentación"
+formula_teorica: FORMULA_TEORICA.2-4-1-SERIE-A-formula-teorica
+unidad_medida: UNIDAD_MEDIDA.PT
+fuentes_informacion: FUENTES_INFORMACION.2-4-1-SERIE-A-fuentes-informacion
 periodicidad: "Anual"
-observaciones: 
-
+observaciones: OBSERVACIONES.2-4-1-SERIE-A-observaciones
 # Info de Gráficas
 graph_title: subindicator.2-4-1-SERIE-A-graph-title
 graph_type: bar

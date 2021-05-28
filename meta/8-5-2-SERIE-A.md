@@ -5,7 +5,7 @@ target_id: '8.5.2'
 reporting_status: complete
 data_non_statistical: false
 indicator_sort_order: 08-05-02-aa
-national_geographical_coverage: Canarias
+national_geographical_coverage: Canàries
 
 # Info de Subindicador
 nombre: subindicator.8-5-2-SERIE-A-nombre
@@ -14,23 +14,18 @@ meta_global: global_targets.8-5-title
 objetivo_global: global_goals.8-title
 definicion: subindicator.8-5-2-SERIE-A-definicion
 
-formula_teorica: '$$TD^{t} = \frac{D^{t}}{A^{t}} \cdot 100$$ <br>
-donde: <br>
-$D^{t} =$ personas desempleadas en el año $t$ <br>
-$A^{t} =$ personas económicamente activas en el año $t$ <br>
-teniendo en cuenta que cada una de estas poblaciones se calcula como la media aritmética de los cuatro trimestres del año'
-unidad_medida: "Porcentaje"
-fuentes_informacion: "Encuesta de población activa, Instituto Nacional de Estadística (INE)"
+formula_teorica: FORMULA_TEORICA.8-5-2-SERIE-A-formula-teorica
+unidad_medida: UNIDAD_MEDIDA.PT
+fuentes_informacion: FUENTES_INFORMACION.8-5-2-SERIE-A-fuentes-informacion
 periodicidad: "Anual"
-observaciones: 
-
+observaciones: OBSERVACIONES.8-5-2-SERIE-A-observaciones
 # Info de Gráficas
 graph_title: subindicator.8-5-2-SERIE-A-graph-title
 graph_type: bar
 
 # Info de navegación
 sort_order: 1
-tab_name: Serie A
+tab_name: SERIE.SERIE_A
 
 #Coordinación con OCECAS
 coordinado_con_ocecas: true

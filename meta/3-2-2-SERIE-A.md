@@ -4,7 +4,7 @@ target_id: 3.2.2
 reporting_status: complete
 data_non_statistical: false
 indicator_sort_order: 03-02-02-aa
-national_geographical_coverage: Canarias
+national_geographical_coverage: Canàries
 
 # Info de Subindicador
 nombre: subindicator.3-2-2-SERIE-A-nombre
@@ -13,19 +13,13 @@ meta_global: global_targets.3-2-title
 objetivo_global: global_goals.3-title
 definicion: subindicator.3-2-2-SERIE-A-definicion
 
-# Fórmula teórica escrita en formato MathJax
+# Fómula teórica escrita en formato MathJax
 # https://math.meta.stackexchange.com/questions/5020/mathjax-basic-tutorial-and-quick-reference
-formula_teorica: '$$TM_{neonatal}^{t} = \frac{D_{neonatales}^{t}}{N^{t}} \cdot 1.000$$ <br>
-donde: <br>
-$D_{neonatales}^{t} =$ defunciones de menores de 28 días cumplidos de vida en el año $t$ <br>
-$N^{t} =$ nacimientos en el año $t$'
-
-unidad_medida: "Tanto por 1.000"
-fuentes_informacion: "Estadística de defunciones, Instituto Nacional de Estadística (INE)<br>
-Estadística de nacimientos, Instituto Nacional de Estadística (INE)"
+formula_teorica: FORMULA_TEORICA.3-2-2-SERIE-A-formula-teorica
+unidad_medida: "Tant per 1.000"
+fuentes_informacion: FUENTES_INFORMACION.3-2-2-SERIE-A-fuentes-informacion
 periodicidad: "Anual"
-observaciones: 
-
+observaciones: OBSERVACIONES.3-2-2-SERIE-A-observaciones
 # Info de Gráficas
 graph_title: subindicator.3-2-2-SERIE-A-graph-title
 graph_type: bar

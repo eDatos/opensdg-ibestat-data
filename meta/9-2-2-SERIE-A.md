@@ -4,7 +4,7 @@ target_id: 9.2.2
 reporting_status: complete
 data_non_statistical: false
 indicator_sort_order: 09-02-02-aa
-national_geographical_coverage: Canarias
+national_geographical_coverage: Canàries
 
 # Info de Subindicador
 nombre: subindicator.9-2-2-SERIE-A-nombre
@@ -15,16 +15,11 @@ definicion: subindicator.9-2-2-SERIE-A-definicion
 
 # Fórmula teórica escrita en formato MathJax
 # https://math.meta.stackexchange.com/questions/5020/mathjax-basic-tutorial-and-quick-reference
-formula_teorica: '$$PPO_{manufacturero}^{t} = \frac{PO_{manufacturero}^{t}}{PO^{t}} \cdot 100$$ <br>
-donde: <br>
-$PO_{manufacturero}^{t} =$ población ocupada en el sector manufacturero (sección C de la CNAE-2009) en el año $t$ <br>
-$PO^{t} =$ población ocupada en el año $t$ <br>
-teniendo en cuenta que cada una de estas poblaciones se calcula como la media aritmética de los cuatro trimestres del año'
-unidad_medida: Porcentaje
-fuentes_informacion: "Encuesta de población activa, Instituto Nacional de Estadística (INE)"
+formula_teorica: FORMULA_TEORICA.9-2-2-SERIE-A-formula-teorica
+unidad_medida: UNIDAD_MEDIDA.PT
+fuentes_informacion: FUENTES_INFORMACION.9-2-2-SERIE-A-fuentes-informacion
 periodicidad: Anual
-observaciones: 
-
+observaciones: OBSERVACIONES.9-2-2-SERIE-A-observaciones
 # Info de Gráficas
 graph_title: subindicator.9-2-2-SERIE-A-graph-title
 graph_type: bar
@@ -34,7 +29,7 @@ graph_type: bar
 sort_order: 1
 
 # Nombre que tendrá la tab
-tab_name: Serie A
+tab_name: SERIE.SERIE_A
 
 #Coordinación con OCECAS
 coordinado_con_ocecas: true

@@ -5,7 +5,7 @@ target_id: '3.a.1'
 reporting_status: complete
 data_non_statistical: false
 indicator_sort_order: 03-aa-01-aa
-national_geographical_coverage: Canarias
+national_geographical_coverage: Canàries
 
 # Info de Subindicador
 nombre: subindicator.3-a-1-SERIE-A-nombre
@@ -14,19 +14,11 @@ meta_global: global_targets.3-a-title
 objetivo_global: global_goals.3-title
 definicion: subindicator.3-a-1-SERIE-A-definicion
 
-formula_teorica: '$$PPFD_{15+}^{t} = \frac{D_{15+}^{t}}{P_{15+}^{t}} \cdot 100$$ <br>
-donde: <br>
-$PFD_{15+}^{t} =$ población de 15 y más años que fuma a diario en el año $t$ <br>
-$P_{15y+}^{t} =$ población de 15 y más años en el año $t$'
-unidad_medida: "Porcentaje"
-fuentes_informacion: "Encuesta nacional de salud, Instituto Nacional de Estadística (INE) y Ministerio de Sanidad<br>
-Encuesta europea de salud, Instituto Nacional de Estadística (INE) y Ministerio de Sanidad"
-periodicidad: "Bienal / trienal"
-observaciones: "La nota siguiente es variable en función de los datos que se publiquen:<br>
-Los resultados de la Encuesta nacional de salud 2011-2012 se han imputado a ambos años.<br>
-El dato de 2011 corresponde a la Encuesta nacional de salud 2011-2012, que se llevó a cabo entre el segundo semestre de 2011 y el primer semestre de 2012.<br>
-El dato de 2012 corresponde a la Encuesta nacional de salud 2011-2012, que se llevó a cabo entre el segundo semestre de 2011 y el primer semestre de 2012."
-
+formula_teorica: 3-a-1-SERIE-A-formula-teorica
+unidad_medida: UNIDAD_MEDIDA.PT
+fuentes_informacion: 3-a-1-SERIE-A-fuentes-informacion
+periodicidad: "Biennal / triennal"
+observaciones: 3-a-1-SERIE-A-observaciones
 # Info de Gráficas
 graph_title: subindicator.3-a-1-SERIE-A-graph-title
 graph_type: bar

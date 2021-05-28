@@ -4,7 +4,7 @@ target_id: '3.4.2'
 reporting_status: complete
 data_non_statistical: false
 indicator_sort_order: 03-04-02-aa
-national_geographical_coverage: Canarias
+national_geographical_coverage: Canàries
 
 # Info de Subindicador
 nombre: subindicator.3-4-2-SERIE-A-nombre
@@ -13,16 +13,11 @@ meta_global: global_targets.3-4-title
 objetivo_global: global_goals.3-title
 definicion: subindicator.3-4-2-SERIE-A-definicion
 
-formula_teorica: '$$TM_{suicidio }^{t} = \frac{D_{suicidio }^{t}}{P^{t}} \cdot 100.000$$ <br>
-donde: <br>
-$D_{suicidio }^{t} =$ defunciones atribuidas a suicidio (códigos X60-X84 de la CIE-10) en el año $t$ <br>
-$P^{t} =$ población a 1 de julio del año $t$'
-unidad_medida: "Tanto por 100.000"
-fuentes_informacion: "Estadística de defunciones según la causa de muerte, Instituto Nacional de Estadística<br>
-Cifras de población, Instituto Nacional de Estadística (INE)"
+formula_teorica: FORMULA_TEORICA.3-4-2-SERIE-A-formula-teorica
+unidad_medida: "Tant per 100.000"
+fuentes_informacion: FUENTES_INFORMACION.3-4-2-SERIE-A-fuentes-informacion
 periodicidad: "Anual"
-observaciones: 
-
+observaciones: OBSERVACIONES.3-4-2-SERIE-A-observaciones
 # Info de Gráficas
 graph_title: subindicator.3-4-2-SERIE-A-graph-title
 graph_type: bar

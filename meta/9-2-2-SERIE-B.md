@@ -4,7 +4,7 @@ target_id: 9.2.2
 reporting_status: complete
 data_non_statistical: false
 indicator_sort_order: 09-02-02-bb
-national_geographical_coverage: Canarias
+national_geographical_coverage: Canàries
 
 # Info de Subindicador
 nombre: subindicator.9-2-2-SERIE-B-nombre
@@ -15,15 +15,11 @@ definicion: subindicator.9-2-2-SERIE-B-definicion
 
 # Fórmula teórica escrita en formato MathJax
 # https://math.meta.stackexchange.com/questions/5020/mathjax-basic-tutorial-and-quick-reference
-formula_teorica: '$$PEP_{manufacturero}^{t} = \frac{EP_{manufacturero}^{t}}{EP^{t}} \cdot 100$$ <br>
-donde: <br>
-$EP_{manufacturero}^{t} =$ empleo (personas) del sector manufacturero en el año $t$ <br>
-$EP^{t} =$ empleo (personas) en el año $t$ '
-unidad_medida: Porcentaje
-fuentes_informacion: "Contabilidad regional de España, Instituto Nacional de Estadística (INE)"
+formula_teorica: FORMULA_TEORICA.9-2-2-SERIE-B-formula-teorica
+unidad_medida: UNIDAD_MEDIDA.PT
+fuentes_informacion: FUENTES_INFORMACION.9-2-2-SERIE-B-fuentes-informacion
 periodicidad: Anual
-observaciones: 
-
+observaciones: OBSERVACIONES.9-2-2-SERIE-B-observaciones
 # Info de Gráficas
 graph_title: subindicator.9-2-2-SERIE-B-graph-title
 graph_type: bar
@@ -33,7 +29,7 @@ graph_type: bar
 sort_order: 2
 
 # Nombre que tendrá la tab
-tab_name: Serie B
+tab_name: SERIE.SERIE_B
 
 #Coordinación con OCECAS
 coordinado_con_ocecas: true

@@ -5,7 +5,7 @@ target_id: '4.3.1'
 reporting_status: complete
 data_non_statistical: false
 indicator_sort_order: 04-03-01-dd
-national_geographical_coverage: Canarias
+national_geographical_coverage: Canàries
 
 # Info de Subindicador
 nombre: subindicator.4-3-1-SERIE-D-nombre
@@ -14,22 +14,18 @@ meta_global: global_targets.4-3-title
 objetivo_global: global_goals.4-title
 definicion: subindicator.4-3-1-SERIE-D-definicion
 
-formula_teorica: '$$PPE_{25-64}^{t} = \frac{PE_{25-64}^{t}}{P_{25-64}^{t}} \cdot 100$$ <br>
-donde: <br>
-$PE_{25-64}^{t} =$ población entre 25 y 64 años que ha realizado estudios o formación (reglada o no reglada) en las últimas cuatro semanas en el año $t$ <br>
-$P_{25-64}^{t} =$ población entre 25 y 64 años en el año $t$'
-unidad_medida: "Porcentaje"
-fuentes_informacion: "Encuesta de población activa, Instituto Nacional de Estadística (INE)"
+formula_teorica: FORMULA_TEORICA.4-3-1-SERIE-D-formula-teorica
+unidad_medida: UNIDAD_MEDIDA.PT
+fuentes_informacion: FUENTES_INFORMACION.4-3-1-SERIE-D-fuentes-informacion
 periodicidad: "Anual"
-observaciones: 
-
+observaciones: OBSERVACIONES.4-3-1-SERIE-D-observaciones
 # Info de Gráficas
 graph_title: subindicator.4-3-1-SERIE-D-graph-title
 graph_type: bar
 
 # Info de navegación
 sort_order: 4
-tab_name: Serie D
+tab_name: SERIE.SERIE_D
 
 #Coordinación con OCECAS
 coordinado_con_ocecas: true

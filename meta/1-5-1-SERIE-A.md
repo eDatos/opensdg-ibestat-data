@@ -4,7 +4,7 @@ target_id: 1.5.1
 reporting_status: complete
 data_non_statistical: false
 indicator_sort_order: 01-05-01-aa
-national_geographical_coverage: Canarias
+national_geographical_coverage: Canàries
 
 # Info de Subindicador
 nombre: subindicator.1-5-1-SERIE-A-nombre
@@ -15,16 +15,11 @@ definicion: subindicator.1-5-1-SERIE-A-definicion
 
 # Fórmula teórica escrita en formato MathJax
 # https://math.meta.stackexchange.com/questions/5020/mathjax-basic-tutorial-and-quick-reference
-formula_teorica: '$$TM_{desastres}^{t} = \frac{D_{desastres}^{t}}{P^{t}} \cdot 100.000$$ <br>
-donde: <br>
-$D_{desastres}^{t} =$ defunciones atribuidas a desastres naturales (códigos X30-X39 de la CIE-10) en el año $t$ <br>
-$P^{t} =$ población a 1 de julio del año  $t$'
-unidad_medida: "Tanto por 100.000"
-fuentes_informacion: "Estadística de defunciones según la causa de muerte, Instituto Nacional de Estadística (INE) <br>
-Cifras de población, Instituto Nacional de Estadística (INE)"
+formula_teorica: FORMULA_TEORICA.1-5-1-SERIE-A-formula-teorica
+unidad_medida: "Tant per 100.000"
+fuentes_informacion: FUENTES_INFORMACION.1-5-1-SERIE-A-fuentes-informacion
 periodicidad: Anual
-observaciones: 
-
+observaciones: OBSERVACIONES.1-5-1-SERIE-A-observaciones
 # Info de Gráficas
 graph_title: subindicator.1-5-1-SERIE-A-graph-title
 graph_type: bar
