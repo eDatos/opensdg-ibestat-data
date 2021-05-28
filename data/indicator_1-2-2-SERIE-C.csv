@@ -1,21 +1,21 @@
 Year,Units,Territorio,Value
-2010,Porcentaje,ES53,4.66
-2011,Porcentaje,ES53,7.39
-2012,Porcentaje,ES53,7.91
-2013,Porcentaje,ES53,10.42
-2014,Porcentaje,ES53,9.84
-2015,Porcentaje,ES53,7.7
-2016,Porcentaje,ES53,3.73
-2017,Porcentaje,ES53,6.85
-2018,Porcentaje,ES53,5.3
-2010,Porcentaje,ES,4.91
-2011,Porcentaje,ES,4.54
-2012,Porcentaje,ES,5.84
-2013,Porcentaje,ES,6.19
-2014,Porcentaje,ES,7.06
-2015,Porcentaje,ES,6.44
-2016,Porcentaje,ES,5.79
-2017,Porcentaje,ES,5.14
-2018,Porcentaje,ES,5.40
-2019,Porcentaje,ES,4.70
-2019,Porcentaje,ES53,2.86
+2010,unidad_medida: UNIDAD_MEDIDA.PT,ES53,4.66
+2011,unidad_medida: UNIDAD_MEDIDA.PT,ES53,7.39
+2012,unidad_medida: UNIDAD_MEDIDA.PT,ES53,7.91
+2013,unidad_medida: UNIDAD_MEDIDA.PT,ES53,10.42
+2014,unidad_medida: UNIDAD_MEDIDA.PT,ES53,9.84
+2015,unidad_medida: UNIDAD_MEDIDA.PT,ES53,7.7
+2016,unidad_medida: UNIDAD_MEDIDA.PT,ES53,3.73
+2017,unidad_medida: UNIDAD_MEDIDA.PT,ES53,6.85
+2018,unidad_medida: UNIDAD_MEDIDA.PT,ES53,5.3
+2010,unidad_medida: UNIDAD_MEDIDA.PT,ES,4.91
+2011,unidad_medida: UNIDAD_MEDIDA.PT,ES,4.54
+2012,unidad_medida: UNIDAD_MEDIDA.PT,ES,5.84
+2013,unidad_medida: UNIDAD_MEDIDA.PT,ES,6.19
+2014,unidad_medida: UNIDAD_MEDIDA.PT,ES,7.06
+2015,unidad_medida: UNIDAD_MEDIDA.PT,ES,6.44
+2016,unidad_medida: UNIDAD_MEDIDA.PT,ES,5.79
+2017,unidad_medida: UNIDAD_MEDIDA.PT,ES,5.14
+2018,unidad_medida: UNIDAD_MEDIDA.PT,ES,5.40
+2019,unidad_medida: UNIDAD_MEDIDA.PT,ES,4.70
+2019,unidad_medida: UNIDAD_MEDIDA.PT,ES53,2.86
