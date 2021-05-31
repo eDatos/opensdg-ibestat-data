@@ -1,23 +1,23 @@
-Year,Units,Territorio,Serie,Serie temporal,Forma de medir el empleo,Value
-2010,Porcentaje,ES53,Serie A,Proporción de personas ocupadas en el sector manufacturero,,6.2
-2011,Porcentaje,ES53,Serie A,Proporción de personas ocupadas en el sector manufacturero,,5.72
-2012,Porcentaje,ES53,Serie A,Proporción de personas ocupadas en el sector manufacturero,,5.25
-2013,Porcentaje,ES53,Serie A,Proporción de personas ocupadas en el sector manufacturero,,4.48
-2014,Porcentaje,ES53,Serie A,Proporción de personas ocupadas en el sector manufacturero,,5.51
-2015,Porcentaje,ES53,Serie A,Proporción de personas ocupadas en el sector manufacturero,,5.85
-2016,Porcentaje,ES53,Serie A,Proporción de personas ocupadas en el sector manufacturero,,5.4
-2017,Porcentaje,ES53,Serie A,Proporción de personas ocupadas en el sector manufacturero,,6.1
-2018,Porcentaje,ES53,Serie A,Proporción de personas ocupadas en el sector manufacturero,,5.77
-2010,Porcentaje,ES,Serie A,Proporción de personas ocupadas en el sector manufacturero,,12.85
-2011,Porcentaje,ES,Serie A,Proporción de personas ocupadas en el sector manufacturero,,12.76
-2012,Porcentaje,ES,Serie A,Proporción de personas ocupadas en el sector manufacturero,,12.61
-2013,Porcentaje,ES,Serie A,Proporción de personas ocupadas en el sector manufacturero,,12.36
-2014,Porcentaje,ES,Serie A,Proporción de personas ocupadas en el sector manufacturero,,12.35
-2015,Porcentaje,ES,Serie A,Proporción de personas ocupadas en el sector manufacturero,,12.45
-2016,Porcentaje,ES,Serie A,Proporción de personas ocupadas en el sector manufacturero,,12.45
-2017,Porcentaje,ES,Serie A,Proporción de personas ocupadas en el sector manufacturero,,12.71
-2018,Porcentaje,ES,Serie A,Proporción de personas ocupadas en el sector manufacturero,,12.65
-2019,Porcentaje,ES,Serie A,Proporción de personas ocupadas en el sector manufacturero,,12.61
-2019,Porcentaje,ES53,Serie A,Proporción de personas ocupadas en el sector manufacturero,,5.34
-2020,Porcentaje,ES,Serie A,Proporción de personas ocupadas en el sector manufacturero,,12.66
-2020,Porcentaje,ES53,Serie A,Proporción de personas ocupadas en el sector manufacturero,,5.61
+Year,Units,Territorio,Serie,SERIE_TEMPORAL.Encabezado,DIMENSION_DESAGREGACION.FORMA_MEDIR_EMPLEO,Value
+2010,UNIDAD_MEDIDA.PT,ES53,SERIE.SERIE_A,SERIE_TEMPORAL._L_ES_090202_01,,6.2
+2011,UNIDAD_MEDIDA.PT,ES53,SERIE.SERIE_A,SERIE_TEMPORAL._L_ES_090202_01,,5.72
+2012,UNIDAD_MEDIDA.PT,ES53,SERIE.SERIE_A,SERIE_TEMPORAL._L_ES_090202_01,,5.25
+2013,UNIDAD_MEDIDA.PT,ES53,SERIE.SERIE_A,SERIE_TEMPORAL._L_ES_090202_01,,4.48
+2014,UNIDAD_MEDIDA.PT,ES53,SERIE.SERIE_A,SERIE_TEMPORAL._L_ES_090202_01,,5.51
+2015,UNIDAD_MEDIDA.PT,ES53,SERIE.SERIE_A,SERIE_TEMPORAL._L_ES_090202_01,,5.85
+2016,UNIDAD_MEDIDA.PT,ES53,SERIE.SERIE_A,SERIE_TEMPORAL._L_ES_090202_01,,5.4
+2017,UNIDAD_MEDIDA.PT,ES53,SERIE.SERIE_A,SERIE_TEMPORAL._L_ES_090202_01,,6.1
+2018,UNIDAD_MEDIDA.PT,ES53,SERIE.SERIE_A,SERIE_TEMPORAL._L_ES_090202_01,,5.77
+2010,UNIDAD_MEDIDA.PT,ES,SERIE.SERIE_A,SERIE_TEMPORAL._L_ES_090202_01,,12.85
+2011,UNIDAD_MEDIDA.PT,ES,SERIE.SERIE_A,SERIE_TEMPORAL._L_ES_090202_01,,12.76
+2012,UNIDAD_MEDIDA.PT,ES,SERIE.SERIE_A,SERIE_TEMPORAL._L_ES_090202_01,,12.61
+2013,UNIDAD_MEDIDA.PT,ES,SERIE.SERIE_A,SERIE_TEMPORAL._L_ES_090202_01,,12.36
+2014,UNIDAD_MEDIDA.PT,ES,SERIE.SERIE_A,SERIE_TEMPORAL._L_ES_090202_01,,12.35
+2015,UNIDAD_MEDIDA.PT,ES,SERIE.SERIE_A,SERIE_TEMPORAL._L_ES_090202_01,,12.45
+2016,UNIDAD_MEDIDA.PT,ES,SERIE.SERIE_A,SERIE_TEMPORAL._L_ES_090202_01,,12.45
+2017,UNIDAD_MEDIDA.PT,ES,SERIE.SERIE_A,SERIE_TEMPORAL._L_ES_090202_01,,12.71
+2018,UNIDAD_MEDIDA.PT,ES,SERIE.SERIE_A,SERIE_TEMPORAL._L_ES_090202_01,,12.65
+2019,UNIDAD_MEDIDA.PT,ES,SERIE.SERIE_A,SERIE_TEMPORAL._L_ES_090202_01,,12.61
+2019,UNIDAD_MEDIDA.PT,ES53,SERIE.SERIE_A,SERIE_TEMPORAL._L_ES_090202_01,,5.34
+2020,UNIDAD_MEDIDA.PT,ES,SERIE.SERIE_A,SERIE_TEMPORAL._L_ES_090202_01,,12.66
+2020,UNIDAD_MEDIDA.PT,ES53,SERIE.SERIE_A,SERIE_TEMPORAL._L_ES_090202_01,,5.61

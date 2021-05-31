@@ -4,7 +4,7 @@ target_id: 8.2.1
 reporting_status: complete
 data_non_statistical: false
 indicator_sort_order: 08-02-01-aa
-national_geographical_coverage: Canarias
+national_geographical_coverage: Canàries
 
 # Info de Subindicador
 nombre: subindicator.8-2-1-SERIE-A-nombre
@@ -15,15 +15,11 @@ definicion: subindicator.8-2-1-SERIE-A-definicion
 
 # Fórmula teórica escrita en formato MathJax
 # https://math.meta.stackexchange.com/questions/5020/mathjax-basic-tutorial-and-quick-reference
-formula_teorica: '$$TCPIBEP^{t} = \frac{{\frac{PIB_{2015}^{t}}{EP^t}-\frac{PIB_{2015}^{t-1}}{EP^{t-1}}}}{\frac{PIB_{2015}^{t-1}}{EP^{t-1}}} \cdot 100$$ <br>
-donde: <br>
-$PIB_{2015}^{t} =$ producto interior bruto en volumen encadenado con referencia 2015 en el año $t$ <br>
-$EP^{t} =$ empleo (personas) en el año $t$ '
-unidad_medida: Porcentaje
-fuentes_informacion: "Contabilidad regional de España, Instituto Nacional de Estadística (INE)"
+formula_teorica: FORMULA_TEORICA.8-2-1-SERIE-A-formula-teorica
+unidad_medida: UNIDAD_MEDIDA.PT
+fuentes_informacion: FUENTES_INFORMACION.8-2-1-SERIE-A-fuentes-informacion
 periodicidad: Anual
-observaciones: 
-
+observaciones: OBSERVACIONES.8-2-1-SERIE-A-observaciones
 # Info de Gráficas
 graph_title: subindicator.8-2-1-SERIE-A-graph-title
 graph_type: bar
@@ -33,7 +29,7 @@ graph_type: bar
 sort_order: 1
 
 # Nombre que tendrá la tab
-tab_name: Serie A
+tab_name: SERIE.SERIE_A
 
 #Coordinación con OCECAS
 coordinado_con_ocecas: true

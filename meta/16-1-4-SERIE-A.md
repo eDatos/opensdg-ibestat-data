@@ -5,7 +5,7 @@ target_id: '16.1.4'
 reporting_status: complete
 data_non_statistical: false
 indicator_sort_order: 16-01-04-aa
-national_geographical_coverage: Canarias
+national_geographical_coverage: Canàries
 
 # Info de Subindicador
 nombre: subindicator.16-1-4-SERIE-A-nombre
@@ -14,15 +14,11 @@ meta_global: global_targets.16-1-title
 objetivo_global: global_goals.16-title
 definicion: subindicator.16-1-4-SERIE-A-definicion
 
-formula_teorica: '$$PPSSC_{16+}^{t} = \frac{PSSC_{16+}^{t}}{P_{16+}^{t}} \cdot 100$$ <br>
-donde: <br>
-$PSSC_{16+}^{t} =$ población de 16 y más años que se siente segura (muy o bastante segura) al caminar sola en su zona de residencia en el año $t$ <br>
-$P^{t} =$ población de 16 y más años en el año $t$'
-unidad_medida: "Porcentaje"
-fuentes_informacion: "Encuesta de condiciones de vida, Instituto Nacional de Estadística (INE)"
+formula_teorica: FORMULA_TEORICA.16-1-4-SERIE-A-formula-teorica
+unidad_medida: UNIDAD_MEDIDA.PT
+fuentes_informacion: FUENTES_INFORMACION.16-1-4-SERIE-A-fuentes-informacion
 periodicidad: "Irregular"
-observaciones: 
-
+observaciones: OBSERVACIONES.16-1-4-SERIE-A-observaciones
 # Info de Gráficas
 graph_title: subindicator.16-1-4-SERIE-A-graph-title
 graph_type: bar

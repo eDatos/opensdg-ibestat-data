@@ -4,7 +4,7 @@ target_id: 5.a.1b
 reporting_status: complete
 data_non_statistical: false
 indicator_sort_order: 05-aa-1b-aa
-national_geographical_coverage: Canarias
+national_geographical_coverage: Canàries
 
 # Info de Subindicador
 nombre: subindicator.5-a-1b-SERIE-A-nombre
@@ -15,16 +15,11 @@ definicion: subindicator.5-a-1b-SERIE-A-definicion
 
 # Fórmula teórica escrita en formato MathJax
 # https://math.meta.stackexchange.com/questions/5020/mathjax-basic-tutorial-and-quick-reference
-formula_teorica: '$$PTEA_{mujeres}^{t} = \frac{TEA_{mujeres}^{t}}{TEA^{t}} \cdot 100$$ <br>
-donde: <br>
-$TEA_{mujeres}^{t} =$ mujeres titulares de explotaciones agrícolas en el año $t$ <br>
-$TEA^{t} =$ personas titulares de explotaciones agrícolas en el año $t$ '
-unidad_medida: Porcentaje
-fuentes_informacion: "Encuesta sobre la estructura de las explotaciones agrícolas, Instituto Nacional de Estadística (INE) <br>
-Censo agrario del 2009, Instituto Nacional de Estadística (INE)"
-periodicidad: Trienal
-observaciones: 
-
+formula_teorica: 5-a-1b-SERIE-A-formula-teorica
+unidad_medida: UNIDAD_MEDIDA.PT
+fuentes_informacion: 5-a-1b-SERIE-A-fuentes-informacion
+periodicidad: Triennal
+observaciones: 5-a-1b-SERIE-A-observaciones
 # Info de Gráficas
 graph_title: subindicator.5-a-1b-SERIE-A-graph-title
 graph_type: bar
@@ -34,7 +29,7 @@ graph_type: bar
 sort_order: 1
 
 # Nombre que tendrá la tab
-tab_name: Serie A
+tab_name: SERIE.SERIE_A
 
 #Coordinación con OCECAS
 coordinado_con_ocecas: true

@@ -4,7 +4,7 @@ target_id: 9.2.1
 reporting_status: complete
 data_non_statistical: false
 indicator_sort_order: 09-02-01-bb
-national_geographical_coverage: Canarias
+national_geographical_coverage: Canàries
 
 # Info de Subindicador
 nombre: subindicator.9-2-1-SERIE-B-nombre
@@ -15,16 +15,11 @@ definicion: subindicator.9-2-1-SERIE-B-definicion
 
 # Fórmula teórica escrita en formato MathJax
 # https://math.meta.stackexchange.com/questions/5020/mathjax-basic-tutorial-and-quick-reference
-formula_teorica: '$$PPVAB_{manufacturero}^{t} = \frac{VAB_{manufacturero}^{t}}{P^{t}} \cdot 100$$ <br>
-donde: <br>
-$VAB_{manufacturero}^{t} =$ valor añadido bruto del sector manufacturero a precios corrientes en el año $t$ <br>
-$P^{t} =$ población a 1 de julio del año $t$ '
+formula_teorica: FORMULA_TEORICA.9-2-1-SERIE-B-formula-teorica
 unidad_medida: Euros
-fuentes_informacion: "Contabilidad regional de España, Instituto Nacional de Estadística (INE) <br>
-Cifras de población, Instituto Nacional de Estadística (INE)"
+fuentes_informacion: FUENTES_INFORMACION.9-2-1-SERIE-B-fuentes-informacion
 periodicidad: Anual
-observaciones: 
-
+observaciones: OBSERVACIONES.9-2-1-SERIE-B-observaciones
 # Info de Gráficas
 graph_title: subindicator.9-2-1-SERIE-B-graph-title
 graph_type: bar
@@ -34,7 +29,7 @@ graph_type: bar
 sort_order: 2
 
 # Nombre que tendrá la tab
-tab_name: Serie B
+tab_name: SERIE.SERIE_B
 
 #Coordinación con OCECAS
 coordinado_con_ocecas: true

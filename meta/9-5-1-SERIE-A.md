@@ -5,7 +5,7 @@ target_id: '9.5.1'
 reporting_status: complete
 data_non_statistical: false
 indicator_sort_order: 09-05-01-aa
-national_geographical_coverage: Canarias
+national_geographical_coverage: Canàries
 
 # Info de Subindicador
 nombre: subindicator.9-5-1-SERIE-A-nombre
@@ -14,16 +14,11 @@ meta_global: global_targets.9-5-title
 objetivo_global: global_goals.9-title
 definicion: subindicator.9-5-1-SERIE-A-definicion
 
-formula_teorica: '$$PPIBG_{I+D}^{t} = \frac{G_{I+D}^{t}}{PIB^{t}}  \cdot 100$$<br>
-donde: <br>
-$G_{I+D}^{t} =$ gasto en investigación y desarrollo en el año $t$<br>
-$PIB^{t} =$ producto interior bruto a precios corrientes en el año $t$ <br>'
-unidad_medida: "Porcentaje"
-fuentes_informacion: "Estadística sobre actividades de I+D, Instituto Nacional de Estadística (INE)<br>
-Contabilidad regional de España, Instituto Nacional de Estadística (INE)"
+formula_teorica: FORMULA_TEORICA.9-5-1-SERIE-A-formula-teorica
+unidad_medida: UNIDAD_MEDIDA.PT
+fuentes_informacion: FUENTES_INFORMACION.9-5-1-SERIE-A-fuentes-informacion
 periodicidad: "Anual"
-observaciones: 
-
+observaciones: OBSERVACIONES.9-5-1-SERIE-A-observaciones
 # Info de Gráficas
 graph_title: subindicator.9-5-1-SERIE-A-graph-title
 graph_type: bar

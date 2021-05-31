@@ -5,7 +5,7 @@ target_id: '10.4.1'
 reporting_status: complete
 data_non_statistical: false
 indicator_sort_order: 10-04-01-aa
-national_geographical_coverage: Canarias
+national_geographical_coverage: Canàries
 
 # Info de Subindicador
 nombre: subindicator.10-4-1-SERIE-A-nombre
@@ -14,15 +14,11 @@ meta_global: global_targets.10-4-title
 objetivo_global: global_goals.10-title
 definicion: subindicator.10-4-1-SERIE-A-definicion
 
-formula_teorica: '$$PPIBRA^{t} = \frac{RA^{t}}{PIB^{t}} \cdot 100$$ <br>
-donde: <br>
-$RA^{t} =$ remuneración de personas asalariadas en el año $t$ <br>
-$PIB^{t} =$ producto interior bruto a precios corrientes en el año $t$'
-unidad_medida: "Porcentaje"
-fuentes_informacion: "Contabilidad regional de España, Instituto Nacional de Estadística (INE)"
+formula_teorica: FORMULA_TEORICA.10-4-1-SERIE-A-formula-teorica
+unidad_medida: UNIDAD_MEDIDA.PT
+fuentes_informacion: FUENTES_INFORMACION.10-4-1-SERIE-A-fuentes-informacion
 periodicidad: "Anual"
-observaciones: 
-
+observaciones: OBSERVACIONES.10-4-1-SERIE-A-observaciones
 # Info de Gráficas
 graph_title: subindicator.10-4-1-SERIE-A-graph-title
 graph_type: bar

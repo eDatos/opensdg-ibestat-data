@@ -1,81 +1,81 @@
-Year,Units,Territorio,Serie,Serie temporal,Umbral de pobreza,Value
-2010,Porcentaje,ES53,Serie A,"Proporción de personas en riesgo de pobreza o exclusión social: indicador AROPE, según umbral de pobreza",Umbral nacional de pobreza,26
-2011,Porcentaje,ES53,Serie A,"Proporción de personas en riesgo de pobreza o exclusión social: indicador AROPE, según umbral de pobreza",Umbral nacional de pobreza,26.7
-2012,Porcentaje,ES53,Serie A,"Proporción de personas en riesgo de pobreza o exclusión social: indicador AROPE, según umbral de pobreza",Umbral nacional de pobreza,25.09
-2013,Porcentaje,ES53,Serie A,"Proporción de personas en riesgo de pobreza o exclusión social: indicador AROPE, según umbral de pobreza",Umbral nacional de pobreza,27.84
-2014,Porcentaje,ES53,Serie A,"Proporción de personas en riesgo de pobreza o exclusión social: indicador AROPE, según umbral de pobreza",Umbral nacional de pobreza,23.81
-2015,Porcentaje,ES53,Serie A,"Proporción de personas en riesgo de pobreza o exclusión social: indicador AROPE, según umbral de pobreza",Umbral nacional de pobreza,26.3
-2016,Porcentaje,ES53,Serie A,"Proporción de personas en riesgo de pobreza o exclusión social: indicador AROPE, según umbral de pobreza",Umbral nacional de pobreza,19.15
-2017,Porcentaje,ES53,Serie A,"Proporción de personas en riesgo de pobreza o exclusión social: indicador AROPE, según umbral de pobreza",Umbral nacional de pobreza,24.74
-2018,Porcentaje,ES53,Serie A,"Proporción de personas en riesgo de pobreza o exclusión social: indicador AROPE, según umbral de pobreza",Umbral nacional de pobreza,18.11
-2010,Porcentaje,ES53,Serie C,Proporción de personas viviendo en hogares con carencia material severa,,4.66
-2011,Porcentaje,ES53,Serie C,Proporción de personas viviendo en hogares con carencia material severa,,7.39
-2012,Porcentaje,ES53,Serie C,Proporción de personas viviendo en hogares con carencia material severa,,7.91
-2013,Porcentaje,ES53,Serie C,Proporción de personas viviendo en hogares con carencia material severa,,10.42
-2014,Porcentaje,ES53,Serie C,Proporción de personas viviendo en hogares con carencia material severa,,9.84
-2015,Porcentaje,ES53,Serie C,Proporción de personas viviendo en hogares con carencia material severa,,7.7
-2016,Porcentaje,ES53,Serie C,Proporción de personas viviendo en hogares con carencia material severa,,3.73
-2017,Porcentaje,ES53,Serie C,Proporción de personas viviendo en hogares con carencia material severa,,6.85
-2018,Porcentaje,ES53,Serie C,Proporción de personas viviendo en hogares con carencia material severa,,5.3
-2010,Porcentaje,ES53,Serie D,Proporción de personas viviendo en hogares con baja intensidad de trabajo,,11.21
-2011,Porcentaje,ES53,Serie D,Proporción de personas viviendo en hogares con baja intensidad de trabajo,,13.09
-2012,Porcentaje,ES53,Serie D,Proporción de personas viviendo en hogares con baja intensidad de trabajo,,10.52
-2013,Porcentaje,ES53,Serie D,Proporción de personas viviendo en hogares con baja intensidad de trabajo,,7.14
-2014,Porcentaje,ES53,Serie D,Proporción de personas viviendo en hogares con baja intensidad de trabajo,,7.51
-2015,Porcentaje,ES53,Serie D,Proporción de personas viviendo en hogares con baja intensidad de trabajo,,8.39
-2016,Porcentaje,ES53,Serie D,Proporción de personas viviendo en hogares con baja intensidad de trabajo,,6.66
-2017,Porcentaje,ES53,Serie D,Proporción de personas viviendo en hogares con baja intensidad de trabajo,,3.73
-2018,Porcentaje,ES53,Serie D,Proporción de personas viviendo en hogares con baja intensidad de trabajo,,4.41
-2010,Porcentaje,ES53,Serie B,"Proporción de personas en riesgo de pobreza o exclusión social: indicador AROPE, según umbral de pobreza",Umbral autonómico de pobreza,28.24
-2011,Porcentaje,ES53,Serie B,"Proporción de personas en riesgo de pobreza o exclusión social: indicador AROPE, según umbral de pobreza",Umbral autonómico de pobreza,27.86
-2012,Porcentaje,ES53,Serie B,"Proporción de personas en riesgo de pobreza o exclusión social: indicador AROPE, según umbral de pobreza",Umbral autonómico de pobreza,25.77
-2013,Porcentaje,ES53,Serie B,"Proporción de personas en riesgo de pobreza o exclusión social: indicador AROPE, según umbral de pobreza",Umbral autonómico de pobreza,27.84
-2014,Porcentaje,ES53,Serie B,"Proporción de personas en riesgo de pobreza o exclusión social: indicador AROPE, según umbral de pobreza",Umbral autonómico de pobreza,25.31
-2015,Porcentaje,ES53,Serie B,"Proporción de personas en riesgo de pobreza o exclusión social: indicador AROPE, según umbral de pobreza",Umbral autonómico de pobreza,30.38
-2016,Porcentaje,ES53,Serie B,"Proporción de personas en riesgo de pobreza o exclusión social: indicador AROPE, según umbral de pobreza",Umbral autonómico de pobreza,21.22
-2017,Porcentaje,ES53,Serie B,"Proporción de personas en riesgo de pobreza o exclusión social: indicador AROPE, según umbral de pobreza",Umbral autonómico de pobreza,24.26
-2018,Porcentaje,ES53,Serie B,"Proporción de personas en riesgo de pobreza o exclusión social: indicador AROPE, según umbral de pobreza",Umbral autonómico de pobreza,23.42
-2010,Porcentaje,ES,Serie A,"Proporción de personas en riesgo de pobreza o exclusión social: indicador AROPE, según umbral de pobreza",Umbral nacional de pobreza,26.10
-2011,Porcentaje,ES,Serie A,"Proporción de personas en riesgo de pobreza o exclusión social: indicador AROPE, según umbral de pobreza",Umbral nacional de pobreza,26.73
-2012,Porcentaje,ES,Serie A,"Proporción de personas en riesgo de pobreza o exclusión social: indicador AROPE, según umbral de pobreza",Umbral nacional de pobreza,27.24
-2013,Porcentaje,ES,Serie A,"Proporción de personas en riesgo de pobreza o exclusión social: indicador AROPE, según umbral de pobreza",Umbral nacional de pobreza,27.31
-2014,Porcentaje,ES,Serie A,"Proporción de personas en riesgo de pobreza o exclusión social: indicador AROPE, según umbral de pobreza",Umbral nacional de pobreza,29.15
-2015,Porcentaje,ES,Serie A,"Proporción de personas en riesgo de pobreza o exclusión social: indicador AROPE, según umbral de pobreza",Umbral nacional de pobreza,28.65
-2016,Porcentaje,ES,Serie A,"Proporción de personas en riesgo de pobreza o exclusión social: indicador AROPE, según umbral de pobreza",Umbral nacional de pobreza,27.91
-2017,Porcentaje,ES,Serie A,"Proporción de personas en riesgo de pobreza o exclusión social: indicador AROPE, según umbral de pobreza",Umbral nacional de pobreza,26.58
-2018,Porcentaje,ES,Serie A,"Proporción de personas en riesgo de pobreza o exclusión social: indicador AROPE, según umbral de pobreza",Umbral nacional de pobreza,26.09
-2019,Porcentaje,ES,Serie A,"Proporción de personas en riesgo de pobreza o exclusión social: indicador AROPE, según umbral de pobreza",Umbral nacional de pobreza,25.29
-2010,Porcentaje,ES,Serie B,"Proporción de personas en riesgo de pobreza o exclusión social: indicador AROPE, según umbral de pobreza",Umbral autonómico de pobreza,25.24
-2011,Porcentaje,ES,Serie B,"Proporción de personas en riesgo de pobreza o exclusión social: indicador AROPE, según umbral de pobreza",Umbral autonómico de pobreza,25.85
-2012,Porcentaje,ES,Serie B,"Proporción de personas en riesgo de pobreza o exclusión social: indicador AROPE, según umbral de pobreza",Umbral autonómico de pobreza,26.42
-2013,Porcentaje,ES,Serie B,"Proporción de personas en riesgo de pobreza o exclusión social: indicador AROPE, según umbral de pobreza",Umbral autonómico de pobreza,26.68
-2014,Porcentaje,ES,Serie B,"Proporción de personas en riesgo de pobreza o exclusión social: indicador AROPE, según umbral de pobreza",Umbral autonómico de pobreza,28.36
-2015,Porcentaje,ES,Serie B,"Proporción de personas en riesgo de pobreza o exclusión social: indicador AROPE, según umbral de pobreza",Umbral autonómico de pobreza,27.37
-2016,Porcentaje,ES,Serie B,"Proporción de personas en riesgo de pobreza o exclusión social: indicador AROPE, según umbral de pobreza",Umbral autonómico de pobreza,26.83
-2017,Porcentaje,ES,Serie B,"Proporción de personas en riesgo de pobreza o exclusión social: indicador AROPE, según umbral de pobreza",Umbral autonómico de pobreza,26.11
-2018,Porcentaje,ES,Serie B,"Proporción de personas en riesgo de pobreza o exclusión social: indicador AROPE, según umbral de pobreza",Umbral autonómico de pobreza,25.23
-2019,Porcentaje,ES,Serie B,"Proporción de personas en riesgo de pobreza o exclusión social: indicador AROPE, según umbral de pobreza",Umbral autonómico de pobreza,24.45
-2010,Porcentaje,ES,Serie C,Proporción de personas viviendo en hogares con carencia material severa,,4.91
-2011,Porcentaje,ES,Serie C,Proporción de personas viviendo en hogares con carencia material severa,,4.54
-2012,Porcentaje,ES,Serie C,Proporción de personas viviendo en hogares con carencia material severa,,5.84
-2013,Porcentaje,ES,Serie C,Proporción de personas viviendo en hogares con carencia material severa,,6.19
-2014,Porcentaje,ES,Serie C,Proporción de personas viviendo en hogares con carencia material severa,,7.06
-2015,Porcentaje,ES,Serie C,Proporción de personas viviendo en hogares con carencia material severa,,6.44
-2016,Porcentaje,ES,Serie C,Proporción de personas viviendo en hogares con carencia material severa,,5.79
-2017,Porcentaje,ES,Serie C,Proporción de personas viviendo en hogares con carencia material severa,,5.14
-2018,Porcentaje,ES,Serie C,Proporción de personas viviendo en hogares con carencia material severa,,5.40
-2019,Porcentaje,ES,Serie C,Proporción de personas viviendo en hogares con carencia material severa,,4.70
-2010,Porcentaje,ES,Serie D,Proporción de personas viviendo en hogares con baja intensidad de trabajo,,10.82
-2011,Porcentaje,ES,Serie D,Proporción de personas viviendo en hogares con baja intensidad de trabajo,,13.35
-2012,Porcentaje,ES,Serie D,Proporción de personas viviendo en hogares con baja intensidad de trabajo,,14.28
-2013,Porcentaje,ES,Serie D,Proporción de personas viviendo en hogares con baja intensidad de trabajo,,15.68
-2014,Porcentaje,ES,Serie D,Proporción de personas viviendo en hogares con baja intensidad de trabajo,,17.12
-2015,Porcentaje,ES,Serie D,Proporción de personas viviendo en hogares con baja intensidad de trabajo,,15.44
-2016,Porcentaje,ES,Serie D,Proporción de personas viviendo en hogares con baja intensidad de trabajo,,14.85
-2017,Porcentaje,ES,Serie D,Proporción de personas viviendo en hogares con baja intensidad de trabajo,,12.79
-2018,Porcentaje,ES,Serie D,Proporción de personas viviendo en hogares con baja intensidad de trabajo,,10.65
-2019,Porcentaje,ES,Serie D,Proporción de personas viviendo en hogares con baja intensidad de trabajo,,10.84
-2019,Porcentaje,ES53,Serie A,"Proporción de personas en riesgo de pobreza o exclusión social: indicador AROPE, según umbral de pobreza",Umbral nacional de pobreza,15.09
-2019,Porcentaje,ES53,Serie C,Proporción de personas viviendo en hogares con carencia material severa,,2.86
-2019,Porcentaje,ES53,Serie D,Proporción de personas viviendo en hogares con baja intensidad de trabajo,,3.48
-2019,Porcentaje,ES53,Serie B,"Proporción de personas en riesgo de pobreza o exclusión social: indicador AROPE, según umbral de pobreza",Umbral autonómico de pobreza,21.17
+Year,Units,Territorio,Serie,SERIE_TEMPORAL.Encabezado,DIMENSION_DESAGREGACION.UMBRAL_POBREZA,Value
+2010,UNIDAD_MEDIDA.PT,ES53,SERIE.SERIE_A,SERIE_TEMPORAL._L_ES_010202_S1,UMBRAL_POBREZA._L_PL_COUNTRY,26
+2011,UNIDAD_MEDIDA.PT,ES53,SERIE.SERIE_A,SERIE_TEMPORAL._L_ES_010202_S1,UMBRAL_POBREZA._L_PL_COUNTRY,26.7
+2012,UNIDAD_MEDIDA.PT,ES53,SERIE.SERIE_A,SERIE_TEMPORAL._L_ES_010202_S1,UMBRAL_POBREZA._L_PL_COUNTRY,25.09
+2013,UNIDAD_MEDIDA.PT,ES53,SERIE.SERIE_A,SERIE_TEMPORAL._L_ES_010202_S1,UMBRAL_POBREZA._L_PL_COUNTRY,27.84
+2014,UNIDAD_MEDIDA.PT,ES53,SERIE.SERIE_A,SERIE_TEMPORAL._L_ES_010202_S1,UMBRAL_POBREZA._L_PL_COUNTRY,23.81
+2015,UNIDAD_MEDIDA.PT,ES53,SERIE.SERIE_A,SERIE_TEMPORAL._L_ES_010202_S1,UMBRAL_POBREZA._L_PL_COUNTRY,26.3
+2016,UNIDAD_MEDIDA.PT,ES53,SERIE.SERIE_A,SERIE_TEMPORAL._L_ES_010202_S1,UMBRAL_POBREZA._L_PL_COUNTRY,19.15
+2017,UNIDAD_MEDIDA.PT,ES53,SERIE.SERIE_A,SERIE_TEMPORAL._L_ES_010202_S1,UMBRAL_POBREZA._L_PL_COUNTRY,24.74
+2018,UNIDAD_MEDIDA.PT,ES53,SERIE.SERIE_A,SERIE_TEMPORAL._L_ES_010202_S1,UMBRAL_POBREZA._L_PL_COUNTRY,18.11
+2010,UNIDAD_MEDIDA.PT,ES53,SERIE.SERIE_C,SERIE_TEMPORAL._L_ES_010202_02,,4.66
+2011,UNIDAD_MEDIDA.PT,ES53,SERIE.SERIE_C,SERIE_TEMPORAL._L_ES_010202_02,,7.39
+2012,UNIDAD_MEDIDA.PT,ES53,SERIE.SERIE_C,SERIE_TEMPORAL._L_ES_010202_02,,7.91
+2013,UNIDAD_MEDIDA.PT,ES53,SERIE.SERIE_C,SERIE_TEMPORAL._L_ES_010202_02,,10.42
+2014,UNIDAD_MEDIDA.PT,ES53,SERIE.SERIE_C,SERIE_TEMPORAL._L_ES_010202_02,,9.84
+2015,UNIDAD_MEDIDA.PT,ES53,SERIE.SERIE_C,SERIE_TEMPORAL._L_ES_010202_02,,7.7
+2016,UNIDAD_MEDIDA.PT,ES53,SERIE.SERIE_C,SERIE_TEMPORAL._L_ES_010202_02,,3.73
+2017,UNIDAD_MEDIDA.PT,ES53,SERIE.SERIE_C,SERIE_TEMPORAL._L_ES_010202_02,,6.85
+2018,UNIDAD_MEDIDA.PT,ES53,SERIE.SERIE_C,SERIE_TEMPORAL._L_ES_010202_02,,5.3
+2010,UNIDAD_MEDIDA.PT,ES53,SERIE.SERIE_D,SERIE_TEMPORAL._L_ES_010202_03,,11.21
+2011,UNIDAD_MEDIDA.PT,ES53,SERIE.SERIE_D,SERIE_TEMPORAL._L_ES_010202_03,,13.09
+2012,UNIDAD_MEDIDA.PT,ES53,SERIE.SERIE_D,SERIE_TEMPORAL._L_ES_010202_03,,10.52
+2013,UNIDAD_MEDIDA.PT,ES53,SERIE.SERIE_D,SERIE_TEMPORAL._L_ES_010202_03,,7.14
+2014,UNIDAD_MEDIDA.PT,ES53,SERIE.SERIE_D,SERIE_TEMPORAL._L_ES_010202_03,,7.51
+2015,UNIDAD_MEDIDA.PT,ES53,SERIE.SERIE_D,SERIE_TEMPORAL._L_ES_010202_03,,8.39
+2016,UNIDAD_MEDIDA.PT,ES53,SERIE.SERIE_D,SERIE_TEMPORAL._L_ES_010202_03,,6.66
+2017,UNIDAD_MEDIDA.PT,ES53,SERIE.SERIE_D,SERIE_TEMPORAL._L_ES_010202_03,,3.73
+2018,UNIDAD_MEDIDA.PT,ES53,SERIE.SERIE_D,SERIE_TEMPORAL._L_ES_010202_03,,4.41
+2010,UNIDAD_MEDIDA.PT,ES53,SERIE.SERIE_B,SERIE_TEMPORAL._L_ES_010202_S1,UMBRAL_POBREZA._L_PL_NUTS2,28.24
+2011,UNIDAD_MEDIDA.PT,ES53,SERIE.SERIE_B,SERIE_TEMPORAL._L_ES_010202_S1,UMBRAL_POBREZA._L_PL_NUTS2,27.86
+2012,UNIDAD_MEDIDA.PT,ES53,SERIE.SERIE_B,SERIE_TEMPORAL._L_ES_010202_S1,UMBRAL_POBREZA._L_PL_NUTS2,25.77
+2013,UNIDAD_MEDIDA.PT,ES53,SERIE.SERIE_B,SERIE_TEMPORAL._L_ES_010202_S1,UMBRAL_POBREZA._L_PL_NUTS2,27.84
+2014,UNIDAD_MEDIDA.PT,ES53,SERIE.SERIE_B,SERIE_TEMPORAL._L_ES_010202_S1,UMBRAL_POBREZA._L_PL_NUTS2,25.31
+2015,UNIDAD_MEDIDA.PT,ES53,SERIE.SERIE_B,SERIE_TEMPORAL._L_ES_010202_S1,UMBRAL_POBREZA._L_PL_NUTS2,30.38
+2016,UNIDAD_MEDIDA.PT,ES53,SERIE.SERIE_B,SERIE_TEMPORAL._L_ES_010202_S1,UMBRAL_POBREZA._L_PL_NUTS2,21.22
+2017,UNIDAD_MEDIDA.PT,ES53,SERIE.SERIE_B,SERIE_TEMPORAL._L_ES_010202_S1,UMBRAL_POBREZA._L_PL_NUTS2,24.26
+2018,UNIDAD_MEDIDA.PT,ES53,SERIE.SERIE_B,SERIE_TEMPORAL._L_ES_010202_S1,UMBRAL_POBREZA._L_PL_NUTS2,23.42
+2010,UNIDAD_MEDIDA.PT,ES,SERIE.SERIE_A,SERIE_TEMPORAL._L_ES_010202_S1,UMBRAL_POBREZA._L_PL_COUNTRY,26.10
+2011,UNIDAD_MEDIDA.PT,ES,SERIE.SERIE_A,SERIE_TEMPORAL._L_ES_010202_S1,UMBRAL_POBREZA._L_PL_COUNTRY,26.73
+2012,UNIDAD_MEDIDA.PT,ES,SERIE.SERIE_A,SERIE_TEMPORAL._L_ES_010202_S1,UMBRAL_POBREZA._L_PL_COUNTRY,27.24
+2013,UNIDAD_MEDIDA.PT,ES,SERIE.SERIE_A,SERIE_TEMPORAL._L_ES_010202_S1,UMBRAL_POBREZA._L_PL_COUNTRY,27.31
+2014,UNIDAD_MEDIDA.PT,ES,SERIE.SERIE_A,SERIE_TEMPORAL._L_ES_010202_S1,UMBRAL_POBREZA._L_PL_COUNTRY,29.15
+2015,UNIDAD_MEDIDA.PT,ES,SERIE.SERIE_A,SERIE_TEMPORAL._L_ES_010202_S1,UMBRAL_POBREZA._L_PL_COUNTRY,28.65
+2016,UNIDAD_MEDIDA.PT,ES,SERIE.SERIE_A,SERIE_TEMPORAL._L_ES_010202_S1,UMBRAL_POBREZA._L_PL_COUNTRY,27.91
+2017,UNIDAD_MEDIDA.PT,ES,SERIE.SERIE_A,SERIE_TEMPORAL._L_ES_010202_S1,UMBRAL_POBREZA._L_PL_COUNTRY,26.58
+2018,UNIDAD_MEDIDA.PT,ES,SERIE.SERIE_A,SERIE_TEMPORAL._L_ES_010202_S1,UMBRAL_POBREZA._L_PL_COUNTRY,26.09
+2019,UNIDAD_MEDIDA.PT,ES,SERIE.SERIE_A,SERIE_TEMPORAL._L_ES_010202_S1,UMBRAL_POBREZA._L_PL_COUNTRY,25.29
+2010,UNIDAD_MEDIDA.PT,ES,SERIE.SERIE_B,SERIE_TEMPORAL._L_ES_010202_S1,UMBRAL_POBREZA._L_PL_NUTS2,25.24
+2011,UNIDAD_MEDIDA.PT,ES,SERIE.SERIE_B,SERIE_TEMPORAL._L_ES_010202_S1,UMBRAL_POBREZA._L_PL_NUTS2,25.85
+2012,UNIDAD_MEDIDA.PT,ES,SERIE.SERIE_B,SERIE_TEMPORAL._L_ES_010202_S1,UMBRAL_POBREZA._L_PL_NUTS2,26.42
+2013,UNIDAD_MEDIDA.PT,ES,SERIE.SERIE_B,SERIE_TEMPORAL._L_ES_010202_S1,UMBRAL_POBREZA._L_PL_NUTS2,26.68
+2014,UNIDAD_MEDIDA.PT,ES,SERIE.SERIE_B,SERIE_TEMPORAL._L_ES_010202_S1,UMBRAL_POBREZA._L_PL_NUTS2,28.36
+2015,UNIDAD_MEDIDA.PT,ES,SERIE.SERIE_B,SERIE_TEMPORAL._L_ES_010202_S1,UMBRAL_POBREZA._L_PL_NUTS2,27.37
+2016,UNIDAD_MEDIDA.PT,ES,SERIE.SERIE_B,SERIE_TEMPORAL._L_ES_010202_S1,UMBRAL_POBREZA._L_PL_NUTS2,26.83
+2017,UNIDAD_MEDIDA.PT,ES,SERIE.SERIE_B,SERIE_TEMPORAL._L_ES_010202_S1,UMBRAL_POBREZA._L_PL_NUTS2,26.11
+2018,UNIDAD_MEDIDA.PT,ES,SERIE.SERIE_B,SERIE_TEMPORAL._L_ES_010202_S1,UMBRAL_POBREZA._L_PL_NUTS2,25.23
+2019,UNIDAD_MEDIDA.PT,ES,SERIE.SERIE_B,SERIE_TEMPORAL._L_ES_010202_S1,UMBRAL_POBREZA._L_PL_NUTS2,24.45
+2010,UNIDAD_MEDIDA.PT,ES,SERIE.SERIE_C,SERIE_TEMPORAL._L_ES_010202_02,,4.91
+2011,UNIDAD_MEDIDA.PT,ES,SERIE.SERIE_C,SERIE_TEMPORAL._L_ES_010202_02,,4.54
+2012,UNIDAD_MEDIDA.PT,ES,SERIE.SERIE_C,SERIE_TEMPORAL._L_ES_010202_02,,5.84
+2013,UNIDAD_MEDIDA.PT,ES,SERIE.SERIE_C,SERIE_TEMPORAL._L_ES_010202_02,,6.19
+2014,UNIDAD_MEDIDA.PT,ES,SERIE.SERIE_C,SERIE_TEMPORAL._L_ES_010202_02,,7.06
+2015,UNIDAD_MEDIDA.PT,ES,SERIE.SERIE_C,SERIE_TEMPORAL._L_ES_010202_02,,6.44
+2016,UNIDAD_MEDIDA.PT,ES,SERIE.SERIE_C,SERIE_TEMPORAL._L_ES_010202_02,,5.79
+2017,UNIDAD_MEDIDA.PT,ES,SERIE.SERIE_C,SERIE_TEMPORAL._L_ES_010202_02,,5.14
+2018,UNIDAD_MEDIDA.PT,ES,SERIE.SERIE_C,SERIE_TEMPORAL._L_ES_010202_02,,5.40
+2019,UNIDAD_MEDIDA.PT,ES,SERIE.SERIE_C,SERIE_TEMPORAL._L_ES_010202_02,,4.70
+2010,UNIDAD_MEDIDA.PT,ES,SERIE.SERIE_D,SERIE_TEMPORAL._L_ES_010202_03,,10.82
+2011,UNIDAD_MEDIDA.PT,ES,SERIE.SERIE_D,SERIE_TEMPORAL._L_ES_010202_03,,13.35
+2012,UNIDAD_MEDIDA.PT,ES,SERIE.SERIE_D,SERIE_TEMPORAL._L_ES_010202_03,,14.28
+2013,UNIDAD_MEDIDA.PT,ES,SERIE.SERIE_D,SERIE_TEMPORAL._L_ES_010202_03,,15.68
+2014,UNIDAD_MEDIDA.PT,ES,SERIE.SERIE_D,SERIE_TEMPORAL._L_ES_010202_03,,17.12
+2015,UNIDAD_MEDIDA.PT,ES,SERIE.SERIE_D,SERIE_TEMPORAL._L_ES_010202_03,,15.44
+2016,UNIDAD_MEDIDA.PT,ES,SERIE.SERIE_D,SERIE_TEMPORAL._L_ES_010202_03,,14.85
+2017,UNIDAD_MEDIDA.PT,ES,SERIE.SERIE_D,SERIE_TEMPORAL._L_ES_010202_03,,12.79
+2018,UNIDAD_MEDIDA.PT,ES,SERIE.SERIE_D,SERIE_TEMPORAL._L_ES_010202_03,,10.65
+2019,UNIDAD_MEDIDA.PT,ES,SERIE.SERIE_D,SERIE_TEMPORAL._L_ES_010202_03,,10.84
+2019,UNIDAD_MEDIDA.PT,ES53,SERIE.SERIE_A,SERIE_TEMPORAL._L_ES_010202_S1,UMBRAL_POBREZA._L_PL_COUNTRY,15.09
+2019,UNIDAD_MEDIDA.PT,ES53,SERIE.SERIE_C,SERIE_TEMPORAL._L_ES_010202_02,,2.86
+2019,UNIDAD_MEDIDA.PT,ES53,SERIE.SERIE_D,SERIE_TEMPORAL._L_ES_010202_03,,3.48
+2019,UNIDAD_MEDIDA.PT,ES53,SERIE.SERIE_B,SERIE_TEMPORAL._L_ES_010202_S1,UMBRAL_POBREZA._L_PL_NUTS2,21.17

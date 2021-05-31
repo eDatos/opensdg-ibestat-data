@@ -4,7 +4,7 @@ target_id: 9.2.2
 reporting_status: complete
 data_non_statistical: false
 indicator_sort_order: 09-02-02-cc
-national_geographical_coverage: Canarias
+national_geographical_coverage: Canàries
 
 # Info de Subindicador
 nombre: subindicator.9-2-2-SERIE-C-nombre
@@ -15,15 +15,11 @@ definicion: subindicator.9-2-2-SERIE-C-definicion
 
 # Fórmula teórica escrita en formato MathJax
 # https://math.meta.stackexchange.com/questions/5020/mathjax-basic-tutorial-and-quick-reference
-formula_teorica: '$$PEH_{manufacturero}^{t} = \frac{EH_{manufacturero}^{t}}{EH^{t}} \cdot 100$$ <br>
-donde: <br>
-$EH_{manufacturero}^{t} =$ empleo (horas) del sector manufacturero en el año $t$ <br>
-$EH^{t} =$ empleo (horas) en el año $t$ '
-unidad_medida: Porcentaje
-fuentes_informacion: "Contabilidad regional de España, Instituto Nacional de Estadística (INE)"
+formula_teorica: FORMULA_TEORICA.9-2-2-SERIE-C-formula-teorica
+unidad_medida: UNIDAD_MEDIDA.PT
+fuentes_informacion: FUENTES_INFORMACION.9-2-2-SERIE-C-fuentes-informacion
 periodicidad: Anual
-observaciones: 
-
+observaciones: OBSERVACIONES.9-2-2-SERIE-C-observaciones
 # Info de Gráficas
 graph_title: subindicator.9-2-2-SERIE-C-graph-title
 graph_type: bar
@@ -33,7 +29,7 @@ graph_type: bar
 sort_order: 3
 
 # Nombre que tendrá la tab
-tab_name: Serie C
+tab_name: SERIE.SERIE_C
 
 #Coordinación con OCECAS
 coordinado_con_ocecas: true
