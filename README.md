@@ -106,7 +106,7 @@ show_map|Metadato que se utiliza para mostrar o no el mapa|Valores booleanos (tr
 
 Para poder mostrar la información de un subindicador en un mapa será necesario realizar una serie de pasos:
 
-1) En los archivos de datos se debe incluir una columna de nombre `GeoCode`. Bajo esta columna irán los códigos de regiones (`geocodes`) que mapearán los datos a las regiones del mapa.
+1) En los archivos de datos se debe incluir una columna de nombre `Territorio`. Bajo esta columna irán los códigos de regiones (`geocodes`) que mapearán los datos a las regiones del mapa.
 2) En los metadatos del subindicador se deberá añadir un nuevo metadato: [**`show_map`**](#metadatos-de-serie) y establecerlo a `true` si se desea mostrar el mapa. Se puede establecer a `false` para ocultarlo.
 3) Añadir configuraciones de mapa al archivo `config_data.yml`. Existen ejemplos de esto en el propio archivo. Para más información consultar la [documentación de OpenSDG](https://open-sdg.readthedocs.io/en/latest/maps/)
-4) Esta configuración de los mapas se deberá añadir tal cual está en `config_data.yml` en la configuración de la web [`opensdg-web/src/_config.yml`](https://git.arte-consultores.com/istac/edatos-opensdg-web/blob/develop/opensdg-web/src/_config.yml).
+4) Esta configuración de los mapas se deberá añadir tal cual está en `config_data.yml` en la configuración de la web [`opensdg-web/src/_config.yml`](https://git.arte-consultores.com/istac/edatos-opensdg-web/blob/develop/opensdg-web/src/etc/config/_config_ibestat.yml#L46).
