@@ -1,4 +1,4 @@
-Encabezado: "Serie temporal"
+Encabezado: "Sèrie temporal"
 _L_ES_010201_S1: "Proporció de persones en risc de pobresa relativa segons llindar de pobresa"
 _L_ES_010201_S2: "Proporció de persones en risc de pobresa relativa amb lloguer imputat segons llindar de pobresa"
 _L_ES_010202_S1: "Proporció de persones en risc de pobresa o exclusió social: indicador AROPE, segons llindar de pobresa"
@@ -46,6 +46,7 @@ _L_ES_090401_S1: "Emissions de CO2 de les unitats residents segons saldo comptab
 GB_XPD_RSDV: "Despeses en recerca i desenvolupament en proporció al PIB"
 GB_POP_SCIERD: "Nombre de persones investigadores en equivalència a jornada completa per cada milió d’habitants"
 _L_ES_100101_S1: "Taxa de creixement per càpita de les despeses de les llars segons grup de població"
+_L_ES_100101_S2: "Taxa de creixement per càpita dels ingressos de les llars segons grup de població"
 _L_ES_100201_S1: "Proporció de persones que viuen per sota del 50 % de la mediana dels ingressos segons tipus de mediana"
 SL_EMP_GTOTL: "Proporció del PIB generada pel treball"
 _L_ES_110101_01: "Proporció de persones que viuen en llars amb determinades deficiències en l’habitatge"

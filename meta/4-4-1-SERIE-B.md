@@ -15,9 +15,9 @@ objetivo_global: global_goals.4-title
 definicion: subindicator.4-4-1-SERIE-B-definicion
 
 formula_teorica: FORMULA_TEORICA.4-4-1-SERIE-B-formula-teorica
-unidad_medida: UNIDAD_MEDIDA.PT
+unidad_medida: OCECAS_UNIDAD_MEDIDA.PT
 fuentes_informacion: FUENTES_INFORMACION.4-4-1-SERIE-B-fuentes-informacion
-periodicidad: "Anual"
+periodicidad: CL_FREQ.A
 observaciones: OBSERVACIONES.4-4-1-SERIE-B-observaciones
 # Info de Gráficas
 graph_title: subindicator.4-4-1-SERIE-B-graph-title

@@ -15,9 +15,9 @@ objetivo_global: global_goals.9-title
 definicion: subindicator.9-4-1-SERIE-B-definicion
 
 formula_teorica: FORMULA_TEORICA.9-4-1-SERIE-B-formula-teorica
-unidad_medida: "Quilograms"
+unidad_medida: OCECAS_UNIDAD_MEDIDA.KG
 fuentes_informacion: FUENTES_INFORMACION.9-4-1-SERIE-B-fuentes-informacion
-periodicidad: "Anual"
+periodicidad: CL_FREQ.A
 observaciones: OBSERVACIONES.9-4-1-SERIE-B-observaciones
 # Info de Gráficas
 graph_title: subindicator.9-4-1-SERIE-B-graph-title

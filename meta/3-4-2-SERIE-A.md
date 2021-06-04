@@ -16,7 +16,7 @@ definicion: subindicator.3-4-2-SERIE-A-definicion
 formula_teorica: FORMULA_TEORICA.3-4-2-SERIE-A-formula-teorica
 unidad_medida: "Tant per 100.000"
 fuentes_informacion: FUENTES_INFORMACION.3-4-2-SERIE-A-fuentes-informacion
-periodicidad: "Anual"
+periodicidad: CL_FREQ.A
 observaciones: OBSERVACIONES.3-4-2-SERIE-A-observaciones
 # Info de Gráficas
 graph_title: subindicator.3-4-2-SERIE-A-graph-title

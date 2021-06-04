@@ -16,9 +16,9 @@ definicion: subindicator.1-2-1-SERIE-C-definicion
 # Fórmula teórica escrita en formato MathJax
 # https://math.meta.stackexchange.com/questions/5020/mathjax-basic-tutorial-and-quick-reference
 formula_teorica: FORMULA_TEORICA.1-2-1-SERIE-C-formula-teorica
-unidad_medida: UNIDAD_MEDIDA.PT
+unidad_medida: OCECAS_UNIDAD_MEDIDA.PT
 fuentes_informacion: FUENTES_INFORMACION.1-2-1-SERIE-C-fuentes-informacion
-periodicidad: Anual
+periodicidad: CL_FREQ.A
 observaciones: OBSERVACIONES.1-2-1-SERIE-C-observaciones
 # Info de Gráficas
 graph_title: subindicator.1-2-1-SERIE-C-graph-title

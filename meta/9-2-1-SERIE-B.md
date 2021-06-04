@@ -16,9 +16,9 @@ definicion: subindicator.9-2-1-SERIE-B-definicion
 # Fórmula teórica escrita en formato MathJax
 # https://math.meta.stackexchange.com/questions/5020/mathjax-basic-tutorial-and-quick-reference
 formula_teorica: FORMULA_TEORICA.9-2-1-SERIE-B-formula-teorica
-unidad_medida: Euros
+unidad_medida: OCECAS_UNIDAD_MEDIDA.EUR
 fuentes_informacion: FUENTES_INFORMACION.9-2-1-SERIE-B-fuentes-informacion
-periodicidad: Anual
+periodicidad: CL_FREQ.A
 observaciones: OBSERVACIONES.9-2-1-SERIE-B-observaciones
 # Info de Gráficas
 graph_title: subindicator.9-2-1-SERIE-B-graph-title

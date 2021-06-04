@@ -14,10 +14,10 @@ meta_global: global_targets.5-a-title
 objetivo_global: global_goals.5-title
 definicion: subindicator.5-a-1a-SERIE-A-definicion
 
-formula_teorica: 5-a-1a-SERIE-A-formula-teorica
-unidad_medida: UNIDAD_MEDIDA.PT
-fuentes_informacion: 5-a-1a-SERIE-A-fuentes-informacion
-periodicidad: "Triennal"
+formula_teorica: FORMULA_TEORICA.5-a-1a-SERIE-A-formula-teorica
+unidad_medida: OCECAS_UNIDAD_MEDIDA.PT
+fuentes_informacion: FUENTES_INFORMACION.5-a-1a-SERIE-A-fuentes-informacion
+periodicidad: CL_FREQ.A3
 observaciones:
 
 # Info de Gráficas
