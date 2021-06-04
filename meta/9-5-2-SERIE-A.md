@@ -17,7 +17,7 @@ definicion: subindicator.9-5-2-SERIE-A-definicion
 formula_teorica: FORMULA_TEORICA.9-5-2-SERIE-A-formula-teorica
 unidad_medida: "Tant per 1.000.000"
 fuentes_informacion: FUENTES_INFORMACION.9-5-2-SERIE-A-fuentes-informacion
-periodicidad: "Anual"
+periodicidad: CL_FREQ.A
 observaciones: OBSERVACIONES.9-5-2-SERIE-A-observaciones
 # Info de Gráficas
 graph_title: subindicator.9-5-2-SERIE-A-graph-title

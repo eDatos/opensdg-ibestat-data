@@ -15,7 +15,7 @@ objetivo_global: global_goals.16-title
 definicion: subindicator.16-1-4-SERIE-A-definicion
 
 formula_teorica: FORMULA_TEORICA.16-1-4-SERIE-A-formula-teorica
-unidad_medida: UNIDAD_MEDIDA.PT
+unidad_medida: OCECAS_UNIDAD_MEDIDA.PT
 fuentes_informacion: FUENTES_INFORMACION.16-1-4-SERIE-A-fuentes-informacion
 periodicidad: "Irregular"
 observaciones: OBSERVACIONES.16-1-4-SERIE-A-observaciones

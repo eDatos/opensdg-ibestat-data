@@ -15,9 +15,9 @@ objetivo_global: global_goals.4-title
 definicion: subindicator.4-5-1-SERIE-E-definicion
 
 formula_teorica: FORMULA_TEORICA.4-5-1-SERIE-E-formula-teorica
-unidad_medida: "Índex"
+unidad_medida: OCECAS_UNIDAD_MEDIDA.IX
 fuentes_informacion: FUENTES_INFORMACION.4-5-1-SERIE-E-fuentes-informacion
-periodicidad: "Anual"
+periodicidad: CL_FREQ.A
 observaciones: OBSERVACIONES.4-5-1-SERIE-E-observaciones
 # Info de Gráficas
 graph_title: subindicator.4-5-1-SERIE-E-graph-title

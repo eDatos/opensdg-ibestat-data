@@ -16,9 +16,9 @@ definicion: subindicator.5-a-1b-SERIE-C-definicion
 # Fórmula teórica escrita en formato MathJax
 # https://math.meta.stackexchange.com/questions/5020/mathjax-basic-tutorial-and-quick-reference
 formula_teorica: FORMULA_TEORICA.5-a-1b-SERIE-C-formula-teorica
-unidad_medida: UNIDAD_MEDIDA.PT
+unidad_medida: OCECAS_UNIDAD_MEDIDA.PT
 fuentes_informacion: FUENTES_INFORMACION.5-a-1b-SERIE-C-fuentes-informacion
-periodicidad: Triennal
+periodicidad: CL_FREQ.A3
 observaciones: OBSERVACIONES.5-a-1b-SERIE-C-observaciones
 # Info de Gráficas
 graph_title: subindicator.5-a-1b-SERIE-C-graph-title

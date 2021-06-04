@@ -15,9 +15,9 @@ objetivo_global: global_goals.3-title
 definicion: subindicator.3-a-1-SERIE-A-definicion
 
 formula_teorica: FORMULA_TEORICA.3-a-1-SERIE-A-formula-teorica
-unidad_medida: UNIDAD_MEDIDA.PT
+unidad_medida: OCECAS_UNIDAD_MEDIDA.PT
 fuentes_informacion: FUENTES_INFORMACION.3-a-1-SERIE-A-fuentes-informacion
-periodicidad: "Biennal / triennal"
+periodicidad: CL_FREQ.A2_A3
 observaciones: OBSERVACIONES.3-a-1-SERIE-A-observaciones
 # Info de Gráficas
 graph_title: subindicator.3-a-1-SERIE-A-graph-title

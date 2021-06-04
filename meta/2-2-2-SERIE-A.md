@@ -15,9 +15,9 @@ definicion: subindicator.2-2-2-SERIE-A-definicion
 
 # Fórmula teórica escrita en formato MathJax
 formula_teorica: FORMULA_TEORICA.2-2-2-SERIE-A-formula-teorica
-unidad_medida: UNIDAD_MEDIDA.PT
+unidad_medida: OCECAS_UNIDAD_MEDIDA.PT
 fuentes_informacion: FUENTES_INFORMACION.2-2-2-SERIE-A-fuentes-informacion
-periodicidad: "Quinquennal"
+periodicidad: CL_FREQ.A5
 observaciones: OBSERVACIONES.2-2-2-SERIE-A-observaciones
 # Info de Gráficas
 graph_title: subindicator.2-2-2-SERIE-A-graph-title

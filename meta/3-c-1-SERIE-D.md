@@ -17,7 +17,7 @@ definicion: subindicator.3-c-1-SERIE-D-definicion
 formula_teorica: FORMULA_TEORICA.3-c-1-SERIE-D-formula-teorica
 unidad_medida: "Tant per 10.000"
 fuentes_informacion: FUENTES_INFORMACION.3-c-1-SERIE-D-fuentes-informacion
-periodicidad: "Anual"
+periodicidad: CL_FREQ.A
 observaciones:
 
 # Info de Gráficas
