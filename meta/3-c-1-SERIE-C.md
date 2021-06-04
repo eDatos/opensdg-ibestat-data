@@ -14,9 +14,9 @@ meta_global: global_targets.3-c-title
 objetivo_global: global_goals.3-title
 definicion: subindicator.3-c-1-SERIE-C-definicion
 
-formula_teorica: 3-c-1-SERIE-C-formula-teorica
+formula_teorica: FORMULA_TEORICA.3-c-1-SERIE-C-formula-teorica
 unidad_medida: "Tant per 10.000"
-fuentes_informacion: 3-c-1-SERIE-C-fuentes-informacion
+fuentes_informacion: FUENTES_INFORMACION.3-c-1-SERIE-C-fuentes-informacion
 periodicidad: "Anual"
 observaciones:
 

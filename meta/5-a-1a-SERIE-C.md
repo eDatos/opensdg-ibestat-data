@@ -14,9 +14,9 @@ meta_global: global_targets.5-a-title
 objetivo_global: global_goals.5-title
 definicion: subindicator.5-a-1a-SERIE-C-definicion
 
-formula_teorica: 5-a-1a-SERIE-C-formula-teorica
+formula_teorica: FORMULA_TEORICA.5-a-1a-SERIE-C-formula-teorica
 unidad_medida: UNIDAD_MEDIDA.PT
-fuentes_informacion: 5-a-1a-SERIE-C-fuentes-informacion
+fuentes_informacion: FUENTES_INFORMACION.5-a-1a-SERIE-C-fuentes-informacion
 periodicidad: "Triennal"
 observaciones:
 

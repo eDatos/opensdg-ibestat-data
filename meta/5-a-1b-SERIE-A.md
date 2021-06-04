@@ -15,11 +15,11 @@ definicion: subindicator.5-a-1b-SERIE-A-definicion
 
 # Fórmula teórica escrita en formato MathJax
 # https://math.meta.stackexchange.com/questions/5020/mathjax-basic-tutorial-and-quick-reference
-formula_teorica: 5-a-1b-SERIE-A-formula-teorica
+formula_teorica: FORMULA_TEORICA.5-a-1b-SERIE-A-formula-teorica
 unidad_medida: UNIDAD_MEDIDA.PT
-fuentes_informacion: 5-a-1b-SERIE-A-fuentes-informacion
+fuentes_informacion: FUENTES_INFORMACION.5-a-1b-SERIE-A-fuentes-informacion
 periodicidad: Triennal
-observaciones: 5-a-1b-SERIE-A-observaciones
+observaciones: OBSERVACIONES.5-a-1b-SERIE-A-observaciones
 # Info de Gráficas
 graph_title: subindicator.5-a-1b-SERIE-A-graph-title
 graph_type: bar

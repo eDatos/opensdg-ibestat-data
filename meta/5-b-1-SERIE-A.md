@@ -14,11 +14,11 @@ meta_global: global_targets.5-b-title
 objetivo_global: global_goals.5-title
 definicion: subindicator.5-b-1-SERIE-A-definicion
 
-formula_teorica: 5-b-1-SERIE-A-formula-teorica
+formula_teorica: FORMULA_TEORICA.5-b-1-SERIE-A-formula-teorica
 unidad_medida: UNIDAD_MEDIDA.PT
-fuentes_informacion: 5-b-1-SERIE-A-fuentes-informacion
+fuentes_informacion: FUENTES_INFORMACION.5-b-1-SERIE-A-fuentes-informacion
 periodicidad: "Anual"
-observaciones: 5-b-1-SERIE-A-observaciones
+observaciones: OBSERVACIONES.5-b-1-SERIE-A-observaciones
 # Info de Gráficas
 graph_title: subindicator.5-b-1-SERIE-A-graph-title
 graph_type: bar

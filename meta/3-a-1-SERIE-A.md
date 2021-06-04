@@ -14,11 +14,11 @@ meta_global: global_targets.3-a-title
 objetivo_global: global_goals.3-title
 definicion: subindicator.3-a-1-SERIE-A-definicion
 
-formula_teorica: 3-a-1-SERIE-A-formula-teorica
+formula_teorica: FORMULA_TEORICA.3-a-1-SERIE-A-formula-teorica
 unidad_medida: UNIDAD_MEDIDA.PT
-fuentes_informacion: 3-a-1-SERIE-A-fuentes-informacion
+fuentes_informacion: FUENTES_INFORMACION.3-a-1-SERIE-A-fuentes-informacion
 periodicidad: "Biennal / triennal"
-observaciones: 3-a-1-SERIE-A-observaciones
+observaciones: OBSERVACIONES.3-a-1-SERIE-A-observaciones
 # Info de Gráficas
 graph_title: subindicator.3-a-1-SERIE-A-graph-title
 graph_type: bar
