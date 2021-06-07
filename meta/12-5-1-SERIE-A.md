@@ -5,7 +5,7 @@ target_id: '12.5.1'
 reporting_status: complete
 data_non_statistical: false
 indicator_sort_order: 12-05-01-aa
-national_geographical_coverage: Canàries
+national_geographical_coverage: nuts.ES53
 
 # Info de Subindicador
 nombre: subindicator.12-5-1-SERIE-A-nombre

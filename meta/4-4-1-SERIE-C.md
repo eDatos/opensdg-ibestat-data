@@ -5,7 +5,7 @@ target_id: '4.4.1'
 reporting_status: complete
 data_non_statistical: false
 indicator_sort_order: 04-04-01-cc
-national_geographical_coverage: Canàries
+national_geographical_coverage: nuts.ES53
 
 # Info de Subindicador
 nombre: subindicator.4-4-1-SERIE-C-nombre

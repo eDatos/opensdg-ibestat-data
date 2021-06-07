@@ -4,7 +4,7 @@ target_id: 8.2.1
 reporting_status: complete
 data_non_statistical: false
 indicator_sort_order: 08-02-01-bb
-national_geographical_coverage: Canàries
+national_geographical_coverage: nuts.ES53
 
 # Info de Subindicador
 nombre: subindicator.8-2-1-SERIE-B-nombre
