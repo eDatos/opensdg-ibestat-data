@@ -15,7 +15,7 @@ objetivo_global: global_goals.11-title
 definicion: subindicator.11-5-1-SERIE-A-definicion
 
 formula_teorica: FORMULA_TEORICA.11-5-1-SERIE-A-formula-teorica
-unidad_medida: "Tant per 100.000"
+unidad_medida: OCECAS_UNIDAD_MEDIDA.PER_100000_POP
 fuentes_informacion: FUENTES_INFORMACION.11-5-1-SERIE-A-fuentes-informacion
 periodicidad: CL_FREQ.A
 observaciones: OBSERVACIONES.11-5-1-SERIE-A-observaciones
