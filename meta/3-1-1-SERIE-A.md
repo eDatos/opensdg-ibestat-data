@@ -16,7 +16,7 @@ definicion: subindicator.3-1-1-SERIE-A-definicion
 # Fórmula teórica escrita en formato MathJax
 # https://math.meta.stackexchange.com/questions/5020/mathjax-basic-tutorial-and-quick-reference
 formula_teorica: FORMULA_TEORICA.3-1-1-SERIE-A-formula-teorica
-unidad_medida: "Tant per 100.000"
+unidad_medida: OCECAS_UNIDAD_MEDIDA.PER_100000_LIVE_BIRTHS
 fuentes_informacion: FUENTES_INFORMACION.3-1-1-SERIE-A-fuentes-informacion
 periodicidad: CL_FREQ.A
 observaciones: OBSERVACIONES.3-1-1-SERIE-A-observaciones

@@ -15,7 +15,7 @@ objetivo_global: global_goals.3-title
 definicion: subindicator.3-c-1-SERIE-B-definicion
 
 formula_teorica: FORMULA_TEORICA.3-c-1-SERIE-B-formula-teorica
-unidad_medida: "Tant per 10.000"
+unidad_medida: OCECAS_UNIDAD_MEDIDA.PER_10000_POP
 fuentes_informacion: FUENTES_INFORMACION.3-c-1-SERIE-B-fuentes-informacion
 periodicidad: CL_FREQ.A
 observaciones:
