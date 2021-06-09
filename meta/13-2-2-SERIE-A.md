@@ -15,7 +15,7 @@ objetivo_global: global_goals.13-title
 definicion: subindicator.13-2-2-SERIE-A-definicion
 
 formula_teorica: FORMULA_TEORICA.13-2-2-SERIE-A-formula-teorica
-unidad_medida: OCECAS_UNIDAD_MEDIDA.PER_10000_POP
+unidad_medida: OCECAS_UNIDAD_MEDIDA.KG_CO2_PER_GDP_EUR
 fuentes_informacion: FUENTES_INFORMACION.13-2-2-SERIE-A-fuentes-informacion
 periodicidad: CL_FREQ.A
 observaciones: OBSERVACIONES.13-2-2-SERIE-A-observaciones
