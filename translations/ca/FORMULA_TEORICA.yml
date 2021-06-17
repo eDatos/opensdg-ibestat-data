@@ -1,107 +1,107 @@
 1-2-1-SERIE-A-formula-teorica: "$$PPRPR_{NAC}^{t} = \\frac{PRPR_{NAC}^{t}}{P^{t}} \\cdot 100$$ <br>
 en què: <br>
 $PRPR_{NAC}^{t} =$ població en risc de pobresa relativa considerant el llindar nacional de pobresa (60 % de la mediana nacional dels ingressos imputat per unitat de consum (escala OCDE modificada)) l'any $t$ <br>
-$P^{t} =$ població total l'any $t$'"
+$P^{t} =$ població total l'any $t$"
 1-2-1-SERIE-B-formula-teorica: "$$PPRPR_{CA}^{t} = \\frac{PRPR_{CA}^{t}}{P^{t}} \\cdot 100$$ <br>
 en què: <br>
 $PRPR_{CA}^{t} =$ població en risc de pobresa relativa considerant el llindar autonòmic de pobresa (60 % de la mediana autonòmica dels ingressos per unitat de consum (escala OCDE modificada)) l'any $t$ <br>
-$P^{t} =$ població total l'any $t$'"
+$P^{t} =$ població total l'any $t$"
 1-2-1-SERIE-C-formula-teorica: "$$PPRPRAI_{NAC}^{t} = \\frac{PRPRAI_{NAC}^{t}}{P^{t}} \\cdot 100$$ <br>
 en què: <br>
 $PRPRAI_{NAC}^{t} =$ població en risc de pobresa relativa amb lloguer imputat considerant el llindar nacional de pobresa (60 % de la mediana nacional dels ingressos amb lloguer imputat per unitat de consum (escala OCDE modificada)) l'any $t$ <br>
-$P^{t} =$ població total l'any $t$'"
+$P^{t} =$ població total l'any $t$"
 1-2-1-SERIE-D-formula-teorica: "$$PPRPRAI_{CA}^{t} = \\frac{PRPRAI_{CA}^{t}}{P^{t}} \\cdot 100$$ <br>
 en què: <br>
 $PRPRAI_{CA}^{t} =$ població en risc de pobresa relativa amb lloguer imputat considerant el llindar autonòmic de pobresa (60 % de la mediana autonòmica dels ingressos amb lloguer imputat per unitat de consum (escala OCDE modificada)) l'any $t$ <br>
-$P^{t} =$ població total l'any $t$'"
+$P^{t} =$ població total l'any $t$"
 1-2-2-SERIE-A-formula-teorica: "$$AROPE_{NAC}^{t} = \\frac{PRPES_{NAC}^{t}}{P^{t}} \\cdot 100$$ <br>
 en què: <br>
 $PRPES_{NAC}^{t} =$ població en risc de pobresa o exclusió social l'any $t$, considerant el llindar nacional de pobresa <br>
-$P^{t} =$ població total l'any $t$'"
+$P^{t} =$ població total l'any $t$"
 1-2-2-SERIE-B-formula-teorica: "$$AROPE_{CA}^{t} = \\frac{PRPES_{CA}^{t}}{P^{t}} \\cdot 100$$ <br>
 en què: <br>
 $PRPES_{CA}^{t} =$ població en risc de pobresa o exclusió social l'any $t$, considerant el llindar autonòmic de pobresa <br>
-$P^{t} =$ població total l'any $t$'"
+$P^{t} =$ població total l'any $t$"
 1-2-2-SERIE-C-formula-teorica: "$$PPCMS^{t} = \\frac{PCMS^{t}}{P^{t}} \\cdot 100$$ <br>
 en què: <br>
 $PCMS^{t} =$ població que pertany a llars amb carència material severa l'any $t$ <br>
-$P^{t} =$ població total l'any $t$'"
+$P^{t} =$ població total l'any $t$"
 1-2-2-SERIE-D-formula-teorica: "$$PPBIT^{t} = \\frac{PBIT_{0-59}^{t}}{P_{0-59}^{t}} \\cdot 100$$ <br>
 en què: <br>
 $PBIT_{0-59}^{t} =$ població d'entre 0 i 59 anys que pertany a llars sense ocupació o amb baixa intensitat de treball l'any $t$ <br>
-$P_{0-59}^{t} =$ població d'entre 0 i 59 anys l'any $t$'"
+$P_{0-59}^{t} =$ població d'entre 0 i 59 anys l'any $t$"
 1-5-1-SERIE-A-formula-teorica: "$$TM_{desastres}^{t} = \\frac{D_{desastres}^{t}}{P^{t}} \\cdot 100.000$$ <br>
 en què: <br>
 $D_{desastres}^{t} =$ defuncions atribuïdes a desastres naturals (codis X30-X39 de la CIE-10) l'any $t$ <br>
-$P^{t} =$ població a 1 de juliol de l'any $t$'"
+$P^{t} =$ població a 1 de juliol de l'any $t$"
 10-1-1-SERIE-A-formula-teorica: "$$TCGMP_{pobre}^{t} = \\sqrt[5]{\\frac{GMP_{pobre}^{t}-GMP_{pobre}^{t-5}}{GMP_{pobre}^{t-5}}} \\cdot 100 $$ <br>
 en què: <br>
-$GMP_{pobre}^{t} =$ despesa mitjana per persona de les llars del 40 % més pobre de la població de la comunitat autònoma (40 % de les persones amb menors despeses per unitat de consum (escala OCDE modificada)) l'any $t$'"
+$GMP_{pobre}^{t} =$ despesa mitjana per persona de les llars del 40 % més pobre de la població de la comunitat autònoma (40 % de les persones amb menors despeses per unitat de consum (escala OCDE modificada)) l'any $t$"
 10-1-1-SERIE-B-formula-teorica: "$$TCGMP^{t} = \\sqrt[5]{\\frac{GMP^{t}-GMP^{t-5}}{GMP^{t-5}}} \\cdot 100 $$<br>
 en què: <br>
-$GMP^{t} =$ despesa mitjana per persona l'any $t$'"
+$GMP^{t} =$ despesa mitjana per persona l'any $t$"
 10-1-1-SERIE-C-formula-teorica: "$$TCIMP_{pobre}^{t} = \\sqrt[5]{\\frac{IMP_{pobre}^{t}-IMP_{pobre}^{t-5}}{IMP_{pobre}^{t-5}}} \\cdot 100 $$ <br>
 en què: <br>
-$IMP_{pobre}^{t} =$ l'ingrés mitjà per persona de les llars del 40 % més pobre de la població de la comunitat autònoma (40 % de les persones amb menors ingressos per unitat de consum (escala OCDE modificada)) l'any $t$'"
+$IMP_{pobre}^{t} =$ l'ingrés mitjà per persona de les llars del 40 % més pobre de la població de la comunitat autònoma (40 % de les persones amb menors ingressos per unitat de consum (escala OCDE modificada)) l'any $t$"
 10-1-1-SERIE-D-formula-teorica: "$$TCIMP^{t} = \\sqrt[5]{\\frac{IMP^{t}-IMP^{t-5}}{IMP^{t-5}}} \\cdot 100 $$<br>
 en què: <br>
-$IMP^{t} =$ ingrés mitjà per persona l'any $t$'"
+$IMP^{t} =$ ingrés mitjà per persona l'any $t$"
 10-2-1-SERIE-A-formula-teorica: "$$PP50ME_{NAC}^{t} = \\frac{P50ME_{NAC}^{t}}{P^{t}} \\cdot 100$$ <br>
 en què: <br>
 $P50ME_{NAC}^{t} =$ població que viu amb uns ingressos per unitat de consum per sota del 50 % de la mediana nacional dels ingressos per unitat de consum (escala OCDE modificada) l'any $t$ <br>
-$P^{t} =$ població total l'any $t$'"
+$P^{t} =$ població total l'any $t$"
 10-2-1-SERIE-B-formula-teorica: "$$PP50ME_{CA}^{t} = \\frac{P50ME_{CA}^{t}}{P^{t}} \\cdot 100$$ <br>
 en què: <br>
 $P50ME_{CA}^{t} =$ població que viu amb uns ingressos per unitat de consum per sota del 50 % de la mediana autonòmica dels ingressos per unitat de consum (escala OCDE modificada) l'any $t$ <br>
-$P^{t} =$ població total l'any $t$'"
+$P^{t} =$ població total l'any $t$"
 10-4-1-SERIE-A-formula-teorica: "$$PPIBRA^{t} = \\frac{RA^{t}}{PIB^{t}} \\cdot 100$$ <br>
 en què: <br>
 $RA^{t} =$ remuneració de persones assalariades l'any $t$ <br>
-$PIB^{t} =$ producte interior brut a preus corrents l'any $t$'"
+$PIB^{t} =$ producte interior brut a preus corrents l'any $t$"
 11-1-1-SERIE-A-formula-teorica: "$$PPDV^{t} = \\frac{PDV^{t}}{P^{t}} \\cdot 100$$ <br>
 en què: <br>
 $PDV^{t} =$ població que experimenta almenys un dels dèficits bàsics en les condicions de la seva llar l'any $t$ <br>
-$P^{t} =$ població total l'any $t$'"
+$P^{t} =$ població total l'any $t$"
 11-5-1-SERIE-A-formula-teorica: "$$TM_{desastres}^{t} = \\frac{D_{desastres}^{t}}{P^{t}} \\cdot 100.000$$ <br>
 en què: <br>
 $D_{desastres}^{t} =$ defuncions atribuïdes a desastres naturals (codis X30-X39 de la CIE-10) l'any $t$ <br>
-$P^{t} =$ població a 1 de juliol de l'any $t$'"
+$P^{t} =$ població a 1 de juliol de l'any $t$"
 11-6-1-SERIE-A-formula-teorica: "$$RURP^{t} = \\frac{RUR^{t}}{P^{t}} $$ <br>
 en què: <br>
 $RUR^{t} =$ quantitat de residus urbans recollits l'any $t$ <br>
-$P^{t} =$ població a 1 de juliol de l'any $t$'"
+$P^{t} =$ població a 1 de juliol de l'any $t$"
 11-6-1-SERIE-B-formula-teorica: "$$PRM_{incinerats}^{t} = \\frac{RM_{incinerats}^{t}}{RM^{t}} \\cdot 100$$ <br>
 en què: <br>
 $RM_{incinerats}^{t} =$ quantitat de residus municipals incinerats l'any $t$ <br>
-$RM^{t} =$ quantitat total de residus municipals generats i tractats l'any $t$'"
+$RM^{t} =$ quantitat total de residus municipals generats i tractats l'any $t$"
 11-6-1-SERIE-C-formula-teorica: "$$PRM_{abocaments}^{t} = \\frac{RM_{abocaments}^{t}}{RM^{t}} \\cdot 100$$ <br>
 en què: <br>
 $RM_{abocaments}^{t} =$ quantitat de residus municipals abocats l'any $t$ <br>
-$RM^{t} =$ quantitat total de residus municipals generats i tractats l'any $t$'"
+$RM^{t} =$ quantitat total de residus municipals generats i tractats l'any $t$"
 11-6-1-SERIE-D-formula-teorica: "$$PRM_{reciclats}^{t} = \\frac{RM_{reciclats}^{t}}{RM^{t}} \\cdot 100$$ <br>
 en què: <br>
 $RM_{reciclats}^{t} =$ quantitat de residus municipals reciclats l'any $t$ <br>
-$RM^{t} =$ quantitat total de residus municipals generats i tractats l'any $t$'"
+$RM^{t} =$ quantitat total de residus municipals generats i tractats l'any $t$"
 12-5-1-SERIE-A-formula-teorica: "$$RURP^{t} = \\frac{\\frac{RUR^{t}}{P^{t}}}{365} $$ <br>
 en què: <br>
 $RUR^{t} =$ quantitat de residus urbans recollits l'any $t$ <br>
-$P^{t} =$ població a 1 de juliol de l'any $t$'"
+$P^{t} =$ població a 1 de juliol de l'any $t$"
 13-1-1-SERIE-A-formula-teorica: "$$TM_{desastres}^{t} = \\frac{D_{desastres}^{t}}{P^{t}} \\cdot 100.000$$ <br>
 en què: <br>
 $D_{desastres}^{t} =$ defuncions atribuïdes a desastres naturals (codis X30-X39 de la CIE-10) l'any $t$ <br>
-$P^{t} =$ població a 1 de juliol de l'any $t$'"
+$P^{t} =$ població a 1 de juliol de l'any $t$"
 13-2-2-SERIE-A-formula-teorica: "$$PPIBEGEI^{t} = \\frac{EGEI^{t}}{PIB_{2015}^{t}}$$ <br>
 en què: <br>
 $EGEI^{t} =$ emissions totals de gasos amb efecte d'hivernacle de les unitats econòmiques residents l'any $t$ (es distribueix el total nacional d'emissions totals de gasos amb efecte d'hivernacle del Compte d'emissions a l'atmosfera en funció de les emissions totals de gasos d'efecte hivernacle per comunitats autònomes de l'Inventari nacional de gasos amb efecte d'hivernacle (GEH))<br>
-$PIB_{2015}^{t} =$ producte interior brut en volum encadenat amb referència 2015 l'any $t$'"
+$PIB_{2015}^{t} =$ producte interior brut en volum encadenat amb referència 2015 l'any $t$"
 13-2-2-SERIE-B-formula-teorica: "$$PPEGEI^{t} = \\frac{EGEI^{t}}{P^{t}}$$ <br>
 en què: <br>
 $EGEI^{t} =$ emissions totals de gasos amb efecte d'hivernacle de les unitats econòmiques residents l'any $t$ (es distribueix el total nacional d'emissions totals de gasos amb efecte d'hivernacle del Compte d'emissions a l'atmosfera en funció de les emissions totals de gasos d'efecte hivernacle per comunitats autònomes de l'Inventari nacional de gasos amb efecte d'hivernacle (GEH))<br>
-$P^{t} =$ població a 1 de juliol de l'any $t$'"
+$P^{t} =$ població a 1 de juliol de l'any $t$"
 16-1-4-SERIE-A-formula-teorica: "$$PPSSC_{16+}^{t} = \\frac{PSSC_{16+}^{t}}{P_{16+}^{t}} \\cdot 100$$ <br>
 en què: <br>
 $PSSC_{16+}^{t} =$ població de 16 i més anys que se sent segura (molt o bastant segura) en caminar sola a la seva zona de residència l'any $t$ <br>
-$P^{t} =$ població de 16 i més anys l'any $t$'"
+$P^{t} =$ població de 16 i més anys l'any $t$"
 17-1-1-SERIE-A-formula-teorica: "$$PPIBIAP^{t} = \\frac{I_{CA}^{t}+I_{EL}^{T}-TC_{CA a EL}^{t}-TC_{EL a CA}^{t}-TK_{CA a EL}^{t}-TK_{EL a CA}^{t}}{PIB^{t}} \\cdot 100$$ <br>
 en què: <br>
 $I_{CA}^{t} =$ ingressos (drets reconeguts nets) en la liquidació de pressupostos consolidats de la comunitat autònoma l'any $t$ <br>
@@ -110,31 +110,31 @@ $TC_{CA a EL}{t} =$ despeses en transferències corrents a les entitats locals (
 $TC_{EL a CA}^{t} =$ ingressos en transferències corrents de les entitats locals (drets reconeguts nets) en la liquidació dels pressupostos consolidats de la comunitat autònoma l'any $t$ <br>
 $TK_{CA a EL}^{t} =$ despeses en transferències de capital a les entitats locals (obligacions reconegudes netes) en la liquidació dels pressupostos consolidats de la comunitat autònoma l'any $t$ <br>
 $K_{EL a CA}^{t} =$ ingressos en transferències de capital de les entitats locals (drets reconeguts nets) en la liquidació dels pressupostos consolidats de la comunitat autònoma l'any $t$ <br>
-$PIB^{t} =$ producte interior brut a preus corrents l'any $t$'"
+$PIB^{t} =$ producte interior brut a preus corrents l'any $t$"
 17-8-1-SERIE-A-formula-teorica: "$$PPINT_{16-74}^{t} = \\frac{PINT_{16-74}^{t}}{P_{16-74}^{t}} \\cdot 100$$ <br>
 en què: <br>
 $PINT_{16-74}^{t} =$ població d'entre 16 i 74 anys que en els últims tres mesos ha utilitzat Internet l'any $t$ <br>
-$P^{t} =$ població d'entre 16 i 74 anys l'any $t$'"
+$P^{t} =$ població d'entre 16 i 74 anys l'any $t$"
 2-2-2-SERIE-A-formula-teorica: "$$PPM_{2-17}^{t} = \\frac{PM_{2-17}^{t}}{P_{2-17}^{t}} \\cdot 100$$ <br>
 en què: <br>
 $PPM_{2-17}^{t} =$ població d'entre 2 i 17 anys amb malnutrició l'any $t$ <br>
-$P_{2-17}^{t} =$ població d'entre 2 i 17 anys l'any $t$'"
+$P_{2-17}^{t} =$ població d'entre 2 i 17 anys l'any $t$"
 2-4-1-SERIE-A-formula-teorica: "$$PSA_{ecològica}^{t} = \\frac{SA_{ecològica}^{t}}{SA^{t}} \\cdot 100$$ <br>
 en què: <br>
 $SA_{ecològica}^t =$ superfície agrícola destinada a la producció ecològica l'any $t$ <br>
-$SA^{t} =$ superfície agrícola (conreus, prats i pastures) l'any $t$'"
+$SA^{t} =$ superfície agrícola (conreus, prats i pastures) l'any $t$"
 3-1-1-SERIE-A-formula-teorica: "$$TM_{materna}^{t} = \\frac{D_{maternes}^{t}}{N^{t}} \\cdot 100.000$$ <br>
 en què: <br>
 $D_{maternes}^{t} =$ defuncions de dones atribuïdes a embaràs, part i puerperi (codis O00-O99 de la CIE-10) l'any $t$ <br>
-$N^{t} =$ naixements l'any $t$'"
+$N^{t} =$ naixements l'any $t$"
 3-1-2-SERIE-A-formula-teorica: "$$PPAR_{atesos}^{t} = \\frac{PAR_{atesos}^{t}}{PAR^{t}} \\cdot 100$$ <br>
 en què: <br>
 $PPAR_{atesos}^{t} =$ parts atesos per personal sanitari especialitzat l'any $t$ <br>
-$PAR^{t} =$ parts l'any $t$'"
+$PAR^{t} =$ parts l'any $t$"
 3-2-1-SERIE-A-formula-teorica: "'$$TM_{0-4}^{t} = \\frac{D_{0-4}^{t}}{N^{t}} \\cdot 1.000$$ <br>
 en què: <br>
 $D_{0-4}^{t} =$ defuncions de menors de 5 anys complerts de vida l'any $t$ <br>
-$N^{t} =$ naixements l'any $t$'"
+$N^{t} =$ naixements l'any $t$"
 3-2-2-SERIE-A-formula-teorica: "$$TM_{neonatal}^{t} = \\frac{D_{neonatals}^{t}}{N^{t}} \\cdot 1.000$$ <br>
 en què: <br>
 $D_{neonatals}^{t} =$ defuncions de menors de 28 dies complerts de vida l'any $t$ <br>
@@ -143,91 +143,91 @@ $N^{t} =$ naixements l'any $t$'
 3-4-1-SERIE-A-formula-teorica: "$$TM_{cardiovasculars}^{t} = \\frac{D_{cardiovasculars}^{t}}{P^{t}} \\cdot 100.000$$ <br>
 en què: <br>
 $D_{cardiovasculars}^{t} =$ defuncions atribuïdes a malalties cardiovasculars (codis I00-I99 de la CIE-10) l'any $t$ <br>
-$P^{t} =$ població a 1 de juliol de l'any $t$'"
+$P^{t} =$ població a 1 de juliol de l'any $t$"
 3-4-1-SERIE-B-formula-teorica: "$$TM_{càncer}^{t} = \\frac{D_{càncer}^{t}}{P^{t}} \\cdot 100.000$$ <br>
 en què: <br>
 $D_{càncer}^{t} =$ defuncions atribuïdes a càncer (codis C00-C97 de la CIE-10) l'any $t$ <br>
-$P^{t} =$ població a 1 de juliol de l'any $t$'"
+$P^{t} =$ població a 1 de juliol de l'any $t$"
 3-4-1-SERIE-C-formula-teorica: "$$TM_{diabetis}^{t} = \\frac{D_{diabetis}^{t}}{P^{t}} \\cdot 100.000$$ <br>
 en què: <br>
 $D_{diabetis}^{t} =$ defuncions atribuïdes a diabetis (codis E10-E14 de la CIE-10) l'any $t$ <br>
-$P^{t} =$ població a 1 de juliol de l'any $t$'"
+$P^{t} =$ població a 1 de juliol de l'any $t$"
 3-4-1-SERIE-D-formula-teorica: "$$TM_{\\text{respiratòries cròniques}}^{t} = \\frac{D_{\\text{respiratòries cròniques}}^{t}}{P^{t}} \\cdot 100.000$$ <br>
 en què: <br>
 $D_{\\text{respiratòries cròniques}}^{t} =$ defuncions atribuïdes a malalties respiratòries cròniques (codis J30-J98 de la CIE-10) l'any $t$ <br>
-$P^{t} =$ població a 1 de juliol de l'any $t$'"
+$P^{t} =$ població a 1 de juliol de l'any $t$"
 3-4-2-SERIE-A-formula-teorica: "$$TM_{suïcidi }^{t} = \\frac{D_{suïcidi }^{t}}{P^{t}} \\cdot 100.000$$ <br>
 en què: <br>
 $D_{suïcidi }^{t} =$ defuncions atribuïdes a suïcidi (codis X60-X84 de la CIE-10) l'any $t$ <br>
-$P^{t} =$ població a 1 de juliol de l'any $t$'"
+$P^{t} =$ població a 1 de juliol de l'any $t$"
 3-6-1-SERIE-A-formula-teorica: "$$Tm_{\\text{accidents trànsit}}^{t} = \\frac{D_{\\text{accidents trànsit}}^{t}}{P^{t}} \\cdot 100.000$$ <br>
 en què: <br>
 $D_{\\text{accidents trànsit}}^{t} =$ defuncions atribuïdes a accidents de trànsit (llista extensa de codis de la CIE-10, que es pot consultar a la metodologia de l'Estadística de defuncions segons la causa de mort) l'any $t$ <br>
-$P^{t} =$ població a 1 de juliol de l'any $t$'"
+$P^{t} =$ població a 1 de juliol de l'any $t$"
 3-7-2-SERIE-A-formula-teorica: "$$TF_{10-14}^{t} = \\frac{N_{10-14}^{t}}{P_{mujeres,10-14}^{t}} \\cdot 1.000$$ <br>
 en què: <br>
 $N_{10-14}^{t} =$ naixements de mares d'entre 10 i 14 anys l'any $t$ <br>
-$P_{dones,10-14}^{t} =$ dones d'entre 10 i 14 anys a 1 de juliol de l'any $t$'"
+$P_{dones,10-14}^{t} =$ dones d'entre 10 i 14 anys a 1 de juliol de l'any $t$"
 3-7-2-SERIE-B-formula-teorica: "$$TF_{15-19}^{t} = \\frac{N_{15-19}^{t}}{P_{dones,15-19}^{t}} \\cdot 1.000$$ <br>
 en què: <br>
 $N_{15-19}^{t} =$ naixements de mares d'entre 15 i 19 anys l'any $t$ <br>
-$P_{dones,15-19}^{t} =$ dones d'entre 15 i 19 anys a 1 de juliol de l'any $t$'"
+$P_{dones,15-19}^{t} =$ dones d'entre 15 i 19 anys a 1 de juliol de l'any $t$"
 3-8-1-SERIE-A-formula-teorica: "$$PPNIAM_{16+}^{t} = \\frac{PNIAM_{16+}^{t}}{P_{16+}^{t}} \\cdot 100$$ <br>
 en què: <br>
 $PPNIAM_{16+}^{t} =$ població de 16 i més anys que indica necessitats insatisfetes d'atenció mèdica l'any $t$ <br>
-$P_{16+}^{t} =$ població de 16 i més anys l'any $t$'"
+$P_{16+}^{t} =$ població de 16 i més anys l'any $t$"
 3-9-3-SERIE-A-formula-teorica: "$$TM_{\\text{intoxicacions involuntàries}}^{t} = \\frac{D_{\\text{intoxicacions involuntàries}}^{t}}{P^{t}} \\cdot 100.000$$ <br>
 en què: <br>
 $D_{\\text{intoxicacions involuntàries}}^{t} =$ defuncions atribuïdes a intoxicacions involuntàries (codis X40, X43, X44 i X46-X49 de la CIE-10) l'any $t$ <br>
-$P^{t} =$ població a 1 de juliol de l'any $t$'"
+$P^{t} =$ població a 1 de juliol de l'any $t$"
 3-a-1-SERIE-A-formula-teorica: "$$PPFD_{15+}^{t} = \\frac{D_{15+}^{t}}{P_{15+}^{t}} \\cdot 100$$ <br>
 en què: <br>
 $PFD_{15+}^{t} =$ població de 15 i més anys que fuma cada dia l'any $t$ <br>
-$P_{15y+}^{t} =$ població de 15 i més anys l'any $t$'"
+$P_{15y+}^{t} =$ població de 15 i més anys l'any $t$"
 3-c-1-SERIE-A-formula-teorica: "$$TPSC_{medicina}^{t} = \\frac{PSC_{medicina}^{t}}{P^{t+1}} \\cdot 10.000$$ <br>
 en què: <br>
 $PSC_{medicina}^{t} =$ personal sanitari col·legiat en medicina el 31 de desembre de l'any $t$ <br>
-$P^{t+1} =$ població l'1 de gener de l'any $t$'"
+$P^{t+1} =$ població l'1 de gener de l'any $t$"
 3-c-1-SERIE-B-formula-teorica: "$$TPSC_{infermeria}^{t} = \\frac{PSC_{infermeria}^{t}}{P^{t+1}} \\cdot 10.000$$ <br>
 en què: <br>
 $PSC_{infermeria}^{t} =$ personal sanitari col·legiat en infermeria el 31 de desembre de l'any $t$ <br>
-$P^{t+1} =$ població l'1 de gener de l'any $t$'"
+$P^{t+1} =$ població l'1 de gener de l'any $t$"
 3-c-1-SERIE-C-formula-teorica: "$$TPSC_{\\text{odontologia i estomatologia}}^{t} = \\frac{PSC_{\\text{odontologia i estomatologia}}^{t}}{P^{t+1}} \\cdot 10.000$$ <br>
 en què: <br>
 $PSC_{\\text{odontologia i estomatologia}}^{t} =$ personal sanitari col·legiat en odontologia i estomatologia a 31 de desembre de l'any $t$ <br>
-$P^{t+1} =$ població l'1 de gener de l'any $t$'"
+$P^{t+1} =$ població l'1 de gener de l'any $t$"
 3-c-1-SERIE-D-formula-teorica: "$$TPSC_{farmàcia}^{t} = \\frac{PSC_{farmàcia}^{t}}{P^{t+1}} \\cdot 10.000$$ <br>
 en què: <br>
 $PSC_{farmàcia}^{t} =$ personal sanitari col·legiat en farmàcia el 31 de desembre de l'any $t$ <br>
-$P^{t+1} =$ població l'1 de gener de l'any $t$'"
+$P^{t+1} =$ població l'1 de gener de l'any $t$"
 4-3-1-SERIE-A-formula-teorica: "$$PPE_{18-64}^{t} = \\frac{PE_{18-64}^{t}}{P_{18-64}^{t}} \\cdot 100$$ <br>
 en què: <br>
 $PE_{18-64}^{t} =$ població d'entre 18 i 64 anys que ha realitzat activitats educatives (formals o no formals) en els últims 12 mesos l'any $t$ <br>
-$P_{18-64}^{t} =$ població d'entre 18 i 64 anys l'any $t$'"
+$P_{18-64}^{t} =$ població d'entre 18 i 64 anys l'any $t$"
 4-3-1-SERIE-B-formula-teorica: "$$PPE_{15-64}^{t} = \\frac{PE_{15-64}^{t}}{P_{15-64}^{t}} \\cdot 100$$ <br>
 en què: <br>
 $PE_{15-64}^{t} =$ població d'entre 15 i 64 anys que ha realitzat estudis o formació (reglada o no reglada) en les últimes quatre setmanes l'any $t$ <br>
-$P_{15-64}^{t} =$ població d'entre 15 i 64 anys l'any $t$'"
+$P_{15-64}^{t} =$ població d'entre 15 i 64 anys l'any $t$"
 4-3-1-SERIE-C-formula-teorica: "$$PPE_{15-24}^{t} = \\frac{PE_{15-24}^{t}}{P_{15-24}^{t}} \\cdot 100$$ <br>
 en què: <br>
 $PE_{15-24}^{t} =$ població d'entre 15 i 24 anys que ha realitzat estudis o formació (reglada o no reglada) en les últimes quatre setmanes l'any $t$ <br>
-$P_{15-24}^{t} =$ població d'entre 15 i 24 anys l'any $t$'"
+$P_{15-24}^{t} =$ població d'entre 15 i 24 anys l'any $t$"
 4-3-1-SERIE-D-formula-teorica: "$$PPE_{25-64}^{t} = \\frac{PE_{25-64}^{t}}{P_{25-64}^{t}} \\cdot 100$$ <br>
 en què: <br>
 $PE_{25-64}^{t} =$ població d'entre 25 i 64 anys que ha realitzat estudis o formació (reglada o no reglada) en les últimes quatre setmanes l'any $t$ <br>
-$P_{25-64}^{t} =$ població d'entre 25 i 64 anys l'any $t$'"
+$P_{25-64}^{t} =$ població d'entre 25 i 64 anys l'any $t$"
 4-4-1-SERIE-A-formula-teorica: "$$PPHAB_{16-74}^{t} = \\frac{PHAB_{16-74}^{t}}{P_{16-74}^{t}} \\cdot 100$$ <br>
 en què: <br>
 $PHAB_{16-74}^{t} =$ població d'entre 16 i 74 anys que en els últims 12 mesos ha utilitzat alguna habilitat informàtica l'any $t$ <br>
-$P_{16-74}^{t} =$ població d'entre 16 i 74 anys l'any $t$'"
+$P_{16-74}^{t} =$ població d'entre 16 i 74 anys l'any $t$"
 4-4-1-SERIE-B-formula-teorica: "$$PPHAB_{16-24}^{t} = \\frac{PHAB_{16-24}^{t}}{P_{16-24}^{t}} \\cdot 100$$ <br>
 en què: <br>
 $PHAB_{16-24}^{t} =$ població d'entre 16 i 24 anys que en els últims 12 mesos ha utilitzat alguna habilitat informàtica l'any $t$ <br>
-$P_{16-24}^{t} =$ població d'entre 16 i 24 anys l'any $t$'"
+$P_{16-24}^{t} =$ població d'entre 16 i 24 anys l'any $t$"
 4-4-1-SERIE-C-formula-teorica: "$$PPHAB_{25-74}^{t} = \\frac{PHAB_{25-74}^{t}}{P_{25-74}^{t}} \\cdot 100$$ <br>
 en què: <br>
 $PHAB_{25-74}^{t} =$ població d'entre 25 i 74 anys que en els últims 12 mesos ha utilitzat alguna habilitat informàtica l'any $t$ <br>
-$P_{25-74}^{t} =$ població d'entre 25 i 74 anys l'any $t$'"
+$P_{25-74}^{t} =$ població d'entre 25 i 74 anys l'any $t$"
 4-5-1-SERIE-A-formula-teorica: "$$IP_{dones/homes}^{t} = \\frac{PPE_{18-64,dones}^{t}}{PPE_{18-64,homes}^{t}} \\cdot 100$$ <br>
 en què: <br> 
 $$PPE_{18-64,dones}^{t} = \\frac{PE_{18-64,dones}^{t}}{P_{18-64,dones}^{t}} $$ <br>
@@ -236,7 +236,7 @@ en què: <br>
 $PE_{18-64,dones}^{t} =$ dones d'entre 18 i 64 anys que han realitzat activitats educatives (formals o no formals) en els últims 12 mesos l'any $t$ <br>
 $P_{18-64,dones}^{t} =$ dones d'entre 18 i 64 anys l'any $t$ <br>
 $PE_{18-64,homes}^{t} =$ homes d'entre 18 i 64 anys que han realitzat activitats educatives (formals o no formals) en els últims 12 mesos l'any $t$ <br>
-$P_{18-64,homes}^{t} =$ homes d'entre 18 i 64 anys l'any $t$ <br>'"
+$P_{18-64,homes}^{t} =$ homes d'entre 18 i 64 anys l'any $t$ <br>"
 4-5-1-SERIE-B-formula-teorica: "$$IP_{\\lt 900/\\ge 2.500}^{t} = \\frac{PPE_{18-64,\\lt 900}^{t}}{PPE_{18-64,\\ge 2.500}^{t}} \\cdot 100$$ <br>
 en què: <br> 
 $$PPE_{18-64,\\lt 900}^{t} = \\frac{PE_{18-64,\\lt 900}^{t}}{P_{18-64,\\lt 900}^{t}} $$ <br>
@@ -245,7 +245,7 @@ en què: <br>
 $PE_{18-64,\\lt 900}^{t} =$ població d'entre 18 i 64 anys que pertany a llars amb ingressos mensuals nets de menys de 900 euros que ha realitzat activitats educatives (formals o no formals) en els últims 12 mesos l'any $t$ <br>
 $P_{18-64,\\lt 900}^{t} =$ població d'entre 18 i 64 anys que pertany a llars amb ingressos mensuals nets de menys de 900 euros l'any $t$<br>
 $PE_{18-64,\\ge 2.500}^{t} =$ població d'entre 18 i 64 anys que pertany a llars amb ingressos mensuals nets de 2.500 euros o més que ha realitzat activitats educatives (formals o no formals) en els últims 12 mesos l'any $t$ <br>
-$P_{18-64,\\ge 2.500}^{t} =$ població d'entre 18 i 64 anys que pertany a llars amb ingressos mensuals nets 2.500 euros o més l'any $t$ <br>'"
+$P_{18-64,\\ge 2.500}^{t} =$ població d'entre 18 i 64 anys que pertany a llars amb ingressos mensuals nets 2.500 euros o més l'any $t$ <br>"
 4-5-1-SERIE-C-formula-teorica: "$$IP_{l/nl}^{t} = \\frac{PPE_{18-64,l}^{t}}{PPE_{18-64,nl}^{t}} \\cdot 100$$ <br>
 en què: <br> 
 $$PPE_{18-64,l}^{t} = \\frac{PE_{18-64,l}^{t}}{P_{18-64,l}^{t}} $$ <br>
@@ -254,7 +254,7 @@ en què: <br>
 $PE_{18-64,l}^{t} =$ població d'entre 18 i 64 anys limitada per problemes de salut (greus o no greus) que ha realitzat activitats educatives (formals o no formals) en els últims 12 mesos l'any $t$ <br>
 $P_{18-64,l}^{t} =$ població d'entre 18 i 64 anys limitada per problemes de salut (greus o no greus) l'any $t$ <br>
 $PE_{18-64,nl}^{t} =$ població d'entre 18 i 64 anys gens limitada per problemes de salut que ha realitzat activitats educatives (formals o no formals) en els últims 12 mesos l'any $t$ <br>
-$P_{18-64,nl}^{t} =$ població d'entre 18 i 64 anys gens limitada per problemes de salut l'any $t$ <br>'"
+$P_{18-64,nl}^{t} =$ població d'entre 18 i 64 anys gens limitada per problemes de salut l'any $t$ <br>"
 4-5-1-SERIE-D-formula-teorica: "$$IP_{dones/homes}^{t} = \\frac{PPE_{15-64,dones}^{t}}{PPE_{15-64,homes}^{t}} \\cdot 100$$ <br>
 en què: <br> 
 $$PPE_{15-64,dones}^{t} = \\frac{PE_{15-64,dones}^{t}}{P_{15-64,dones}^{t}} $$ <br>
@@ -264,7 +264,7 @@ $PE_{15-64,dones}^{t} =$ dones d'entre 15 i 64 anys que han realitzat estudis o 
 $P_{15-64,dones}^{t} =$ dones d'entre 15 i 64 anys l'any $t$ <br>
 $PE_{15-64,homes}^{t} =$ homes d'entre 15 i 64 anys que han realitzat estudis o formació (reglada o no reglada) en les últimes quatre setmanes l'any $t$ <br>
 $P_{15-64,homes}^{t} =$ homes d'entre 15 i 64 anys l'any $t$ <br>
-tenint en compte que cadascuna d'aquestes poblacions es calcula com la mitjana aritmètica dels quatre trimestres de l'any'"
+tenint en compte que cadascuna d'aquestes poblacions es calcula com la mitjana aritmètica dels quatre trimestres de l'any"
 4-5-1-SERIE-E-formula-teorica: "$$IP_{\\le 10.000/\\gt 10.000}^{t} = \\frac{PPE_{15-64,\\le 10.000}^{t}}{PPE_{15-64,\\gt 10.000}^{t}} \\cdot 100$$ <br>
 en què: <br> 
 $$PPE_{15-64,\\le 10.000}^{t} = \\frac{PE_{15-64,\\le 10.000}^{t}}{P_{15-64,\\le 10.000}^{t}} $$ <br>
@@ -274,144 +274,144 @@ $PE_{15-64,\\le 10.000}^{t} =$ població d'entre 15 i 64 anys resident en munici
 $P_{15-64,\\le 10.000}^{t} =$ població d'entre 15 i 64 anys resident en municipis de 10.000 o menys habitants l'any $t$ <br>
 $PE_{15-64,\\gt 10.000}^{t} =$ població d'entre 15 i 64 anys resident en municipis de més de 10.000 habitants que ha realitzat estudis o formació (reglada o no reglada) en les últimes quatre setmanes l'any $t$ <br>
 $P_{15-64,\\gt 10.000}^{t} =$ població d'entre 15 i 64 anys resident en municipis de més de 10.000 habitants l'any $t$<br>
-tenint en compte que cadascuna d'aquestes poblacions es calcula com la mitjana aritmètica dels quatre trimestres de l'any'"
+tenint en compte que cadascuna d'aquestes poblacions es calcula com la mitjana aritmètica dels quatre trimestres de l'any"
 5-4-1-SERIE-A-formula-teorica: "$$THFP^{t} = \\frac{THF^{t}}{PHF^{t}}$$ <br>
 en què: <br>
 $THF^{t} =$ minuts dedicats per la població a la llar i la família en un dia mitjà l'any $t$ <br>
-$PHF^{t} =$ població que destina temps a la llar i la família en un dia mitjà l'any $t$'"
+$PHF^{t} =$ població que destina temps a la llar i la família en un dia mitjà l'any $t$"
 5-4-1-SERIE-B-formula-teorica: "$$THFP_{homes}^{t} = \\frac{THF_{homes}^{t}}{PHF_{homes}^{t}}$$ <br>
 en què: <br>
 $THF_{homes}^{t} =$ minuts dedicats pels homes a la llar i la família en un dia mitjà l'any $t$ <br>
-$PHF_{homes}^{t} =$ homes que destinen temps a la llar i la família en un dia mitjà l'any $t$'"
+$PHF_{homes}^{t} =$ homes que destinen temps a la llar i la família en un dia mitjà l'any $t$"
 5-4-1-SERIE-C-formula-teorica: "$$THFP_{dones}^{t} = \\frac{THF_{dones}^{t}}{PHF_{dones}^{t}}$$ <br>
 en què: <br>
 $THF_{dones}^{t} =$ minuts dedicats per les dones a la llar i la família en un dia mitjà l'any $t$ <br>
-$PHF_{dones}^{t} =$ dones que destinen temps a la llar i la família en un dia mitjà l'any $t$'"
+$PHF_{dones}^{t} =$ dones que destinen temps a la llar i la família en un dia mitjà l'any $t$"
 5-5-2-SERIE-A-formula-teorica: "$$PPCD_{dones}^{t} = \\frac{PCD_{dones}^{t}}{PCD^{t}} \\cdot 100$$ <br>
 en què: <br>
 $PCD_{dones}^{t} =$ dones ocupades en càrrecs directius (grup 1 de la CNO-2011) l'any $t$ <br>
 $PCD^{t} =$ persones ocupades en càrrecs directius (grup 1 de la CNO-2011) l'any $t$ <br>
-tenint en compte que cadascuna d'aquestes poblacions es calcula com la mitjana aritmètica dels quatre trimestres de l'any'"
+tenint en compte que cadascuna d'aquestes poblacions es calcula com la mitjana aritmètica dels quatre trimestres de l'any"
 5-5-2-SERIE-B-formula-teorica: "$$PPAD_{dones}^{t} = \\frac{PAD_{dones}^{t}}{PAD^{t}} \\cdot 100$$ <br>
 en què: <br>
 $PAD_{dones}^{t} =$ dones ocupades en alta direcció (subgrups 11, 12 i 13 de la CNO-2011) l'any $t$ <br>
 $PAD^{t} =$ persones ocupades en alta direcció (subgrups 11, 12 i 13 de la CNO-2011) l'any $t$ <br>
-tenint en compte que cadascuna d'aquestes poblacions es calcula com la mitjana aritmètica dels quatre trimestres de l'any'"
+tenint en compte que cadascuna d'aquestes poblacions es calcula com la mitjana aritmètica dels quatre trimestres de l'any"
 5-a-1a-SERIE-A-formula-teorica: "$$PPOA_{titulars}^{t} = \\frac{TEA^{t}}{POA^{t}} \\cdot 100$$ <br>
 en què: <br>
 $TEA^{t} =$ persones titulars d'explotacions agrícoles l'any $t$ <br>
-$POA^{t} =$ persones ocupades en l'agricultura l'any $t$'"
+$POA^{t} =$ persones ocupades en l'agricultura l'any $t$"
 5-a-1a-SERIE-B-formula-teorica: "$$PPOA_{homes, titulars}^{t} = \\frac{TEA_{homes}^{t}}{POA_{homes}^{t}} \\cdot 100$$ <br>
 en què: <br>
 $TEA_{homes}^{t} =$ homes titulars d'explotacions agrícoles l'any $t$ <br>
-$POA_{homes}^{t} =$ homes ocupats en l'agricultura l'any $t$'"
+$POA_{homes}^{t} =$ homes ocupats en l'agricultura l'any $t$"
 5-a-1a-SERIE-C-formula-teorica: "$$PPOA_{dones, titulars}^{t} = \\frac{TEA_{dones}^{t}}{POA_{dones}^{t}} \\cdot 100$$ <br>
 en què: <br>
 $TEA_{dones}^{t} =$ dones titulars d'explotacions agrícoles l'any $t$ <br>
-$POA_{dones}^{t} =$ dones ocupades en l'agricultura l'any $t$'"
+$POA_{dones}^{t} =$ dones ocupades en l'agricultura l'any $t$"
 5-a-1b-SERIE-A-formula-teorica: "$$PTEA_{dones}^{t} = \\frac{TEA_{dones}^{t}}{TEA^{t}} \\cdot 100$$ <br>
 en què: <br>
 $TEA_{dones}^{t} =$ dones titulars d'explotacions agrícoles l'any $t$ <br>
-$TEA^{t} =$ persones titulars d'explotacions agrícoles l'any $t$'"
+$TEA^{t} =$ persones titulars d'explotacions agrícoles l'any $t$"
 5-a-1b-SERIE-B-formula-teorica: "$$PTEA_{propietat,dones}^{t} = \\frac{TEA_{propietat,dones}^{t}}{TEA_{propietat}^{t}} \\cdot 100$$ <br>
 en què: <br>
 $TEA_{propietat,dones}^{t} =$ dones titulars d'explotacions agrícoles en propietat l'any $t$ <br>
-$TEA_{propietat}^{t} =$ persones titulars d'explotacions agrícoles en propietat l'any $t$ '"
+$TEA_{propietat}^{t} =$ persones titulars d'explotacions agrícoles en propietat l'any $t$ "
 5-a-1b-SERIE-C-formula-teorica: "$$PTEA_{arrendament,dones}^{t} = \\frac{TEA_{arrendament,dones}^{t}}{TEA_{arrendament}^{t}} \\cdot 100$$ <br>
 en què: <br>
 $TEA_{arrendament,dones}^{t} =$ dones titulars d'explotacions agrícoles en arrendament l'any $t$ <br>
-$TEA_{arrendament}^{t} =$ persones titulars d'explotacions agrícoles en arrendament l'any $t$ '"
+$TEA_{arrendament}^{t} =$ persones titulars d'explotacions agrícoles en arrendament l'any $t$ "
 5-b-1-SERIE-A-formula-teorica: "$$PPMOV_{16-74}^{t} = \\frac{PMOV_{16-74}^{t}}{P_{16-74}^{t}} \\cdot 100$$ <br>
 en què: <br>
 $PMOV_{16-74}^{t} =$ població d'entre 16 i 74 anys que en els últims tres mesos ha utilitzat el mòbil l'any $t$ <br>
-$P_{16-74}^{t} =$ població d'entre 16 i 74 anys l'any $t$'"
+$P_{16-74}^{t} =$ població d'entre 16 i 74 anys l'any $t$"
 5-b-1-SERIE-B-formula-teorica: "$$PPMOV_{16-74,homes}^{t} = \\frac{PMOV_{16-74,homes}^{t}}{P_{16-74,homes}^{t}} \\cdot 100$$ <br>
 en què: <br>
 $PMOV_{16-74,homes}^{t} =$ homes d'entre 16 i 74 anys que en els últims tres mesos han utilitzat el mòbil l'any $t$ <br>
-$P_{16-74,homes}^{t} =$ homes d'entre 16 i 74 anys l'any $t$'"
+$P_{16-74,homes}^{t} =$ homes d'entre 16 i 74 anys l'any $t$"
 5-b-1-SERIE-C-formula-teorica: "$$PPMOV_{16-74,dones}^{t} = \\frac{PMOV_{16-74,dones}^{t}}{P_{16-74,dones}^{t}} \\cdot 100$$ <br>
 en què: <br>
 $PMOV_{16-74,dones}^{t} =$ dones d'entre 16 i 74 anys que en els últims tres mesos ha utilitzat el mòbil l'any $t$ <br>
-$P_{16-74,dones}^{t} =$ dones entre 16 i 74 anys l'any $t$'"
+$P_{16-74,dones}^{t} =$ dones entre 16 i 74 anys l'any $t$"
 8-1-1-SERIE-A-formula-teorica: "$$TCPIBP^{t} = \\frac{{\\frac{PIB_{2015}^{t}}{P^t}-\\frac{PIB_{2015}^{t-1}}{P^{t-1}}}}{\\frac{PIB_{2015}^{t-1}}{P^{t-1}}} \\cdot 100$$ <br>
 en què: <br>
 $PIB_{2015}^{t} =$ producte interior brut en volum encadenat amb referència 2015 l'any $t$ <br>
-$P^{t} =$ població a 1 de juliol de l'any $t$ '"
+$P^{t} =$ població a 1 de juliol de l'any $t$ "
 8-2-1-SERIE-A-formula-teorica: "$$TCPIBEP^{t} = \\frac{{\\frac{PIB_{2015}^{t}}{EP^t}-\\frac{PIB_{2015}^{t-1}}{EP^{t-1}}}}{\\frac{PIB_{2015}^{t-1}}{EP^{t-1}}} \\cdot 100$$ <br>
 en què: <br>
 $PIB_{2015}^{t} =$ producte interior brut en volum encadenat amb referència 2015 l'any $t$ <br>
-$EP^{t} =$ ocupació (persones) l'any $t$ '"
+$EP^{t} =$ ocupació (persones) l'any $t$ "
 8-2-1-SERIE-B-formula-teorica: "$$TCPIBEH^{t} = \\frac{{\\frac{PIB_{2015}^{t}}{EH^t}-\\frac{PIB_{2015}^{t-1}}{EH^{t-1}}}}{\\frac{PIB_{2015}^{t-1}}{EH^{t-1}}} \\cdot 100$$ <br>
 en què: <br>
 $PIB_{2015}^{t} =$ producte interior brut en volum encadenat amb referència 2015 l'any $t$ <br>
-$EH^{t} =$ ocupació (hores) l'any $t$ '"
+$EH^{t} =$ ocupació (hores) l'any $t$ "
 8-5-1-SERIE-A-formula-teorica: "$$GH^{t} = \\frac{G^{t}}{H^{t}} $$ <br>
 en què: <br>
 $G^{t} =$ guanys bruts del personal assalariat l'any $t$ <br>
-$H^{t} =$ hores normals de treball del personal assalariat l'any $t$'"
+$H^{t} =$ hores normals de treball del personal assalariat l'any $t$"
 8-5-1-SERIE-B-formula-teorica: "$$GH_{homes}^{t} = \\frac{G_{homes}^{t}}{H_{homes}^{t}} $$ <br>
 en què: <br>
 $G_{homes}^{t} =$ guany brut dels homes assalariats l'any $t$ <br>
-$H_{homes}^{t} =$ hores normals de treball dels homes assalariats l'any $t$'"
+$H_{homes}^{t} =$ hores normals de treball dels homes assalariats l'any $t$"
 8-5-1-SERIE-C-formula-teorica: "$$GH_{dones}^{t} = \\frac{G_{dones}^{t}}{H_{dones}^{t}} $$ <br>
 en què: <br>
 $G_{dones}^{t} =$ guany brut de les dones assalariades l'any $t$ <br>
-$H_{dones}^{t} =$ hores normals de treball de les dones assalariades l'any $t$'"
+$H_{dones}^{t} =$ hores normals de treball de les dones assalariades l'any $t$"
 8-5-2-SERIE-A-formula-teorica: "$$TD^{t} = \\frac{D^{t}}{A^{t}} \\cdot 100$$ <br>
 en què: <br>
 $D^{t} =$ persones desocupades l'any $t$ <br>
 $A^{t} =$ persones econòmicament actives l'any $t$ <br>
-tenint en compte que cadascuna d'aquestes poblacions es calcula com la mitjana aritmètica dels quatre trimestres de l'any'"
+tenint en compte que cadascuna d'aquestes poblacions es calcula com la mitjana aritmètica dels quatre trimestres de l'any"
 8-5-2-SERIE-B-formula-teorica: "$$TD_{homes}^{t} = \\frac{D_{homes}^{t}}{A_{homes}^{t}} \\cdot 100$$ <br>
 en què: <br>
 $D_{homes}^{t} =$ homes desocupats l'any $t$ <br>
 $A_{homes}^{t} =$ homes econòmicament actius l'any $t$ <br>
-tenint en compte que cadascuna d'aquestes poblacions es calcula com la mitjana aritmètica dels quatre trimestres de l'any'"
+tenint en compte que cadascuna d'aquestes poblacions es calcula com la mitjana aritmètica dels quatre trimestres de l'any"
 8-5-2-SERIE-C-formula-teorica: "$$TD_{dones}^{t} = \\frac{D_{dones}^{t}}{A_{dones}^{t}} \\cdot 100$$ <br>
 en què: <br>
 $D_{dones}^{t} =$ dones desocupades l'any $t$ <br>
 $A_{dones}^{t} =$ dones econòmicament actives l'any $t$ <br>
-tenint en compte que cadascuna d'aquestes poblacions es calcula com la mitjana aritmètica dels quatre trimestres de l'any'"
+tenint en compte que cadascuna d'aquestes poblacions es calcula com la mitjana aritmètica dels quatre trimestres de l'any"
 8-6-1-SERIE-A-formula-teorica: "$$PPNINI_{15-24}^{t} = \\frac{PNINI_{15-24}^{t}}{P_{15-24}^{t}} \\cdot 100$$ <br>
 en què: <br>
 $PNINI_{15-24}^{t} =$ població d'entre 15 i 24 anys que no té feina ni ha realitzat estudis o formació (reglada o no reglada) en les últimes quatre setmanes l'any $t$ <br>
 $P_{15-24}^{t} =$ població d'entre 15 i 24 anys l'any $t$ <br>
-tenint en compte que cadascuna d'aquestes poblacions es calcula com la mitjana aritmètica dels quatre trimestres de l'any'"
+tenint en compte que cadascuna d'aquestes poblacions es calcula com la mitjana aritmètica dels quatre trimestres de l'any"
 9-2-1-SERIE-A-formula-teorica: "$$PPIBVAB_{manufacturer}^{t} = \\frac{VAB_{manufacturer}^{t}}{PIB^{t}} \\cdot 100$$ <br>
 en què: <br>
 $VAB_{manufacturer}^{t} =$ valor afegit brut del sector manufacturer a preus corrents l'any $t$ <br>
-$PIB^{t} =$ producte interior brut a preus corrents l'any $t$'"
+$PIB^{t} =$ producte interior brut a preus corrents l'any $t$"
 9-2-1-SERIE-B-formula-teorica: "$$PPVAB_{manufacturer}^{t} = \\frac{VAB_{manufacturer}^{t}}{P^{t}} \\cdot 100$$ <br>
 en què: <br>
 $VAB_{manufacturer}^{t} =$ valor afegit brut del sector manufacturer a preus corrents l'any $t$ <br>
-$P^{t} =$ població a 1 de juliol de l'any $t$ '"
+$P^{t} =$ població a 1 de juliol de l'any $t$ "
 9-2-2-SERIE-A-formula-teorica: "$$PPO_{manufacturer}^{t} = \\frac{PO_{manufacturer}^{t}}{PO^{t}} \\cdot 100$$ <br>
 en què: <br>
 $PO_{manufacturer}^{t} =$ població ocupada en el sector manufacturer (secció C de la CNAE-2009) l'any $t$ <br>
 $PO^{t} =$ població ocupada l'any $t$ <br>
-tenint en compte que cadascuna d'aquestes poblacions es calcula com la mitjana aritmètica dels quatre trimestres de l'any'"
+tenint en compte que cadascuna d'aquestes poblacions es calcula com la mitjana aritmètica dels quatre trimestres de l'any"
 9-2-2-SERIE-B-formula-teorica: "$$PEP_{manufacturer}^{t} = \\frac{EP_{manufacturer}^{t}}{EP^{t}} \\cdot 100$$ <br>
 en què: <br>
 $EP_{manufacturer}^{t} =$ ocupació (persones) del sector manufacturer l'any $t$ <br>
-$EP^{t} =$ ocupació (persones) l'any $t$ '"
+$EP^{t} =$ ocupació (persones) l'any $t$ "
 9-2-2-SERIE-C-formula-teorica: "$$PEH_{manufacturer}^{t} = \\frac{EH_{manufacturer}^{t}}{EH^{t}} \\cdot 100$$ <br>
 en què: <br>
 $EH_{manufacturer}^{t} =$ ocupació (hores) del sector manufacturer l'any $t$ <br>
-$EH^{t} =$ ocupació (hores) l'any $t$ '"
+$EH^{t} =$ ocupació (hores) l'any $t$ "
 9-4-1-SERIE-A-formula-teorica: "$$PPIBECO2^{t} = \\frac{ECO2^{t}}{PIB_{2015}^{t}} $$ <br>
 en què: <br>
 $ECO2^{t} =$ emissions de CO2 de les unitats econòmiques residents l'any $t$ (es distribueix el total nacional d'emissions de CO2 del Compte d'emissions a l'atmosfera en funció de les emissions de CO2 per comunitats autònomes de l'Inventari nacional de gasos amb efecte d'hivernacle (GEH)<br>
-$PIB_{2015}^{t} =$ producte interior brut en volum encadenat amb referència 2015 l'any $t$'"
+$PIB_{2015}^{t} =$ producte interior brut en volum encadenat amb referència 2015 l'any $t$"
 9-4-1-SERIE-B-formula-teorica: "$$PVABECO2_{manufacturer}^{t} = \\frac{ECO2_{manufacturer}^{t}}{VAB_{manufacturer,2015}^{t}} $$ <br>
 en què: <br>
 $ECO2_{manufacturer}^{t} =$ emissions de CO2 de les unitats econòmiques residents del sector manufacturer l'any $t$ (es distribueix el total nacional d'emissions de CO2 del Compte d'emissions a l'atmosfera en funció de les emissions de CO2 per comunitats autònomes de l'Inventari nacional de gasos amb efecte d'hivernacle (GEH)<br>
 $VAB_{manufacturer,2015}^{t} =$ valor afegit brut del sector manufacturer en volum encadenat amb referència 2015 l'any $t$ <br>
-tenint en compte que cadascuna d'aquestes poblacions es calcula com la mitjana aritmètica dels quatre trimestres de l'any'"
+tenint en compte que cadascuna d'aquestes poblacions es calcula com la mitjana aritmètica dels quatre trimestres de l'any"
 9-5-1-SERIE-A-formula-teorica: "$$PPIBG_{R+D}^{t} = \\frac{G_{R+D}^{t}}{PIB^{t}}  \\cdot 100$$<br>
 en què: <br>
 $G_{R+D}^{t} =$ despesa en recerca i desenvolupament l'any $t$<br>
-$PIB^{t} =$ producte interior brut a preus corrents l'any $t$<br>'"
+$PIB^{t} =$ producte interior brut a preus corrents l'any $t$<br>"
 9-5-2-SERIE-A-formula-teorica: "$$TINV^{t} = \\frac{INV^{t}}{P^{t}} \\cdot 1.000.000$$ <br>
 en què: <br>
 $INV^{t} =$ persones investigadores en equivalència a jornada completa l'any $t$<br>
-$P^{t} =$ població a 1 de juliol de l'any $t$ <br>'"
+$P^{t} =$ població a 1 de juliol de l'any $t$ <br>"
