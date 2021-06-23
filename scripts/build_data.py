@@ -6,19 +6,24 @@ import csv
 import re
 from overrides import *
 from sdg import open_sdg
+import yaml
 
 INDEX_NAME = "indice.csv"
+CONFIG_FILE = "config_data.yml"
 
 
 def create_index_csv():
     """
     Método que generará el índice para la correlación de cada serie con su nombre.
     """
+    with open(CONFIG_FILE, 'r') as stream:
+        languages = yaml.safe_load(stream)['languages']
+
     with open('data/%s' % INDEX_NAME, 'w', newline='', encoding="utf-8") as csv_file:
         csv_writer = csv.writer(csv_file)
         csv_writer.writerow(['Indicador', 'Nombre castellano', 'Nombre catalán'])
-        languages = ['es', 'ca']
         names = {}
+        print("Lenguajes detectados: ", languages)
         for language in languages:
             with open(f'translations/{language}/subindicator.yml', 'r', encoding="utf-8") as translations_file:
                 for line in translations_file.readlines():
