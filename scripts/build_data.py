@@ -8,8 +8,13 @@ from overrides import *
 from sdg import open_sdg
 import yaml
 
-INDEX_NAME = "indice.csv"
+INDEX_FILEPATH = "data/indice_{}.csv"
 CONFIG_FILE = "config_data.yml"
+HEADER_TRANSLATIONS = {
+    "es": ["Indicador", "Nombre"],
+    "en": ["Indicator", "Name"],
+    "ca": ["Indicador", "Nom"],
+}
 
 
 def create_index_csv():
@@ -18,25 +23,23 @@ def create_index_csv():
     """
     with open(CONFIG_FILE, 'r') as stream:
         languages = yaml.safe_load(stream)['languages']
-
-    with open('data/%s' % INDEX_NAME, 'w', newline='', encoding="utf-8") as csv_file:
-        csv_writer = csv.writer(csv_file)
-        csv_writer.writerow(['Indicador', 'Nombre castellano', 'Nombre catalán'])
-        names = {}
         print("Lenguajes detectados: ", languages)
-        for language in languages:
+
+    for language in languages:
+        with open(INDEX_FILEPATH.format(language), 'w', newline='', encoding="utf-8") as csv_file:
+            csv_writer = csv.writer(csv_file)
+            if language in HEADER_TRANSLATIONS:
+                header_i18n = HEADER_TRANSLATIONS[language]
+            else:
+                print(f"Advertencia: no se ha encontrado el header traducido al idioma {language}, por lo que se "
+                      f"usará por defecto el español")
+                header_i18n = HEADER_TRANSLATIONS['es']
+            csv_writer.writerow(header_i18n)
             with open(f'translations/{language}/subindicator.yml', 'r', encoding="utf-8") as translations_file:
                 for line in translations_file.readlines():
                     match = re.search(r'(.*)-nombre:\s?"(.*)"', line)
                     if match:
-                        indicator = str(match.groups()[0])
-                        name = str(match.groups()[1])
-                        if indicator in names:
-                            names[indicator].append(name)
-                        else:
-                            names[indicator] = [name]
-        for indicator, name in names.items():
-            csv_writer.writerow([indicator, name[0], name[1]])
+                        csv_writer.writerow([str(match.groups()[0]), str(match.groups()[1])])
 
 
 if __name__ == "__main__":
