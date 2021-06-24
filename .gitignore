@@ -2,7 +2,7 @@ _site
 opensdg-datos
 metadata_generated
 __pycache__
-data/indice.csv
+data/indice*
 node_modules
 *.pyc
 .idea/

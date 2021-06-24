@@ -14,7 +14,7 @@ from sdg.outputs import OutputOpenSdg
 from sdg.data import write_csv
 from sdg.json import write_json, df_to_list_dict
 
-INDEX_NAME = "indice.csv"
+INDEX_NAME = "indice_{}.csv"
 
 
 """
@@ -37,6 +37,7 @@ class OVRIndicatorExportService(IndicatorExportService):
         self.__zip_directory = "%s/zip" % site_directory
         self.__data_directory = "%s/data" % site_directory
         self.__indicators = indicators
+        self.__language = os.path.basename(os.path.normpath(site_directory))
 
     def export_all_indicator_data_as_zip_archive(self):
         self.__create_zip_folder_at_site_directory()
@@ -51,7 +52,7 @@ class OVRIndicatorExportService(IndicatorExportService):
     # Modificado
     def __get_all_indicator_csv_files(self):
         all_data_file_names = os.listdir(self.__data_directory)
-        all_data_file_names = filter(lambda l: re.search(r".*SERIE.*\.csv", l) or l == INDEX_NAME, all_data_file_names)
+        all_data_file_names = filter(lambda l: re.search(r".*SERIE.*\.csv", l) or l == INDEX_NAME.format(self.__language), all_data_file_names)
         csv_data_file_names = []
         for file_name in all_data_file_names:
             if self.__file_is_suitable_for_export(file_name):
@@ -65,8 +66,8 @@ class OVRIndicatorExportService(IndicatorExportService):
             })
         
         csv_data_files.append({
-            "file_name": INDEX_NAME,
-            "path": "%s/%s" % ('data', INDEX_NAME)
+            "file_name": INDEX_NAME.format(self.__language),
+            "path": "%s/%s" % ('data', INDEX_NAME.format(self.__language))
         })
 
         return csv_data_files
