@@ -74,10 +74,10 @@ $PIB^{t} =$ producto interior bruto a precios corrientes en el año $t$"
 donde: <br>
 $PDV^{t} =$ población que experimenta al menos uno de los déficits básicos en la condiciones de su vivienda en el año $t$ <br>
 $P^{t} =$ población total en el año $t$"
-1-1-1-SERIE-B-formula-teorica: "$$PPR^{t} = \\frac{PR^{t}}{P^{t}} \\cdot 100$$ <br>
+11-1-1-SERIE-B-formula-teorica: "$$PPR^{t} = \\frac{PR^{t}}{P^{t}} \\cdot 100$$ <br>
 donde: <br>
 $PR^{t} =$ población que en su vivienda sufre problemas de ruidos procedentes del vecindario o del exterior (tráfico, negocios, fábricas, etc.) en el año $t$ <br>
-$P^{t} =$ población total en el año $t$" 
+$P^{t} =$ población total en el año $t$"
 11-5-1-SERIE-A-formula-teorica: "$$TM_{desastres}^{t} = \\frac{D_{desastres}^{t}}{P^{t}} \\cdot 100.000$$ <br>
 donde: <br>
 $D_{desastres}^{t} =$ defunciones atribuidas a desastres naturales (códigos X30-X39 de la CIE-10) en el año $t$ <br>
@@ -131,7 +131,8 @@ $PIB^{t} =$ producto interior bruto a precios corrientes en el año $t$"
 donde: <br>
 $PINT_{16-74}^{t} =$ población entre 16 y 74 años que en los últimos tres meses ha utilizado Internet en el año $t$ <br>
 $P^{t} =$ población entre 16 y 74 años en el año $t$"
-17-19-2a-SERIE-A-formula-teorica: "$$CPV^{t} = \\begin{cases} SÍ, & \\text{Se ha realizado al menos un censo de población y vivienda en [t, t − 9]} \\ NO, & \\text{No se ha realizado al menos un censo de población y vivienda en [t, t − 9]} \\end{cases} $$"
+17-19-2a-SERIE-A-formula-teorica: "$$CPV^{t} = \\begin{cases} SÍ, & \\text{Se ha realizado al menos un censo de población y vivienda en [t, t − 9]}\\\\
+NO, & \\text{No se ha realizado al menos un censo de población y vivienda en [t, t − 9]} \\end{cases} $$"
 2-2-2-SERIE-A-formula-teorica: "$$PPM_{2-17}^{t} = \\frac{PM_{2-17}^{t}}{P_{2-17}^{t}} \\cdot 100$$ <br>
 donde: <br>
 $PPM_{2-17}^{t} =$ población entre 2 y 17 años con malnutrición en el año $t$ <br>

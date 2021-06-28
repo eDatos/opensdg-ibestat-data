@@ -32,11 +32,11 @@ $PBIT_{0-59}^{t} =$ població d'entre 0 i 59 anys que pertany a llars sense ocup
 $P_{0-59}^{t} =$ població d'entre 0 i 59 anys l'any $t$"
 1-4-1-SERIE-A-formula-teorica: "$$PVP_{\\text{aigua corrent}}^{t} = \\frac{VP_{\\text{aigua corrent}}^{t}}{VP^{t}} \\cdot 100$$ <br>
 donde: <br>
-$VP_{\\text{aigua corrent}}^{t} =$ habitatges principals amb abastament d'aigua corrent a l'any $t$ <br>
+$VP_{\\text{aigua corrent}}^{t} =$ habitatges principals amb proveïment d'aigua corrent a l'any $t$ <br>
 $VP^{t} =$ habitatges principals en l'any $t$"
 1-4-1-SERIE-B-formula-teorica: "$$PVP_{lavabo}^{t} = \\frac{VP_{lavabo}^{t}}{VP^{t}} \\cdot 100$$ <br>
 donde: <br>
-$VP_{lavabo}^{t} =$ habitatges principals que disposen de cambra de bany amb vàter a l'any $t$ <br>
+$VP_{lavabo}^{t} =$ habitatges principals que disposen de quarto de bany amb vàter a l'any $t$ <br>
 $VP^{t} =$ habitatges principals en l'any $t$"
 1-4-1-SERIE-C-formula-teorica: "$$PVP_{\\text{bany o dutxa}}^{t} = \\frac{VP_{\\text{bany o dutxa}}^{t}}{VP^{t}} \\cdot 100$$ <br>
 donde: <br>
@@ -76,7 +76,7 @@ $PDV^{t} =$ població que experimenta almenys un dels dèficits bàsics en les c
 $P^{t} =$ població total l'any $t$"
 11-1-1-SERIE-B-formula-teorica: "$$PPR^{t} = \\frac{PR^{t}}{P^{t}} \\cdot 100$$ <br>
 donde: <br>
-$PR^{t} =$ població que en el seu habitatge pateix problemes de sorolls procedents de l'veïnat o de l'exterior (trànsit, negocis, fàbriques, etc.) en l'any $t$ <br>
+$PR^{t} =$ població que en el seu habitatge pateix problemes de sorolls procedents del veïnat o de l'exterior (trànsit, negocis, fàbriques, etc.) en l'any $t$ <br>
 $P^{t} =$ població total l'any $t$"
 11-5-1-SERIE-A-formula-teorica: "$$TM_{desastres}^{t} = \\frac{D_{desastres}^{t}}{P^{t}} \\cdot 100.000$$ <br>
 en què: <br>
@@ -131,7 +131,8 @@ $PIB^{t} =$ producte interior brut a preus corrents l'any $t$"
 en què: <br>
 $PINT_{16-74}^{t} =$ població d'entre 16 i 74 anys que en els últims tres mesos ha utilitzat Internet l'any $t$ <br>
 $P^{t} =$ població d'entre 16 i 74 anys l'any $t$"
-17-19-2a-SERIE-A-formula-teorica: "$$CPV^{t} = \\begin{cases} SÍ, & \\text{S'ha realitzat almenys un cens de població i habitatge a [t, t − 9]} \\ NO, & \\text{No s'ha realitzat almenys un cens de població i habitatge [t, t − 9]} \\end{cases} $$"
+17-19-2a-SERIE-A-formula-teorica: "$$CPV^{t} = \\begin{cases} SÍ, & \\text{S'ha realitzat almenys un cens de població i habitatge en [t, t − 9]}\\\\
+NO, & \\text{No s'ha realitzat almenys un cens de població i habitatge en [t, t − 9]} \\end{cases} $$"
 2-2-2-SERIE-A-formula-teorica: "$$PPM_{2-17}^{t} = \\frac{PM_{2-17}^{t}}{P_{2-17}^{t}} \\cdot 100$$ <br>
 en què: <br>
 $PPM_{2-17}^{t} =$ població d'entre 2 i 17 anys amb malnutrició l'any $t$ <br>
