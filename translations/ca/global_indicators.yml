@@ -11,7 +11,7 @@
 1-3-1-graph-title: ''
 1-3-1-definition: ''
 1-4-1-title: "Proporció de la població que viu en llars amb accés als serveis bàsics"
-1-4-1-graph-title: ''
+1-4-1-graph-title: "Proporció de la població que viu en llars amb accés als serveis bàsics"
 1-4-1-definition: ''
 1-4-2-title: "Proporció del total de la població adulta amb drets segurs de tinença de la terra: a) que posseeix documentació reconeguda legalment al respecte i b) que considera segurs els seus drets, desglossada per sexe i tipus de tinença"
 1-4-2-graph-title: ''
@@ -163,7 +163,7 @@
 12-b-1-title: "Aplicació d’instruments normalitzats de comptabilitat per fer un seguiment dels aspectes econòmics i ambientals de la sostenibilitat del turisme"
 12-b-1-graph-title: ''
 12-b-1-definition: ''
-12-c-1-title: "Quantitat de subsidis als combustibles fòssils per unitat de PIB (producció i consum)"
+12-c-1-title: "Quantia dels subsidis als combustibles fòssils (producció i consum) per unitat del PIB"
 12-c-1-graph-title: ''
 12-c-1-definition: ''
 13-1-1-title: "Nombre de persones mortes, desaparegudes i afectades directament atribuït a desastres per cada 100.000 persones"
@@ -175,7 +175,7 @@
 13-1-3-title: "Proporció de governs locals que adopten i apliquen estratègies locals de reducció del risc de desastres d’acord amb les estratègies nacionals de reducció del risc de desastres"
 13-1-3-graph-title: ''
 13-1-3-definition: ''
-13-2-1-title: "Nombre de països amb contribucions determinades a nivell nacional, estratègies a llarg termini i plans i estratègies nacionals d’adaptació i estratègies indicades en comunicacions sobre l’adaptació i comunicacions nacionals"
+13-2-1-title: "Nombre de països amb contribucions determinades a nivell nacional, estratègies a llarg termini, plans nacionals d'adaptació i comunicacions sobre l'adaptació, notificades a la secretaria de la Convenció Marc de les Nacions Unides sobre el Canvi Climàtic"
 13-2-1-graph-title: ''
 13-2-1-definition: ''
 13-2-2-title: "Emissions totals de gasos amb efecte d’hivernacle per any"
@@ -187,10 +187,10 @@
 13-a-1-title: "Quantitats proporcionades i mobilitzades en dòlars dels Estats Units a l’any en relació amb l’objectiu actual mantingut de mobilització col·lectiva de 100.000 milions de dòlars d’aquí a 2025"
 13-a-1-graph-title: ''
 13-a-1-definition: ''
-13-b-1-title: "Nombre de països menys avançats i petits Estats insulars en desenvolupament amb contribucions determinades a nivell nacional, estratègies a llarg termini i plans, estratègies nacionals d’adaptació i estratègies indicades en comunicacions sobre l’adaptació i comunicacions nacionals"
+13-b-1-title: "Nombre de països menys avançats i petits Estats insulars en desenvolupament amb contribucions determinades a nivell nacional, estratègies a llarg termini, plans nacionals d'adaptació i comunicacions sobre l'adaptació, notificades a la secretaria de la Convenció Marc de les Nacions Unides sobre el Canvi Climàtic"
 13-b-1-graph-title: ''
 13-b-1-definition: ''
-14-1-1-title: "Ia) Índex d’eutrofització costanera; i b) densitat de detrits plàstics"
+14-1-1-title: "a) Índex d’eutrofització costanera; i b) densitat de detrits plàstics"
 14-1-1-graph-title: ''
 14-1-1-definition: ''
 14-2-1-title: "Nombre de països que apliquen enfocaments basats en els ecosistemes per gestionar les zones marines"
@@ -376,9 +376,12 @@
 17-19-1-title: "Valor en dòlars de tots els recursos proporcionats per enfortir la capacitat estadística dels països en desenvolupament"
 17-19-1-graph-title: ''
 17-19-1-definition: ''
-17-19-2-title: "Proporció de països que a) han realitzat almenys un cens de població i habitatge en els últims deu anys; i b) han registrat el 100 % dels naixements i el 80 % de les defuncions"
-17-19-2-graph-title: ''
-17-19-2-definition: ''
+17-19-2a-title: "Proporció de països que han realitzat almenys un cens de població i habitatge en els últims deu anys"
+17-19-2a-graph-title: "S'ha realitzat almenys un cens de població i habitatge en els últims deu anys (1 = Sí; 0 = No)"
+17-19-2a-definition: ''
+17-19-2b-title: "Proporció de països que han registrat el 100 % dels naixements i el 80 % de les defuncions"
+17-19-2b-graph-title: ''
+17-19-2b-definition: ''
 17-2-1-title: "Ajuda oficial per al desenvolupament neta, total i per als països menys avançats en proporció a l’ingrés nacional brut (INB) dels donants del Comitè d’Assistència per al Desenvolupament de l’Organització de Cooperació i Desenvolupament Econòmics (OCDE)"
 17-2-1-graph-title: ''
 17-2-1-definition: ''
@@ -430,7 +433,7 @@
 2-4-1-title: "Proporció de la superfície agrícola en què es practica una agricultura productiva i sostenible"
 2-4-1-graph-title: "Proporció de la superfície agrícola en què es practica una agricultura productiva i sostenible"
 2-4-1-definition: ''
-2-5-1-title: "Nombre de recursos genètics vegetals i animals per a l’alimentació i l’agricultura preservats en instal·lacions de conservació a mitjà i llarg termini"
+2-5-1-title: "Nombre de: a) recursos genètics vegetals i b) animals per a l’alimentació i l’agricultura preservats en instal·lacions de conservació a mitjà i llarg termini"
 2-5-1-graph-title: ''
 2-5-1-definition: ''
 2-5-2-title: "Proporció de races i varietats locals considerades en risc d’extinció"
@@ -565,7 +568,7 @@
 4-b-1-title: "Volum de l’assistència oficial per al desenvolupament destinada a beques, desglossat per sector i tipus d’estudi"
 4-b-1-graph-title: ''
 4-b-1-definition: ''
-4-c-1-title: "Proporció de docents amb les qualificacions mínimes requerides, per nivell educatiu"
+4-c-1-title: "Proporció de docents amb les qualificacions mínimes requerides, desglossada per nivell educatiu"
 4-c-1-graph-title: ''
 4-c-1-definition: ''
 5-1-1-title: "Determinar si existeixen o no marcs jurídics per promoure, fer complir i supervisar la igualtat i la no discriminació per raó de sexe"

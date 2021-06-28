@@ -30,6 +30,18 @@ $P^{t} =$ población total en el año  $t$"
 donde: <br>
 $PBIT_{0-59}^{t} =$ población entre 0 y 59 años perteneciente a hogares sin empleo o con baja intensidad en el empleo en el año $t$ <br>
 $P_{0-59}^{t} =$ población entre 0 y 59 años en el año  $t$"
+1-4-1-SERIE-A-formula-teorica: "$$PVP_{\\text{agua corriente}}^{t} = \\frac{VP_{\\text{agua corriente}}^{t}}{VP^{t}} \\cdot 100$$ <br>
+donde: <br>
+$VP_{\\text{agua corriente}}^{t} =$ viviendas principales con abastecimiento de agua corriente en el año $t$ <br>
+$VP^{t} =$ viviendas principales en el año $t$"
+1-4-1-SERIE-B-formula-teorica: "$$PVP_{aseo}^{t} = \\frac{VP_{aseo}^{t}}{VP^{t}} \\cdot 100$$ <br>
+donde: <br>
+$VP_{aseo}^{t} =$ viviendas principales que disponen de cuarto de aseo con inodoro en el año $t$ <br>
+$VP^{t} =$ viviendas principales en el año $t$"
+1-4-1-SERIE-C-formula-teorica: "$$PVP_{\\text{baño o ducha}}^{t} = \\frac{VP_{\\text{baño o ducha}}^{t}}{VP^{t}} \\cdot 100$$ <br>
+donde: <br>
+$VP_{\\text{baño o ducha}}^{t} =$ viviendas principales que disponen baño o ducha en el año $t$ <br>
+$VP^{t} =$ viviendas principales en el año $t$"
 1-5-1-SERIE-A-formula-teorica: "$$TM_{desastres}^{t} = \\frac{D_{desastres}^{t}}{P^{t}} \\cdot 100.000$$ <br>
 donde: <br>
 $D_{desastres}^{t} =$ defunciones atribuidas a desastres naturales (códigos X30-X39 de la CIE-10) en el año $t$ <br>
@@ -62,6 +74,10 @@ $PIB^{t} =$ producto interior bruto a precios corrientes en el año $t$"
 donde: <br>
 $PDV^{t} =$ población que experimenta al menos uno de los déficits básicos en la condiciones de su vivienda en el año $t$ <br>
 $P^{t} =$ población total en el año $t$"
+1-1-1-SERIE-B-formula-teorica: "$$PPR^{t} = \\frac{PR^{t}}{P^{t}} \\cdot 100$$ <br>
+donde: <br>
+$PR^{t} =$ población que en su vivienda sufre problemas de ruidos procedentes del vecindario o del exterior (tráfico, negocios, fábricas, etc.) en el año $t$ <br>
+$P^{t} =$ población total en el año $t$" 
 11-5-1-SERIE-A-formula-teorica: "$$TM_{desastres}^{t} = \\frac{D_{desastres}^{t}}{P^{t}} \\cdot 100.000$$ <br>
 donde: <br>
 $D_{desastres}^{t} =$ defunciones atribuidas a desastres naturales (códigos X30-X39 de la CIE-10) en el año $t$ <br>
@@ -102,19 +118,20 @@ $P^{t} =$ población a 1 de julio en el año $t$"
 donde: <br>
 $PSSC_{16+}^{t} =$ población de 16 y más años que se siente segura (muy o bastante segura) al caminar sola en su zona de residencia en el año $t$ <br>
 $P^{t} =$ población de 16 y más años en el año $t$"
-17-1-1-SERIE-A-formula-teorica: "$$PPIBIAP^{t} = \\frac{I_{CCAA}^{t}+I_{EELL}^{T}-TC_{CCAA a EELL}^{t}-TC_{EELL a CCAA}^{t}-TK_{CCAA a EELL}^{t}-TK_{EELL a CCAA}^{t}}{PIB^{t}} \\cdot 100$$ <br>
+17-1-1-SERIE-A-formula-teorica: "$$PPIBIAP^{t} = \\frac{I_{CCAA}^{t}+I_{EELL}^{T}-TC_{\\text{CCAA a EELL}}^{t}-TC_{\\text{EELL a CCAA}}^{t}-TK_{\\text{CCAA a EELL}}^{t}-TK_{\\text{EELL a CCAA}}^{t}}{PIB^{t}} \\cdot 100$$ <br>
 donde: <br>
 $I_{CCAA}^{t} =$ ingresos (derechos reconocidos netos) en la liquidación de presupuestos consolidados de la comunidad autónoma en el año $t$ <br>
 $I_{EELL}^{T} =$ ingresos (derechos reconocidos netos) en la liquidación de presupuestos consolidados de las entidades locales de la comunidad autónoma en el año $t$ <br>
-$TC_{CCAA a EELL}{t} =$ gastos en transferencias corrientes a las entidades locales (obligaciones reconocidas netas) en la liquidación de los presupuestos consolidados de la comunidad autónoma en el año $t$ <br>
-$TC_{EELL a CCAA}^{t} =$ ingresos en transferencias corrientes de las entidades locales (derechos reconocidos netos) en la liquidación de los presupuestos consolidados de la comunidad autónoma en el año $t$ <br>
-$TK_{CCAA a EELL}^{t} =$ gastos en transferencias de capital a las entidades locales (obligaciones reconocidas netas) en la liquidación de los presupuestos consolidados de la comunidad autónoma en el año $t$ <br>
-$K_{EELL a CCAA}^{t} =$ ingresos en transferencias de capital de las entidades locales (derechos reconocidos netos) en la liquidación de los presupuestos consolidados de la comunidad autónoma en el año $t$ <br>
+$TC_{\\text{CCAA a EELL}}{t} =$ gastos en transferencias corrientes a las entidades locales (obligaciones reconocidas netas) en la liquidación de los presupuestos consolidados de la comunidad autónoma en el año $t$ <br>
+$TC_{\\text{EELL a CCAA}}^{t} =$ ingresos en transferencias corrientes de las entidades locales (derechos reconocidos netos) en la liquidación de los presupuestos consolidados de la comunidad autónoma en el año $t$ <br>
+$TK_{\\text{CCAA a EELL}}^{t} =$ gastos en transferencias de capital a las entidades locales (obligaciones reconocidas netas) en la liquidación de los presupuestos consolidados de la comunidad autónoma en el año $t$ <br>
+$K_{\\text{EELL a CCAA}}^{t} =$ ingresos en transferencias de capital de las entidades locales (derechos reconocidos netos) en la liquidación de los presupuestos consolidados de la comunidad autónoma en el año $t$ <br>
 $PIB^{t} =$ producto interior bruto a precios corrientes en el año $t$"
 17-8-1-SERIE-A-formula-teorica: "$$PPINT_{16-74}^{t} = \\frac{PINT_{16-74}^{t}}{P_{16-74}^{t}} \\cdot 100$$ <br>
 donde: <br>
 $PINT_{16-74}^{t} =$ población entre 16 y 74 años que en los últimos tres meses ha utilizado Internet en el año $t$ <br>
 $P^{t} =$ población entre 16 y 74 años en el año $t$"
+17-19-2a-SERIE-A-formula-teorica: "$$CPV^{t} = \\begin{cases} SÍ, & \\text{Se ha realizado al menos un censo de población y vivienda en [t, t − 9]} \\ NO, & \\text{No se ha realizado al menos un censo de población y vivienda en [t, t − 9]} \\end{cases} $$"
 2-2-2-SERIE-A-formula-teorica: "$$PPM_{2-17}^{t} = \\frac{PM_{2-17}^{t}}{P_{2-17}^{t}} \\cdot 100$$ <br>
 donde: <br>
 $PPM_{2-17}^{t} =$ población entre 2 y 17 años con malnutrición en el año $t$ <br>
