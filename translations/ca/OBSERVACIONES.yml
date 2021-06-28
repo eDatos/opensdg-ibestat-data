@@ -47,6 +47,9 @@ Vivint en llars amb baixa intensitat de treball: llars en què els membres en ed
 8. No es pot permetre disposar d'un televisor en color. <br>
 9. No es pot permetre disposar d'una rentadora."
 1-2-2-SERIE-D-observaciones: ""
+1-4-1-SERIE-A-observaciones: "Habitatge principal és aquell habitatge que és utilitzada tota o la major part de l'any com a residència habitual per una o més persones"
+1-4-1-SERIE-B-observaciones: "Habitatge principal és aquell habitatge que és utilitzada tota o la major part de l'any com a residència habitual per una o més persones"
+1-4-1-SERIE-C-observaciones: "Habitatge principal és aquell habitatge que és utilitzada tota o la major part de l'any com a residència habitual per una o més persones"
 1-5-1-SERIE-A-observaciones: ""
 10-1-1-SERIE-A-observaciones: "El nombre d'unitats de consum d'una llar es calcula mitjançant l'escala OCDE modificada, que assigna un pes d'1 a la primera persona de 14 o més anys, un pes de 0,5 a la resta de persones de 14 o més anys i un pes de 0,3 a les persones de menys de 14 anys"
 10-1-1-SERIE-B-observaciones: ""
@@ -59,6 +62,7 @@ El nombre d'unitats de consum d'una llar es calcula mitjançant l'escala OCDE mo
 El nombre d'unitats de consum d'una llar es calcula mitjançant l'escala OCDE modificada, que assigna un pes d'1 a la primera persona de 14 o més anys, un pes de 0,5 a la resta de persones de 14 o més anys i un pes de 0,3 a les persones de menys de 14 anys."
 10-4-1-SERIE-A-observaciones: ""
 11-1-1-SERIE-A-observaciones: ""
+11-1-1-SERIE-B-observaciones: ""
 11-5-1-SERIE-A-observaciones: ""
 11-6-1-SERIE-A-observaciones: "La recollida de residus urbans comprèn els residus domèstics i aquells residus comercials o industrials similars als anteriors que siguin de competència municipal, recollits mitjançant contenidors urbans, deixalleries o altres sistemes de recollida municipal. També inclou els residus de la neteja viària i els residus biodegradables de la neteja de parcs i jardins."
 11-6-1-SERIE-B-observaciones: "S'entén per residus municipals els residus domèstics i comercials, procedents de llars i del sector serveis (comerç, oficines i institucions) gestionats per les entitats locals, sense incloure els residus comercials gestionats per canals privats diferents del municipal, ni residus procedents de la indústria.<br>
@@ -74,6 +78,7 @@ A dia d'avui no existeix a la normativa de residus una definició harmonitzada d
 16-1-4-SERIE-A-observaciones: ""
 17-1-1-SERIE-A-observaciones: "Les dades consolidades de les liquidacions pressupostàries de les comunitats autònomes es prenen depurades de l'IFL (intermediació financera local) i la PAC (política agrícola comuna)"
 17-8-1-SERIE-A-observaciones: ""
+17-19-2a-SERIE-A-observaciones: ""
 2-2-2-SERIE-A-observaciones: "La població malnodrida és aquella que té obesitat (IMC>=30), sobrepès (25<=IMC<30) o pes insuficient (IMC<18,5), en què l'IMC és l'índex de massa corporal, que s'obté dividint el pes (kg) pel quadrat de l'estatura (m).<br>
 La nota següent és variable en funció de les dades que es publiquin:<br>
 Els resultats de l'Enquesta nacional de salut 2011-2012 s'han imputat als dos anys.<br>

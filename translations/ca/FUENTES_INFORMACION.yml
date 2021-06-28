@@ -6,6 +6,9 @@
 1-2-2-SERIE-B-fuentes-informacion: "Enquesta de condicions de vida, Institut Nacional d'Estadística (INE)"
 1-2-2-SERIE-C-fuentes-informacion: "Enquesta de condicions de vida, Institut Nacional d'Estadística (INE)"
 1-2-2-SERIE-D-fuentes-informacion: "Enquesta de condicions de vida, Institut Nacional d'Estadística (INE)"
+1-4-1-SERIE-A-fuentes-informacion: "Censos de població i habitatges, Institut Nacional d'Estadística (INE)"
+1-4-1-SERIE-B-fuentes-informacion: "Censos de població i habitatges, Institut Nacional d'Estadística (INE)"
+1-4-1-SERIE-C-fuentes-informacion: "Censos de població i habitatges, Institut Nacional d'Estadística (INE)"
 1-5-1-SERIE-A-fuentes-informacion: "Estadística de defuncions segons la causa de mort, Institut Nacional d'Estadística (INE) <br>
 Xifres de població, Institut Nacional d'Estadística (INE)"
 10-1-1-SERIE-A-fuentes-informacion: "Enquesta de pressupostos familiars, Institut Nacional d'Estadística (INE)"
@@ -16,6 +19,7 @@ Xifres de població, Institut Nacional d'Estadística (INE)"
 10-2-1-SERIE-B-fuentes-informacion: "Enquesta de condicions de vida, Institut Nacional d'Estadística (INE)"
 10-4-1-SERIE-A-fuentes-informacion: "Comptabilitat regional d'Espanya, Institut Nacional d'Estadística (INE)"
 11-1-1-SERIE-A-fuentes-informacion: "Enquesta de condicions de vida, Institut Nacional d'Estadística (INE)"
+11-1-1-SERIE-B-fuentes-informacion: "Enquesta de condicions de vida, Institut Nacional d'Estadística (INE)"
 11-5-1-SERIE-A-fuentes-informacion: "Estadística de defuncions segons la causa de mort, Institut Nacional d'Estadística (INE) <br>
 Xifres de població, Institut Nacional d'Estadística (INE)"
 11-6-1-SERIE-A-fuentes-informacion: "Estadístiques sobre recollida i tractament de residus, Institut Nacional d'Estadística (INE) <br>
@@ -38,6 +42,7 @@ Comptabilitat regional d'Espanya, Institut Nacional d'Estadística (INE)"
 Consulta de pressupostos i liquidacions d'entitats locals, Ministeri d'Hisenda <br>
 Comptabilitat regional d'Espanya, Institut Nacional d'Estadística (INE)"
 17-8-1-SERIE-A-fuentes-informacion: "Enquesta sobre equipament i ús de tecnologies d'informació i comunicació a les llars, Institut Nacional d'Estadística (INE)"
+17-19-2a-SERIE-A-fuentes-informacion: "Censos de població i habitatges, Institut Nacional d'Estadística (INE)"
 2-2-2-SERIE-A-fuentes-informacion: "Enquesta nacional de salut, Institut Nacional d'Estadística (INE) i Ministeri de Sanitat"
 2-4-1-SERIE-A-fuentes-informacion: "Estadística de la producció ecològica, Ministeri d'Agricultura, Pesca i Alimentació<br>
 Enquesta de superfícies i rendiments de conreu, Ministeri d'Agricultura, Pesca i Alimentació"

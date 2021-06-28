@@ -47,6 +47,9 @@ Viviendo en hogares con baja intensidad en el trabajo: hogares en los que sus mi
 8. No puede permitirse disponer de un televisor en color. <br>
 9. No puede permitirse disponer de una lavadora."
 1-2-2-SERIE-D-observaciones: ""
+1-4-1-SERIE-A-observaciones: "Vivienda principal es aquella vivienda que es utilizada toda o la mayor parte del año como residencia habitual por una o más personas"
+1-4-1-SERIE-B-observaciones: "Vivienda principal es aquella vivienda que es utilizada toda o la mayor parte del año como residencia habitual por una o más personas"
+1-4-1-SERIE-C-observaciones: "Vivienda principal es aquella vivienda que es utilizada toda o la mayor parte del año como residencia habitual por una o más personas"
 1-5-1-SERIE-A-observaciones: ""
 10-1-1-SERIE-A-observaciones: "El número de unidades de consumo de un hogar se calcula utilizando la escala OCDE modificada, que asigna un peso de 1 a la primera persona de 14 o más años, un peso de 0,5 al resto de personas de 14 o más años y un peso de 0,3 a las personas de menos de 14 años"
 10-1-1-SERIE-B-observaciones: ""
@@ -59,6 +62,7 @@ El número de unidades de consumo de un hogar se calcula utilizando la escala OC
 El número de unidades de consumo de un hogar se calcula utilizando la escala OCDE modificada, que asigna un peso de 1 a la primera persona de 14 o más años, un peso de 0,5 al resto de personas de 14 o más años y un peso de 0,3 a las personas de menos de 14 años."
 10-4-1-SERIE-A-observaciones: ""
 11-1-1-SERIE-A-observaciones: ""
+11-1-1-SERIE-B-observaciones: ""
 11-5-1-SERIE-A-observaciones: ""
 11-6-1-SERIE-A-observaciones: "La recogida de residuos urbanos comprende los residuos domésticos y aquellos residuos comerciales o industriales similares a los anteriores que sean de competencia municipal, recogidos mediante contenedores urbanos, puntos limpios u otros sistemas de recogida municipal. También incluye los residuos de la limpieza viaria y los residuos biodegradables de la limpieza de parques y jardines."
 11-6-1-SERIE-B-observaciones: "Se entiende por residuos municipales los residuos domésticos y comerciales, procedentes de hogares y del sector servicios (comercio, oficinas e instituciones) gestionados por las Entidades Locales, no incluyéndose los residuos comerciales gestionados por canales privados distintos al municipal, ni residuos procedentes de la industria.<br>
@@ -74,6 +78,7 @@ A día de hoy no existe en la normativa de residuos una definición armonizada d
 16-1-4-SERIE-A-observaciones: ""
 17-1-1-SERIE-A-observaciones: "Los datos consolidados de las liquidaciones presupuestarias de las comunidades autónomas se toman depurados de IFL (Intermediación Financiera Local) y PAC (política agrícola común)"
 17-8-1-SERIE-A-observaciones: ""
+17-19-2a-SERIE-A-observaciones: ""
 2-2-2-SERIE-A-observaciones: "La población malnutrida es aquella que tiene obesidad (IMC>=30), sobrepeso (25<=IMC<30) o peso insuficiente (IMC<18,5), donde IMC es el índice de masa corporal, que se obtiene dividiento el peso (kg) por el cuadrado de la estatura (m).<br>
 La nota siguiente es variable en función de los datos que se publiquen:<br>
 Los resultados de la Encuesta nacional de salud 2011-2012 se han imputado a ambos años.<br>
