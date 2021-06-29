@@ -102,6 +102,11 @@ map_layers:
   id_property: CODNUT3
   output_subfolder: regions
   filename_prefix: indicator_
+- geojson_file: maps/islas4IB_4326_definitivo.geojson
+  name_property: NOM
+  id_property: CODNUT3
+  output_subfolder: regions
+  filename_prefix: indicator_
 
 geo_code_column: general.territorio
 
