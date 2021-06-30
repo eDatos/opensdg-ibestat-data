@@ -29,4 +29,5 @@ tab_name: SERIE.SERIE_C
 #Coordinación con OCECAS
 coordinado_con_ocecas: true
 
+show_map: true
 ---
