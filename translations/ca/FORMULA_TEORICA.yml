@@ -147,7 +147,7 @@ $D_{maternes}^{t} =$ defuncions de dones atribuïdes a embaràs, part i puerperi
 $N^{t} =$ naixements l'any $t$"
 3-1-2-SERIE-A-formula-teorica: "$$PPAR_{atesos}^{t} = \\frac{PAR_{atesos}^{t}}{PAR^{t}} \\cdot 100$$ <br>
 en què: <br>
-$PPAR_{atesos}^{t} =$ parts atesos per personal sanitari especialitzat l'any $t$ <br>
+$PAR_{atesos}^{t} =$ parts atesos per personal sanitari especialitzat l'any $t$ <br>
 $PAR^{t} =$ parts l'any $t$"
 3-2-1-SERIE-A-formula-teorica: "'$$TM_{0-4}^{t} = \\frac{D_{0-4}^{t}}{N^{t}} \\cdot 1.000$$ <br>
 en què: <br>
