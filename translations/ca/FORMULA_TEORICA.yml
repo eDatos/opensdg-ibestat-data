@@ -198,9 +198,9 @@ $P_{16+}^{t} =$ població de 16 i més anys l'any $t$"
 en què: <br>
 $D_{\\text{intoxicacions involuntàries}}^{t} =$ defuncions atribuïdes a intoxicacions involuntàries (codis X40, X43, X44 i X46-X49 de la CIE-10) l'any $t$ <br>
 $P^{t} =$ població a 1 de juliol de l'any $t$"
-3-a-1-SERIE-A-formula-teorica: "$$PPFD_{15+}^{t} = \\frac{D_{15+}^{t}}{P_{15+}^{t}} \\cdot 100$$ <br>
+3-a-1-SERIE-A-formula-teorica: "$$PPFD_{15+}^{t} = \\frac{PFD_{15+}^{t}}{P_{15+}^{t}} \\cdot 100$$ <br>
 en què: <br>
-$FD_{15+}^{t} =$ població de 15 i més anys que fuma cada dia l'any $t$ <br>
+$PFD_{15+}^{t} =$ població de 15 i més anys que fuma cada dia l'any $t$ <br>
 $P_{15y+}^{t} =$ població de 15 i més anys l'any $t$"
 3-c-1-SERIE-A-formula-teorica: "$$TPSC_{medicina}^{t} = \\frac{PSC_{medicina}^{t}}{P^{t+1}} \\cdot 10.000$$ <br>
 en què: <br>
