@@ -28,6 +28,7 @@ legend_help: Feu clic a la llegenda per eliminar línies individuals de la gràf
 loading: S’està carregant
 loading_map: S’està carregant el mapa
 map: Mapa
+metadata: Metadades
 national_metadata: Metadades nacionals
 national_metadata_blurb: Aquesta taula ofereix metadades per a l’indicador real disponible a partir de les estadístiques per a %country_name més properes a l’indicador global corresponent de l’ODS. Cal tenir en compte que, fins i tot quan l’indicador global de l’ODS estigui totalment disponible a partir de les estadístiques per a %country_adjective, s’ha de consultar aquesta taula per obtenir informació sobre la metodologia nacional i altra informació de metadades específiques per a %country_adjective.
 no_data_hint: No hi ha opcions disponibles a causa dels filtres anteriors

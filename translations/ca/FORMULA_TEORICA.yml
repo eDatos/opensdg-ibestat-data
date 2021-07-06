@@ -108,11 +108,11 @@ $D_{desastres}^{t} =$ defuncions atribuïdes a desastres naturals (codis X30-X39
 $P^{t} =$ població a 1 de juliol de l'any $t$"
 13-2-2-SERIE-A-formula-teorica: "$$PPIBEGEI^{t} = \\frac{EGEI^{t}}{PIB_{2015}^{t}}$$ <br>
 en què: <br>
-$EGEI^{t} =$ emissions totals de gasos amb efecte d'hivernacle de les unitats econòmiques residents l'any $t$ (es distribueix el total nacional d'emissions totals de gasos amb efecte d'hivernacle del Compte d'emissions a l'atmosfera en funció de les emissions totals de gasos d'efecte hivernacle per comunitats autònomes de l'Inventari nacional de gasos amb efecte d'hivernacle (GEH))<br>
+$EGEI^{t} =$ emissions totals de gasos amb efecte hivernacle de les unitats econòmiques residents l'any $t$ (es distribueix el total nacional d'emissions totals de gasos amb efecte hivernacle del Compte d'emissions a l'atmosfera en funció de les emissions totals de gasos d'efecte hivernacle per comunitats autònomes de l'Inventari nacional de gasos amb efecte hivernacle (GEH))<br>
 $PIB_{2015}^{t} =$ producte interior brut en volum encadenat amb referència 2015 l'any $t$"
 13-2-2-SERIE-B-formula-teorica: "$$PPEGEI^{t} = \\frac{EGEI^{t}}{P^{t}}$$ <br>
 en què: <br>
-$EGEI^{t} =$ emissions totals de gasos amb efecte d'hivernacle de les unitats econòmiques residents l'any $t$ (es distribueix el total nacional d'emissions totals de gasos amb efecte d'hivernacle del Compte d'emissions a l'atmosfera en funció de les emissions totals de gasos d'efecte hivernacle per comunitats autònomes de l'Inventari nacional de gasos amb efecte d'hivernacle (GEH))<br>
+$EGEI^{t} =$ emissions totals de gasos amb efecte hivernacle de les unitats econòmiques residents l'any $t$ (es distribueix el total nacional d'emissions totals de gasos amb efecte hivernacle del Compte d'emissions a l'atmosfera en funció de les emissions totals de gasos d'efecte hivernacle per comunitats autònomes de l'Inventari nacional de gasos amb efecte hivernacle (GEH))<br>
 $P^{t} =$ població a 1 de juliol de l'any $t$"
 16-1-4-SERIE-A-formula-teorica: "$$PPSSC_{16+}^{t} = \\frac{PSSC_{16+}^{t}}{P_{16+}^{t}} \\cdot 100$$ <br>
 en què: <br>
@@ -147,7 +147,7 @@ $D_{maternes}^{t} =$ defuncions de dones atribuïdes a embaràs, part i puerperi
 $N^{t} =$ naixements l'any $t$"
 3-1-2-SERIE-A-formula-teorica: "$$PPAR_{atesos}^{t} = \\frac{PAR_{atesos}^{t}}{PAR^{t}} \\cdot 100$$ <br>
 en què: <br>
-$PPAR_{atesos}^{t} =$ parts atesos per personal sanitari especialitzat l'any $t$ <br>
+$PAR_{atesos}^{t} =$ parts atesos per personal sanitari especialitzat l'any $t$ <br>
 $PAR^{t} =$ parts l'any $t$"
 3-2-1-SERIE-A-formula-teorica: "'$$TM_{0-4}^{t} = \\frac{D_{0-4}^{t}}{N^{t}} \\cdot 1.000$$ <br>
 en què: <br>
@@ -198,42 +198,46 @@ $P_{16+}^{t} =$ població de 16 i més anys l'any $t$"
 en què: <br>
 $D_{\\text{intoxicacions involuntàries}}^{t} =$ defuncions atribuïdes a intoxicacions involuntàries (codis X40, X43, X44 i X46-X49 de la CIE-10) l'any $t$ <br>
 $P^{t} =$ població a 1 de juliol de l'any $t$"
-3-a-1-SERIE-A-formula-teorica: "$$PPFD_{15+}^{t} = \\frac{D_{15+}^{t}}{P_{15+}^{t}} \\cdot 100$$ <br>
+3-a-1-SERIE-A-formula-teorica: "$$PPFD_{15+}^{t} = \\frac{PFD_{15+}^{t}}{P_{15+}^{t}} \\cdot 100$$ <br>
 en què: <br>
 $PFD_{15+}^{t} =$ població de 15 i més anys que fuma cada dia l'any $t$ <br>
 $P_{15y+}^{t} =$ població de 15 i més anys l'any $t$"
 3-c-1-SERIE-A-formula-teorica: "$$TPSC_{medicina}^{t} = \\frac{PSC_{medicina}^{t}}{P^{t+1}} \\cdot 10.000$$ <br>
 en què: <br>
 $PSC_{medicina}^{t} =$ personal sanitari col·legiat en medicina el 31 de desembre de l'any $t$ <br>
-$P^{t+1} =$ població l'1 de gener de l'any $t$"
+$P^{t+1} =$ població l'1 de gener de l'any $t+1$"
 3-c-1-SERIE-B-formula-teorica: "$$TPSC_{infermeria}^{t} = \\frac{PSC_{infermeria}^{t}}{P^{t+1}} \\cdot 10.000$$ <br>
 en què: <br>
 $PSC_{infermeria}^{t} =$ personal sanitari col·legiat en infermeria el 31 de desembre de l'any $t$ <br>
-$P^{t+1} =$ població l'1 de gener de l'any $t$"
+$P^{t+1} =$ població l'1 de gener de l'any $t+1$"
 3-c-1-SERIE-C-formula-teorica: "$$TPSC_{\\text{odontologia i estomatologia}}^{t} = \\frac{PSC_{\\text{odontologia i estomatologia}}^{t}}{P^{t+1}} \\cdot 10.000$$ <br>
 en què: <br>
 $PSC_{\\text{odontologia i estomatologia}}^{t} =$ personal sanitari col·legiat en odontologia i estomatologia a 31 de desembre de l'any $t$ <br>
-$P^{t+1} =$ població l'1 de gener de l'any $t$"
+$P^{t+1} =$ població l'1 de gener de l'any $t+1$"
 3-c-1-SERIE-D-formula-teorica: "$$TPSC_{farmàcia}^{t} = \\frac{PSC_{farmàcia}^{t}}{P^{t+1}} \\cdot 10.000$$ <br>
 en què: <br>
 $PSC_{farmàcia}^{t} =$ personal sanitari col·legiat en farmàcia el 31 de desembre de l'any $t$ <br>
-$P^{t+1} =$ població l'1 de gener de l'any $t$"
+$P^{t+1} =$ població l'1 de gener de l'any $t+1$"
 4-3-1-SERIE-A-formula-teorica: "$$PPE_{18-64}^{t} = \\frac{PE_{18-64}^{t}}{P_{18-64}^{t}} \\cdot 100$$ <br>
 en què: <br>
 $PE_{18-64}^{t} =$ població d'entre 18 i 64 anys que ha realitzat activitats educatives (formals o no formals) en els últims 12 mesos l'any $t$ <br>
-$P_{18-64}^{t} =$ població d'entre 18 i 64 anys l'any $t$"
+$P_{18-64}^{t} =$ població d'entre 18 i 64 anys l'any $t$ <br>
+tenint en compte que cadascuna d'aquestes poblacions es calcula com la mitjana aritmètica dels quatre trimestres de l'any"
 4-3-1-SERIE-B-formula-teorica: "$$PPE_{15-64}^{t} = \\frac{PE_{15-64}^{t}}{P_{15-64}^{t}} \\cdot 100$$ <br>
 en què: <br>
 $PE_{15-64}^{t} =$ població d'entre 15 i 64 anys que ha realitzat estudis o formació (reglada o no reglada) en les últimes quatre setmanes l'any $t$ <br>
-$P_{15-64}^{t} =$ població d'entre 15 i 64 anys l'any $t$"
+$P_{15-64}^{t} =$ població d'entre 15 i 64 anys l'any $t$ <br>
+tenint en compte que cadascuna d'aquestes poblacions es calcula com la mitjana aritmètica dels quatre trimestres de l'any"
 4-3-1-SERIE-C-formula-teorica: "$$PPE_{15-24}^{t} = \\frac{PE_{15-24}^{t}}{P_{15-24}^{t}} \\cdot 100$$ <br>
 en què: <br>
 $PE_{15-24}^{t} =$ població d'entre 15 i 24 anys que ha realitzat estudis o formació (reglada o no reglada) en les últimes quatre setmanes l'any $t$ <br>
-$P_{15-24}^{t} =$ població d'entre 15 i 24 anys l'any $t$"
+$P_{15-24}^{t} =$ població d'entre 15 i 24 anys l'any $t$ <br>
+tenint en compte que cadascuna d'aquestes poblacions es calcula com la mitjana aritmètica dels quatre trimestres de l'any"
 4-3-1-SERIE-D-formula-teorica: "$$PPE_{25-64}^{t} = \\frac{PE_{25-64}^{t}}{P_{25-64}^{t}} \\cdot 100$$ <br>
 en què: <br>
 $PE_{25-64}^{t} =$ població d'entre 25 i 64 anys que ha realitzat estudis o formació (reglada o no reglada) en les últimes quatre setmanes l'any $t$ <br>
-$P_{25-64}^{t} =$ població d'entre 25 i 64 anys l'any $t$"
+$P_{25-64}^{t} =$ població d'entre 25 i 64 anys l'any $t$ <br>
+tenint en compte que cadascuna d'aquestes poblacions es calcula com la mitjana aritmètica dels quatre trimestres de l'any"
 4-4-1-SERIE-A-formula-teorica: "$$PPHAB_{16-74}^{t} = \\frac{PHAB_{16-74}^{t}}{P_{16-74}^{t}} \\cdot 100$$ <br>
 en què: <br>
 $PHAB_{16-74}^{t} =$ població d'entre 16 i 74 anys que en els últims 12 mesos ha utilitzat alguna habilitat informàtica l'any $t$ <br>
@@ -418,13 +422,12 @@ $EH_{manufacturer}^{t} =$ ocupació (hores) del sector manufacturer l'any $t$ <b
 $EH^{t} =$ ocupació (hores) l'any $t$ "
 9-4-1-SERIE-A-formula-teorica: "$$PPIBECO2^{t} = \\frac{ECO2^{t}}{PIB_{2015}^{t}} $$ <br>
 en què: <br>
-$ECO2^{t} =$ emissions de CO2 de les unitats econòmiques residents l'any $t$ (es distribueix el total nacional d'emissions de CO2 del Compte d'emissions a l'atmosfera en funció de les emissions de CO2 per comunitats autònomes de l'Inventari nacional de gasos amb efecte d'hivernacle (GEH)<br>
+$ECO2^{t} =$ emissions de CO2 de les unitats econòmiques residents l'any $t$ (es distribueix el total nacional d'emissions de CO2 del Compte d'emissions a l'atmosfera en funció de les emissions de CO2 per comunitats autònomes de l'Inventari nacional de gasos amb efecte hivernacle (GEH)<br>
 $PIB_{2015}^{t} =$ producte interior brut en volum encadenat amb referència 2015 l'any $t$"
 9-4-1-SERIE-B-formula-teorica: "$$PVABECO2_{manufacturer}^{t} = \\frac{ECO2_{manufacturer}^{t}}{VAB_{manufacturer,2015}^{t}} $$ <br>
 en què: <br>
-$ECO2_{manufacturer}^{t} =$ emissions de CO2 de les unitats econòmiques residents del sector manufacturer l'any $t$ (es distribueix el total nacional d'emissions de CO2 del Compte d'emissions a l'atmosfera en funció de les emissions de CO2 per comunitats autònomes de l'Inventari nacional de gasos amb efecte d'hivernacle (GEH)<br>
-$VAB_{manufacturer,2015}^{t} =$ valor afegit brut del sector manufacturer en volum encadenat amb referència 2015 l'any $t$ <br>
-tenint en compte que cadascuna d'aquestes poblacions es calcula com la mitjana aritmètica dels quatre trimestres de l'any"
+$ECO2_{manufacturer}^{t} =$ emissions de CO2 de les unitats econòmiques residents del sector manufacturer l'any $t$ (es distribueix el total nacional d'emissions de CO2 del Compte d'emissions a l'atmosfera en funció de les emissions de CO2 per comunitats autònomes de l'Inventari nacional de gasos amb efecte hivernacle (GEH)<br>
+$VAB_{manufacturer,2015}^{t} =$ valor afegit brut del sector manufacturer en volum encadenat amb referència 2015 l'any $t$"
 9-5-1-SERIE-A-formula-teorica: "$$PPIBG_{R+D}^{t} = \\frac{G_{R+D}^{t}}{PIB^{t}}  \\cdot 100$$<br>
 en què: <br>
 $G_{R+D}^{t} =$ despesa en recerca i desenvolupament l'any $t$<br>
