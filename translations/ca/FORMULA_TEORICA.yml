@@ -427,8 +427,7 @@ $PIB_{2015}^{t} =$ producte interior brut en volum encadenat amb referència 201
 9-4-1-SERIE-B-formula-teorica: "$$PVABECO2_{manufacturer}^{t} = \\frac{ECO2_{manufacturer}^{t}}{VAB_{manufacturer,2015}^{t}} $$ <br>
 en què: <br>
 $ECO2_{manufacturer}^{t} =$ emissions de CO2 de les unitats econòmiques residents del sector manufacturer l'any $t$ (es distribueix el total nacional d'emissions de CO2 del Compte d'emissions a l'atmosfera en funció de les emissions de CO2 per comunitats autònomes de l'Inventari nacional de gasos amb efecte d'hivernacle (GEH)<br>
-$VAB_{manufacturer,2015}^{t} =$ valor afegit brut del sector manufacturer en volum encadenat amb referència 2015 l'any $t$ <br>
-tenint en compte que cadascuna d'aquestes poblacions es calcula com la mitjana aritmètica dels quatre trimestres de l'any"
+$VAB_{manufacturer,2015}^{t} =$ valor afegit brut del sector manufacturer en volum encadenat amb referència 2015 l'any $t$"
 9-5-1-SERIE-A-formula-teorica: "$$PPIBG_{R+D}^{t} = \\frac{G_{R+D}^{t}}{PIB^{t}}  \\cdot 100$$<br>
 en què: <br>
 $G_{R+D}^{t} =$ despesa en recerca i desenvolupament l'any $t$<br>
