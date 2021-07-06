@@ -221,19 +221,23 @@ $P^{t+1} =$ població l'1 de gener de l'any $t+1$"
 4-3-1-SERIE-A-formula-teorica: "$$PPE_{18-64}^{t} = \\frac{PE_{18-64}^{t}}{P_{18-64}^{t}} \\cdot 100$$ <br>
 en què: <br>
 $PE_{18-64}^{t} =$ població d'entre 18 i 64 anys que ha realitzat activitats educatives (formals o no formals) en els últims 12 mesos l'any $t$ <br>
-$P_{18-64}^{t} =$ població d'entre 18 i 64 anys l'any $t$"
+$P_{18-64}^{t} =$ població d'entre 18 i 64 anys l'any $t$ <br>
+tenint en compte que cadascuna d'aquestes poblacions es calcula com la mitjana aritmètica dels quatre trimestres de l'any"
 4-3-1-SERIE-B-formula-teorica: "$$PPE_{15-64}^{t} = \\frac{PE_{15-64}^{t}}{P_{15-64}^{t}} \\cdot 100$$ <br>
 en què: <br>
 $PE_{15-64}^{t} =$ població d'entre 15 i 64 anys que ha realitzat estudis o formació (reglada o no reglada) en les últimes quatre setmanes l'any $t$ <br>
-$P_{15-64}^{t} =$ població d'entre 15 i 64 anys l'any $t$"
+$P_{15-64}^{t} =$ població d'entre 15 i 64 anys l'any $t$ <br>
+tenint en compte que cadascuna d'aquestes poblacions es calcula com la mitjana aritmètica dels quatre trimestres de l'any"
 4-3-1-SERIE-C-formula-teorica: "$$PPE_{15-24}^{t} = \\frac{PE_{15-24}^{t}}{P_{15-24}^{t}} \\cdot 100$$ <br>
 en què: <br>
 $PE_{15-24}^{t} =$ població d'entre 15 i 24 anys que ha realitzat estudis o formació (reglada o no reglada) en les últimes quatre setmanes l'any $t$ <br>
-$P_{15-24}^{t} =$ població d'entre 15 i 24 anys l'any $t$"
+$P_{15-24}^{t} =$ població d'entre 15 i 24 anys l'any $t$ <br>
+tenint en compte que cadascuna d'aquestes poblacions es calcula com la mitjana aritmètica dels quatre trimestres de l'any"
 4-3-1-SERIE-D-formula-teorica: "$$PPE_{25-64}^{t} = \\frac{PE_{25-64}^{t}}{P_{25-64}^{t}} \\cdot 100$$ <br>
 en què: <br>
 $PE_{25-64}^{t} =$ població d'entre 25 i 64 anys que ha realitzat estudis o formació (reglada o no reglada) en les últimes quatre setmanes l'any $t$ <br>
-$P_{25-64}^{t} =$ població d'entre 25 i 64 anys l'any $t$"
+$P_{25-64}^{t} =$ població d'entre 25 i 64 anys l'any $t$ <br>
+tenint en compte que cadascuna d'aquestes poblacions es calcula com la mitjana aritmètica dels quatre trimestres de l'any"
 4-4-1-SERIE-A-formula-teorica: "$$PPHAB_{16-74}^{t} = \\frac{PHAB_{16-74}^{t}}{P_{16-74}^{t}} \\cdot 100$$ <br>
 en què: <br>
 $PHAB_{16-74}^{t} =$ població d'entre 16 i 74 anys que en els últims 12 mesos ha utilitzat alguna habilitat informàtica l'any $t$ <br>
