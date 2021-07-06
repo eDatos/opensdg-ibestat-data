@@ -200,7 +200,7 @@ $D_{\\text{intoxicaciones involuntarias}}^{t} =$ defunciones atribuidas a intoxi
 $P^{t} =$ población a 1 de julio del año $t$"
 3-a-1-SERIE-A-formula-teorica: "$$PPFD_{15+}^{t} = \\frac{D_{15+}^{t}}{P_{15+}^{t}} \\cdot 100$$ <br>
 donde: <br>
-$PFD_{15+}^{t} =$ población de 15 y más años que fuma a diario en el año $t$ <br>
+$FD_{15+}^{t} =$ población de 15 y más años que fuma a diario en el año $t$ <br>
 $P_{15y+}^{t} =$ población de 15 y más años en el año $t$"
 3-c-1-SERIE-A-formula-teorica: "$$TPSC_{medicina}^{t} = \\frac{PSC_{medicina}^{t}}{P^{t+1}} \\cdot 10.000$$ <br>
 donde: <br>
