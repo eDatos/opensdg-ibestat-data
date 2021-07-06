@@ -108,11 +108,11 @@ $D_{desastres}^{t} =$ defuncions atribuïdes a desastres naturals (codis X30-X39
 $P^{t} =$ població a 1 de juliol de l'any $t$"
 13-2-2-SERIE-A-formula-teorica: "$$PPIBEGEI^{t} = \\frac{EGEI^{t}}{PIB_{2015}^{t}}$$ <br>
 en què: <br>
-$EGEI^{t} =$ emissions totals de gasos amb efecte d'hivernacle de les unitats econòmiques residents l'any $t$ (es distribueix el total nacional d'emissions totals de gasos amb efecte d'hivernacle del Compte d'emissions a l'atmosfera en funció de les emissions totals de gasos d'efecte hivernacle per comunitats autònomes de l'Inventari nacional de gasos amb efecte d'hivernacle (GEH))<br>
+$EGEI^{t} =$ emissions totals de gasos amb efecte hivernacle de les unitats econòmiques residents l'any $t$ (es distribueix el total nacional d'emissions totals de gasos amb efecte hivernacle del Compte d'emissions a l'atmosfera en funció de les emissions totals de gasos d'efecte hivernacle per comunitats autònomes de l'Inventari nacional de gasos amb efecte hivernacle (GEH))<br>
 $PIB_{2015}^{t} =$ producte interior brut en volum encadenat amb referència 2015 l'any $t$"
 13-2-2-SERIE-B-formula-teorica: "$$PPEGEI^{t} = \\frac{EGEI^{t}}{P^{t}}$$ <br>
 en què: <br>
-$EGEI^{t} =$ emissions totals de gasos amb efecte d'hivernacle de les unitats econòmiques residents l'any $t$ (es distribueix el total nacional d'emissions totals de gasos amb efecte d'hivernacle del Compte d'emissions a l'atmosfera en funció de les emissions totals de gasos d'efecte hivernacle per comunitats autònomes de l'Inventari nacional de gasos amb efecte d'hivernacle (GEH))<br>
+$EGEI^{t} =$ emissions totals de gasos amb efecte hivernacle de les unitats econòmiques residents l'any $t$ (es distribueix el total nacional d'emissions totals de gasos amb efecte hivernacle del Compte d'emissions a l'atmosfera en funció de les emissions totals de gasos d'efecte hivernacle per comunitats autònomes de l'Inventari nacional de gasos amb efecte hivernacle (GEH))<br>
 $P^{t} =$ població a 1 de juliol de l'any $t$"
 16-1-4-SERIE-A-formula-teorica: "$$PPSSC_{16+}^{t} = \\frac{PSSC_{16+}^{t}}{P_{16+}^{t}} \\cdot 100$$ <br>
 en què: <br>
@@ -422,11 +422,11 @@ $EH_{manufacturer}^{t} =$ ocupació (hores) del sector manufacturer l'any $t$ <b
 $EH^{t} =$ ocupació (hores) l'any $t$ "
 9-4-1-SERIE-A-formula-teorica: "$$PPIBECO2^{t} = \\frac{ECO2^{t}}{PIB_{2015}^{t}} $$ <br>
 en què: <br>
-$ECO2^{t} =$ emissions de CO2 de les unitats econòmiques residents l'any $t$ (es distribueix el total nacional d'emissions de CO2 del Compte d'emissions a l'atmosfera en funció de les emissions de CO2 per comunitats autònomes de l'Inventari nacional de gasos amb efecte d'hivernacle (GEH)<br>
+$ECO2^{t} =$ emissions de CO2 de les unitats econòmiques residents l'any $t$ (es distribueix el total nacional d'emissions de CO2 del Compte d'emissions a l'atmosfera en funció de les emissions de CO2 per comunitats autònomes de l'Inventari nacional de gasos amb efecte hivernacle (GEH)<br>
 $PIB_{2015}^{t} =$ producte interior brut en volum encadenat amb referència 2015 l'any $t$"
 9-4-1-SERIE-B-formula-teorica: "$$PVABECO2_{manufacturer}^{t} = \\frac{ECO2_{manufacturer}^{t}}{VAB_{manufacturer,2015}^{t}} $$ <br>
 en què: <br>
-$ECO2_{manufacturer}^{t} =$ emissions de CO2 de les unitats econòmiques residents del sector manufacturer l'any $t$ (es distribueix el total nacional d'emissions de CO2 del Compte d'emissions a l'atmosfera en funció de les emissions de CO2 per comunitats autònomes de l'Inventari nacional de gasos amb efecte d'hivernacle (GEH)<br>
+$ECO2_{manufacturer}^{t} =$ emissions de CO2 de les unitats econòmiques residents del sector manufacturer l'any $t$ (es distribueix el total nacional d'emissions de CO2 del Compte d'emissions a l'atmosfera en funció de les emissions de CO2 per comunitats autònomes de l'Inventari nacional de gasos amb efecte hivernacle (GEH)<br>
 $VAB_{manufacturer,2015}^{t} =$ valor afegit brut del sector manufacturer en volum encadenat amb referència 2015 l'any $t$"
 9-5-1-SERIE-A-formula-teorica: "$$PPIBG_{R+D}^{t} = \\frac{G_{R+D}^{t}}{PIB^{t}}  \\cdot 100$$<br>
 en què: <br>
