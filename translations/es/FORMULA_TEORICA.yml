@@ -147,7 +147,7 @@ $D_{maternas}^{t} =$ defunciones de mujeres atribuidas a embarazo, parto y puerp
 $N^{t} =$ nacimientos en el año $t$"
 3-1-2-SERIE-A-formula-teorica: "$$PPAR_{atendidos}^{t} = \\frac{PAR_{atendidos}^{t}}{PAR^{t}} \\cdot 100$$ <br>
 donde: <br>
-$PPAR_{atendidos}^{t} =$ partos atendidos por personal sanitario especializado en el año $t$ <br>
+$PAR_{atendidos}^{t} =$ partos atendidos por personal sanitario especializado en el año $t$ <br>
 $PAR^{t} =$ partos en el año $t$"
 3-2-1-SERIE-A-formula-teorica: "'$$TM_{0-4}^{t} = \\frac{D_{0-4}^{t}}{N^{t}} \\cdot 1.000$$ <br>
 donde: <br>
