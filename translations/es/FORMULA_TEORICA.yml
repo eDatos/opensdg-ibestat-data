@@ -55,7 +55,7 @@ $GMP^{t} =$ gasto medio por persona en el año $t$"
 10-1-1-SERIE-C-formula-teorica: "$$TCIMP_{pobre}^{t} = \\sqrt[5]{\\frac{IMP_{pobre}^{t}-IMP_{pobre}^{t-5}}{IMP_{pobre}^{t-5}}} \\cdot 100 $$ <br>
 donde: <br>
 $IMP_{pobre}^{t} =$ el ingreso medio por persona de los hogares del 40% más pobre de la población de la comunidad autónoma (40% de las personas con menores ingresos por unidad de consumo (escala OCDE modificada)) en el año $t$"
-10-1-1-SERIE-D-formula-teorica: "$$TCIMP^{t} = \\sqrt[5]{\\frac{IMP^{t}-IMP^{t-5}}{IMP^{t-5}}} \\cdot 100 $$<br>
+10-1-1-SERIE-D-formula-teorica: "$$TCIMP^{t} = \\left(\\left(\\frac{IMP^{t}}{IMP^{t-5}} \\right)^{\\frac{1}{5}} -1 \\right) \\cdot 100$$<br>
 donde: <br>
 $IMP^{t} =$ ingreso medio por persona en el año $t$"
 10-2-1-SERIE-A-formula-teorica: "$$PP50ME_{NAC}^{t} = \\frac{P50ME_{NAC}^{t}}{P^{t}} \\cdot 100$$ <br>
