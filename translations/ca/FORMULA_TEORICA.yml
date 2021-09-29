@@ -46,15 +46,15 @@ $VP^{t} =$ habitatges principals en l'any $t$"
 en què: <br>
 $D_{desastres}^{t} =$ defuncions atribuïdes a desastres naturals (codis X30-X39 de la CIE-10) l'any $t$ <br>
 $P^{t} =$ població a 1 de juliol de l'any $t$"
-10-1-1-SERIE-A-formula-teorica: "$$TCGMP_{pobre}^{t} = \\left( \\left( \\frac{IMP^{t}_{pobre}}{IMP^{t-5}_{pobre}} \\right)^{\\frac{1}{5}} - 1 \\right) \\cdot 100$$ <br>
+10-1-1-SERIE-A-formula-teorica: "$$TCGMP_{pobre}^{t} = \\sqrt[5]{\\frac{GMP_{pobre}^{t}-GMP_{pobre}^{t-5}}{GMP_{pobre}^{t-5}}} \\cdot 100 $$ <br>
 en què: <br>
-$IMP_{pobre}^{t} =$ l'ingrés mitjà per persona de les llars del 40 % més pobre de la població de la comunitat autònoma (40 % de les persones amb menors despeses per unitat de consum (escala OCDE modificada)) l'any $t$"
+$GMP_{pobre}^{t} =$ despesa mitjana per persona de les llars del 40 % més pobre de la població de la comunitat autònoma (40 % de les persones amb menors despeses per unitat de consum (escala OCDE modificada)) l'any $t$"
 10-1-1-SERIE-B-formula-teorica: "$$TCGMP^{t} = \\sqrt[5]{\\frac{GMP^{t}-GMP^{t-5}}{GMP^{t-5}}} \\cdot 100 $$<br>
 en què: <br>
 $GMP^{t} =$ despesa mitjana per persona l'any $t$"
-10-1-1-SERIE-C-formula-teorica: "$$TCIMP_{pobre}^{t} = \\sqrt[5]{\\frac{IMP_{pobre}^{t}-IMP_{pobre}^{t-5}}{IMP_{pobre}^{t-5}}} \\cdot 100 $$ <br>
+10-1-1-SERIE-C-formula-teorica: "$$TCGMP_{pobre}^{t} = \\left( \\left( \\frac{IMP^{t}_{pobre}}{IMP^{t-5}_{pobre}} \\right)^{\\frac{1}{5}} - 1 \\right) \\cdot 100$$ <br>
 en què: <br>
-$IMP_{pobre}^{t} =$ l'ingrés mitjà per persona de les llars del 40 % més pobre de la població de la comunitat autònoma (40 % de les persones amb menors ingressos per unitat de consum (escala OCDE modificada)) l'any $t$"
+$IMP_{pobre}^{t} =$ l'ingrés mitjà per persona de les llars del 40 % més pobre de la població de la comunitat autònoma (40 % de les persones amb menors despeses per unitat de consum (escala OCDE modificada)) l'any $t$"
 10-1-1-SERIE-D-formula-teorica: "$$TCIMP^{t} = \\left(\\left(\\frac{IMP^{t}}{IMP^{t-5}} \\right)^{\\frac{1}{5}} -1 \\right) \\cdot 100$$<br>
 en què: <br>
 $IMP^{t} =$ ingrés mitjà per persona l'any $t$"
