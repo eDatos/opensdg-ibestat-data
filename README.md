@@ -56,6 +56,7 @@ Estos indicadores tendrán los siguientes metadatos:
 data_non_statistical|Define si los datos de este indicador son estadísticos, y por tanto podemos mostrar una gráfica relacionada a ellos, o si no lo son|Valores booleanos (true, false)
 goal_meta_link|Define un enlace a un documento asociado al indicador|Texto  entre comillas simples cuyo contenido sea un enlace al documento deseado
 goal_meta_link_text|Define el texto que aparecerá en el enlace al documento definido en goal_meta_link|Texto
+data_show_map|Si el indicador tiene información geográfica, esta propiedad permite mostrar los mapas, seleccionables a través de botones _radio_, en una pestaña al lado de la gráfica y la tabla | Valores booleanos (true, false) 
 graph_title|Título del gráfico del indicador|Texto
 graph_type|Tipo de gráfico que se podrá elegir entre *line* y *bar*. Por defecto para este tipo de indicadores se recomienda *line*|Texto
 indicator_number|Número del indicador|Número de indicador en formato [**\$M.\$O.\$I**](#nombre-de-los-metadatos).<br>**Ojo**: Se utilizan puntos en lugar de guiones.
