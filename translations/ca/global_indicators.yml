@@ -32,7 +32,7 @@
 1-a-1-graph-title: ''
 1-a-1-definition: ''
 1-a-2-title: "Proporció de la despesa pública total que es dedica a serveis essencials (educació, salut i protecció social)"
-1-a-2-graph-title: ''
+1-a-2-graph-title: "Proporció de la despesa de les administracions públiques autonòmiques que es dedica a serveis essencials"
 1-a-2-definition: ''
 1-a-3-title: "Suma del total de les subvencions i assignacions no generadores de deute dedicades directament a programes de reducció de la pobresa en proporció al PIB"
 1-a-3-graph-title: ''
@@ -178,8 +178,8 @@
 13-2-1-title: "Nombre de països amb contribucions determinades a nivell nacional, estratègies a llarg termini, plans nacionals d'adaptació i comunicacions sobre l'adaptació, notificades a la secretaria de la Convenció Marc de les Nacions Unides sobre el Canvi Climàtic"
 13-2-1-graph-title: ''
 13-2-1-definition: ''
-13-2-2-title: "Emissions totals de gasos amb efecte hivernacle per any"
-13-2-2-graph-title: "Emissions totals de gasos amb efecte hivernacle per any"
+13-2-2-title: "Emissions totals de gasos d'efecte d'hivernacle per any"
+13-2-2-graph-title: "EEmissions totals de gasos d'efecte d'hivernacle per any"
 13-2-2-definition: ''
 13-3-1-title: "Grau en què i) l’educació per a la ciutadania mundial i ii) l’educació per al desenvolupament sostenible s’incorporen a a) les polítiques nacionals d’educació, b) els plans d’estudi, c) la formació de professorat i d) l’avaluació dels estudiants"
 13-3-1-graph-title: ''
@@ -221,13 +221,13 @@
 14-c-1-graph-title: ''
 14-c-1-definition: ''
 15-1-1-title: "Superfície forestal en proporció a la superfície total"
-15-1-1-graph-title: ''
+15-1-1-graph-title: "Superfície de bosc en proporció a la superfície total"
 15-1-1-definition: ''
 15-1-2-title: "Proporció de llocs importants per a la biodiversitat terrestre i de l’aigua dolça inclosos en zones protegides, desglossada per tipus d’ecosistema"
 15-1-2-graph-title: ''
 15-1-2-definition: ''
 15-2-1-title: "Avenços cap a la gestió forestal sostenible"
-15-2-1-graph-title: ''
+15-2-1-graph-title: "Superfície forestal amb instruments de gestió sostenible vigents"
 15-2-1-definition: ''
 15-3-1-title: "Proporció de terres degradades en comparació amb la superfície total"
 15-3-1-graph-title: ''
@@ -293,7 +293,7 @@
 16-3-1-graph-title: ''
 16-3-1-definition: ''
 16-3-2-title: "Proporció de detinguts que no han estat condemnats en el conjunt de la població reclusa total"
-16-3-2-graph-title: ''
+16-3-2-graph-title: "Proporció de persones detingudes que no han estat condemnades respecte al total de persones recluses"
 16-3-2-definition: ''
 16-3-3-title: "Proporció de la població que s’ha vist implicada en alguna controvèrsia en els dos últims anys i ha accedit a algun mecanisme oficial o oficiós de solució de controvèrsies, desglossada per tipus de mecanisme"
 16-3-3-graph-title: ''
@@ -338,7 +338,7 @@
 17-1-1-graph-title: "Total d’ingressos de les administracions públiques autonòmiques i locals en proporció al PIB "
 17-1-1-definition: ''
 17-1-2-title: "Proporció del pressupost nacional finançat per impostos interns"
-17-1-2-graph-title: ''
+17-1-2-graph-title: "Proporció dels ingressos i dels ingressos no financers de les administracions públiques autonòmiques i locals provinents d'impostos"
 17-1-2-definition: ''
 17-10-1-title: "Mitjana aranzelària mundial ponderada"
 17-10-1-graph-title: ''
@@ -386,10 +386,10 @@
 17-2-1-graph-title: ''
 17-2-1-definition: ''
 17-3-1-title: "Inversió estrangera directa, assistència oficial per al desenvolupament i cooperació Sud-Sud en proporció al pressupost nacional total"
-17-3-1-graph-title: ''
+17-3-1-graph-title: "Inversió directa neta als països receptors d'Ajuda Oficial al Desenvolupament i Ajuda Oficial al Desenvolupament neta de les administracions públiques autonòmiques i locals"
 17-3-1-definition: ''
 17-3-2-title: "Volum de remeses (en dòlars dels Estats Units) en proporció al PIB total"
-17-3-2-graph-title: ''
+17-3-2-graph-title: "Volum de remeses enviades a l'estranger"
 17-3-2-definition: ''
 17-4-1-title: "Servei del deute en proporció a les exportacions de béns i serveis"
 17-4-1-graph-title: ''
@@ -494,7 +494,7 @@
 3-6-1-graph-title: "Taxa de mortalitat per lesions degudes a accidents de trànsit"
 3-6-1-definition: ''
 3-7-1-title: "Proporció de dones en edat de procrear (entre 15 i 49 anys) que cobreixen les seves necessitats de planificació familiar amb mètodes moderns"
-3-7-1-graph-title: ''
+3-7-1-graph-title: "Proporció de dones, entre 18 i 49 anys, casades amb un home o amb parella masculina, que cobreixen les seves necessitats de planificació familiar amb mètodes moderns"
 3-7-1-definition: ''
 3-7-2-title: "Taxa de fecunditat de les adolescents (d’entre 10 i 14 anys i d’entre 15 i 19 anys) per cada 1.000 dones d’aquest grup d’edat"
 3-7-2-graph-title: "Taxa de fecunditat de les adolescents segons el grup d’edat per cada 1.000 dones d’aquest grup d’edat"
@@ -503,7 +503,7 @@
 3-8-1-graph-title: "Proporció de persones de 16 i més anys amb necessitat insatisfeta d’atenció mèdica"
 3-8-1-definition: ''
 3-8-2-title: "Proporció de la població amb grans despeses sanitàries per llar com a percentatge del total de despeses o ingressos de les llars"
-3-8-2-graph-title: ''
+3-8-2-graph-title: "Proporción de personas que viven en hogares con grandes gastos sanitarios, superiores al 10% del gasto total del hogar"
 3-8-2-definition: ''
 3-9-1-title: "Taxa de mortalitat atribuïda a la contaminació de les llars i de l’aire ambient"
 3-9-1-graph-title: ''
@@ -518,7 +518,7 @@
 3-a-1-graph-title: "Proporció de persones de 15 i més anys que fumen cada dia"
 3-a-1-definition: ''
 3-b-1-title: "Proporció de la població immunitzada amb totes les vacunes incloses en cada programa nacional"
-3-b-1-graph-title: ''
+3-b-1-graph-title: "Proporció de la població immunitzada amb totes les vacunes incloses en cada programa nacional"
 3-b-1-definition: ''
 3-b-2-title: "Total net d’assistència oficial per al desenvolupament destinat als sectors de la investigació mèdica i l’atenció sanitària bàsica"
 3-b-2-graph-title: ''
@@ -545,7 +545,7 @@
 4-2-1-graph-title: ''
 4-2-1-definition: ''
 4-2-2-title: "Taxa de participació en l’aprenentatge organitzat (un any abans de l’edat oficial d’ingrés en l’ensenyament primari), desglossada per sexe"
-4-2-2-graph-title: ''
+4-2-2-graph-title: "Taxa neta d'escolarització als 5 anys segons sexe"
 4-2-2-definition: ''
 4-3-1-title: "Taxa de participació dels joves i adults en l’ensenyament i formació acadèmica i no acadèmica en els últims 12 mesos, desglossada per sexe"
 4-3-1-graph-title: "Taxa de participació dels joves i adults en l’ensenyament i formació acadèmica i no acadèmica"
@@ -557,7 +557,7 @@
 4-5-1-graph-title: "Índexs de paritat (entre dones i homes, zones rurals i urbanes, quintils de riquesa superior i inferior i grups com els discapacitats, els pobles indígenes i els afectats pels conflictes, a mesura que es disposi de dades) per a tots els indicadors educatius d’aquesta llista que es puguin desglossar"
 4-5-1-definition: ''
 4-6-1-title: "Proporció de la població en un grup d’edat determinat que ha arribat almenys a un nivell fix de competència funcional en a) alfabetització i b) nocions elementals d’aritmètica, desglossada per sexe"
-4-6-1-graph-title: ''
+4-6-1-graph-title: "Proporció de persones que han assolit almenys el nivell 2 de competència funcional segons sexe, edat i tipus de competència"
 4-6-1-definition: ''
 4-7-1-title: "Grau en què i) l’educació per a la ciutadania mundial i ii) l’educació per al desenvolupament sostenible, inclosa la igualtat de gènere i els drets humans, s’incorporen en tots els nivells de a) les polítiques nacionals d’educació, b) els plans d’estudi, c) la formació de professorat i d) l’avaluació dels estudiants"
 4-7-1-graph-title: ''
@@ -569,7 +569,7 @@
 4-b-1-graph-title: ''
 4-b-1-definition: ''
 4-c-1-title: "Proporció de docents amb les qualificacions mínimes requerides, desglossada per nivell educatiu"
-4-c-1-graph-title: ''
+4-c-1-graph-title: "Proporció del professorat que ha rebut almenys la mínima formació docent exigida per a impartir ensenyament segons nivell educatiu"
 4-c-1-definition: ''
 5-1-1-title: "Determinar si existeixen o no marcs jurídics per promoure, fer complir i supervisar la igualtat i la no discriminació per raó de sexe"
 5-1-1-graph-title: ''
@@ -581,7 +581,7 @@
 5-2-2-graph-title: ''
 5-2-2-definition: ''
 5-3-1-title: "Proporció de dones d’entre 20 i 24 anys que estaven casades o mantenien una unió estable abans de fer els 15 anys i abans de complir els 18 anys"
-5-3-1-graph-title: ''
+5-3-1-graph-title: "Proporció de dones de 16 i 17 anys que han contret matrimoni amb un home"
 5-3-1-definition: ''
 5-3-2-title: "Proporció de nines i dones d’entre 15 i 49 anys que han patit mutilació o ablació genital femenina, desglossada per edat"
 5-3-2-graph-title: ''
@@ -593,7 +593,7 @@
 5-5-1-graph-title: ''
 5-5-1-definition: ''
 5-5-2-title: "Proporció de dones en càrrecs directius"
-5-5-2-graph-title: "Proporció de dones en càrrecs directius i alta direcció"
+5-5-2-graph-title: "Proporció de dones en càrrecs directius, alta direcció i empresàries"
 5-5-2-definition: ''
 5-6-1-title: "Proporció de dones d’entre 15 i 49 anys que prenen les seves pròpies decisions informades sobre les relacions sexuals, l’ús d’anticonceptius i l’atenció de la salut reproductiva"
 5-6-1-graph-title: ''
@@ -617,7 +617,7 @@
 5-c-1-graph-title: ''
 5-c-1-definition: ''
 6-1-1-title: "Proporció de la població que utilitza serveis de subministrament d’aigua potable gestionats sense riscos"
-6-1-1-graph-title: ''
+6-1-1-graph-title: "Proporció de persones que reben subministrament d'aigua amb cobertura del Sistema Nacional d'Aigües de Consum"
 6-1-1-definition: ''
 6-2-1-title: "Proporció de la població que utilitza: a) serveis de sanejament gestionats sense riscos i b) instal·lacions per al rentat de mans amb aigua i sabó"
 6-2-1-graph-title: ''
@@ -647,7 +647,7 @@
 6-a-1-graph-title: ''
 6-a-1-definition: ''
 6-b-1-title: "Proporció de dependències administratives locals que han establert polítiques i procediments operacionals per a la participació de les comunitats locals en la gestió de l’aigua i el sanejament"
-6-b-1-graph-title: ''
+6-b-1-graph-title: "Proporció de dependències administratives locals que han establert polítiques i procediments operacionals per a la participació de les comunitats locals en la gestió de l'aigua de consum i bany"
 6-b-1-definition: ''
 7-1-1-title: "Proporció de la població que té accés a l’electricitat"
 7-1-1-graph-title: ''
@@ -656,10 +656,10 @@
 7-1-2-graph-title: ''
 7-1-2-definition: ''
 7-2-1-title: "Proporció d’energia renovable en el consum final total d’energia"
-7-2-1-graph-title: ''
+7-2-1-graph-title: "Proporció d'energies renovables en la producció d'energia elèctrica"
 7-2-1-definition: ''
 7-3-1-title: "Intensitat energètica mesurada en funció de l’energia primària i el PIB"
-7-3-1-graph-title: ''
+7-3-1-graph-title: "Consum d'energia elèctrica per unitat de PIB"
 7-3-1-definition: ''
 7-a-1-title: "Corrents financers internacionals cap als països en desenvolupament per donar suport a la investigació i el desenvolupament d’energies netes i la producció d’energia renovable, inclosos els sistemes híbrids"
 7-a-1-graph-title: ''
@@ -674,7 +674,7 @@
 8-10-1-graph-title: ''
 8-10-1-definition: ''
 8-10-2-title: "Proporció d’adults (a partir de 15 anys d’edat) que tenen un compte en un banc o una altra institució financera o un proveïdor de serveis de diners mòbil"
-8-10-2-graph-title: ''
+8-10-2-graph-title: "Proporció de persones entre 18 i 79 anys que tenen un compte corrent"
 8-10-2-definition: ''
 8-2-1-title: "Taxa de creixement anual del PIB real per persona ocupada"
 8-2-1-graph-title: "Taxa de creixement anual del PIB real segons la forma de mesurar l’ocupació"
@@ -689,10 +689,10 @@
 8-4-2-graph-title: ''
 8-4-2-definition: ''
 8-5-1-title: "Ingrés mitjà per hora d’empleades i empleats, desglossat per ocupació, edat i persones amb discapacitat"
-8-5-1-graph-title: "Ingrés mitjà per hora de treball segons el sexe"
+8-5-1-graph-title: "Ingrés mitjà per hora de treball segons sexe o persones amb discapacitat"
 8-5-1-definition: ''
 8-5-2-title: "Taxa d’atur, desglossada per sexe, edat i persones amb discapacitat"
-8-5-2-graph-title: "Taxa d’atur segons el sexe"
+8-5-2-graph-title: "Taxa d'atur segons sexe o persones amb discapacitat"
 8-5-2-definition: ''
 8-6-1-title: "Proporció de joves (d’entre 15 i 24 anys) que no cursen estudis, no tenen feina ni reben capacitació"
 8-6-1-graph-title: "Proporció de joves d’entre 15 i 24 anys que no cursen estudis, no tenen feina ni reben formació"
@@ -713,7 +713,7 @@
 8-a-1-graph-title: ''
 8-a-1-definition: ''
 8-b-1-title: "Existència d’una estratègia nacional organitzada i en marxa per a l’ocupació dels joves, com a estratègia independent o com a part d’una estratègia nacional d’ocupació"
-8-b-1-graph-title: ''
+8-b-1-graph-title: "Despesa de les administracions públiques autonòmiques en foment de l'ocupació"
 8-b-1-definition: ''
 9-1-1-title: "Proporció de la població rural que viu a menys de 2 km d’una carretera transitable tot l’any"
 9-1-1-graph-title: ''
@@ -728,7 +728,7 @@
 9-2-2-graph-title: "Proporció de persones ocupades en el sector manufacturer i ocupació del sector manufacturer en proporció a l’ocupació total"
 9-2-2-definition: ''
 9-3-1-title: "Proporció del valor afegit total del sector industrial corresponent a les petites indústries"
-9-3-1-graph-title: ''
+9-3-1-graph-title: "Proporció del valor afegit total del sector manufacturer corresponent a les petites empreses"
 9-3-1-definition: ''
 9-3-2-title: "Proporció de les petites indústries que han obtingut un préstec o una línia de crèdit"
 9-3-2-graph-title: ''
