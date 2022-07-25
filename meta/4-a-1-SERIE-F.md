@@ -15,7 +15,6 @@ objetivo_global: global_goals.4-title
 definicion: subindicator.4-a-1-SERIE-F-definicion
 
 formula_teorica: FORMULA_TEORICA.4-a-1-SERIE-F-formula-teorica
-escolar $t-1/t$"
 unidad_medida: "Personas"
 fuentes_informacion: FUENTES_INFORMACION.4-a-1-SERIE-F-fuentes-informacion
 periodicidad: "CL_FREQ.A"
