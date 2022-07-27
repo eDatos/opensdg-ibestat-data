@@ -15,7 +15,7 @@ objetivo_global: global_goals.8-title
 definicion: subindicator.8-9-1-SERIE-A-definicion
 
 formula_teorica: FORMULA_TEORICA.8-9-1-SERIE-A-formula-teorica
-unidad_medida: OCECAS_UNIDAD_MEDIDA.OVERNIGHT_STAY_PER_POP
+unidad_medida: OCECAS_UNIDAD_MEDIDA.OVERNIGHT_STAY
 fuentes_informacion: FUENTES_INFORMACION.8-9-1-SERIE-A-fuentes-informacion
 periodicidad: "CL_FREQ.A"
 observaciones: OBSERVACIONES.8-9-1-SERIE-A-observaciones
