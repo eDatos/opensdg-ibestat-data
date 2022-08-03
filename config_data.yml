@@ -97,12 +97,7 @@ map_options:
 # local, relative to the src_dir specified above.
 
 map_layers:
-#- geojson_file: maps/ConsellsInsulars.json # commented due to file containing nuts code ES531 duplicated, causes compilation error
-#  name_property: NOM
-#  id_property: CODNUT3
-#  output_subfolder: regions
-#  filename_prefix: indicator_
-- geojson_file: maps/islas4IB_4326_definitivo.geojson
+- geojson_file: maps/islas3IB_4326.geojson
   name_property: NOM
   id_property: CODNUT3
   output_subfolder: regions
