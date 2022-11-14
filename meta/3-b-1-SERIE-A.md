@@ -5,7 +5,7 @@ target_id: '3.b.1'
 reporting_status: complete
 data_non_statistical: false
 indicator_sort_order: 03-bb-01-aa
-national_geographical_coverage: Canarias
+national_geographical_coverage: nuts.ES53
 
 # Info de Subindicador
 nombre: subindicator.3-b-1-SERIE-A-nombre
@@ -17,7 +17,7 @@ definicion: subindicator.3-b-1-SERIE-A-definicion
 formula_teorica: FORMULA_TEORICA.3-b-1-SERIE-A-formula-teorica
 unidad_medida: OCECAS_UNIDAD_MEDIDA.PT
 fuentes_informacion: FUENTES_INFORMACION.3-b-1-SERIE-A-fuentes-informacion
-periodicidad: "CL_FREQ.A"
+periodicidad: CL_FREQ.A
 observaciones: OBSERVACIONES.3-b-1-SERIE-A-observaciones
 
 # Info de Gráficas
