@@ -15,7 +15,7 @@ objetivo_global: global_goals.12-title
 definicion: subindicator.12-6-1-SERIE-B-definicion
 
 formula_teorica: FORMULA_TEORICA.12-6-1-SERIE-B-formula-teorica
-unidad_medida: "Organizaciones"
+unidad_medida: OCECAS_UNIDAD_MEDIDA.ORGANISATIONS
 fuentes_informacion: FUENTES_INFORMACION.12-6-1-SERIE-B-fuentes-informacion
 periodicidad: CL_FREQ.A
 observaciones: OBSERVACIONES.12-6-1-SERIE-B-observaciones
@@ -30,5 +30,7 @@ tab_name: SERIE.SERIE_B
 
 #Coordinación con OCECAS
 coordinado_con_ocecas: true
+
+show_map: true
 
 ---
