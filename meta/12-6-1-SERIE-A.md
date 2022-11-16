@@ -15,7 +15,7 @@ objetivo_global: global_goals.12-title
 definicion: subindicator.12-6-1-SERIE-A-definicion
 
 formula_teorica: FORMULA_TEORICA.12-6-1-SERIE-A-formula-teorica
-unidad_medida: "Licencias"
+unidad_medida: OCECAS_UNIDAD_MEDIDA.LICENCES
 fuentes_informacion: FUENTES_INFORMACION.12-6-1-SERIE-A-fuentes-informacion
 periodicidad: CL_FREQ.A
 observaciones: OBSERVACIONES.12-6-1-SERIE-A-observaciones
