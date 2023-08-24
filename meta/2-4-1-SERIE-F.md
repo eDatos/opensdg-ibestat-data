@@ -15,7 +15,7 @@ definicion: subindicator.2-4-1-SERIE-F-definicion
 
 # Fórmula teórica escrita en formato MathJax
 formula_teorica: FORMULA_TEORICA.2-4-1-SERIE-F-formula-teorica
-unidad_medida: "Kilotoneladas"
+unidad_medida: OCECAS_UNIDAD_MEDIDA.KT
 fuentes_informacion: FUENTES_INFORMACION.2-4-1-SERIE-F-fuentes-informacion
 periodicidad: "CL_FREQ.A"
 observaciones: OBSERVACIONES.2-4-1-SERIE-F-observaciones
