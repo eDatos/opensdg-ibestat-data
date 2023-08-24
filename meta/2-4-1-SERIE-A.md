@@ -25,7 +25,7 @@ graph_type: bar
 
 # Info para las tabs
 sort_order: 1
-tab_name: 
+tab_name: SERIE.SERIE_A
 
 #Coordinación con OCECAS
 coordinado_con_ocecas: true
