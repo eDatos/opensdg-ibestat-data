@@ -62,7 +62,7 @@
 2-3-2-graph-title: ''
 2-3-2-title: "Mitjana d’ingressos dels productors d’aliments a petita escala, desglossada per sexe i condició indígena"
 2-4-1-definition: ''
-2-4-1-graph-title: "Proporció de la superfície agrícola en què es practica una agricultura productiva i sostenible"
+2-4-1-graph-title: "Proporció de la superfície agrícola en què es practica una agricultura productiva i sostenible; i emissions d'amoníac"
 2-4-1-title: "Proporció de la superfície agrícola en què es practica una agricultura productiva i sostenible"
 2-5-1-definition: ''
 2-5-1-graph-title: ''
@@ -80,7 +80,7 @@
 2-b-1-graph-title: ''
 2-b-1-title: "Subsidis a l’exportació de productes agropecuaris"
 2-c-1-definition: ''
-2-c-1-graph-title: ''
+2-c-1-graph-title: "Índex de preus dels aliments, pa i cereals"
 2-c-1-title: "Indicador d’anomalies en els preus dels aliments"
 3-1-1-definition: ''
 3-1-1-graph-title: "Taxa de mortalitat materna"
@@ -170,7 +170,7 @@
 4-1-1-graph-title: "Proporció de persones que han aconseguit almenys el nivell 2 de competència segons sexe, edat i tipus de competència"
 4-1-1-title: "Proporció de nens, nines i adolescents que, a) en els cursos segon i tercer, b) a la fi de l’ensenyament primari i c) a la fi de l’ensenyament secundari inferior, han arribat almenys a un nivell mínim de competència en i) lectura i ii) matemàtiques, desglossada per sexe"
 4-1-2-definition: ''
-4-1-2-graph-title: ''
+4-1-2-graph-title: "Proporció de persones que han completat almenys la primera o segona etapa d'ensenyament secundari segons sexe i edat"
 4-1-2-title: "Índex de finalització (ensenyament primari, primer cicle d’ensenyament secundari i segon cicle d’ensenyament secundari)"
 4-2-1-definition: ''
 4-2-1-graph-title: ''
@@ -332,7 +332,7 @@
 8-8-2-graph-title: ''
 8-8-2-title: "Nivell de compliment nacional dels drets laborals (llibertat d’associació i negociació col·lectiva) d’acord amb les fonts textuals de l’Organització Internacional de Treball (OIT) i la legislació interna, desglossat per sexe i estatus migratori"
 8-9-1-definition: ''
-8-9-1-graph-title: "Pernoctacions de turistes"
+8-9-1-graph-title: "Pernoctacions de turistes, proporció de la despesa en viatges culturals i proporció de persones ocupades en el sector cultural"
 8-9-1-title: "PIB generat directament pel turisme en proporció al PIB total i a la taxa de creixement"
 8-10-1-definition: ''
 8-10-1-graph-title: "Nombre de sucursals de bancs comercials per cada 100.000 habitants de 15 i més anys"
@@ -377,7 +377,7 @@
 9-a-1-graph-title: ''
 9-a-1-title: "Total de suport internacional oficial (assistència oficial per al desenvolupament més altres corrents oficials de recursos) destinat a la infraestructura"
 9-b-1-definition: ''
-9-b-1-graph-title: ''
+9-b-1-graph-title: "Proporció del valor afegit total del sector manufacturer corresponent a les activitats de mitjana-alta i alta tecnologia"
 9-b-1-title: "Proporció del valor afegit per a la indústria de tecnologia mitjana i alta en el valor afegit total"
 9-c-1-definition: ''
 9-c-1-graph-title: "Proporció de llars cobertes amb xarxes mòbils segons tecnologia"
@@ -437,7 +437,7 @@
 11-3-2-graph-title: "Proporció de ciutats que compten amb una estructura de participació directa de la societat civil en la planificació i la gestió urbanes que funcioni amb regularitat i democràticament"
 11-3-2-title: "Proporció de ciutats que compten amb una estructura de participació directa de la societat civil en la planificació i la gestió urbanes i funcionen amb regularitat i democràticament"
 11-4-1-definition: ''
-11-4-1-graph-title: ''
+11-4-1-graph-title: "Despesa per càpita de les administracions públiques en la preservació, protecció i conservació del patrimoni cultural segons nivell de govern"
 11-4-1-title: "Total de despeses per càpita destinades a la preservació, protecció i conservació de tot el patrimoni cultural i natural, desglossat per font de finançament (públic i privat), tipus de patrimoni (cultural i natural) i nivell de govern (nacional, regional i local/municipal)"
 11-5-1-definition: ''
 11-5-1-graph-title: "Nombre de persones mortes directament atribuït a desastres per cada 100.000 habitants"
@@ -449,7 +449,7 @@
 11-6-1-graph-title: "Residus urbans recollits per càpita i proporció de residus urbans en relació amb el total de residus urbans generats i tractats"
 11-6-1-title: "Proporció de deixalles sòlides urbanes recollides periòdicament i amb una descàrrega final adequada respecte del total de deixalles sòlides urbanes generades, desglossada per ciutat"
 11-6-2-definition: ''
-11-6-2-graph-title: ''
+11-6-2-graph-title: "Nivell mitjà de partícules fines en suspensió a les ciutats ponderat segons la població"
 11-6-2-title: "Nivells mitjans anuals de partícules fines en suspensió (per exemple, PM2.5 i PM10) a les ciutats (ponderats segons la població)"
 11-7-1-definition: ''
 11-7-1-graph-title: ''
@@ -470,7 +470,7 @@
 11-c-1-graph-title: ''
 11-c-1-title: "Proporcionar suport als països menys avançats, fins i tot mitjançant assistència financera i tècnica, perquè puguin construir edificis sostenibles i resilients utilitzant materials locals"
 12-1-1-definition: ''
-12-1-1-graph-title: ''
+12-1-1-graph-title: "S'elabora, adopta o aplica instruments de política destinats a donar suport a la transició cap a modalitats de consum i producció sostenibles"
 12-1-1-title: "Nombre de països que inclouen com a prioritat o meta en les polítiques nacionals plans d’acció nacionals sobre el consum i la producció sostenibles"
 12-2-1-definition: ''
 12-2-1-graph-title: ''
@@ -650,7 +650,7 @@
 16-6-1-graph-title: ''
 16-6-1-title: "Despeses primàries de govern en proporció al pressupost aprovat originalment, desglossades per sector (o per codis pressupostaris o elements similars)"
 16-6-2-definition: ''
-16-6-2-graph-title: ''
+16-6-2-graph-title: "Proporció de la població que se sent satisfeta amb el funcionament dels serveis públics segons servei"
 16-6-2-title: "Proporció de la població que se sent satisfeta amb la seva última experiència dels serveis públics"
 16-7-1-definition: ''
 16-7-1-graph-title: "Ràtio de la proporció de places ocupades per dones respecte a la proporció de dones de 16 a 64 anys segons institució"
@@ -698,7 +698,7 @@
 17-5-1-graph-title: ''
 17-5-1-title: "Nombre de països que adopten i apliquen sistemes de promoció de les inversions en favor dels països menys avançats"
 17-6-1-definition: ''
-17-6-1-graph-title: ''
+17-6-1-graph-title: "Nombre de línies de banda ampla fixa per cada 100 habitants segons tecnologia d'accés"
 17-6-1-title: "Nombre d’abonats a Internet de banda ampla fixa per cada 100 habitants, desglossat per velocitat"
 17-7-1-definition: ''
 17-7-1-graph-title: "Total d’ingressos de les administracions públiques autonòmiques i locals en proporció al PIB"
@@ -719,7 +719,7 @@
 17-12-1-graph-title: ''
 17-12-1-title: "Mitjana dels aranzels que afronten els països en desenvolupament, els països menys avançats i els petits estats insulars en desenvolupament"
 17-13-1-definition: ''
-17-13-1-graph-title: ''
+17-13-1-graph-title: "Tauler macroeconòmic"
 17-13-1-title: "Tauler macroeconòmic"
 17-14-1-definition: ''
 17-14-1-graph-title: ''
@@ -737,7 +737,7 @@
 17-18-1-graph-title: ''
 17-18-1-title: "Indicador de capacitat estadística per al seguiment dels Objectius de Desenvolupament Sostenible"
 17-18-2-definition: ''
-17-18-2-graph-title: "La legislació autonòmica sobre estadístiques compleix els Principis Fonamentals de les Estadístiques Oficials"
+17-18-2-graph-title: "La legislació sobre estadístiques compleix els Principis Fonamentals de les Estadístiques Oficials"
 17-18-2-title: "Nombre de països la legislació nacional sobre estadístiques dels quals compleix els Principis Fonamentals de les Estadístiques Oficials"
 17-18-3-definition: ''
 17-18-3-graph-title: "Es disposa d'un pla estadístic autonòmic plenament finançat i en fase d'aplicació"
