@@ -203,7 +203,7 @@
 4-c-1-graph-title: "Proporció del professorat que ha rebut almenys la mínima formació docent exigida per a impartir ensenyament segons nivell educatiu"
 4-c-1-title: "Proporció de docents amb les qualificacions mínimes requerides, desglossada per nivell educatiu"
 5-1-1-definition: ''
-5-1-1-graph-title: ''
+5-1-1-graph-title: "Existència de marcs jurídicos per a promoure, reforçar i supervisar la igualtat de gènere"
 5-1-1-title: "Determinar si existeixen o no marcs jurídics per promoure, fer complir i supervisar la igualtat i la no discriminació per raó de sexe"
 5-2-1-definition: ''
 5-2-1-graph-title: ''
@@ -239,7 +239,7 @@
 5-a-1b-graph-title: "Proporció de dones titulars d’explotacions agrícoles, respecte al total de titulars d’explotacions agrícoles, segons tipus de tinença"
 5-a-1b-title: "Proporció de dones entre els propietaris o els titulars de drets sobre terres agrícoles, desglossada per tipus de tinença"
 5-a-2-definition: ''
-5-a-2-graph-title: ''
+5-a-2-graph-title: "Grau en què el marc jurídic garanteix la igualtat de drets de la dona a la propietat o el control de terres"
 5-a-2-title: "Proporció de països l’ordenament jurídic dels quals (inclòs el dret consuetudinari) garanteix la igualtat de drets de la dona a la propietat o el control de les terres"
 5-b-1-definition: ''
 5-b-1-graph-title: "Proporció de persones d’entre 16 i 74 anys que han fet servir el mòbil en els últims tres mesos segons sexe"
@@ -413,7 +413,7 @@
 10-7-3-graph-title: ''
 10-7-3-title: "Nombre de persones que van morir o van desaparèixer en el procés de migració cap a una destinació internacional"
 10-7-4-definition: ''
-10-7-4-graph-title: ''
+10-7-4-graph-title: "Número de personas refugiadas por cada 100.000 habitantes"
 10-7-4-title: "Proporció de la població integrada per refugiats, desglossada per país d’origen"
 10-a-1-definition: ''
 10-a-1-graph-title: ''
@@ -458,7 +458,7 @@
 11-7-2-graph-title: ''
 11-7-2-title: "Proporció de persones que han estat víctimes d’assetjament físic o sexual en els últims 12 mesos, desglossada per sexe, edat, grau de discapacitat i lloc del fet"
 11-a-1-definition: ''
-11-a-1-graph-title: ''
+11-a-1-graph-title: "Proporció de la població resident en municipis que disposen de pla general o normes subsidiàries de planejament urbanístic"
 11-a-1-title: "Nombre de països que compten amb polítiques urbanes nacionals o plans de desenvolupament regionals que a) responen a la dinàmica de la població, b) garanteixen un desenvolupament territorial equilibrat i c) augmenten el marge fiscal local"
 11-b-1-definition: ''
 11-b-1-graph-title: ''
@@ -647,7 +647,7 @@
 16-5-2-graph-title: ''
 16-5-2-title: "Proporció de negocis que han tingut almenys un contacte amb un funcionari públic i que han pagat un suborn a un funcionari públic, o a qui un funcionari públic ha demanat un suborn, durant els últims 12 mesos"
 16-6-1-definition: ''
-16-6-1-graph-title: ''
+16-6-1-graph-title: "Despesa liquidada en proporció a la despesa inicial dels pressupostos de les administracions públiques autonòmiques i públiques locals"
 16-6-1-title: "Despeses primàries de govern en proporció al pressupost aprovat originalment, desglossades per sector (o per codis pressupostaris o elements similars)"
 16-6-2-definition: ''
 16-6-2-graph-title: "Proporció de la població que se sent satisfeta amb el funcionament dels serveis públics segons servei"
