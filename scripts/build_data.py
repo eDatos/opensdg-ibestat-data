@@ -7,6 +7,7 @@ import re
 from overrides import *
 from sdg import open_sdg
 import yaml
+import edatos.services.common_metadata as common_metadata
 
 INDEX_FILEPATH = "data/indice_{}.csv"
 CONFIG_FILE = "config_data.yml"
@@ -43,6 +44,9 @@ def create_index_csv():
 
 
 if __name__ == "__main__":
+
+    config = common_metadata.initialize_properties(config='config_data.yml')
+    
     # Validate the indicators.
     print("Validando datos...")
     validation_successful = open_sdg.open_sdg_check(config='config_data.yml')

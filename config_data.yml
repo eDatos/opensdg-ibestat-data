@@ -119,3 +119,11 @@ docs_intro: This is a list of examples of endpoints and output that are
 # This can be uncommented and updated so allow links to your indicator pages.
 # The URL here should have [id] instead of the indicator ID.
 #docs_indicator_url: https://my-github-org/my-site-repository/[id]
+
+edatos:
+  common_metadata:
+    rest: https://pre.ibestat.es/edatos/apis/cmetadata/v1.0
+    keys:
+      unit_measure_id: metamac.srm.dsd.unit_measure.id
+      statistical_resources_rest: metamac.statistical_resources.rest.external
+      root_collection: edatos.opensdg.root.collection.urn
