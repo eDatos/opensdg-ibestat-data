@@ -8,6 +8,7 @@ from overrides import *
 from sdg import open_sdg
 import yaml
 import edatos.services.common_metadata as common_metadata
+import edatos.services.statistical_resources as statistical_resources
 
 INDEX_FILEPATH = "data/indice_{}.csv"
 CONFIG_FILE = "config_data.yml"
@@ -46,6 +47,7 @@ def create_index_csv():
 if __name__ == "__main__":
 
     config = common_metadata.initialize_properties(config='config_data.yml')
+    url = statistical_resources.urn_to_url(config['statistical_resources_rest'], config['root_collection'])
     
     # Validate the indicators.
     print("Validando datos...")
