@@ -1,12 +1,14 @@
 import edatos.utils.i18n as i18n
 import edatos.utils.json as json
 
-def process_nodes(collection, languages):
+series_orden_attribute_id = 'SERIES_ORDEN'
+
+def process_nodes(collection, config):
     if 'data' in collection and 'nodes' in collection['data'] and 'node' in collection['data']['nodes']:
         for node in collection['data']['nodes']['node']:
-            process_node(node, languages)
+            process_node(node, config)
 
-def process_node(node, languages, level=1):
+def process_node(node, config, level=1):
     if level == 1:
         node_type = 'objective'
     elif level == 2:
@@ -17,7 +19,7 @@ def process_node(node, languages, level=1):
         print(f"Unsupported level {level}")
         return
 
-    default_language = languages[0]
+    default_language = config['languages'][0]
     node_id = i18n.international_string_to_string(node['name'], default_language)
     print(f"Processing {node_type}: {node_id}")
 
@@ -25,11 +27,11 @@ def process_node(node, languages, level=1):
         dataset_url = node['dataset']['selfLink']['href'] + ".json"
         print(f"Downloading dataset from: {dataset_url}")
         data = json.download(dataset_url)
-        transform_dataset_json_to_csvs(data, 'data/' + format_filename(node_id))
+        transform_dataset_json_to_csvs(data, 'data/' + format_filename(node_id), config)
 
     if 'nodes' in node and 'node' in node['nodes']:
         for child_node in node['nodes']['node']:
-            process_node(child_node, languages, level + 1)
+            process_node(child_node, config, level + 1)
 
 def urn_to_url(base_url, urn):
     # Extraer la organización y el resourceID de la URN
@@ -49,9 +51,15 @@ def urn_to_url(base_url, urn):
 
     return url
 
-def transform_dataset_json_to_csvs(data, output_filepath):
-    
+def transform_dataset_json_to_csvs(data, output_filepath, config):   
+     
     observations = data['data']['observations'].split(" | ")
+    
+    unit_measure_attribute = next(attr for attr in data['data']['attributes']['attribute'] if attr['id'] == config['unit_measure_id'])
+    unit_measure_attribute_values = unit_measure_attribute['value'].split(" | ")
+
+    series_orden_attribute = next(attr for attr in data['data']['attributes']['attribute'] if attr['id'] == series_orden_attribute_id)
+    series_orden_attribute_values = series_orden_attribute['value'].split(" | ")
 
 # Example
 # node_id = "2.4.1"
