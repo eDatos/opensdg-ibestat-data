@@ -68,6 +68,7 @@ def transform_dataset_json_to_csvs(data, output_filepath, config):
     totals = [dimension['representations']['total'] for dimension in dimensions]
     pointer = 0
     records = []
+    records_by_serie = {}
     additional_columns = set()
     # Python has a pythonic way to iterate a n-dimensional array via itertools.product
     # https://stackoverflow.com/questions/45737880/how-to-iterate-over-this-n-dimensional-dataset
@@ -115,16 +116,34 @@ def transform_dataset_json_to_csvs(data, output_filepath, config):
 
         print(record)
         records.append(record)
+        record_by_serie = {
+            'Year': record['Year'],
+            'Units': record['Units'],
+            'general.territorio': record['general.territorio'],
+            'Value': record['Value']
+        }
+        if record['Serie'] not in records_by_serie:
+            records_by_serie[record['Serie']] = []
+        records_by_serie[record['Serie']].append(record_by_serie)
      
     clean_disaggregated_values(records, additional_columns)
 
-    # Crear un DataFrame de pandas
+    # Creating base CSV
     df = pandas.DataFrame(records)    
-
     # Trying to match order of rows and columns the same way as the original CSVs
     column_order = ['Year', 'Units', 'general.territorio', 'Serie', 'SERIE_TEMPORAL.Encabezado'] + list(additional_columns) + ['Value']
     df = df.sort_values(by=['Serie', 'Year', 'general.territorio', 'SERIE_TEMPORAL.Encabezado'], ascending=[True, True, True, True])
     df.to_csv(output_filepath + ".csv", index=False, columns=column_order)
+
+
+    # Creating series CSVs
+    for serie, records in records_by_serie.items():
+        df = pandas.DataFrame(records)
+        serie_letter = serie.split('.')[1]        
+        # Trying to match order of rows and columns the same way as the original CSVs
+        column_order = ['Year', 'Units', 'general.territorio', 'Value']
+        df = df.sort_values(by=['Year', 'Units', 'general.territorio'], ascending=[True, True, True])      
+        df.to_csv(output_filepath + '-SERIE-' + serie_letter + '.csv', index=False, columns=column_order)
 
 # OpenSDG will show a filter facet whenever there are values for that combination, but business logic has decided against
 # showing the filter for single value dimensions. This behaviour was implemented before taking into account
