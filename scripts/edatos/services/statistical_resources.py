@@ -61,6 +61,20 @@ def transform_dataset_json_to_csvs(data, output_filepath, config):
     series_orden_attribute = next(attr for attr in data['data']['attributes']['attribute'] if attr['id'] == series_orden_attribute_id)
     series_orden_attribute_values = series_orden_attribute['value'].split(" | ")
 
+    dimensions = data['data']['dimensions']['dimension']
+    totals = [dimension['representations']['total'] for dimension in dimensions]
+    pointer = 0
+    # Python has a pythonic way to iterate a n-dimensional array via itertools.product
+    # https://stackoverflow.com/questions/45737880/how-to-iterate-over-this-n-dimensional-dataset
+    # https://docs.python.org/3/library/itertools.html#itertools.product
+    for idx in itertools.product(*[range(s) for s in totals]):
+        # Sample idx value: (1, 11, 12, 0, 2, 0, 0, 0, 0, 0, 0, 0)
+        value = observations[pointer]
+        units = unit_measure_attribute_values[pointer]
+        pointer += 1
+        if (value == ''):
+            continue
+        record = {}
 # Example
 # node_id = "2.4.1"
 # filename = format_filename(node_id)
