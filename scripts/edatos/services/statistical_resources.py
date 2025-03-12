@@ -24,8 +24,8 @@ def process_node(node, languages, level=1):
     if 'dataset' in node:
         dataset_url = node['dataset']['selfLink']['href'] + ".json"
         print(f"Downloading dataset from: {dataset_url}")
-        # download_and_transform_json_to_csv(dataset_url, 'data/' + format_filename(node_id))
         data = json.download(dataset_url)
+        transform_dataset_json_to_csvs(data, 'data/' + format_filename(node_id))
 
     if 'nodes' in node and 'node' in node['nodes']:
         for child_node in node['nodes']['node']:
@@ -48,3 +48,16 @@ def urn_to_url(base_url, urn):
     url = f"{base_url}/{organization}/{resource_id}.json"
 
     return url
+
+def transform_dataset_json_to_csvs(data, output_filepath):
+    
+    observations = data['data']['observations'].split(" | ")
+
+# Example
+# node_id = "2.4.1"
+# filename = format_filename(node_id)
+# print(filename)  # Output: indicator_2-4-1
+def format_filename(node_id):
+    formatted_id = node_id.replace('.', '-')
+    return f"indicator_{formatted_id}"
+
