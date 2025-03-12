@@ -1,3 +1,6 @@
+import itertools
+
+import pandas
 import edatos.utils.i18n as i18n
 import edatos.utils.json as json
 
@@ -64,6 +67,8 @@ def transform_dataset_json_to_csvs(data, output_filepath, config):
     dimensions = data['data']['dimensions']['dimension']
     totals = [dimension['representations']['total'] for dimension in dimensions]
     pointer = 0
+    records = []
+    additional_columns = set()
     # Python has a pythonic way to iterate a n-dimensional array via itertools.product
     # https://stackoverflow.com/questions/45737880/how-to-iterate-over-this-n-dimensional-dataset
     # https://docs.python.org/3/library/itertools.html#itertools.product
@@ -74,7 +79,49 @@ def transform_dataset_json_to_csvs(data, output_filepath, config):
         pointer += 1
         if (value == ''):
             continue
+
         record = {}
+        record['Units'] = 'UNIDAD_MEDIDA.' + units
+        record['Value'] = value
+
+        for dimension_index, representation_index in enumerate(idx):
+            dimension = dimensions[dimension_index]            
+            code = dimension['representations']['representation'][representation_index]['code']
+
+            # Predetermined columns, they always need to exist
+            header_columns = {
+                'TIME_PERIOD': 'Year',
+                'REF_AREA': 'general.territorio',
+                'SERIES': 'SERIE_TEMPORAL.Encabezado'
+            }
+
+            dimension_id = dimension['dimensionId']
+            header_column = header_columns.get(dimension_id, 'DIM_DES.' + dimension_id)
+            is_obligatory_column = dimension_id in header_columns.keys()
+            is_single_value = dimension['representations']['total'] == 1
+            needs_translation = dimension_id not in ['TIME_PERIOD', 'REF_AREA']
+            if (is_obligatory_column or not is_single_value):
+                if (not is_obligatory_column): 
+                    additional_columns.add('DIM_DES.' + dimension_id)
+                if (dimension_id == 'SERIES'):
+                    record['Serie'] = dimension_id.upper() + '.' + series_orden_attribute_values[representation_index]
+                    dimension_id = 'SERIE_TEMPORAL'     
+          
+                representation_code = code
+                if needs_translation:
+                    representation_code = dimension_id + '.' + code
+
+                record[header_column] = representation_code                    
+
+        print(record)
+        records.append(record)
+    # Crear un DataFrame de pandas
+    df = pandas.DataFrame(records)    
+
+    # Trying to match order of rows and columns the same way as the original CSVs
+    column_order = ['Year', 'Units', 'general.territorio', 'Serie', 'SERIE_TEMPORAL.Encabezado'] + list(additional_columns) + ['Value']
+    df = df.sort_values(by=['Serie', 'Year', 'general.territorio', 'SERIE_TEMPORAL.Encabezado'], ascending=[True, True, True, True])
+    df.to_csv(output_filepath + ".csv", index=False, columns=column_order)
 # Example
 # node_id = "2.4.1"
 # filename = format_filename(node_id)
