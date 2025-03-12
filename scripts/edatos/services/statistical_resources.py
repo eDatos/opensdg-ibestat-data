@@ -115,6 +115,9 @@ def transform_dataset_json_to_csvs(data, output_filepath, config):
 
         print(record)
         records.append(record)
+     
+    clean_disaggregated_values(records, additional_columns)
+
     # Crear un DataFrame de pandas
     df = pandas.DataFrame(records)    
 
@@ -122,6 +125,28 @@ def transform_dataset_json_to_csvs(data, output_filepath, config):
     column_order = ['Year', 'Units', 'general.territorio', 'Serie', 'SERIE_TEMPORAL.Encabezado'] + list(additional_columns) + ['Value']
     df = df.sort_values(by=['Serie', 'Year', 'general.territorio', 'SERIE_TEMPORAL.Encabezado'], ascending=[True, True, True, True])
     df.to_csv(output_filepath + ".csv", index=False, columns=column_order)
+
+# OpenSDG will show a filter facet whenever there are values for that combination, but business logic has decided against
+# showing the filter for single value dimensions. This behaviour was implemented before taking into account
+# both Units and SERIE_TEMPORAL. Because SERIE_TEMPORAL is no longer a group of series, we´ll only clean
+# based on Units.
+def clean_disaggregated_values(records, additional_columns):
+    units_groups = {}
+    for record in records:
+        units = record.get('Units')
+        if units not in units_groups:
+            units_groups[units] = []
+        units_groups[units].append(record)
+    
+    for units, units_records in units_groups.items():
+        for column in additional_columns:
+            unique_values = set(record.get(column, None) for record in units_records)
+            if len(unique_values) == 1:
+                print(f"Column {column} in unit {units} have single value: {unique_values}")
+                for record in units_records:
+                    if column in record:
+                        record[column] = ''
+
 # Example
 # node_id = "2.4.1"
 # filename = format_filename(node_id)
