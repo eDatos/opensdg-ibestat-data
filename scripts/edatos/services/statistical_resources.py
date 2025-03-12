@@ -1,4 +1,5 @@
 import edatos.utils.i18n as i18n
+import edatos.utils.json as json
 
 def process_nodes(collection, languages):
     if 'data' in collection and 'nodes' in collection['data'] and 'node' in collection['data']['nodes']:
@@ -24,6 +25,7 @@ def process_node(node, languages, level=1):
         dataset_url = node['dataset']['selfLink']['href'] + ".json"
         print(f"Downloading dataset from: {dataset_url}")
         # download_and_transform_json_to_csv(dataset_url, 'data/' + format_filename(node_id))
+        data = json.download(dataset_url)
 
     if 'nodes' in node and 'node' in node['nodes']:
         for child_node in node['nodes']['node']:
