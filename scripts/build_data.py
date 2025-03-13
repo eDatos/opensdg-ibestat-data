@@ -7,9 +7,8 @@ import re
 from overrides import *
 from sdg import open_sdg
 import yaml
-import edatos.services.common_metadata as common_metadata
-import edatos.services.statistical_resources as statistical_resources
-import edatos.utils.json as json
+from edatos.services import common_metadata, statistical_resources
+from edatos.utils import json, i18n
 
 INDEX_FILEPATH = "data/indice_{}.csv"
 CONFIG_FILE = "config_data.yml"
