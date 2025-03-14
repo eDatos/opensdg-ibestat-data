@@ -1,3 +1,8 @@
+import os
+import shutil
+
+base_dir = 'generated/translations'
+
 # Sample international string
 # 'text': [
 #     {'value': '8.9.1', 'lang': 'es'},
@@ -8,3 +13,8 @@ def international_string_to_string(international_string, language):
         if item['lang'] == language:
             return item['value']
     return None
+
+def clean_translation_files():
+    if os.path.exists(base_dir):
+        shutil.rmtree(base_dir)
+        os.makedirs(base_dir)

@@ -50,6 +50,7 @@ if __name__ == "__main__":
     url = statistical_resources.urn_to_url(config['statistical_resources_rest'], config['root_collection'])
     
     collection = json.download(url)    
+    i18n.clean_translation_files()
     statistical_resources.process_nodes(collection, config)
     # Validate the indicators.
     print("Validando datos...")
