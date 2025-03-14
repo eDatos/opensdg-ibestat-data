@@ -72,6 +72,8 @@ translations:
   # This pulls in translations from a local 'translations' folder.
   - class: TranslationInputYaml
     source: translations
+  - class: TranslationInputYaml
+    source: generated/translations
 
 # Reporting status extra fields
 # -----------------------------

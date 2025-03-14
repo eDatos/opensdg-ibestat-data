@@ -1,4 +1,5 @@
 import os
+import yaml
 import shutil
 
 base_dir = 'generated/translations'
@@ -18,3 +19,50 @@ def clean_translation_files():
     if os.path.exists(base_dir):
         shutil.rmtree(base_dir)
         os.makedirs(base_dir)
+
+def update_translation_files(translations):    
+    if not os.path.exists(base_dir):
+        os.makedirs(base_dir)
+    
+    for lang, translation_by_lang in translations.items():
+        lang_dir = os.path.join(base_dir, lang)
+        if not os.path.exists(lang_dir):
+            os.makedirs(lang_dir)
+        
+        # Group translations by the first part of the key
+        grouped_translations = {}
+        for key, value in translation_by_lang.items():
+            group, rest = key.split('.', 1)  # Dividir por el primer punto
+            if group not in grouped_translations:
+                grouped_translations[group] = {}
+            grouped_translations[group][rest] = value
+        
+        for group, group_translations in grouped_translations.items():
+            file_path = os.path.join(lang_dir, f'{group}.yml')
+            
+            # Leer el contenido existente del archivo YAML si ya existe
+            if os.path.exists(file_path):
+                with open(file_path, 'r', encoding='utf-8') as file:
+                    existing_translations = yaml.safe_load(file) or {}
+            else:
+                existing_translations = {}
+            
+            # Ignore existing translation keys
+            for key, value in group_translations.items():
+                if key in existing_translations and existing_translations[key] != value:
+                    raise ValueError(f"Key '{key}' already exists in {file_path} with different value {existing_translations[key]} != {value} .")
+            
+            # Añadir las nuevas claves que no existen en el archivo
+            new_translations = {key: value for key, value in group_translations.items() if key not in existing_translations}
+            existing_translations.update(new_translations)
+            
+            # Escribir las traducciones actualizadas en el archivo
+            with open(file_path, 'w', encoding='utf-8') as file:
+                yaml.dump(existing_translations, file, allow_unicode=True, width=1000)
+
+
+def populate_translations_from_key_international_string(translations, key, international_string):
+    for localized_string in international_string['text']:
+        if localized_string['lang'] not in translations:
+            translations[localized_string['lang']] = {}
+        translations[localized_string['lang']][key] = localized_string['value']

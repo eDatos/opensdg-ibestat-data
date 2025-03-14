@@ -1,8 +1,7 @@
 import itertools
 
 import pandas
-import edatos.utils.i18n as i18n
-import edatos.utils.json as json
+from edatos.utils import i18n, json
 
 series_orden_attribute_id = 'SERIES_ORDEN'
 
@@ -65,11 +64,14 @@ def transform_dataset_json_to_csvs(data, output_filepath, config):
     series_orden_attribute_values = series_orden_attribute['value'].split(" | ")
 
     dimensions = data['data']['dimensions']['dimension']
+    metadata_dimensions = data['metadata']['dimensions']['dimension']
     totals = [dimension['representations']['total'] for dimension in dimensions]
+    
     pointer = 0
     records = []
     records_by_serie = {}
     additional_columns = set()
+    translations = {}   
     # Python has a pythonic way to iterate a n-dimensional array via itertools.product
     # https://stackoverflow.com/questions/45737880/how-to-iterate-over-this-n-dimensional-dataset
     # https://docs.python.org/3/library/itertools.html#itertools.product
@@ -86,7 +88,8 @@ def transform_dataset_json_to_csvs(data, output_filepath, config):
         record['Value'] = value
 
         for dimension_index, representation_index in enumerate(idx):
-            dimension = dimensions[dimension_index]            
+            dimension = dimensions[dimension_index]
+            metadata_dimension = metadata_dimensions[dimension_index]            
             code = dimension['representations']['representation'][representation_index]['code']
 
             # Predetermined columns, they always need to exist
@@ -104,13 +107,18 @@ def transform_dataset_json_to_csvs(data, output_filepath, config):
             if (is_obligatory_column or not is_single_value):
                 if (not is_obligatory_column): 
                     additional_columns.add('DIM_DES.' + dimension_id)
+                    i18n.populate_translations_from_key_international_string(translations, 'DIM_DES.' + dimension_id, metadata_dimension['name'])
                 if (dimension_id == 'SERIES'):
-                    record['Serie'] = dimension_id.upper() + '.' + series_orden_attribute_values[representation_index]
+                    # We´ll construct it like this to reuse existing translations
+                    record['Serie'] = 'SERIE.SERIE_' + series_orden_attribute_values[representation_index]
                     dimension_id = 'SERIE_TEMPORAL'     
           
                 representation_code = code
                 if needs_translation:
                     representation_code = dimension_id + '.' + code
+                    dimension_values = metadata_dimension['dimensionValues']['value']
+                    dimension_value = next((val for val in dimension_values if val['id'] == code), None)
+                    i18n.populate_translations_from_key_international_string(translations, representation_code, dimension_value['name'])
 
                 record[header_column] = representation_code                    
 
@@ -135,11 +143,12 @@ def transform_dataset_json_to_csvs(data, output_filepath, config):
     df = df.sort_values(by=['Serie', 'Year', 'general.territorio', 'SERIE_TEMPORAL.Encabezado'], ascending=[True, True, True, True])
     df.to_csv(output_filepath + ".csv", index=False, columns=column_order)
 
+    i18n.update_translation_files(translations)
 
     # Creating series CSVs
     for serie, records in records_by_serie.items():
         df = pandas.DataFrame(records)
-        serie_letter = serie.split('.')[1]        
+        serie_letter = serie.split('_')[1]        
         # Trying to match order of rows and columns the same way as the original CSVs
         column_order = ['Year', 'Units', 'general.territorio', 'Value']
         df = df.sort_values(by=['Year', 'Units', 'general.territorio'], ascending=[True, True, True])      
