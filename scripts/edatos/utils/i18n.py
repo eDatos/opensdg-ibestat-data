@@ -61,8 +61,9 @@ def update_translation_files(translations):
                 yaml.dump(existing_translations, file, allow_unicode=True, width=1000)
 
 
-def populate_translations_from_key_international_string(translations, key, international_string):
+def update_translations(translations, key, international_string):
     for localized_string in international_string['text']:
         if localized_string['lang'] not in translations:
             translations[localized_string['lang']] = {}
         translations[localized_string['lang']][key] = localized_string['value']
+    return key

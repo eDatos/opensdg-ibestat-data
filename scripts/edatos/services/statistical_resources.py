@@ -29,7 +29,7 @@ def process_node(node, config, level=1):
         dataset_url = node['dataset']['selfLink']['href'] + ".json"
         print(f"Downloading dataset from: {dataset_url}")
         data = json.download(dataset_url)
-        create_opensdg_data(data, f'data/indicator_{format_indicator_filename(node_id)}', config)
+        create_opensdg_data(data, f'data/indicator_{kebab_case(indicator_id)(node_id)}', config)
 
     if 'nodes' in node and 'node' in node['nodes']:
         for child_node in node['nodes']['node']:
@@ -107,7 +107,7 @@ def create_opensdg_data(data, output_filepath, config):
             if (is_obligatory_column or not is_single_value):
                 if (not is_obligatory_column): 
                     additional_columns.add('DIM_DES.' + dimension_id)
-                    i18n.populate_translations_from_key_international_string(translations, 'DIM_DES.' + dimension_id, metadata_dimension['name'])
+                    i18n.update_translations(translations, 'DIM_DES.' + dimension_id, metadata_dimension['name'])
                 if (dimension_id == 'SERIES'):
                     # We´ll construct it like this to reuse existing translations
                     record['Serie'] = 'SERIE.SERIE_' + series_orden_attribute_values[representation_index]
@@ -118,7 +118,7 @@ def create_opensdg_data(data, output_filepath, config):
                     representation_code = dimension_id + '.' + code
                     dimension_values = metadata_dimension['dimensionValues']['value']
                     dimension_value = next((val for val in dimension_values if val['id'] == code), None)
-                    i18n.populate_translations_from_key_international_string(translations, representation_code, dimension_value['name'])
+                    i18n.update_translations(translations, representation_code, dimension_value['name'])
 
                 record[header_column] = representation_code                    
 
@@ -177,8 +177,8 @@ def clean_disaggregated_values(records, additional_columns):
 
 # Example
 # node_id = "2.4.1"
-# filename = format_indicator_filename(node_id)
+# filename = kebab_case(indicator_id)(node_id)
 # print(filename)  # Output: indicator_2-4-1
-def format_indicator_filename(node_id):
-    return node_id.replace('.', '-')
+def kebab_case(indicator_id):
+    return indicator_id.replace('.', '-')
 
