@@ -1,6 +1,7 @@
 import itertools
 
 import pandas
+import yaml
 from edatos.utils import i18n, json
 
 series_orden_attribute_id = 'SERIES_ORDEN'
@@ -22,6 +23,7 @@ def process_node(node, config, level=1):
         return
 
     default_language = config['languages'][0]
+    # Invariable between languages
     node_id = i18n.international_string_to_string(node['name'], default_language)
     print(f"Processing {node_type}: {node_id}")
 
@@ -30,6 +32,7 @@ def process_node(node, config, level=1):
         print(f"Downloading dataset from: {dataset_url}")
         data = json.download(dataset_url)
         create_opensdg_data(data, f'data/indicator_{kebab_case(indicator_id)(node_id)}', config)
+        create_opensdg_meta(data, f'meta/{kebab_case(node_id)}', config, node_id)
 
     if 'nodes' in node and 'node' in node['nodes']:
         for child_node in node['nodes']['node']:
@@ -174,6 +177,33 @@ def clean_disaggregated_values(records, additional_columns):
                 for record in units_records:
                     if column in record:
                         record[column] = ''
+
+# A yaml file inside a md file
+def create_opensdg_meta(data, output_filepath, config, indicator_id):
+
+    metadata = data['metadata']
+    indicator_key = kebab_case(indicator_id)
+    goal = indicator_id.split('.')[0]
+    target = goal + '.' + indicator_id.split('.')[1]
+    translations = {}
+
+    meta = {
+        'graph_title': i18n.update_translations(translations, f'global_indicators.{indicator_key}-graph-title', data['name']),
+        'indicator_number': indicator_id,
+        'sdg_goal': goal,
+        'target_id': target,
+    }
+
+    # Convert the dictionary to a YAML string
+    yaml_content = yaml.dump(meta, default_flow_style=False, allow_unicode=True, width=1000, sort_keys=False)
+    
+    # Wrap the YAML content with ---
+    markdown_content = f"---\n{yaml_content}---\n"
+    
+    with open(output_filepath + '.md', 'w', encoding='utf-8') as file:
+        file.write(markdown_content)
+
+    i18n.update_translation_files(translations)
 
 # Example
 # node_id = "2.4.1"
