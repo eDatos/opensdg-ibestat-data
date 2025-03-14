@@ -29,7 +29,7 @@ def process_node(node, config, level=1):
         dataset_url = node['dataset']['selfLink']['href'] + ".json"
         print(f"Downloading dataset from: {dataset_url}")
         data = json.download(dataset_url)
-        transform_dataset_json_to_csvs(data, 'data/' + format_filename(node_id), config)
+        create_opensdg_data(data, f'data/indicator_{format_indicator_filename(node_id)}', config)
 
     if 'nodes' in node and 'node' in node['nodes']:
         for child_node in node['nodes']['node']:
@@ -53,7 +53,7 @@ def urn_to_url(base_url, urn):
 
     return url
 
-def transform_dataset_json_to_csvs(data, output_filepath, config):   
+def create_opensdg_data(data, output_filepath, config):   
      
     observations = data['data']['observations'].split(" | ")
     
@@ -177,9 +177,8 @@ def clean_disaggregated_values(records, additional_columns):
 
 # Example
 # node_id = "2.4.1"
-# filename = format_filename(node_id)
+# filename = format_indicator_filename(node_id)
 # print(filename)  # Output: indicator_2-4-1
-def format_filename(node_id):
-    formatted_id = node_id.replace('.', '-')
-    return f"indicator_{formatted_id}"
+def format_indicator_filename(node_id):
+    return node_id.replace('.', '-')
 
