@@ -192,6 +192,7 @@ def create_opensdg_meta(data, output_filepath, config, indicator_id, node):
         'graph_title': i18n.update_translations(translations, f'global_indicators.{indicator_key}-graph-title', data['name']),
         'indicator_number': indicator_id,
         'indicator_name': i18n.update_translations(translations, f'global_indicators.{indicator_key}-title', node['description']),
+        'indicator_sort_order': generate_indicator_sort_order(indicator_key),
         'sdg_goal': goal,
         'target_id': target,
     }
@@ -208,9 +209,15 @@ def create_opensdg_meta(data, output_filepath, config, indicator_id, node):
     i18n.update_translation_files(translations)
 
 # Example
-# node_id = "2.4.1"
+# indicator_id = "2.4.1"
 # filename = kebab_case(indicator_id)(node_id)
 # print(filename)  # Output: indicator_2-4-1
 def kebab_case(indicator_id):
     return indicator_id.replace('.', '-')
 
+# Example
+# indicator_key = "2-4-1"
+# output = "02-04-01"
+def generate_indicator_sort_order(indicator_key):
+    padded_parts = [part.zfill(2) for part in indicator_key.split('-')]
+    return '-'.join(padded_parts)
