@@ -11,7 +11,7 @@ def process_nodes(collection, config):
         for node in collection['data']['nodes']['node']:
             process_node(node, config)
 
-def process_node(node, config, level=1):
+def process_node(node, config, parent_node = None, level=1):    
     if level == 1:
         node_type = 'objective'
     elif level == 2:
@@ -33,10 +33,12 @@ def process_node(node, config, level=1):
         data = json.download(dataset_url)
         create_opensdg_data(data, f'data/indicator_{kebab_case(indicator_id)(node_id)}', config)
         create_opensdg_meta(data, f'meta/{kebab_case(node_id)}', config, node_id)
+        create_opensdg_meta(data, f'meta/{kebab_case(node_id)}', config, node_id, parent_node)
 
     if 'nodes' in node and 'node' in node['nodes']:
         for child_node in node['nodes']['node']:
             process_node(child_node, config, level + 1)
+            process_node(child_node, config, node, level + 1)            
 
 def urn_to_url(base_url, urn):
     # Extraer la organización y el resourceID de la URN
@@ -179,8 +181,7 @@ def clean_disaggregated_values(records, additional_columns):
                         record[column] = ''
 
 # A yaml file inside a md file
-def create_opensdg_meta(data, output_filepath, config, indicator_id):
-
+def create_opensdg_meta(data, output_filepath, config, indicator_id, node):
     metadata = data['metadata']
     indicator_key = kebab_case(indicator_id)
     goal = indicator_id.split('.')[0]
@@ -190,6 +191,7 @@ def create_opensdg_meta(data, output_filepath, config, indicator_id):
     meta = {
         'graph_title': i18n.update_translations(translations, f'global_indicators.{indicator_key}-graph-title', data['name']),
         'indicator_number': indicator_id,
+        'indicator_name': i18n.update_translations(translations, f'global_indicators.{indicator_key}-title', node['description']),
         'sdg_goal': goal,
         'target_id': target,
     }
