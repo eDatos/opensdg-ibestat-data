@@ -4,7 +4,7 @@ import pandas
 import yaml
 from edatos.utils import i18n, json
 
-series_orden_attribute_id = 'SERIES_ORDEN'
+SERIES_ORDEN_ATTRIBUTE_ID = 'SERIES_ORDEN'
 
 def process_nodes(collection, config):
     if 'data' in collection and 'nodes' in collection['data'] and 'node' in collection['data']['nodes']:
@@ -65,7 +65,7 @@ def create_opensdg_data(data, output_filepath, config):
     unit_measure_attribute = next(attr for attr in data['data']['attributes']['attribute'] if attr['id'] == config['unit_measure_id'])
     unit_measure_attribute_values = unit_measure_attribute['value'].split(" | ")
 
-    series_orden_attribute = next(attr for attr in data['data']['attributes']['attribute'] if attr['id'] == series_orden_attribute_id)
+    series_orden_attribute = next(attr for attr in data['data']['attributes']['attribute'] if attr['id'] == SERIES_ORDEN_ATTRIBUTE_ID)
     series_orden_attribute_values = series_orden_attribute['value'].split(" | ")
 
     dimensions = data['data']['dimensions']['dimension']
