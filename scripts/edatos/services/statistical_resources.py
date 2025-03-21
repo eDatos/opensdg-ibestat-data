@@ -80,7 +80,7 @@ def create_opensdg_data(data, output_filepath, config):
     # Python has a pythonic way to iterate a n-dimensional array via itertools.product
     # https://stackoverflow.com/questions/45737880/how-to-iterate-over-this-n-dimensional-dataset
     # https://docs.python.org/3/library/itertools.html#itertools.product
-    for idx in itertools.product(*[range(s) for s in totals]):
+    for idx in itertools.product(*[range(total) for total in totals]):
         # Sample idx value: (1, 11, 12, 0, 2, 0, 0, 0, 0, 0, 0, 0)
         value = observations[pointer]
         units = unit_measure_attribute_values[pointer]
