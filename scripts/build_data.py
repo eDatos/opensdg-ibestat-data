@@ -51,8 +51,8 @@ if __name__ == "__main__":
     
     collection = json.download(url)    
     i18n.clean_translation_files()
-    statistical_resources.process_nodes(collection, config)
     meta_from_csv = csv.load_indexed_csv('indicator_key', 'meta/meta.csv')
+    statistical_resources.process_nodes(collection, config, meta_from_csv)
     # Validate the indicators.
     print("Validando datos...")
     validation_successful = open_sdg.open_sdg_check(config='config_data.yml')

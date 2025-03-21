@@ -6,12 +6,12 @@ from edatos.utils import i18n, json
 
 SERIES_ORDEN_ATTRIBUTE_ID = 'SERIES_ORDEN'
 
-def process_nodes(collection, config):
+def process_nodes(collection, config, meta_from_csv):
     if 'data' in collection and 'nodes' in collection['data'] and 'node' in collection['data']['nodes']:
         for node in collection['data']['nodes']['node']:
-            process_node(node, config)
+            process_node(node, config, meta_from_csv)
 
-def process_node(node, config, parent_node = None, level=1):    
+def process_node(node, config, meta_from_csv, parent_node = None, level=1):    
     if level == 1:
         node_type = 'objective'
     elif level == 2:
@@ -32,13 +32,12 @@ def process_node(node, config, parent_node = None, level=1):
         print(f"Downloading dataset from: {dataset_url}")
         data = json.download(dataset_url)
         create_opensdg_data(data, f'data/indicator_{kebab_case(indicator_id)(node_id)}', config)
-        create_opensdg_meta(data, f'meta/{kebab_case(node_id)}', config, node_id)
-        create_opensdg_meta(data, f'meta/{kebab_case(node_id)}', config, node_id, parent_node)
+        node_meta_from_csv = meta_from_csv.get(kebab_case(node_id), {})
+        create_opensdg_meta(data, f'meta/{kebab_case(node_id)}', config, node_id, parent_node, node_meta_from_csv)
 
     if 'nodes' in node and 'node' in node['nodes']:
         for child_node in node['nodes']['node']:
-            process_node(child_node, config, level + 1)
-            process_node(child_node, config, node, level + 1)            
+            process_node(child_node, config, meta_from_csv, node, level + 1)            
 
 def urn_to_url(base_url, urn):
     # Extraer la organización y el resourceID de la URN
@@ -181,7 +180,7 @@ def clean_disaggregated_values(records, additional_columns):
                         record[column] = ''
 
 # A yaml file inside a md file
-def create_opensdg_meta(data, output_filepath, config, indicator_id, node):
+def create_opensdg_meta(data, output_filepath, config, indicator_id, node, node_meta_from_csv):
     metadata = data['metadata']
     indicator_key = kebab_case(indicator_id)
     goal = indicator_id.split('.')[0]
@@ -190,13 +189,24 @@ def create_opensdg_meta(data, output_filepath, config, indicator_id, node):
 
     meta = {
         'data_non_statistical': False, # Always False
+
+        'goal_meta_link': node_meta_from_csv.get('goal_meta_link'),
+        'goal_meta_link_text': node_meta_from_csv.get('goal_meta_link_text'),
         'graph_title': i18n.update_translations(translations, f'global_indicators.{indicator_key}-graph-title', data['name']),
         'graph_type': 'line', # Always line for indicators
         'indicator_number': indicator_id,
         'indicator_name': i18n.update_translations(translations, f'global_indicators.{indicator_key}-title', node['description']),
         'indicator_sort_order': generate_indicator_sort_order(indicator_key),
+        #Cambiar a True en caso de querer publicarlo
+        'published': node_meta_from_csv.get('published'),
+
+        #Cambiar a complete en caso de querer publicarlo
+        'reporting_status': node_meta_from_csv.get('reporting_status'),
         'sdg_goal': goal,
         'target_id': target,
+
+        'un_custodian_agency': node_meta_from_csv.get('un_custodian_agency'),
+        'un_designated_tier': node_meta_from_csv.get('un_designated_tier'),
     }
 
     # Convert the dictionary to a YAML string
