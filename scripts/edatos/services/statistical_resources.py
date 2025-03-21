@@ -189,7 +189,9 @@ def create_opensdg_meta(data, output_filepath, config, indicator_id, node):
     translations = {}
 
     meta = {
+        'data_non_statistical': False, # Always False
         'graph_title': i18n.update_translations(translations, f'global_indicators.{indicator_key}-graph-title', data['name']),
+        'graph_type': 'line', # Always line for indicators
         'indicator_number': indicator_id,
         'indicator_name': i18n.update_translations(translations, f'global_indicators.{indicator_key}-title', node['description']),
         'indicator_sort_order': generate_indicator_sort_order(indicator_key),
