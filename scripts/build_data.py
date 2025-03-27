@@ -46,11 +46,13 @@ def create_index_csv():
 
 if __name__ == "__main__":
 
-    config = common_metadata.initialize_properties(config='config_data.yml')
-    url = statistical_resources.urn_to_url(config['statistical_resources_rest'], config['root_collection'])
-    
-    collection = json.download(url)    
     i18n.clean_translation_files()
+
+    config = common_metadata.initialize_properties(config='config_data.yml')
+
+    collection_url = statistical_resources.urn_to_url(config['statistical_resources_rest'], config['root_collection'])
+    collection = json.download(collection_url) 
+    
     meta_from_csv = csv.load_indexed_csv('indicator_key', 'meta/meta.csv')
     statistical_resources.process_nodes(collection, config, meta_from_csv)
     # Validate the indicators.
