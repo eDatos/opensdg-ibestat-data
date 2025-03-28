@@ -218,6 +218,10 @@ def create_opensdg_meta(data, output_filepath, config, indicator_id, indicator_n
         'source_organisation_1': i18n.update_translations(translations, 'organisation.name', organisation_name),
         'source_url_1': organisation_url,
         'source_url_text_1': organisation_id,
+
+        # Navigation
+        'prev_indicator': node_meta_from_csv.get('previous_indicator'),
+        'next_indicator': node_meta_from_csv.get('next_indicator')
     }
 
     # Convert the dictionary to a YAML string
