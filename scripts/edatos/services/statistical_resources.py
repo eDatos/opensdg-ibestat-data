@@ -212,6 +212,7 @@ def create_opensdg_meta(data, output_filepath, config, indicator_id, indicator_n
 
         'un_custodian_agency': node_meta_from_csv.get('un_custodian_agency'),
         'un_designated_tier': node_meta_from_csv.get('un_designated_tier'),
+        'national_geographical_coverage': config['organisation_config']['national_geographical_coverage'],
 
         # Up to 12 sources of information can be added following the nomenclature source_active_N, source_organisation_N, etc. being N a number from 1 to 12
         'source_active_1': True, # Enable or disable the source

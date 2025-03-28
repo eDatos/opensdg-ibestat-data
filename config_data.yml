@@ -132,3 +132,5 @@ edatos:
       root_collection: edatos.opensdg.root.collection.urn
       languages: metamac.edition.languages
       organisation: metamac.organisation.urn
+  organisation_config:
+    national_geographical_coverage: nuts.ES53

@@ -30,6 +30,7 @@ def initialize_properties(config):
         'languages': [lang.strip() for lang in languages_value.split(',')], # ['ca', 'es', 'en']
         'structural_resources_rest': structural_resources_rest_value, # 'https://pre.ibestat.es/edatos/apis/structural-resources'
         'organisation': organisation_value,
+        'organisation_config': config['edatos']['organisation_config']
     }
 
 def get_property(base_url, key):
