@@ -187,7 +187,7 @@ def create_opensdg_meta(data, output_filepath, config, indicator_id, node, node_
     target = goal + '.' + indicator_id.split('.')[1]
     translations = {}
 
-    meta = {
+    indicator_meta = {
         'data_non_statistical': False, # Always False
 
         'goal_meta_link': node_meta_from_csv.get('goal_meta_link'),
@@ -210,7 +210,7 @@ def create_opensdg_meta(data, output_filepath, config, indicator_id, node, node_
     }
 
     # Convert the dictionary to a YAML string
-    yaml_content = yaml.dump(meta, default_flow_style=False, allow_unicode=True, width=1000, sort_keys=False)
+    yaml_content = yaml.dump(indicator_meta, default_flow_style=False, allow_unicode=True, width=1000, sort_keys=False)
     
     # Wrap the YAML content with ---
     markdown_content = f"---\n{yaml_content}---\n"
