@@ -119,7 +119,6 @@ def create_opensdg_data(data, output_filepath, config):
 
                 record[header_column] = representation_code                    
 
-        print(record)
         records.append(record)
         record_by_serie = {
             'Year': record['Year'],
