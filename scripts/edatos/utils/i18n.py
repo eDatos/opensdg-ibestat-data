@@ -2,6 +2,8 @@ import os
 import yaml
 import shutil
 
+from edatos.utils import html
+
 base_dir = 'generated/translations'
 
 # Sample international string
@@ -32,7 +34,7 @@ def update_translation_files(translations):
         # Group translations by the first part of the key
         grouped_translations = {}
         for key, value in translation_by_lang.items():
-            group, rest = key.split('.', 1)  # Dividir por el primer punto
+            group, rest = key.split('.', 1)  # Divide by first point
             if group not in grouped_translations:
                 grouped_translations[group] = {}
             grouped_translations[group][rest] = value
@@ -40,7 +42,7 @@ def update_translation_files(translations):
         for group, group_translations in grouped_translations.items():
             file_path = os.path.join(lang_dir, f'{group}.yml')
             
-            # Leer el contenido existente del archivo YAML si ya existe
+            # Read existing translations
             if os.path.exists(file_path):
                 with open(file_path, 'r', encoding='utf-8') as file:
                     existing_translations = yaml.safe_load(file) or {}
@@ -61,9 +63,11 @@ def update_translation_files(translations):
                 yaml.dump(existing_translations, file, allow_unicode=True, width=1000)
 
 
+
 def update_translations(translations, key, international_string):
     for localized_string in international_string['text']:
         if localized_string['lang'] not in translations:
             translations[localized_string['lang']] = {}
-        translations[localized_string['lang']][key] = localized_string['value']
+        
+        translations[localized_string['lang']][key] = html.remove_tags(localized_string['value'])
     return key
