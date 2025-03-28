@@ -28,7 +28,7 @@ def process_node(node, config, meta_from_csv, parent_node = None, level=1):
     print(f"Processing {node_type}: {node_id}")
 
     if 'dataset' in node:
-        dataset_url = node['dataset']['selfLink']['href'] + ".json"
+        dataset_url = node['dataset']['selfLink']['href'] + ".json?fields=+dimension.description"
         print(f"Downloading dataset from: {dataset_url}")
         data = json.download(dataset_url)
         create_opensdg_data(data, f'data/indicator_{kebab_case(indicator_id)(node_id)}', config)
