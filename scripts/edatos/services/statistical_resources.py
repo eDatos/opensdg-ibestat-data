@@ -12,6 +12,7 @@ def process_nodes(collection, config, meta_from_csv):
             process_node(node, config, meta_from_csv)
 
 def process_node(node, config, meta_from_csv, parent_node = None, level=1):    
+    node['parent'] = parent_node   
     if level == 1:
         node_type = 'objective'
     elif level == 2:
@@ -29,11 +30,12 @@ def process_node(node, config, meta_from_csv, parent_node = None, level=1):
 
     if 'dataset' in node:
         dataset_url = node['dataset']['selfLink']['href'] + ".json?fields=+dimension.description"
+        indicator_key = kebab_case(node_id)
         print(f"Downloading dataset from: {dataset_url}")
         data = json.download(dataset_url)
-        create_opensdg_data(data, f'data/indicator_{kebab_case(indicator_id)(node_id)}', config)
-        node_meta_from_csv = meta_from_csv.get(kebab_case(node_id), {})
-        create_opensdg_meta(data, f'meta/{kebab_case(node_id)}', config, node_id, parent_node, node_meta_from_csv)
+        create_opensdg_data(data, f'data/indicator_{indicator_key}', config) 
+        node_meta_from_csv = meta_from_csv.get(indicator_key, {})
+        create_opensdg_meta(data, f'meta/{indicator_key}', config, node_id, node, node_meta_from_csv, organisation)
 
     if 'nodes' in node and 'node' in node['nodes']:
         for child_node in node['nodes']['node']:
@@ -180,30 +182,39 @@ def clean_disaggregated_values(records, additional_columns):
                         record[column] = ''
 
 # A yaml file inside a md file
-def create_opensdg_meta(data, output_filepath, config, indicator_id, node, node_meta_from_csv):
-    metadata = data['metadata']
+def create_opensdg_meta(data, output_filepath, config, indicator_id, indicator_node, node_meta_from_csv, organisation):
+
+    translations = {}    
+    default_language = config['languages'][0]
     indicator_key = kebab_case(indicator_id)
-    goal = indicator_id.split('.')[0]
-    target = goal + '.' + indicator_id.split('.')[1]
-    translations = {}
+    
+    target_node = indicator_node['parent']
+    target_id = i18n.international_string_to_string(target_node['name'], default_language)
+
+    goal_node = target_node['parent']
+    sgd_goal = i18n.international_string_to_string(goal_node['name'], default_language)    
 
     indicator_meta = {
         'data_non_statistical': False, # Always False
 
         'goal_meta_link': node_meta_from_csv.get('goal_meta_link'),
         'goal_meta_link_text': node_meta_from_csv.get('goal_meta_link_text'),
+
         'graph_title': i18n.update_translations(translations, f'global_indicators.{indicator_key}-graph-title', data['name']),
         'graph_type': 'line', # Always line for indicators
-        'indicator_number': indicator_id,
-        'indicator_name': i18n.update_translations(translations, f'global_indicators.{indicator_key}-title', node['description']),
-        'indicator_sort_order': generate_indicator_sort_order(indicator_key),
-        #Cambiar a True en caso de querer publicarlo
-        'published': node_meta_from_csv.get('published'),
 
-        #Cambiar a complete en caso de querer publicarlo
+        'indicator_number': indicator_id,
+        'indicator_definition': '', # Always empty, not found in built web
+        'indicator_name': i18n.update_translations(translations, f'global_indicators.{indicator_key}-title', indicator_node['description']),
+        'indicator_sort_order': generate_indicator_sort_order(indicator_key),
+
+        'published': node_meta_from_csv.get('published'), # Must be True to publish
+        # Use 'complete' to published indicators. Available values: notapplicable, notstarted, inprogress, complete
         'reporting_status': node_meta_from_csv.get('reporting_status'),
-        'sdg_goal': goal,
-        'target_id': target,
+
+        'sdg_goal': sgd_goal,
+        'target_name': i18n.update_translations(translations, f'global_targets.{kebab_case(target_id)}-title', target_node['description']),
+        'target_id': target_id,
 
         'un_custodian_agency': node_meta_from_csv.get('un_custodian_agency'),
         'un_designated_tier': node_meta_from_csv.get('un_designated_tier'),
