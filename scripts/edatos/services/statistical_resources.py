@@ -61,7 +61,7 @@ def create_opensdg_data(data, output_filepath, config):
     series_orden_attribute_values = series_orden_attribute['value'].split(" | ")
 
     dimensions = data['data']['dimensions']['dimension']
-    metadata_dimensions = data['metadata']['dimensions']['dimension']
+    dimensions_metadata = data['metadata']['dimensions']['dimension']
     totals = [dimension['representations']['total'] for dimension in dimensions]
     
     pointer = 0
@@ -86,7 +86,7 @@ def create_opensdg_data(data, output_filepath, config):
 
         for dimension_index, representation_index in enumerate(idx):
             dimension = dimensions[dimension_index]
-            metadata_dimension = metadata_dimensions[dimension_index]            
+            metadata_dimension = dimensions_metadata[dimension_index]            
             code = dimension['representations']['representation'][representation_index]['code']
 
             # Predetermined columns, they always need to exist
