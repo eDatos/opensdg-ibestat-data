@@ -220,6 +220,9 @@ def create_opensdg_meta(data, output_filepath, config, indicator_id, indicator_n
         'source_url_1': organisation_url,
         'source_url_text_1': organisation_id,
 
+        # Unit measure that will appear in the footer of the graph.
+        'computation_units': calculate_computation_units(data, config),
+
         # Navigation
         'prev_indicator': node_meta_from_csv.get('previous_indicator'),
         'next_indicator': node_meta_from_csv.get('next_indicator')
@@ -236,6 +239,31 @@ def create_opensdg_meta(data, output_filepath, config, indicator_id, indicator_n
 
     i18n.update_translation_files(translations)
 
+def calculate_computation_units(data, config):
+    """
+    Examines data['data']['attributes']['attribute'] to find the attribute with id config['unit_measure_id'], normally 'UNIDAD_MEDIDA'
+    and checks the values of the attribute. If there is only one non-empty value, it returns it. Otherwise, it returns ''
+
+    :param data: The dataset containing attributes.
+    :return: The single non-empty value of 'UNIDAD_MEDIDA', or '' if not found or invalid.
+    """
+    # Find the attribute by it's id
+    unit_measure_attribute = next(
+        (attr for attr in data['data']['attributes']['attribute'] if attr['id'] == config['unit_measure_id']),
+        None
+    )
+
+    if not unit_measure_attribute:
+        print(f"Attribute '{config['unit_measure_id']}' not found.")
+        return ''
+
+    unit_measure_values = set(value.strip() for value in unit_measure_attribute['value'].split(" | ") if value.strip())
+
+    if len(unit_measure_values) == 1:
+        return unit_measure_values[0]
+    else:
+        print(f"No single value for attribute '{config['unit_measure_id']}'. Existing values: {unit_measure_values}")
+        return ''
 
 def calculate_data_show_map(data):
     """
@@ -273,6 +301,7 @@ def calculate_data_show_map(data):
             return True
 
     return False
+
 # Example
 # indicator_id = "2.4.1"
 # filename = kebab_case(indicator_id)(node_id)
