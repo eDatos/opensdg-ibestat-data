@@ -9,21 +9,27 @@ def initialize_properties(config):
     
     unit_measure_id_key = common_metadata['keys']['unit_measure_id']
     statistical_resources_rest_key = common_metadata['keys']['statistical_resources_rest']
+    structural_resources_rest_key = common_metadata['keys']['structural_resources_rest']
     root_collection_key = common_metadata['keys']['root_collection']
     languages_key = common_metadata['keys']['languages']
+    organisation_key = common_metadata['keys']['organisation']
     
     base_url =  common_metadata['rest']
         
     unit_measure_id_value = get_property(base_url, unit_measure_id_key)
     statistical_resources_rest_value = get_property(base_url, statistical_resources_rest_key)
+    structural_resources_rest_value = get_property(base_url, structural_resources_rest_key)
     root_collection_value = get_property(base_url, root_collection_key)
     languages_value = get_property(base_url, languages_key)
+    organisation_value = get_property(base_url, organisation_key)    
     
     return {
         'unit_measure_id': unit_measure_id_value, # 'UNIDAD_MEDIDA'
         'statistical_resources_rest': statistical_resources_rest_value, # 'https://pre.ibestat.es/edatos/apis/statistical-resources'
         'root_collection': root_collection_value, # 'urn:siemac:org.siemac.metamac.infomodel.statisticalresources.Collection=IBESTAT:C00124A_000001',
-        'languages': [lang.strip() for lang in languages_value.split(',')] # ['ca', 'es', 'en']
+        'languages': [lang.strip() for lang in languages_value.split(',')], # ['ca', 'es', 'en']
+        'structural_resources_rest': structural_resources_rest_value, # 'https://pre.ibestat.es/edatos/apis/structural-resources'
+        'organisation': organisation_value,
     }
 
 def get_property(base_url, key):

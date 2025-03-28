@@ -2,16 +2,17 @@ import itertools
 
 import pandas
 import yaml
-from edatos.utils import i18n, json
+from edatos.utils import i18n, json, urn as urn_utils
+from edatos.services import structural_resources
 
 SERIES_ORDEN_ATTRIBUTE_ID = 'SERIES_ORDEN'
 
-def process_nodes(collection, config, meta_from_csv):
+def process_nodes(collection, config, meta_from_csv, organisation):
     if 'data' in collection and 'nodes' in collection['data'] and 'node' in collection['data']['nodes']:
         for node in collection['data']['nodes']['node']:
-            process_node(node, config, meta_from_csv)
+            process_node(node, config, meta_from_csv, organisation)
 
-def process_node(node, config, meta_from_csv, parent_node = None, level=1):    
+def process_node(node, config, meta_from_csv, organisation, parent_node = None, level=1):
     node['parent'] = parent_node   
     if level == 1:
         node_type = 'objective'
@@ -39,25 +40,15 @@ def process_node(node, config, meta_from_csv, parent_node = None, level=1):
 
     if 'nodes' in node and 'node' in node['nodes']:
         for child_node in node['nodes']['node']:
-            process_node(child_node, config, meta_from_csv, node, level + 1)            
+            process_node(child_node, config, meta_from_csv, organisation, node, level + 1)            
 
 def urn_to_url(base_url, urn):
-    # Extraer la organización y el resourceID de la URN
-    parts = urn.split('=')
-    if len(parts) != 2:
-        raise ValueError("URN format is incorrect")
-
+    prefix, agency_id, item_scheme_id, version, resource_id = urn_utils.split_urn(urn, False)
     base_url += '/v1.0'
-    resourceType = parts[0]
-    if resourceType == 'urn:siemac:org.siemac.metamac.infomodel.statisticalresources.Collection':
-        base_url += '/collections'
+    if prefix == 'urn:siemac:org.siemac.metamac.infomodel.statisticalresources.Collection':
+        return f"{base_url}/collections/{agency_id}/{item_scheme_id}.json"
     else:
         raise ValueError("Resource type is not supported")
-    organization, resource_id = parts[1].split(':')
-
-    url = f"{base_url}/{organization}/{resource_id}.json"
-
-    return url
 
 def create_opensdg_data(data, output_filepath, config):   
      
@@ -186,6 +177,9 @@ def create_opensdg_meta(data, output_filepath, config, indicator_id, indicator_n
 
     translations = {}    
     default_language = config['languages'][0]
+
+    organisation_name, organisation_url, organisation_id = structural_resources.extract_organisation_info(organisation)
+
     indicator_key = kebab_case(indicator_id)
     
     target_node = indicator_node['parent']
@@ -218,6 +212,12 @@ def create_opensdg_meta(data, output_filepath, config, indicator_id, indicator_n
 
         'un_custodian_agency': node_meta_from_csv.get('un_custodian_agency'),
         'un_designated_tier': node_meta_from_csv.get('un_designated_tier'),
+
+        # Up to 12 sources of information can be added following the nomenclature source_active_N, source_organisation_N, etc. being N a number from 1 to 12
+        'source_active_1': True, # Enable or disable the source
+        'source_organisation_1': i18n.update_translations(translations, 'organisation.name', organisation_name),
+        'source_url_1': organisation_url,
+        'source_url_text_1': organisation_id,
     }
 
     # Convert the dictionary to a YAML string

@@ -7,8 +7,8 @@ import re
 from overrides import *
 from sdg import open_sdg
 import yaml
-from edatos.services import common_metadata, statistical_resources
 from edatos.utils import json, i18n, csv
+from edatos.services import common_metadata, statistical_resources, structural_resources
 
 INDEX_FILEPATH = "data/indice_{}.csv"
 CONFIG_FILE = "config_data.yml"
@@ -54,7 +54,12 @@ if __name__ == "__main__":
     collection = json.download(collection_url) 
     
     meta_from_csv = csv.load_indexed_csv('indicator_key', 'meta/meta.csv')
-    statistical_resources.process_nodes(collection, config, meta_from_csv)
+    organisation_url = structural_resources.urn_to_url(config['structural_resources_rest'], config['organisation'])
+    organisation = json.download(organisation_url)
+    
+    
+    statistical_resources.process_nodes(collection, config, meta_from_csv, organisation)
+            
     # Validate the indicators.
     print("Validando datos...")
     validation_successful = open_sdg.open_sdg_check(config='config_data.yml')

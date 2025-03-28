@@ -128,5 +128,7 @@ edatos:
     keys:
       unit_measure_id: metamac.srm.dsd.unit_measure.id
       statistical_resources_rest: metamac.statistical_resources.rest.external
+      structural_resources_rest: metamac.srm.rest.external
       root_collection: edatos.opensdg.root.collection.urn
       languages: metamac.edition.languages
+      organisation: metamac.organisation.urn
