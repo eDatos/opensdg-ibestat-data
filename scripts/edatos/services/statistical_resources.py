@@ -202,6 +202,7 @@ def create_opensdg_meta(data, output_filepath, config, indicator_id, indicator_n
         'indicator_name': i18n.update_translations(translations, f'global_indicators.{indicator_key}-title', indicator_node['description']),
         'indicator_sort_order': generate_indicator_sort_order(indicator_key),
 
+        'data_show_map': calculate_data_show_map(data), 
         'published': node_meta_from_csv.get('published'), # Must be True to publish
         # Use 'complete' to published indicators. Available values: notapplicable, notstarted, inprogress, complete
         'reporting_status': node_meta_from_csv.get('reporting_status'),
@@ -235,6 +236,43 @@ def create_opensdg_meta(data, output_filepath, config, indicator_id, indicator_n
 
     i18n.update_translation_files(translations)
 
+
+def calculate_data_show_map(data):
+    """
+    Examines the metadata and data dimensions to determine if a map should be shown.
+    Filters geographic dimension values based on their presence in the data dimensions.
+
+    :param data: The dataset containing metadata and data dimensions.
+    :return: True if there are multiple geographic granularity values, False otherwise.
+    """
+    geographic_values_by_granularity = {}
+
+    # Search GEOGRAPHIC_DIMENSION dimensions
+    for metadata_dimension in data['metadata']['dimensions']['dimension']:
+        if metadata_dimension['type'] == 'GEOGRAPHIC_DIMENSION':
+
+            # Find data representations for the geographic dimension
+            geographic_data_dimension = next((dim for dim in data['data']['dimensions']['dimension'] if dim['dimensionId'] == metadata_dimension['id']), None)
+            if not geographic_data_dimension:
+                return False
+            
+            valid_geographic_representations = [rep['code'] for rep in geographic_data_dimension['representations']['representation']]
+    
+            # Group dimensionValues by geographicGranularity
+            for dimension_value in metadata_dimension['dimensionValues']['value']:
+                if dimension_value['id'] in valid_geographic_representations:
+                    granularity = dimension_value['geographicGranularity']['id']
+                    if granularity not in geographic_values_by_granularity:
+                        geographic_values_by_granularity[granularity] = []
+                    geographic_values_by_granularity[granularity].append(dimension_value)
+            break
+
+    # If for any granularity we have more than one value, we should show the map
+    for granularity, values in geographic_values_by_granularity.items():
+        if len(values) > 1:
+            return True
+
+    return False
 # Example
 # indicator_id = "2.4.1"
 # filename = kebab_case(indicator_id)(node_id)
