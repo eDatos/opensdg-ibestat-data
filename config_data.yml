@@ -72,8 +72,7 @@ translations:
   # This pulls in translations from a local 'translations' folder.
   - class: TranslationInputYaml
     source: translations
-  - class: TranslationInputYaml
-    source: generated/translations
+    # https://github.com/open-sdg/sdg-build/issues/364
 
 # Reporting status extra fields
 # -----------------------------

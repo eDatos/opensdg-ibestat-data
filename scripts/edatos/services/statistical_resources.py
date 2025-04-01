@@ -1,8 +1,9 @@
+from io import StringIO
 import itertools
 
 import pandas
-import yaml
 from edatos.utils import i18n, json, urn as urn_utils
+from edatos.utils.yaml import yaml
 from edatos.services import structural_resources
 
 SERIES_ORDEN_ATTRIBUTE_ID = 'SERIES_ORDEN'
@@ -229,7 +230,9 @@ def create_opensdg_meta(data, output_filepath, config, indicator_id, indicator_n
     }
 
     # Convert the dictionary to a YAML string
-    yaml_content = yaml.dump(indicator_meta, default_flow_style=False, allow_unicode=True, width=1000, sort_keys=False)
+    stream = StringIO()
+    yaml.dump(indicator_meta, stream)
+    yaml_content = stream.getvalue()
     
     # Wrap the YAML content with ---
     markdown_content = f"---\n{yaml_content}---\n"

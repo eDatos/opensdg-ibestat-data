@@ -46,7 +46,6 @@ def create_index_csv():
 
 if __name__ == "__main__":
 
-    i18n.clean_translation_files()
 
     config = common_metadata.initialize_properties(config='config_data.yml')
 

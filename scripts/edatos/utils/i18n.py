@@ -1,10 +1,9 @@
 import os
-import yaml
 import shutil
-
 from edatos.utils import html
+from edatos.utils.yaml import yaml
 
-base_dir = 'generated/translations'
+base_dir = 'translations'
 
 # Sample international string
 # 'text': [
@@ -45,24 +44,22 @@ def update_translation_files(translations):
             # Read existing translations
             if os.path.exists(file_path):
                 with open(file_path, 'r', encoding='utf-8') as file:
-                    existing_translations = yaml.safe_load(file) or {}
+                    existing_translations = yaml.load(file) or {}
             else:
                 existing_translations = {}
             
             # Ignore existing translation keys
             for key, value in group_translations.items():
                 if key in existing_translations and existing_translations[key] != value:
-                    raise ValueError(f"Key '{key}' already exists in {file_path} with different value {existing_translations[key]} != {value} .")
+                    print(f"WARNING: Key '{key}' already exists in {file_path} with different value: \n PREVIOUS: {existing_translations[key]} \n NEW: {value} .")
             
-            # Añadir las nuevas claves que no existen en el archivo
+            # Add new keys that do not exist in the file
             new_translations = {key: value for key, value in group_translations.items() if key not in existing_translations}
             existing_translations.update(new_translations)
             
-            # Escribir las traducciones actualizadas en el archivo
+            # Write updated translations to the file
             with open(file_path, 'w', encoding='utf-8') as file:
-                yaml.dump(existing_translations, file, allow_unicode=True, width=1000)
-
-
+                yaml.dump(existing_translations, file)
 
 def update_translations(translations, key, international_string):
     for localized_string in international_string['text']:
