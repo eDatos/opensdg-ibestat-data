@@ -17,7 +17,7 @@ definicion: subindicator.13-2-2-SERIE-B-definicion
 formula_teorica: FORMULA_TEORICA.13-2-2-SERIE-B-formula-teorica
 unidad_medida: OCECAS_UNIDAD_MEDIDA.T_CO2_PER_CAPITA
 fuentes_informacion: FUENTES_INFORMACION.13-2-2-SERIE-B-fuentes-informacion
-periodicidad: CL_FREQ.A
+periodicidad: FREQ.A
 observaciones: OBSERVACIONES.13-2-2-SERIE-B-observaciones
 # Info de Gráficas
 graph_title: subindicator.13-2-2-SERIE-B-graph-title

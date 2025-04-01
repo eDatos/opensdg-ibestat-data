@@ -18,7 +18,7 @@ definicion: subindicator.3-8-2-SERIE-A-definicion
 formula_teorica: FORMULA_TEORICA.3-8-2-SERIE-A-formula-teorica
 unidad_medida: OCECAS_UNIDAD_MEDIDA.PT
 fuentes_informacion: FUENTES_INFORMACION.3-8-2-SERIE-A-fuentes-informacion
-periodicidad: CL_FREQ.A
+periodicidad: FREQ.A
 observaciones: OBSERVACIONES.3-8-2-SERIE-A-observaciones
 
 # Info de Gráficas

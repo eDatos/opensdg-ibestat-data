@@ -16,7 +16,7 @@ definicion: subindicator.3-4-1-SERIE-C-definicion
 formula_teorica: FORMULA_TEORICA.3-4-1-SERIE-C-formula-teorica
 unidad_medida: OCECAS_UNIDAD_MEDIDA.PER_100000_POP
 fuentes_informacion: FUENTES_INFORMACION.3-4-1-SERIE-C-fuentes-informacion
-periodicidad: CL_FREQ.A
+periodicidad: FREQ.A
 observaciones: OBSERVACIONES.3-4-1-SERIE-C-observaciones
 # Info de Gráficas
 graph_title: subindicator.3-4-1-SERIE-C-graph-title

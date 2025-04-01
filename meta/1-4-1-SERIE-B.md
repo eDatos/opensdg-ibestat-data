@@ -18,7 +18,7 @@ definicion: subindicator.1-4-1-SERIE-B-definicion
 formula_teorica: FORMULA_TEORICA.1-4-1-SERIE-B-formula-teorica
 unidad_medida: OCECAS_UNIDAD_MEDIDA.PT
 fuentes_informacion: FUENTES_INFORMACION.1-4-1-SERIE-B-fuentes-informacion
-periodicidad: CL_FREQ.A10
+periodicidad: FREQ.A10
 observaciones: OBSERVACIONES.1-4-1-SERIE-B-observaciones
 
 # Info de Gráficas

@@ -17,7 +17,7 @@ definicion: subindicator.4-6-1-SERIE-F-definicion
 formula_teorica: FORMULA_TEORICA.4-6-1-SERIE-F-formula-teorica
 unidad_medida: OCECAS_UNIDAD_MEDIDA.PT
 fuentes_informacion: FUENTES_INFORMACION.4-6-1-SERIE-F-fuentes-informacion
-periodicidad: "CL_FREQ.IRREGULAR"
+periodicidad: "FREQ.IRREGULAR"
 observaciones: OBSERVACIONES.4-6-1-SERIE-F-observaciones
 
 # Info de Gráficas

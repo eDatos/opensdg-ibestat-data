@@ -17,7 +17,7 @@ definicion: subindicator.17-6-1-SERIE-A-definicion
 formula_teorica: FORMULA_TEORICA.17-6-1-SERIE-A-formula-teorica
 unidad_medida: OCECAS_UNIDAD_MEDIDA.PER_100_POP
 fuentes_informacion: FUENTES_INFORMACION.17-6-1-SERIE-A-fuentes-informacion
-periodicidad: "CL_FREQ.A"
+periodicidad: "FREQ.A"
 observaciones: OBSERVACIONES.17-6-1-SERIE-A-observaciones
 
 

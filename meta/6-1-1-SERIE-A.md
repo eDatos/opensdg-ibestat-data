@@ -18,7 +18,7 @@ definicion: subindicator.6-1-1-SERIE-A-definicion
 formula_teorica: FORMULA_TEORICA.6-1-1-SERIE-A-formula-teorica
 unidad_medida: Porcentaje
 fuentes_informacion: FUENTES_INFORMACION.6-1-1-SERIE-A-fuentes-informacion
-periodicidad: CL_FREQ.A
+periodicidad: FREQ.A
 observaciones: OBSERVACIONES.6-1-1-SERIE-A-observaciones
 
 # Info de Gráficas

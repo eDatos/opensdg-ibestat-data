@@ -17,7 +17,7 @@ definicion: subindicator.9-4-1-SERIE-A-definicion
 formula_teorica: FORMULA_TEORICA.9-4-1-SERIE-A-formula-teorica
 unidad_medida: OCECAS_UNIDAD_MEDIDA.KG
 fuentes_informacion: FUENTES_INFORMACION.9-4-1-SERIE-A-fuentes-informacion
-periodicidad: CL_FREQ.A
+periodicidad: FREQ.A
 observaciones: OBSERVACIONES.9-4-1-SERIE-A-observaciones
 # Info de Gráficas
 graph_title: subindicator.9-4-1-SERIE-A-graph-title

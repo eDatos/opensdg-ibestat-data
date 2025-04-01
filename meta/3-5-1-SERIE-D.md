@@ -17,7 +17,7 @@ definicion: subindicator.3-5-1-SERIE-D-definicion
 formula_teorica: FORMULA_TEORICA.3-5-1-SERIE-D-formula-teorica
 unidad_medida: OCECAS_UNIDAD_MEDIDA.PER_100000_POP
 fuentes_informacion: FUENTES_INFORMACION.3-5-1-SERIE-D-fuentes-informacion
-periodicidad: CL_FREQ.A
+periodicidad: FREQ.A
 observaciones: OBSERVACIONES.3-5-1-SERIE-D-observaciones
 
 # Info de Gráficas
