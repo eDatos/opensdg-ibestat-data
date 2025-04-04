@@ -7,6 +7,7 @@ from edatos.utils.yaml import yaml
 from edatos.services import structural_resources
 
 SERIES_ORDEN_ATTRIBUTE_ID = 'SERIES_ORDEN'
+SERIES_ID = 'SERIES'
 
 def process_nodes(collection, config, meta_from_csv, organisation):
     if 'data' in collection and 'nodes' in collection['data'] and 'node' in collection['data']['nodes']:
@@ -106,7 +107,7 @@ def create_opensdg_data(data, output_filepath, config):
                 if (not is_obligatory_column): 
                     additional_columns.add('DIM_DES.' + dimension_id)
                     i18n.update_translations(translations, 'DIM_DES.' + dimension_id, metadata_dimension['name'])
-                if (dimension_id == 'SERIES'):
+                if (dimension_id == SERIES_ID):
                     # We´ll construct it like this to reuse existing translations
                     record['Serie'] = 'SERIE.SERIE_' + series_orden_attribute_values[representation_index]
                     dimension_id = 'SERIE_TEMPORAL'     
@@ -240,6 +241,145 @@ def create_opensdg_meta(data, output_filepath, config, indicator_id, indicator_n
     with open(output_filepath + '.md', 'w', encoding='utf-8') as file:
         file.write(markdown_content)
 
+    indicator_serie_meta = {
+        "objetivo_global": i18n.update_translations(translations, f'global_goals.{sgd_goal}-title', goal_node['description']),
+    }
+
+    i18n.update_translation_files(translations)
+
+    dimension_series_data, dimension_series_metadata_indexed, attributes_series_data = extract_serie_dimension_info(data)
+
+    for index, representation in enumerate(dimension_series_data):
+        serie_metadata = dimension_series_metadata_indexed.get(representation['code'], {})
+        serie_attributes = { attribute_id: attribute_values[index] for attribute_id, attribute_values in attributes_series_data.items() }
+
+        serie = {
+            'id': representation["code"],
+            'name': serie_metadata['name'],
+            'description': serie_metadata['description'],
+            'attributes': serie_attributes
+        }
+        
+        create_opensdg_meta_for_serie({ **indicator_meta, **indicator_serie_meta }, serie, output_filepath)
+
+def extract_serie_dimension_info(data):
+    dimensions_data = data['data']['dimensions']['dimension']
+    dimensions_metadata = data['metadata']['dimensions']['dimension']
+
+    dimension_series_data = next(dimension['representations']['representation'] for dimension in dimensions_data if dimension['dimensionId'] == SERIES_ID)
+    dimension_series_metadata = next(dimension['dimensionValues'] for dimension in dimensions_metadata if dimension['id'] == SERIES_ID)
+
+    dimension_series_metadata_indexed = { value['id']: value for value in dimension_series_metadata['value'] }
+
+    attributes_data = data['data']['attributes']['attribute']
+    attributes_metadata = data['metadata']['attributes']['attribute']
+    
+    # Handling of dimension level attributes associated with SERIES_ID
+    attributes_series_data = {}
+    for attribute_metadata in attributes_metadata:
+        # We are interested only on attributes attached at dimension SERIES
+        if attribute_metadata['attachmentLevel'] == "DIMENSION" and attribute_metadata['dimensions']['total'] == 1 and attribute_metadata['dimensions']['dimension'][0]['dimensionId'] == SERIES_ID:
+            attribute_id = attribute_metadata['id']
+            attribute_values = next((attribute_data for attribute_data in attributes_data if attribute_data['id'] == attribute_id), None)
+            if (attribute_values):
+                attributes_series_data[attribute_id] = attribute_values['value'].split(" | ")
+
+
+    # Reducing "PRIMARY_MEASURE" attributes into "DIMENSION[SERIES_ID]" attributes
+    pointer = 0
+    totals = [dimension['representations']['total'] for dimension in dimensions_data]    
+    # Initialize SERIES_INDEX as the index of the dimension with id SERIES_ID
+    SERIES_INDEX = next(i for i, dimension in enumerate(dimensions_data) if dimension['dimensionId'] == SERIES_ID)
+    for idx in itertools.product(*[range(total) for total in totals]):
+        # Sample idx value: (1, 11, 12, 0, 2, 0, 0, 0, 0, 0, 0, 0)
+        # value = observations[pointer]
+        # units = unit_measure_attribute_values[pointer]        
+        # for dimension_index, representation_index in enumerate(idx):
+        for attribute in attributes_metadata:
+            attribute_id = attribute['id']
+            if attribute['attachmentLevel'] == "PRIMARY_MEASURE":
+                attribute_values = next((attr for attr in data['data']['attributes']['attribute'] if attr['id'] == attribute_id), None)
+                if (attribute_values):                    
+                    if attribute_id not in attributes_series_data:
+                        attributes_series_data[attribute_id] = {}
+                    series_representation_index = idx[SERIES_INDEX]
+                    attribute_value = attribute_values['value'].split(' | ')[pointer]
+                    previous_attribute_value = attributes_series_data[attribute_id].get(series_representation_index, None)
+                    if (attribute_value):
+                        if (previous_attribute_value is not None and previous_attribute_value != attribute_value):
+                            raise ValueError(f"Different values for the same attribute {previous_attribute_value} != {attribute_value}, {idx},  {attribute_id}")
+                        else:
+                            attributes_series_data[attribute_id][series_representation_index] = attribute_value
+        pointer += 1
+
+    # Return attribute metadata instead of attribute value if exists
+    for attribute_metadata in attributes_metadata:
+        attribute_id = attribute_metadata['id']
+        attribute_values = attributes_series_data.get(attribute_id)
+        if attribute_values and 'attributeValues' in attribute_metadata and 'value' in attribute_metadata['attributeValues']:
+            attributes_series_data[attribute_id] = [
+                next(
+                    attribute_metadata_value
+                    for attribute_metadata_value in attribute_metadata['attributeValues']['value']
+                    if attribute_metadata_value['id'] == attribute_values[idx]
+                )
+                for idx in attribute_values
+            ]
+            
+    return dimension_series_data,dimension_series_metadata_indexed,attributes_series_data
+
+def create_opensdg_meta_for_serie(indicator_metadata, serie, output_filepath):    
+
+    attributes = serie['attributes']
+    serie_letter = attributes[SERIES_ORDEN_ATTRIBUTE_ID]
+    indicator_serie_key = kebab_case(indicator_metadata['indicator_number']) + '-SERIE-' + serie_letter
+    translations = {}
+    # Strings coming from indicator_metadata are already translated, no need to update_translations
+    subindicator_name = i18n.update_translations(translations, f'subindicator.{indicator_serie_key}-nombre', serie['name'])
+    
+    serie_meta = {
+        # Info genérica
+        'target_id': indicator_metadata['indicator_number'],
+        'reporting_status': indicator_metadata['reporting_status'], # We'll assume the same value as the indicator
+        'data_non_statistical': False, # Always false
+        'national_geographical_coverage': indicator_metadata['national_geographical_coverage'],
+
+        # Info de Subindicador
+        'nombre': subindicator_name, # CL_SERIES.nombre
+        'indicador_onu_global': indicator_metadata['indicator_name'], # Título del dataset (cubo de la colección)
+        'meta_global': indicator_metadata['target_name'], # Título del capítulo de la colección
+        'objetivo_global': indicator_metadata['objetivo_global'], # Título de la colección
+        'definicion': i18n.update_translations(translations, f'subindicator.{indicator_serie_key}-definicion', serie['description']), # Descripción de los códigos de CL_SERIES
+
+        # Fórmula teórica escrita en formato MathJax
+        'formula_teorica':  f'FORMULA_TEORICA.{indicator_serie_key}-formula-teorica', # TODO EDATOS-4945, pending i18n i18n.update_translations(translations, f'FORMULA_TEORICA.{indicator_serie_key}-formula-teorica', attributes['FORMULA_TEORICA']), #   Atributo de dimensión (dataset) 
+        # FIXME coger la unidad de medidad pero usar la "clasificacion" OCECAS_UNIDAD_MEDIDA que son otras traduccioens - Esto queda pendiente de ver si va a unificarse o recodificarse
+        'unidad_medida': i18n.update_translations(translations, f'UNIDAD_MEDIDA.{attributes["UNIDAD_MEDIDA"]["id"]}', attributes["UNIDAD_MEDIDA"]["name"]), #'OCECAS_UNIDAD_MEDIDA.PT', # Atributo nivel observacion
+        'fuentes_informacion': f'FUENTES_INFORMACION.{indicator_serie_key}-fuentes-informacion', # TODO EDATOS-4945, pending i18n  i18n.update_translations(translations, f'FUENTES_INFORMACION.{indicator_serie_key}-fuentes-informacion', attributes['FUENTES_INFORMACION']), #   Atributo de dimensión (dataset) 
+        'periodicidad': i18n.update_translations(translations, f'FREQ.{attributes["FREQ"]["id"]}', attributes["FREQ"]["name"]), # Atributo nivel observacion
+        'observaciones': f'OBSERVACIONES.{indicator_serie_key}-observaciones', # TODO EDATOS-4945, pending i18n i18n.update_translations(translations, f'OBSERVACIONES.{indicator_serie_key}-observaciones', attributes['OBSERVACIONES']), #   Atributo de dimensión (dataset) 
+        # Info de Gráficas
+        'graph_title': subindicator_name, # Título del dataset
+        'graph_type': 'bar', # Always bar for series
+
+        # Info para las tabs
+        'sort_order': serie_letter, # Atributo a nivel de dimensión (SERIES_ORDEN)
+        'tab_name': f'SERIE.SERIE_{serie_letter}', # Atributo a nivel de dimensión (SERIES_ORDEN) - Use existing translation
+
+        #Coordinación con OCECAS
+        'coordinado_con_ocecas': bool("OCECAS" in attributes and attributes['OCECAS']) # Atributo de dimensión (dataset) 
+    }
+
+    stream = StringIO()
+    yaml.dump(serie_meta, stream)
+    yaml_content_serie = stream.getvalue()
+
+        # Wrap the YAML content with ---
+    markdown_content_serie = f"---\n{yaml_content_serie}---\n"
+    
+    with open(output_filepath + '-SERIE-' + serie_letter + '.md', 'w', encoding='utf-8') as file:
+        file.write(markdown_content_serie)
+    
     i18n.update_translation_files(translations)
 
 def calculate_computation_units(data, config):
