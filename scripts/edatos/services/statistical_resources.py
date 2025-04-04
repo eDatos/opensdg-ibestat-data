@@ -1,6 +1,6 @@
 from io import StringIO
 import itertools
-
+import re
 import pandas
 from edatos.utils import i18n, json, urn as urn_utils
 from edatos.utils.yaml import yaml
@@ -452,9 +452,20 @@ def calculate_data_show_map(data):
 def kebab_case(indicator_id):
     return indicator_id.replace('.', '-')
 
-# Example
-# indicator_key = "2-4-1"
-# output = "02-04-01"
+# Examples
+# '8-9-1' becames '08-09-01'
+# '8-10-1' becames '08-10-01'
+# '8-10-2' becames '08-10-02' 
+# '8-b-1' becames '08-b-01'
+# '17-19-1' becames '17-19-01'
+# '17-19-2a' becames '17-19-02a'
+# '17-19-2b' becames '17-19-02b'
+# This allow us to sort like this: 1 < 2 < 2a < 2b < 10 < a < b...
 def generate_indicator_sort_order(indicator_key):
-    padded_parts = [part.zfill(2) for part in indicator_key.split('-')]
+    padded_parts = []
+    for part in indicator_key.split('-'):
+        index, subindex = re.match(r'(\d+|[a-zA-Z]+)([a-zA-Z]*)', part).groups()
+        if index.isdigit():
+            index = index.zfill(2)
+        padded_parts.append(index + subindex)
     return '-'.join(padded_parts)
