@@ -399,7 +399,7 @@ def calculate_computation_units(data, config):
         print(f"Attribute '{config['unit_measure_id']}' not found.")
         return ''
 
-    unit_measure_values = set(value.strip() for value in unit_measure_attribute['value'].split(" | ") if value.strip())
+    unit_measure_values = list(set(value.strip() for value in unit_measure_attribute['value'].split(" | ") if value.strip()))
 
     if len(unit_measure_values) == 1:
         return unit_measure_values[0]
