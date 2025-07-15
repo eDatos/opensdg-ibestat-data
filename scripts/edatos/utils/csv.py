@@ -13,6 +13,8 @@ def load_indexed_csv(index_column, file_path):
         # Load the CSV file into a pandas DataFrame
         df = pandas.read_csv(file_path)
 
+        df = df.where(pandas.notna(df), None)
+
         # Check if the column exists in the DataFrame
         if index_column not in df.columns:
             raise ValueError(f"The column '{index_column}' does not exist in the CSV file.")
