@@ -59,12 +59,16 @@ def update_translation_files(translations):
             
             # Write updated translations to the file
             with open(file_path, 'w', encoding='utf-8') as file:
+                yaml.width = 4000  # Ensure long lines are not wrapped
                 yaml.dump(existing_translations, file)
 
 def update_translations(translations, key, international_string):
-    for localized_string in international_string['text']:
-        if localized_string['lang'] not in translations:
-            translations[localized_string['lang']] = {}
+    if not international_string or 'text' not in international_string:
+        print(f"WARNING: international_string is empty for key '{key}'")
+    else:
+        for localized_string in international_string['text']:
+            if localized_string['lang'] not in translations:
+                translations[localized_string['lang']] = {}
         
-        translations[localized_string['lang']][key] = html.remove_tags(localized_string['value'])
+            translations[localized_string['lang']][key] = html.remove_tags(localized_string['value'])
     return key

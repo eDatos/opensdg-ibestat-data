@@ -271,6 +271,7 @@ def extract_serie_dimension_info(data):
     dimension_series_metadata_indexed = { value['id']: value for value in dimension_series_metadata['value'] }
 
     attributes_data = data['data']['attributes']['attribute']
+    i18n_attributes_data = data['data']['attributes']['internationalAttribute']
     attributes_metadata = data['metadata']['attributes']['attribute']
     
     # Handling of dimension level attributes associated with SERIES_ID
@@ -280,8 +281,12 @@ def extract_serie_dimension_info(data):
         if attribute_metadata['attachmentLevel'] == "DIMENSION" and attribute_metadata['dimensions']['total'] == 1 and attribute_metadata['dimensions']['dimension'][0]['dimensionId'] == SERIES_ID:
             attribute_id = attribute_metadata['id']
             attribute_values = next((attribute_data for attribute_data in attributes_data if attribute_data['id'] == attribute_id), None)
+            i18n_attribute_values = next((i18n_attribute_data for i18n_attribute_data in i18n_attributes_data if i18n_attribute_data['id'] == attribute_id), None)
             if (attribute_values):
                 attributes_series_data[attribute_id] = dict(enumerate(attribute_values['value'].split(" | ")))
+            elif (i18n_attribute_values):
+                # Use same structure as enumerated values
+                attributes_series_data[attribute_id] = dict(enumerate(i18n_attribute_values['values']))
 
 
     # Reducing "PRIMARY_MEASURE" attributes into "DIMENSION[SERIES_ID]" attributes
@@ -351,12 +356,12 @@ def create_opensdg_meta_for_serie(indicator_metadata, serie, output_filepath):
         'definicion': i18n.update_translations(translations, f'subindicator.{indicator_serie_key}-definicion', serie['description']), # Descripción de los códigos de CL_SERIES
 
         # Fórmula teórica escrita en formato MathJax
-        'formula_teorica':  f'FORMULA_TEORICA.{indicator_serie_key}-formula-teorica', # TODO EDATOS-4945, pending i18n i18n.update_translations(translations, f'FORMULA_TEORICA.{indicator_serie_key}-formula-teorica', attributes['FORMULA_TEORICA']), #   Atributo de dimensión (dataset) 
+        'formula_teorica':  i18n.update_translations(translations, f'FORMULA_TEORICA.{indicator_serie_key}-formula-teorica', attributes['FORMULA_TEORICA']), #   Atributo de dimensión (dataset) 
         # FIXME coger la unidad de medidad pero usar la "clasificacion" OCECAS_UNIDAD_MEDIDA que son otras traduccioens - Esto queda pendiente de ver si va a unificarse o recodificarse
         'unidad_medida': i18n.update_translations(translations, f'UNIDAD_MEDIDA.{attributes["UNIDAD_MEDIDA"]["id"]}', attributes["UNIDAD_MEDIDA"]["name"]), #'OCECAS_UNIDAD_MEDIDA.PT', # Atributo nivel observacion
-        'fuentes_informacion': f'FUENTES_INFORMACION.{indicator_serie_key}-fuentes-informacion', # TODO EDATOS-4945, pending i18n  i18n.update_translations(translations, f'FUENTES_INFORMACION.{indicator_serie_key}-fuentes-informacion', attributes['FUENTES_INFORMACION']), #   Atributo de dimensión (dataset) 
+        'fuentes_informacion': i18n.update_translations(translations, f'FUENTES_INFORMACION.{indicator_serie_key}-fuentes-informacion', attributes.get('FUENTES_INFORMACION', None)), #   Atributo de dimensión (dataset) 
         'periodicidad': i18n.update_translations(translations, f'FREQ.{attributes["FREQ"]["id"]}', attributes["FREQ"]["name"]), # Atributo nivel observacion
-        'observaciones': f'OBSERVACIONES.{indicator_serie_key}-observaciones', # TODO EDATOS-4945, pending i18n i18n.update_translations(translations, f'OBSERVACIONES.{indicator_serie_key}-observaciones', attributes['OBSERVACIONES']), #   Atributo de dimensión (dataset) 
+        'observaciones': i18n.update_translations(translations, f'OBSERVACIONES.{indicator_serie_key}-observaciones', attributes.get('OBSERVACIONES', None)), #   Atributo de dimensión (dataset) 
         # Info de Gráficas
         'graph_title': subindicator_name, # Título del dataset
         'graph_type': 'bar', # Always bar for series
