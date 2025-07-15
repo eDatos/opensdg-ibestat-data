@@ -77,13 +77,11 @@ def create_opensdg_data(data, output_filepath, config):
     for idx in itertools.product(*[range(total) for total in totals]):
         # Sample idx value: (1, 11, 12, 0, 2, 0, 0, 0, 0, 0, 0, 0)
         value = observations[pointer]
-        units = unit_measure_attribute_values[pointer]
         pointer += 1
         if (value == ''):
             continue
 
         record = {}
-        record['Units'] = 'UNIDAD_MEDIDA.' + units
         record['Value'] = value
 
         for dimension_index, representation_index in enumerate(idx):
@@ -108,6 +106,7 @@ def create_opensdg_data(data, output_filepath, config):
                     additional_columns.add('DIM_DES.' + dimension_id)
                     i18n.update_translations(translations, 'DIM_DES.' + dimension_id, metadata_dimension['name'])
                 if (dimension_id == SERIES_ID):
+                    record['Units'] = 'UNIDAD_MEDIDA.' + unit_measure_attribute_values[representation_index]
                     # We´ll construct it like this to reuse existing translations
                     record['Serie'] = 'SERIE.SERIE_' + series_orden_attribute_values[representation_index]
                     dimension_id = 'SERIE_TEMPORAL'     
