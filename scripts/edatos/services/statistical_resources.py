@@ -281,7 +281,7 @@ def extract_serie_dimension_info(data):
             attribute_id = attribute_metadata['id']
             attribute_values = next((attribute_data for attribute_data in attributes_data if attribute_data['id'] == attribute_id), None)
             if (attribute_values):
-                attributes_series_data[attribute_id] = attribute_values['value'].split(" | ")
+                attributes_series_data[attribute_id] = dict(enumerate(attribute_values['value'].split(" | ")))
 
 
     # Reducing "PRIMARY_MEASURE" attributes into "DIMENSION[SERIES_ID]" attributes
