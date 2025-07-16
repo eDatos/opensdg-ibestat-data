@@ -379,7 +379,7 @@ def create_opensdg_meta_for_serie(indicator_metadata, serie, output_filepath):
         'sort_order': serie_letter, # Atributo a nivel de dimensión (SERIES_ORDEN)
         'tab_name': f'SERIE.SERIE_{serie_letter}', # Atributo a nivel de dimensión (SERIES_ORDEN) - Use existing translation
 
-        #Coordinación con OCECAS
+        # Coordinación con OCECAS
         'coordinado_con_ocecas': bool("OCECAS" in attributes and attributes['OCECAS']) # Atributo de dimensión (dataset) 
     }
 
