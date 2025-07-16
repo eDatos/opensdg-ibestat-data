@@ -348,8 +348,7 @@ def create_opensdg_meta_for_serie(indicator_metadata, serie, output_filepath):
     indicator_serie_key = kebab_case(indicator_metadata['indicator_number']) + '-SERIE-' + serie_letter
     translations = {}
     # Strings coming from indicator_metadata are already translated, no need to update_translations
-    subindicator_name = i18n.update_translations(translations, f'subindicator.{indicator_serie_key}-nombre', serie['name'])
-    
+    subindicator_name_key = i18n.update_translations(translations, f'subindicator.{indicator_serie_key}-nombre', serie['name'])
     serie_meta = {
         # Info genérica
         'target_id': indicator_metadata['indicator_number'],
@@ -358,7 +357,7 @@ def create_opensdg_meta_for_serie(indicator_metadata, serie, output_filepath):
         'national_geographical_coverage': indicator_metadata['national_geographical_coverage'],
 
         # Info de Subindicador
-        'nombre': subindicator_name, # CL_SERIES.nombre
+        'nombre': subindicator_name_key, # CL_SERIES.nombre
         'indicador_onu_global': indicator_metadata['indicator_name'], # Título del dataset (cubo de la colección)
         'meta_global': indicator_metadata['target_name'], # Título del capítulo de la colección
         'objetivo_global': indicator_metadata['objetivo_global'], # Título de la colección
@@ -372,7 +371,7 @@ def create_opensdg_meta_for_serie(indicator_metadata, serie, output_filepath):
         'periodicidad': i18n.update_translations(translations, f'FREQ.{attributes["FREQ"]["id"]}', attributes["FREQ"]["name"]), # Atributo nivel observacion
         'observaciones': i18n.update_translations(translations, f'OBSERVACIONES.{indicator_serie_key}-observaciones', attributes.get('OBSERVACIONES', None)), #   Atributo de dimensión (dataset) 
         # Info de Gráficas
-        'graph_title': subindicator_name, # CL_SERIES.nombre (igual que el nombre)
+        'graph_title': subindicator_name_key, # CL_SERIES.nombre (igual que el nombre)
         'graph_type': 'bar', # Always bar for series
 
         # Info para las tabs
