@@ -54,7 +54,7 @@ def update_translation_files(translations):
                     print(f"WARNING: Key '{key}' already exists in {file_path} with different value: \n PREVIOUS: >{existing_translations[key]}< \n      NEW: >{value}<")
             
             # Add new keys that do not exist in the file
-            new_translations = {key: value for key, value in group_translations.items() if key not in existing_translations}
+            new_translations = {key: value for key, value in group_translations.items()}
             existing_translations.update(new_translations)
             
             # Write updated translations to the file
