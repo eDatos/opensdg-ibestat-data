@@ -1,4 +1,5 @@
 ---
+# Generated file, don't modify directly.
 # Info genérica
 target_id: 2.c.1
 reporting_status: complete
@@ -17,7 +18,7 @@ definicion: subindicator.2-c-1-SERIE-A-definicion
 formula_teorica: FORMULA_TEORICA.2-c-1-SERIE-A-formula-teorica
 unidad_medida: OCECAS_UNIDAD_MEDIDA.IX
 fuentes_informacion: FUENTES_INFORMACION.2-c-1-SERIE-A-fuentes-informacion
-periodicidad: "FREQ.A"
+periodicidad: FREQ.A
 observaciones: OBSERVACIONES.2-c-1-SERIE-A-observaciones
 
 # Info de Gráficas
@@ -28,6 +29,6 @@ graph_type: bar
 sort_order: 1
 tab_name: SERIE.SERIE_A
 
-#Coordinación con OCECAS
+# Coordinación con OCECAS
 coordinado_con_ocecas: true
 ---

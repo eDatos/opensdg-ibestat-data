@@ -1,4 +1,5 @@
 ---
+# Generated file, don't modify directly.
 # Info genérica
 target_id: 2.4.1
 reporting_status: complete
@@ -28,6 +29,6 @@ graph_type: bar
 sort_order: 3
 tab_name: SERIE.SERIE_C
 
-#Coordinación con OCECAS
+# Coordinación con OCECAS
 coordinado_con_ocecas: true
 ---

@@ -1,4 +1,5 @@
 ---
+# Generated file, don't modify directly.
 # Info genérica
 target_id: 2.4.1
 reporting_status: complete
@@ -17,7 +18,7 @@ definicion: subindicator.2-4-1-SERIE-G-definicion
 formula_teorica: FORMULA_TEORICA.2-4-1-SERIE-G-formula-teorica
 unidad_medida: OCECAS_UNIDAD_MEDIDA.KG
 fuentes_informacion: FUENTES_INFORMACION.2-4-1-SERIE-G-fuentes-informacion
-periodicidad: "FREQ.A"
+periodicidad: FREQ.A
 observaciones: OBSERVACIONES.2-4-1-SERIE-G-observaciones
 
 # Info de Gráficas
@@ -28,6 +29,6 @@ graph_type: bar
 sort_order: 7
 tab_name: SERIE.SERIE_G
 
-#Coordinación con OCECAS
+# Coordinación con OCECAS
 coordinado_con_ocecas: true
 ---

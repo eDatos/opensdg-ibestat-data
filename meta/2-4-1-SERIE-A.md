@@ -1,4 +1,5 @@
 ---
+# Generated file, don't modify directly.
 # Info genérica
 target_id: 2.4.1
 reporting_status: complete
@@ -19,6 +20,7 @@ unidad_medida: OCECAS_UNIDAD_MEDIDA.PT
 fuentes_informacion: FUENTES_INFORMACION.2-4-1-SERIE-A-fuentes-informacion
 periodicidad: FREQ.A
 observaciones: OBSERVACIONES.2-4-1-SERIE-A-observaciones
+
 # Info de Gráficas
 graph_title: subindicator.2-4-1-SERIE-A-graph-title
 graph_type: bar
@@ -27,6 +29,6 @@ graph_type: bar
 sort_order: 1
 tab_name: SERIE.SERIE_A
 
-#Coordinación con OCECAS
+# Coordinación con OCECAS
 coordinado_con_ocecas: true
 ---
