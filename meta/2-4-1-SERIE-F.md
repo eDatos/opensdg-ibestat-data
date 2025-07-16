@@ -26,7 +26,7 @@ graph_title: subindicator.2-4-1-SERIE-F-nombre
 graph_type: bar
 
 # Info para las tabs
-sort_order: 6
+sort_order: F
 tab_name: SERIE.SERIE_F
 
 # Coordinación con OCECAS
