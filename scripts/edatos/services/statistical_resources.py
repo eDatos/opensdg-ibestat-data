@@ -405,7 +405,7 @@ def create_opensdg_meta_for_serie(indicator_metadata, serie, output_filepath):
 def calculate_computation_units(data, config):
     """
     Examines data['data']['attributes']['attribute'] to find the attribute with id config['unit_measure_id'], normally 'UNIDAD_MEDIDA'
-    and checks the values of the attribute. If there is only one non-empty value, it returns it. Otherwise, it returns ''
+    and checks the values of the attribute. If there is only one non-empty value, it returns it. Otherwise, it returns None
 
     :param data: The dataset containing attributes.
     :return: The single non-empty value of 'UNIDAD_MEDIDA', or '' if not found or invalid.
