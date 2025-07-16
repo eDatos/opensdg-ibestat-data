@@ -4,6 +4,7 @@ import re
 import pandas
 from edatos.utils import i18n, json, urn as urn_utils
 from edatos.utils.yaml import yaml
+from ruamel.yaml.comments import CommentedMap
 from edatos.services import structural_resources
 
 SERIES_ORDEN_ATTRIBUTE_ID = 'SERIES_ORDEN'
@@ -229,6 +230,14 @@ def create_opensdg_meta(data, output_filepath, config, indicator_id, indicator_n
         'next_indicator': node_meta_from_csv.get('next_indicator')
     }
 
+    indicator_meta = CommentedMap(indicator_meta)
+    indicator_meta.yaml_set_comment_before_after_key('data_non_statistical', before="Generated file, don't modify directly")
+    indicator_meta.yaml_set_comment_before_after_key('published', before='Must be True to publish')
+    indicator_meta.yaml_set_comment_before_after_key('reporting_status', before="\nUse 'complete' to published indicators. Available values: notapplicable, notstarted, inprogress, complete")
+    indicator_meta.yaml_set_comment_before_after_key('source_active_1', before='\nUp to 12 sources of information can be added following the nomenclature source_active_N, source_organisation_N, etc. being N a number from 1 to 12')
+    indicator_meta.yaml_set_comment_before_after_key('computation_units', before='\nUnit measure that will appear in the footer of the graph.')
+    indicator_meta.yaml_set_comment_before_after_key('prev_indicator', before='\nNavigation')
+
     # Convert the dictionary to a YAML string
     stream = StringIO()
     yaml.dump(indicator_meta, stream)
@@ -373,6 +382,14 @@ def create_opensdg_meta_for_serie(indicator_metadata, serie, output_filepath):
         #Coordinación con OCECAS
         'coordinado_con_ocecas': bool("OCECAS" in attributes and attributes['OCECAS']) # Atributo de dimensión (dataset) 
     }
+
+    serie_meta = CommentedMap(serie_meta)
+    serie_meta.yaml_set_comment_before_after_key('target_id', before="Generated file, don't modify directly.\nInfo genérica")
+    serie_meta.yaml_set_comment_before_after_key('nombre', before='\nInfo de Subindicador')
+    serie_meta.yaml_set_comment_before_after_key('formula_teorica', before='\nFórmula teórica escrita en formato MathJax')
+    serie_meta.yaml_set_comment_before_after_key('graph_title', before='\nInfo de Gráficas')
+    serie_meta.yaml_set_comment_before_after_key('sort_order', before='\nInfo para las tabs')
+    serie_meta.yaml_set_comment_before_after_key('coordinado_con_ocecas', before='\nCoordinación con OCECAS')
 
     stream = StringIO()
     yaml.dump(serie_meta, stream)
