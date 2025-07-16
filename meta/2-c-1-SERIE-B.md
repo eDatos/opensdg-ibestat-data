@@ -4,7 +4,6 @@
 target_id: 2.c.1
 reporting_status: complete
 data_non_statistical: false
-indicator_sort_order: 02-cc-01-bb
 national_geographical_coverage: nuts.ES53
 
 # Info de Subindicador
