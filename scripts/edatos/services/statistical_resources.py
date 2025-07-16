@@ -363,7 +363,7 @@ def create_opensdg_meta_for_serie(indicator_metadata, serie, output_filepath):
         'periodicidad': i18n.update_translations(translations, f'FREQ.{attributes["FREQ"]["id"]}', attributes["FREQ"]["name"]), # Atributo nivel observacion
         'observaciones': i18n.update_translations(translations, f'OBSERVACIONES.{indicator_serie_key}-observaciones', attributes.get('OBSERVACIONES', None)), #   Atributo de dimensión (dataset) 
         # Info de Gráficas
-        'graph_title': subindicator_name, # Título del dataset
+        'graph_title': subindicator_name, # CL_SERIES.nombre (igual que el nombre)
         'graph_type': 'bar', # Always bar for series
 
         # Info para las tabs

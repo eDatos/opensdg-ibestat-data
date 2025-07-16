@@ -22,7 +22,7 @@ periodicidad: FREQ.A
 observaciones: OBSERVACIONES.2-c-1-SERIE-A-observaciones
 
 # Info de Gráficas
-graph_title: subindicator.2-c-1-SERIE-A-graph-title
+graph_title: subindicator.2-c-1-SERIE-A-nombre
 graph_type: bar
 
 # Info para las tabs
