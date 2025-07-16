@@ -365,8 +365,7 @@ def create_opensdg_meta_for_serie(indicator_metadata, serie, output_filepath):
 
         # Fórmula teórica escrita en formato MathJax
         'formula_teorica':  i18n.update_translations(translations, f'FORMULA_TEORICA.{indicator_serie_key}-formula-teorica', attributes['FORMULA_TEORICA']), #   Atributo de dimensión (dataset) 
-        # FIXME coger la unidad de medidad pero usar la "clasificacion" OCECAS_UNIDAD_MEDIDA que son otras traduccioens - Esto queda pendiente de ver si va a unificarse o recodificarse
-        'unidad_medida': i18n.update_translations(translations, f'UNIDAD_MEDIDA.{attributes["UNIDAD_MEDIDA"]["id"]}', attributes["UNIDAD_MEDIDA"]["name"]), #'OCECAS_UNIDAD_MEDIDA.PT', # Atributo nivel observacion
+        'unidad_medida': f'OCECAS_UNIDAD_MEDIDA.{attributes["UNIDAD_MEDIDA"]["id"]}', #'OCECAS_UNIDAD_MEDIDA.PT', # Atributo nivel observacion. REMEMBER! OCECAS translations are fixed on OCECAS_UNIDAD_MEDIDA
         'fuentes_informacion': i18n.update_translations(translations, f'FUENTES_INFORMACION.{indicator_serie_key}-fuentes-informacion', attributes.get('FUENTES_INFORMACION', None)), #   Atributo de dimensión (dataset) 
         'periodicidad': i18n.update_translations(translations, f'FREQ.{attributes["FREQ"]["id"]}', attributes["FREQ"]["name"]), # Atributo nivel observacion
         'observaciones': i18n.update_translations(translations, f'OBSERVACIONES.{indicator_serie_key}-observaciones', attributes.get('OBSERVACIONES', None)), #   Atributo de dimensión (dataset) 
