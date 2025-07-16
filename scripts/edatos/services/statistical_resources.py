@@ -419,7 +419,7 @@ def calculate_computation_units(data, config):
 
     if not unit_measure_attribute:
         print(f"Attribute '{config['unit_measure_id']}' not found.")
-        return ''
+        return None
 
     unit_measure_values = list(set(value.strip() for value in unit_measure_attribute['value'].split(" | ") if value.strip()))
 
@@ -427,7 +427,7 @@ def calculate_computation_units(data, config):
         return unit_measure_values[0]
     else:
         print(f"No single value for attribute '{config['unit_measure_id']}'. Existing values: {unit_measure_values}")
-        return ''
+        return None
 
 def calculate_data_show_map(data):
     """
