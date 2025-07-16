@@ -43,9 +43,7 @@ def create_index_csv():
                     if match:
                         csv_writer.writerow([str(match.groups()[0]), str(match.groups()[1])])
 
-
-if __name__ == "__main__":
-
+def build_sources():
 
     config = common_metadata.initialize_properties(config='config_data.yml')
 
@@ -59,7 +57,12 @@ if __name__ == "__main__":
     meta_from_csv = opensdg.setup_indicators_navigation(meta_from_csv)
     
     statistical_resources.process_nodes(collection, config, meta_from_csv, organisation)
-            
+
+if __name__ == "__main__":
+
+    # TODO modificar el pipeline para que esto se ejecute durante el proceso de build
+    # build_sources()
+                
     # Validate the indicators.
     print("Validando datos...")
     validation_successful = open_sdg.open_sdg_check(config='config_data.yml')
