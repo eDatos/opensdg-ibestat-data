@@ -349,6 +349,10 @@ def create_opensdg_meta_for_serie(indicator_metadata, serie, output_filepath):
     translations = {}
     # Strings coming from indicator_metadata are already translated, no need to update_translations
     subindicator_name_key = i18n.update_translations(translations, f'subindicator.{indicator_serie_key}-nombre', serie['name'])
+
+    # We need to ensure all UNIDAD_MEDIDA translations are stored for use with computation_units metadata (and data)
+    i18n.update_translations(translations, f'UNIDAD_MEDIDA.{attributes["UNIDAD_MEDIDA"]["id"]}', attributes["UNIDAD_MEDIDA"]["name"])
+
     serie_meta = {
         # Info genérica
         'target_id': indicator_metadata['indicator_number'],
@@ -422,7 +426,8 @@ def calculate_computation_units(data, config):
     unit_measure_values = list(set(value.strip() for value in unit_measure_attribute['value'].split(" | ") if value.strip()))
 
     if len(unit_measure_values) == 1:
-        return unit_measure_values[0]
+        # No need to translate, is translated inside create_opensdg_meta_for_serie
+        return "UNIDAD_MEDIDA." + unit_measure_values[0]
     else:
         print(f"No single value for attribute '{config['unit_measure_id']}'. Existing values: {unit_measure_values}")
         return None
