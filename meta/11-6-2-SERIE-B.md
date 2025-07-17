@@ -17,7 +17,7 @@ definicion: subindicator.11-6-2-SERIE-B-definicion
 formula_teorica: FORMULA_TEORICA.11-6-2-SERIE-B-formula-teorica
 unidad_medida: OCECAS_UNIDAD_MEDIDA.GPERM3
 fuentes_informacion: FUENTES_INFORMACION.11-6-2-SERIE-B-fuentes-informacion
-periodicidad: "CL_FREQ.A"
+periodicidad: "FREQ.A"
 observaciones: OBSERVACIONES.11-6-2-SERIE-B-observaciones
 
 # Info de Gráficas

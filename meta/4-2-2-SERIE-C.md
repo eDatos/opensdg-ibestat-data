@@ -17,7 +17,7 @@ definicion: subindicator.4-2-2-SERIE-C-definicion
 formula_teorica: FORMULA_TEORICA.4-2-2-SERIE-C-formula-teorica
 unidad_medida: OCECAS_UNIDAD_MEDIDA.PT
 fuentes_informacion: FUENTES_INFORMACION.4-2-2-SERIE-C-fuentes-informacion
-periodicidad: "CL_FREQ.A"
+periodicidad: "FREQ.A"
 observaciones: OBSERVACIONES.4-2-2-SERIE-C-observaciones
 
 # Info de Gráficas

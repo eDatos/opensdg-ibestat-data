@@ -17,7 +17,7 @@ definicion: subindicator.16-7-1-SERIE-A-definicion
 formula_teorica: FORMULA_TEORICA.16-7-1-SERIE-A-formula-teorica
 unidad_medida: OCECAS_UNIDAD_MEDIDA.IX
 fuentes_informacion: FUENTES_INFORMACION.16-7-1-SERIE-A-fuentes-informacion
-periodicidad: "CL_FREQ.A"
+periodicidad: "FREQ.A"
 observaciones: OBSERVACIONES.16-7-1-SERIE-A-observaciones
 
 # Info de Gráficas

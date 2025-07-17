@@ -17,7 +17,7 @@ definicion: subindicator.8-5-2-SERIE-B-definicion
 formula_teorica: FORMULA_TEORICA.8-5-2-SERIE-B-formula-teorica
 unidad_medida: OCECAS_UNIDAD_MEDIDA.PT
 fuentes_informacion: FUENTES_INFORMACION.8-5-2-SERIE-B-fuentes-informacion
-periodicidad: CL_FREQ.A
+periodicidad: FREQ.A
 observaciones: OBSERVACIONES.8-5-2-SERIE-B-observaciones
 # Info de Gráficas
 graph_title: subindicator.8-5-2-SERIE-B-graph-title

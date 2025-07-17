@@ -18,7 +18,7 @@ definicion: subindicator.1-a-2-SERIE-B-definicion
 formula_teorica: FORMULA_TEORICA.1-a-2-SERIE-B-formula-teorica
 unidad_medida: Porcentaje
 fuentes_informacion: FUENTES_INFORMACION.1-a-2-SERIE-B-fuentes-informacion
-periodicidad: CL_FREQ.A
+periodicidad: FREQ.A
 observaciones: OBSERVACIONES.1-a-2-SERIE-B-observaciones
 
 # Info de Gráficas

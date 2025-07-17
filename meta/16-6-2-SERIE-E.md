@@ -17,7 +17,7 @@ definicion: subindicator.16-6-2-SERIE-E-definicion
 formula_teorica: FORMULA_TEORICA.16-6-2-SERIE-E-formula-teorica
 unidad_medida: OCECAS_UNIDAD_MEDIDA.PT
 fuentes_informacion: FUENTES_INFORMACION.16-6-2-SERIE-E-fuentes-informacion
-periodicidad: "CL_FREQ.A"
+periodicidad: "FREQ.A"
 observaciones: OBSERVACIONES.16-6-2-SERIE-E-observaciones
 
 # Info de Gráficas

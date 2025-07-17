@@ -17,7 +17,7 @@ definicion: subindicator.3-5-1-SERIE-B-definicion
 formula_teorica: FORMULA_TEORICA.3-5-1-SERIE-B-formula-teorica
 unidad_medida: OCECAS_UNIDAD_MEDIDA.PER_100000_POP
 fuentes_informacion: FUENTES_INFORMACION.3-5-1-SERIE-B-fuentes-informacion
-periodicidad: CL_FREQ.A
+periodicidad: FREQ.A
 observaciones: OBSERVACIONES.3-5-1-SERIE-B-observaciones
 
 # Info de Gráficas

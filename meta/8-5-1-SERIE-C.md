@@ -17,7 +17,7 @@ definicion: subindicator.8-5-1-SERIE-C-definicion
 formula_teorica: FORMULA_TEORICA.8-5-1-SERIE-C-formula-teorica
 unidad_medida: OCECAS_UNIDAD_MEDIDA.EUR
 fuentes_informacion: FUENTES_INFORMACION.8-5-1-SERIE-C-fuentes-informacion
-periodicidad: CL_FREQ.A
+periodicidad: FREQ.A
 observaciones: OBSERVACIONES.8-5-1-SERIE-C-observaciones
 # Info de Gráficas
 graph_title: subindicator.8-5-1-SERIE-C-graph-title

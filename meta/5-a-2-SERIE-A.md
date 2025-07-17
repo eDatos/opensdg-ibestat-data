@@ -17,7 +17,7 @@ definicion: subindicator.5-a-2-SERIE-A-definicion
 formula_teorica: FORMULA_TEORICA.5-a-2-SERIE-A-formula-teorica
 unidad_medida: OCECAS_UNIDAD_MEDIDA.1T6
 fuentes_informacion: ""
-periodicidad: CL_FREQ.A
+periodicidad: FREQ.A
 observaciones: OBSERVACIONES.5-a-2-SERIE-A-observaciones
 
 # Info de Graficas

@@ -17,7 +17,7 @@ definicion: subindicator.4-1-1-SERIE-A-definicion
 formula_teorica: FORMULA_TEORICA.4-1-1-SERIE-A-formula-teorica
 unidad_medida: OCECAS_UNIDAD_MEDIDA.PT
 fuentes_informacion: FUENTES_INFORMACION.4-1-1-SERIE-A-fuentes-informacion
-periodicidad: "CL_FREQ.A3"
+periodicidad: "FREQ.A3"
 observaciones: OBSERVACIONES.4-1-1-SERIE-A-observaciones
 
 # Info de Gráficas

@@ -17,7 +17,7 @@ definicion: subindicator.16-2-2-SERIE-C-definicion
 formula_teorica: FORMULA_TEORICA.16-2-2-SERIE-C-formula-teorica
 unidad_medida: OCECAS_UNIDAD_MEDIDA.PER_100000
 fuentes_informacion: FUENTES_INFORMACION.16-2-2-SERIE-C-fuentes-informacion
-periodicidad: CL_FREQ.A
+periodicidad: FREQ.A
 observaciones: OBSERVACIONES.16-2-2-SERIE-C-observaciones
 
 # Info de Gráficas

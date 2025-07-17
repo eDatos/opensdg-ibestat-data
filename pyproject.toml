@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "edatos-opensdg-ibestat-data"
+version = "0.1.0"
+description = ""
+authors = ["Arte Consultores <info@arte-consultores.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+humanize = "^4.12.2"
+yamlmd = {git = "https://github.com/dougmet/yamlmd"}
+sdg = {git = "https://github.com/open-sdg/sdg-build", rev = "1.0.3"}
+bs4 = "^0.0.2"
+numpy = "^1.9"
+pandas = "1.2.5"
+requests = "^2.32.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

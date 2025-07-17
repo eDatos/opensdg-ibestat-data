@@ -17,7 +17,7 @@ definicion: subindicator.8-5-1-SERIE-D-definicion
 formula_teorica: FORMULA_TEORICA.8-5-1-SERIE-D-formula-teorica
 unidad_medida: OCECAS_UNIDAD_MEDIDA.EUR
 fuentes_informacion: FUENTES_INFORMACION.8-5-1-SERIE-D-fuentes-informacion
-periodicidad: "CL_FREQ.A"
+periodicidad: "FREQ.A"
 observaciones: OBSERVACIONES.8-5-1-SERIE-D-observaciones
 
 # Info de Gráficas

@@ -16,7 +16,7 @@ definicion: subindicator.3-3-2-SERIE-B-definicion
 formula_teorica: FORMULA_TEORICA.3-3-2-SERIE-B-formula-teorica
 unidad_medida: OCECAS_UNIDAD_MEDIDA.PER_100000
 fuentes_informacion: FUENTES_INFORMACION.3-3-2-SERIE-B-fuentes-informacion
-periodicidad: CL_FREQ.A
+periodicidad: FREQ.A
 observaciones: OBSERVACIONES.3-3-2-SERIE-B-observaciones
 
 # Info de Gráficas

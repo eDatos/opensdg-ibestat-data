@@ -1,9 +1,9 @@
 ---
+# Generated file, don't modify directly.
 # Info genérica
 target_id: 2.4.1
 reporting_status: complete
 data_non_statistical: false
-indicator_sort_order: 02-04-01-gg
 national_geographical_coverage: nuts.ES53
 
 # Info de Subindicador
@@ -17,17 +17,17 @@ definicion: subindicator.2-4-1-SERIE-G-definicion
 formula_teorica: FORMULA_TEORICA.2-4-1-SERIE-G-formula-teorica
 unidad_medida: OCECAS_UNIDAD_MEDIDA.KG
 fuentes_informacion: FUENTES_INFORMACION.2-4-1-SERIE-G-fuentes-informacion
-periodicidad: "CL_FREQ.A"
+periodicidad: FREQ.A
 observaciones: OBSERVACIONES.2-4-1-SERIE-G-observaciones
 
 # Info de Gráficas
-graph_title: subindicator.2-4-1-SERIE-G-graph-title
+graph_title: subindicator.2-4-1-SERIE-G-nombre
 graph_type: bar
 
 # Info para las tabs
-sort_order: 7
+sort_order: G
 tab_name: SERIE.SERIE_G
 
-#Coordinación con OCECAS
+# Coordinación con OCECAS
 coordinado_con_ocecas: true
 ---

@@ -17,7 +17,7 @@ definicion: subindicator.17-3-1-SERIE-C-definicion
 formula_teorica: FORMULA_TEORICA.17-3-1-SERIE-C-formula-teorica
 unidad_medida: OCECAS_UNIDAD_MEDIDA.EUR_1000000
 fuentes_informacion: FUENTES_INFORMACION.17-3-1-SERIE-C-fuentes-informacion
-periodicidad: "CL_FREQ.A"
+periodicidad: "FREQ.A"
 observaciones: OBSERVACIONES.17-3-1-SERIE-C-observaciones
 
 # Info de Gráficas

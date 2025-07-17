@@ -151,3 +151,30 @@ Para poder mostrar la información de un subindicador en un mapa será necesario
 2) En los metadatos del subindicador se deberá añadir un nuevo metadato: [**`show_map`**](#metadatos-de-serie) y establecerlo a `true` si se desea mostrar el mapa. Se puede establecer a `false` para ocultarlo.
 3) Añadir configuraciones de mapa al archivo `config_data.yml`. Existen ejemplos de esto en el propio archivo. Para más información consultar la [documentación de OpenSDG](https://open-sdg.readthedocs.io/en/latest/maps/)
 4) Esta configuración de los mapas se deberá añadir tal cual está en `config_data.yml` en la configuración de la web [`opensdg-web/src/_config.yml`](https://git.arte-consultores.com/istac/edatos-opensdg-web/blob/develop/opensdg-web/src/etc/config/_config_ibestat.yml#L46).
+
+
+# Ejecución del script build_data
+
+Este proyecto está gestionado por Poetry, véase los archivos pyproject.toml y poetry.lock. Más info en https://confluence.arte.dev/display/CONOCIMIENTO/Poetry. En resumen, debe seguir los siguientes pasos
+
+## Tener pipx instalado
+En windows:
+```
+  py -m pip install --user pipx
+```
+
+## Tener Poetry instalado
+```
+  pipx install poetry
+```
+
+## Instalar dependencias
+```
+  poetry env use 3.9 
+  poetry install --no-root
+```
+
+## Ejecutar
+```
+  poetry run python .\scripts\build_data.py
+```

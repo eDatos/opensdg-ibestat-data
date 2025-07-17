@@ -17,7 +17,7 @@ definicion: subindicator.17-19-2b-SERIE-A-definicion
 formula_teorica: FORMULA_TEORICA.17-19-2b-SERIE-A-formula-teorica
 unidad_medida: OCECAS_UNIDAD_MEDIDA.BOOL_YES_NO
 fuentes_informacion: FUENTES_INFORMACION.17-19-2b-SERIE-A-fuentes-informacion
-periodicidad: CL_FREQ.A
+periodicidad: FREQ.A
 observaciones: OBSERVACIONES.17-19-2b-SERIE-A-observaciones
 
 # Info de Gráficas
