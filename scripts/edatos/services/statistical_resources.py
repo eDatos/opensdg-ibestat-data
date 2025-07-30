@@ -94,7 +94,7 @@ def create_opensdg_data(data, output_filepath, config):
             header_columns = {
                 'TIME_PERIOD': 'Year',
                 'REF_AREA': 'general.territorio',
-                'SERIES': 'SERIE_TEMPORAL.Encabezado'
+                'SERIES': 'general.series'
             }
 
             dimension_id = dimension['dimensionId']
@@ -110,7 +110,7 @@ def create_opensdg_data(data, output_filepath, config):
                     record['Units'] = 'UNIDAD_MEDIDA.' + unit_measure_attribute_values[representation_index]
                     # We´ll construct it like this to reuse existing translations
                     record['Serie'] = 'SERIE.SERIE_' + series_orden_attribute_values[representation_index]
-                    dimension_id = 'SERIE_TEMPORAL'     
+                    dimension_id = 'SERIES'     
           
                 representation_code = code
                 if needs_translation:
@@ -137,8 +137,8 @@ def create_opensdg_data(data, output_filepath, config):
     # Creating base CSV
     df = pandas.DataFrame(records)    
     # Trying to match order of rows and columns the same way as the original CSVs
-    column_order = ['Year', 'Units', 'general.territorio', 'Serie', 'SERIE_TEMPORAL.Encabezado'] + list(additional_columns) + ['Value']
-    df = df.sort_values(by=['Serie', 'Year', 'general.territorio', 'SERIE_TEMPORAL.Encabezado'], ascending=[True, True, True, True])
+    column_order = ['Year', 'Units', 'general.territorio', 'Serie', 'general.series'] + list(additional_columns) + ['Value']
+    df = df.sort_values(by=['Serie', 'Year', 'general.territorio', 'general.series'], ascending=[True, True, True, True])
     df.to_csv(output_filepath + ".csv", index=False, columns=column_order)
 
     i18n.update_translation_files(translations)
@@ -154,7 +154,7 @@ def create_opensdg_data(data, output_filepath, config):
 
 # OpenSDG will show a filter facet whenever there are values for that combination, but business logic has decided against
 # showing the filter for single value dimensions. This behaviour was implemented before taking into account
-# both Units and SERIE_TEMPORAL. Because SERIE_TEMPORAL is no longer a group of series, we´ll only clean
+# both Units and SERIES. Because SERIES is no longer a group of series, we´ll only clean
 # based on Units.
 def clean_disaggregated_values(records, additional_columns):
     units_groups = {}
