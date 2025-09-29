@@ -120,7 +120,7 @@
 3-5-1-title: "Cobertura dels tractaments (farmacològics i psicosocials i serveis de rehabilitació i posttractament) de trastorns per abús de substàncies addictives"
 3-5-2-definition: ''
 3-5-2-graph-title: "Consum anual d'alcohol registrat en litres d'alcohol pur per persona de 15 i més anys"
-3-5-2-title: "Consum d’alcohol per càpita (a partir dels 15 anys d’edat) durant un any civil en litres d’alcohol pur"
+3-5-2-title: "Consum d’alcohol per capita (a partir dels 15 anys d’edat) durant un any civil en litres d’alcohol pur"
 3-6-1-definition: ''
 3-6-1-graph-title: "Taxa de mortalitat per lesions degudes a accidents de trànsit"
 3-6-1-title: "Taxa de mortalitat per lesions degudes a accidents de trànsit"
@@ -297,10 +297,10 @@
 7-a-1-title: "Corrents financers internacionals cap als països en desenvolupament per donar suport a la investigació i el desenvolupament d’energies netes i la producció d’energia renovable, inclosos els sistemes híbrids"
 7-b-1-definition: ''
 7-b-1-graph-title: ''
-7-b-1-title: "Capacitat instal·lada de generació d’energia renovable en els països en desenvolupament (expressada en watts per càpita)"
+7-b-1-title: "Capacitat instal·lada de generació d’energia renovable en els països en desenvolupament (expressada en watts per capita)"
 8-1-1-definition: ''
-8-1-1-graph-title: "Taxa de creixement anual del PIB real per càpita"
-8-1-1-title: "Taxa de creixement anual del PIB real per càpita"
+8-1-1-graph-title: "Taxa de creixement anual del PIB real per capita"
+8-1-1-title: "Taxa de creixement anual del PIB real per capita"
 8-2-1-definition: ''
 8-2-1-graph-title: "Taxa de creixement anual del PIB real segons la forma de mesurar l’ocupació"
 8-2-1-title: "Taxa de creixement anual del PIB real per persona ocupada"
@@ -309,10 +309,10 @@
 8-3-1-title: "Proporció d’ocupació informal pel que fa a l’ocupació total, desglossada per sector i sexe"
 8-4-1-definition: ''
 8-4-1-graph-title: ''
-8-4-1-title: "Petjada material en termes absoluts, petjada material per càpita i petjada material per PIB"
+8-4-1-title: "Petjada material en termes absoluts, petjada material per capita i petjada material per PIB"
 8-4-2-definition: ''
 8-4-2-graph-title: ''
-8-4-2-title: "Consum material intern en termes absoluts, consum material intern per càpita i consum material intern per PIB"
+8-4-2-title: "Consum material intern en termes absoluts, consum material intern per capita i consum material intern per PIB"
 8-5-1-definition: ''
 8-5-1-graph-title: "Ingrés mitjà per hora de treball segons sexe o persones amb discapacitat"
 8-5-1-title: "Ingrés mitjà per hora d’empleades i empleats, desglossat per ocupació, edat i persones amb discapacitat"
@@ -353,8 +353,8 @@
 9-1-2-graph-title: ''
 9-1-2-title: "Volum de transport de passatgers i càrrega, desglossat per mitjà de transport"
 9-2-1-definition: ''
-9-2-1-graph-title: "Valor afegit del sector manufacturer en proporció al PIB i per càpita"
-9-2-1-title: "Valor afegit del sector manufacturer en proporció al PIB i per càpita"
+9-2-1-graph-title: "Valor afegit del sector manufacturer en proporció al PIB i per capita"
+9-2-1-title: "Valor afegit del sector manufacturer en proporció al PIB i per capita"
 9-2-2-definition: ''
 9-2-2-graph-title: "Proporció de persones ocupades en el sector manufacturer i ocupació del sector manufacturer en proporció a l’ocupació total"
 9-2-2-title: "Ocupació del sector manufacturer en proporció a l’ocupació total"
@@ -383,8 +383,8 @@
 9-c-1-graph-title: "Proporció de llars cobertes amb xarxes mòbils segons tecnologia"
 9-c-1-title: "Proporció de la població amb cobertura de xarxa mòbil, desglossada per tecnologia"
 10-1-1-definition: ''
-10-1-1-graph-title: "Taxes de creixement per càpita de les despeses o ingressos de les llars del 40 % més pobre de la població i la població total"
-10-1-1-title: "Taxes de creixement per càpita de les despeses o ingressos de les llars del 40 % més pobre de la població i la població total"
+10-1-1-graph-title: "Taxes de creixement per capita de les despeses o ingressos de les llars del 40 % més pobre de la població i la població total"
+10-1-1-title: "Taxes de creixement per capita de les despeses o ingressos de les llars del 40 % més pobre de la població i la població total"
 10-2-1-definition: ''
 10-2-1-graph-title: "Proporció de persones que viuen per sota del 50 % de la mediana dels ingressos segons tipus de mediana"
 10-2-1-title: "Proporció de persones que viuen per sota del 50 % de la mediana dels ingressos, desglossada per sexe, edat i persones amb discapacitat"
@@ -437,8 +437,8 @@
 11-3-2-graph-title: "Proporció de ciutats que compten amb una estructura de participació directa de la societat civil en la planificació i la gestió urbanes que funcioni amb regularitat i democràticament"
 11-3-2-title: "Proporció de ciutats que compten amb una estructura de participació directa de la societat civil en la planificació i la gestió urbanes i funcionen amb regularitat i democràticament"
 11-4-1-definition: ''
-11-4-1-graph-title: "Despesa per càpita de les administracions públiques en la preservació, protecció i conservació del patrimoni cultural segons nivell de govern"
-11-4-1-title: "Total de despeses per càpita destinades a la preservació, protecció i conservació de tot el patrimoni cultural i natural, desglossat per font de finançament (públic i privat), tipus de patrimoni (cultural i natural) i nivell de govern (nacional, regional i local/municipal)"
+11-4-1-graph-title: "Despesa per capita de les administracions públiques en la preservació, protecció i conservació del patrimoni cultural segons nivell de govern"
+11-4-1-title: "Total de despeses per capita destinades a la preservació, protecció i conservació de tot el patrimoni cultural i natural, desglossat per font de finançament (públic i privat), tipus de patrimoni (cultural i natural) i nivell de govern (nacional, regional i local/municipal)"
 11-5-1-definition: ''
 11-5-1-graph-title: "Nombre de persones mortes directament atribuït a desastres per cada 100.000 habitants"
 11-5-1-title: "Nombre de persones mortes, desaparegudes i afectades directament atribuït a desastres per cada 100.000 persones"
@@ -446,7 +446,7 @@
 11-5-2-graph-title: ''
 11-5-2-title: "Pèrdues econòmiques directes en relació amb el PIB mundial, danys en la infraestructura essencial i nombre d’interrupcions dels serveis bàsics atribuïts a desastres"
 11-6-1-definition: ''
-11-6-1-graph-title: "Residus urbans recollits per càpita i proporció de residus urbans en relació amb el total de residus urbans generats i tractats"
+11-6-1-graph-title: "Residus urbans recollits per capita i proporció de residus urbans en relació amb el total de residus urbans generats i tractats"
 11-6-1-title: "Proporció de deixalles sòlides urbanes recollides periòdicament i amb una descàrrega final adequada respecte del total de deixalles sòlides urbanes generades, desglossada per ciutat"
 11-6-2-definition: ''
 11-6-2-graph-title: "Nivell mitjà de partícules fines en suspensió a les ciutats ponderat segons la població"
@@ -474,10 +474,10 @@
 12-1-1-title: "Nombre de països que inclouen com a prioritat o meta en les polítiques nacionals plans d’acció nacionals sobre el consum i la producció sostenibles"
 12-2-1-definition: ''
 12-2-1-graph-title: ''
-12-2-1-title: "Petjada material en termes absoluts, petjada material per càpita i petjada material per PIB"
+12-2-1-title: "Petjada material en termes absoluts, petjada material per capita i petjada material per PIB"
 12-2-2-definition: ''
 12-2-2-graph-title: ''
-12-2-2-title: "Consum material intern en termes absoluts, consum material intern per càpita i consum material intern per PIB"
+12-2-2-title: "Consum material intern en termes absoluts, consum material intern per capita i consum material intern per PIB"
 12-3-1-definition: ''
 12-3-1-graph-title: ''
 12-3-1-title: "a) Índex de pèrdues d’aliments i b) índex de malbaratament d’aliments"
@@ -486,9 +486,9 @@
 12-4-1-title: "Nombre de parts en els acords ambientals multilaterals internacionals sobre residus perillosos i altres productes químics que compleixen els seus compromisos i obligacions de transmetre informació tal com s’exigeix en cadascun d’aquests acords"
 12-4-2-definition: ''
 12-4-2-graph-title: ''
-12-4-2-title: "a) Residus perillosos generats per càpita i b) proporció de residus perillosos tractats, desglossats per tipus de tractament"
+12-4-2-title: "a) Residus perillosos generats per capita i b) proporció de residus perillosos tractats, desglossats per tipus de tractament"
 12-5-1-definition: ''
-12-5-1-graph-title: "Residus urbans recollits per càpita i dia"
+12-5-1-graph-title: "Residus urbans recollits per capita i dia"
 12-5-1-title: "Taxa nacional de reciclatge, en tones de material reciclat"
 12-6-1-definition: ''
 12-6-1-graph-title: "Nombre de llicències d'Etiqueta Ecològica Europea i nombre d'organitzacions amb Sistema comunitari de gestió i auditoria mediambiental"
@@ -501,7 +501,7 @@
 12-8-1-title: "Grau en què i) l’educació per a la ciutadania mundial i ii) l’educació per al desenvolupament sostenible (inclosa l’educació sobre el canvi climàtic) s’incorporen a a) les polítiques nacionals d’educació, b) els plans d’estudi, c) la formació de professorat i d) l’avaluació dels estudiants"
 12-a-1-definition: ''
 12-a-1-graph-title: ''
-12-a-1-title: "Capacitat instal·lada de generació d’energia renovable en els països en desenvolupament (expressada en watts per càpita)"
+12-a-1-title: "Capacitat instal·lada de generació d’energia renovable en els països en desenvolupament (expressada en watts per capita)"
 12-b-1-definition: ''
 12-b-1-graph-title: ''
 12-b-1-title: "Aplicació d’instruments normalitzats de comptabilitat per fer un seguiment dels aspectes econòmics i ambientals de la sostenibilitat del turisme"
