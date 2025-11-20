@@ -37,6 +37,8 @@ def process_node(node, config, meta_from_csv, organisation, parent_node = None, 
         indicator_key = kebab_case(node_id)
         print(f"Downloading dataset from: {dataset_url}")
         data = json.download(dataset_url)
+        if (not is_valid_dataset(data, node_id)):
+            return
         create_opensdg_data(data, f'data/indicator_{indicator_key}', config) 
         node_meta_from_csv = meta_from_csv.get(indicator_key, {})
         create_opensdg_meta(data, f'meta/{indicator_key}', config, node_id, node, node_meta_from_csv, organisation)
@@ -44,6 +46,12 @@ def process_node(node, config, meta_from_csv, organisation, parent_node = None, 
     if 'nodes' in node and 'node' in node['nodes']:
         for child_node in node['nodes']['node']:
             process_node(child_node, config, meta_from_csv, organisation, node, level + 1)            
+
+def is_valid_dataset(data, node_id):
+    if 'data' not in data or 'metadata' not in data:
+        print("ERROR: No data or metadata in dataset {node_id}")
+        return False
+    return True
 
 def urn_to_url(base_url, urn):
     prefix, agency_id, item_scheme_id, version, resource_id = urn_utils.split_urn(urn, False)
