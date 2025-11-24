@@ -4,12 +4,14 @@ import re
 import pandas
 from edatos.utils import i18n, json, urn as urn_utils
 from edatos.utils.yaml import yaml
+from edatos.utils.logging import getLogger
 from ruamel.yaml.comments import CommentedMap
 from edatos.services import structural_resources
 
 SERIES_ORDEN_ATTRIBUTE_ID = 'SERIES_ORDEN'
 SERIES_ID = 'SERIES'
 
+logger = getLogger('statistical_resources')
 def process_nodes(collection, config, meta_from_csv, organisation):
     if 'data' in collection and 'nodes' in collection['data'] and 'node' in collection['data']['nodes']:
         for node in collection['data']['nodes']['node']:
@@ -30,12 +32,12 @@ def process_node(node, config, meta_from_csv, organisation, parent_node = None, 
     default_language = config['languages'][0]
     # Invariable between languages
     node_id = i18n.international_string_to_string(node['name'], default_language)
-    print(f"Processing {node_type}: {node_id}")
+    logger.info(f"Processing {node_type}: {node_id}")    
 
     if 'dataset' in node:
         dataset_url = node['dataset']['selfLink']['href'] + ".json?fields=+dimension.description"
         indicator_key = kebab_case(node_id)
-        print(f"Downloading dataset from: {dataset_url}")
+        logger.info(f"Downloading dataset from: {dataset_url}")
         data = json.download(dataset_url)
         if (not is_valid_dataset(data, node_id)):
             return
@@ -444,7 +446,7 @@ def calculate_computation_units(data, config):
         # No need to translate, is translated inside create_opensdg_meta_for_serie
         return "UNIDAD_MEDIDA." + unit_measure_values[0]
     else:
-        print(f"No single value for attribute '{config['unit_measure_id']}'. Existing values: {unit_measure_values}")
+        logger.info(f"No single value for attribute '{config['unit_measure_id']}'. Existing values: {unit_measure_values}")
         return None
 
 def calculate_data_show_map(data):
