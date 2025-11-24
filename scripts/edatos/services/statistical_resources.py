@@ -39,9 +39,13 @@ def process_node(node, config, meta_from_csv, organisation, parent_node = None, 
         data = json.download(dataset_url)
         if (not is_valid_dataset(data, node_id)):
             return
-        create_opensdg_data(data, f'data/indicator_{indicator_key}', config) 
-        node_meta_from_csv = meta_from_csv.get(indicator_key, {})
-        create_opensdg_meta(data, f'meta/{indicator_key}', config, node_id, node, node_meta_from_csv, organisation)
+        try:
+            create_opensdg_data(data, f'data/indicator_{indicator_key}', config) 
+            node_meta_from_csv = meta_from_csv.get(indicator_key, {})
+            create_opensdg_meta(data, f'meta/{indicator_key}', config, node_id, node, node_meta_from_csv, organisation)
+        except Exception as e:
+            logger.error(f"Exception creating OpenSDG data for dataset {node_id}: {str(e)}")
+            return
 
     if 'nodes' in node and 'node' in node['nodes']:
         for child_node in node['nodes']['node']:
