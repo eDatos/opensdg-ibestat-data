@@ -322,6 +322,9 @@ def extract_serie_dimension_info(data):
         # for dimension_index, representation_index in enumerate(idx):
         for attribute in attributes_metadata:
             attribute_id = attribute['id']
+            if (attribute_id in ["DATA_LAST_UPDATE", "OBS_STATUS"]):
+                logger.debug(f"Skipping attribute {attribute_id} in serie dimension extraction")
+                continue
             if attribute['attachmentLevel'] == "PRIMARY_MEASURE":
                 attribute_values = next((attr for attr in data['data']['attributes']['attribute'] if attr['id'] == attribute_id), None)
                 if (attribute_values):                    
