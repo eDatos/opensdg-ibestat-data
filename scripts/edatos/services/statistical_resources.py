@@ -60,14 +60,14 @@ def urn_to_url(base_url, urn):
         raise ValueError("Resource type is not supported")
 
 def create_opensdg_data(data, output_filepath, config):   
+    default_language = config['languages'][0]
      
     observations = data['data']['observations'].split(" | ")
     
     unit_measure_attribute = next(attr for attr in data['data']['attributes']['attribute'] if attr['id'] == config['unit_measure_id'])
     unit_measure_attribute_values = unit_measure_attribute['value'].split(" | ")
-
-    series_orden_attribute = next(attr for attr in data['data']['attributes']['attribute'] if attr['id'] == SERIES_ORDEN_ATTRIBUTE_ID)
-    series_orden_attribute_values = series_orden_attribute['value'].split(" | ")
+    series_orden_attribute = next(attr for attr in data['data']['attributes']['internationalAttribute'] if attr['id'] == SERIES_ORDEN_ATTRIBUTE_ID)
+    series_orden_attribute_values = py_.chain(series_orden_attribute['values']).map(lambda text: i18n.international_string_to_string(text, default_language)).value()
 
     dimensions = data['data']['dimensions']['dimension']
     dimensions_metadata = data['metadata']['dimensions']['dimension']
@@ -277,7 +277,7 @@ def create_opensdg_meta(data, output_filepath, config, indicator_id, indicator_n
             'attributes': serie_attributes
         }
         
-        create_opensdg_meta_for_serie({ **indicator_meta, **indicator_serie_meta }, serie, output_filepath)
+        create_opensdg_meta_for_serie({ **indicator_meta, **indicator_serie_meta }, serie, output_filepath, config)
 
 def extract_serie_dimension_info(data):
     dimensions_data = data['data']['dimensions']['dimension']
@@ -353,10 +353,12 @@ def extract_serie_dimension_info(data):
             
     return dimension_series_data,dimension_series_metadata_indexed,attributes_series_data
 
-def create_opensdg_meta_for_serie(indicator_metadata, serie, output_filepath):    
+def create_opensdg_meta_for_serie(indicator_metadata, serie, output_filepath, config):
+    default_language = config['languages'][0]
 
     attributes = serie['attributes']
-    serie_letter = attributes[SERIES_ORDEN_ATTRIBUTE_ID]
+    serie_letter = i18n.international_string_to_string(attributes[SERIES_ORDEN_ATTRIBUTE_ID], default_language)
+    logger.info(f"Creating meta for serie {serie_letter} of indicator {indicator_metadata['indicator_number']}")
     indicator_serie_key = kebab_case(indicator_metadata['indicator_number']) + '-SERIE-' + serie_letter
     translations = {}
     # Strings coming from indicator_metadata are already translated, no need to update_translations
