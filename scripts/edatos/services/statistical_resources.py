@@ -26,8 +26,7 @@ def process_node(node, config, meta_from_csv, organisation, parent_node = None, 
     elif level == 3:
         node_type = 'indicator'
     else:
-        print(f"Unsupported level {level}")
-        return
+        raise ValueError(f"Unsupported level {level}")
 
     default_language = config['languages'][0]
     # Invariable between languages
@@ -46,7 +45,7 @@ def process_node(node, config, meta_from_csv, organisation, parent_node = None, 
             node_meta_from_csv = meta_from_csv.get(indicator_key, {})
             create_opensdg_meta(data, f'meta/{indicator_key}', config, node_id, node, node_meta_from_csv, organisation)
         except Exception as e:
-            logger.error(f"Exception creating OpenSDG data for dataset {node_id}: {str(e)}")
+            logger.exception(f"Exception creating OpenSDG data for dataset {node_id} - {dataset_url}")
             return
 
     if 'nodes' in node and 'node' in node['nodes']:
@@ -54,6 +53,7 @@ def process_node(node, config, meta_from_csv, organisation, parent_node = None, 
             process_node(child_node, config, meta_from_csv, organisation, node, level + 1)            
 
 def is_valid_dataset(data, node_id):
+    urn = data.get('urn')
     if 'data' not in data or 'metadata' not in data:
         print("ERROR: No data or metadata in dataset {node_id}")
         return False
