@@ -38,8 +38,6 @@ def process_node(node, config, meta_from_csv, organisation, parent_node = None, 
         indicator_key = kebab_case(node_id)
         logger.info(f"Downloading dataset from: {dataset_url}")
         data = json.download(dataset_url)
-        if (not is_valid_dataset(data, node_id)):
-            return
         try:
             create_opensdg_data(data, f'data/indicator_{indicator_key}', config) 
             node_meta_from_csv = meta_from_csv.get(indicator_key, {})
@@ -52,12 +50,6 @@ def process_node(node, config, meta_from_csv, organisation, parent_node = None, 
         for child_node in node['nodes']['node']:
             process_node(child_node, config, meta_from_csv, organisation, node, level + 1)            
 
-def is_valid_dataset(data, node_id):
-    urn = data.get('urn')
-    if 'data' not in data or 'metadata' not in data:
-        print("ERROR: No data or metadata in dataset {node_id}")
-        return False
-    return True
 
 def urn_to_url(base_url, urn):
     prefix, agency_id, item_scheme_id, version, resource_id = urn_utils.split_urn(urn, False)
@@ -182,7 +174,7 @@ def clean_disaggregated_values(records, additional_columns):
         for column in additional_columns:
             unique_values = set(record.get(column, None) for record in units_records)
             if len(unique_values) == 1:
-                print(f"Column {column} in unit {units} have single value: {unique_values}")
+                logger.debug(f"Column {column} in unit {units} have single value: {unique_values}")
                 for record in units_records:
                     if column in record:
                         record[column] = ''
