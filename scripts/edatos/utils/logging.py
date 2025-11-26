@@ -13,9 +13,10 @@ variableHandler = logging.StreamHandler(log_capture_string)
 variableHandler.setLevel(logging.WARNING)
 variableHandler.setFormatter(formatter)
 
+consoleFormatter = logging.Formatter('%(name)s - %(levelname)s - %(message)s')
 consoleHandler = logging.StreamHandler(sys.stdout)
 consoleHandler.setLevel(logging.DEBUG)
-consoleHandler.setFormatter(formatter)
+consoleHandler.setFormatter(consoleFormatter)
 
 fileHandler = logging.FileHandler("execution.log", 'w+')
 fileHandler.setLevel(logging.INFO)
@@ -25,8 +26,11 @@ logger = logging.getLogger()
 logger.setLevel(logging.INFO) 
 logger.addHandler(variableHandler)
 logger.addHandler(consoleHandler)
-# ONLY local development
-# logger.addHandler(fileHandler)
+
+LOCAL_DEBUG = False
+if LOCAL_DEBUG:
+    consoleHandler.setFormatter(formatter)
+    logger.addHandler(fileHandler)
 
 def getLogger(clazz):    
     logger = logging.getLogger(clazz)        
