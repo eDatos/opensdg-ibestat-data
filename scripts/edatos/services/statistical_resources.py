@@ -37,9 +37,9 @@ def process_node(node, config, meta_from_csv, organisation, parent_node = None, 
     if 'dataset' in node:
         dataset_url = node['dataset']['selfLink']['href'] + ".json?fields=+dimension.description"
         indicator_key = kebab_case(node_id)
-        logger.info(f"Downloading dataset from: {dataset_url}")
-        data = json.download(dataset_url)
         try:
+            logger.info(f"Downloading dataset from: {dataset_url}")
+            data = json.download(dataset_url)
             create_opensdg_data(data, f'data/indicator_{indicator_key}', config) 
             node_meta_from_csv = meta_from_csv.get(indicator_key, {})
             create_opensdg_meta(data, f'meta/{indicator_key}', config, node_id, node, node_meta_from_csv, organisation)
