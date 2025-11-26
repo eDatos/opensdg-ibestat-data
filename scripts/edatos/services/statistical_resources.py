@@ -64,7 +64,9 @@ def create_opensdg_data(data, output_filepath, config):
      
     observations = data['data']['observations'].split(" | ")
     
-    unit_measure_attribute = next(attr for attr in data['data']['attributes']['attribute'] if attr['id'] == config['unit_measure_id'])
+    unit_measure_attribute = next((attr for attr in data['data']['attributes']['attribute'] if attr['id'] == config['unit_measure_id']), None)
+    if (unit_measure_attribute is None):
+        raise ValueError(f"unit_measure_attribute '{config['unit_measure_id']}' not found in dataset {data['urn']}.")
     unit_measure_attribute_values = unit_measure_attribute['value'].split(" | ")
     series_orden_attribute = next(attr for attr in data['data']['attributes']['internationalAttribute'] if attr['id'] == SERIES_ORDEN_ATTRIBUTE_ID)
     series_orden_attribute_values = py_.chain(series_orden_attribute['values']).map(lambda text: i18n.international_string_to_string(text, default_language)).value()
