@@ -7,4 +7,5 @@ def remove_tags(html_content):
     for tag in soup.find_all(True):
         if tag.name not in whitelist:
             tag.unwrap()
-    return html.unescape(soup.decode_contents())
+    # https://stackoverflow.com/questions/79268152/why-does-beautifulsoup-output-self-closing-tags-in-html
+    return html.unescape(soup.decode_contents(None, 'utf-8', 'html5'))
