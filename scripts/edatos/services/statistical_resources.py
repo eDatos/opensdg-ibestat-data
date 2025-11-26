@@ -195,6 +195,10 @@ def create_opensdg_meta(data, output_filepath, config, indicator_id, indicator_n
     goal_node = target_node['parent']
     sgd_goal = i18n.international_string_to_string(goal_node['name'], default_language)    
 
+    indicator_node_description = indicator_node.get('description', None)
+    if (indicator_node_description is None):
+        logger.error(f"indicator_node description is empty for indicator {indicator_id}") 
+
     indicator_meta = {
         'data_non_statistical': False, # Always False
 
@@ -206,7 +210,7 @@ def create_opensdg_meta(data, output_filepath, config, indicator_id, indicator_n
 
         'indicator_number': indicator_id,
         'indicator_definition': '', # Always empty, not found in built web
-        'indicator_name': i18n.update_translations(translations, f'global_indicators.{indicator_key}-title', indicator_node['description']),
+        'indicator_name': i18n.update_translations(translations, f'global_indicators.{indicator_key}-title', indicator_node_description),
         'indicator_sort_order': generate_indicator_sort_order(indicator_key),
 
         'data_show_map': calculate_data_show_map(data), 
