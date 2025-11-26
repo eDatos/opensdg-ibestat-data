@@ -274,7 +274,6 @@ def create_opensdg_meta(data, output_filepath, config, indicator_id, indicator_n
         serie = {
             'id': representation["code"],
             'name': serie_metadata['name'],
-            'description': serie_metadata['description'],
             'attributes': serie_attributes
         }
         
@@ -378,7 +377,7 @@ def create_opensdg_meta_for_serie(indicator_metadata, serie, output_filepath):
         'indicador_onu_global': indicator_metadata['indicator_name'], # Título del dataset (cubo de la colección)
         'meta_global': indicator_metadata['target_name'], # Título del capítulo de la colección
         'objetivo_global': indicator_metadata['objetivo_global'], # Título de la colección
-        'definicion': i18n.update_translations(translations, f'subindicator.{indicator_serie_key}-definicion', serie['description']), # Descripción de los códigos de CL_SERIES
+        'definicion': '', # FIXME La dejamos vacia. Si pide algo, usamos subindicator_name_key # Descripción de los códigos de CL_SERIES (VACIA O igual al nombre). ACTUALIZAR DRIVE CON LA DECISION
 
         # Fórmula teórica escrita en formato MathJax
         'formula_teorica':  i18n.update_translations(translations, f'FORMULA_TEORICA.{indicator_serie_key}-formula-teorica', attributes['FORMULA_TEORICA']), #   Atributo de dimensión (dataset) 
