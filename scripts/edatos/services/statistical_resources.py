@@ -206,7 +206,7 @@ def create_opensdg_meta(data, output_filepath, config, indicator_id, indicator_n
         'data_non_statistical': False, # Always False
 
         'goal_meta_link': node_meta_from_csv.get('goal_meta_link'),
-        'goal_meta_link_text': node_meta_from_csv.get('goal_meta_link_text'),
+        'goal_meta_link_text': "United Nations Sustainable Development Goals Metadata (PDF)",
 
         'graph_title': i18n.update_translations(translations, f'global_indicators.{indicator_key}-graph-title', data['name']),
         'graph_type': 'line', # Always line for indicators

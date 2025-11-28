@@ -39,7 +39,7 @@ def process_md_files(directory):
 
 def write_csv(data, keys, output_file):
     """Writes the extracted data to a CSV file."""
-    valid_keys = [ 'published', 'reporting_status', 'goal_meta_link', 'goal_meta_link_text', 'un_custodian_agency', 'un_designated_tier' ]
+    valid_keys = [ 'published', 'reporting_status', 'goal_meta_link', 'un_custodian_agency', 'un_designated_tier' ]
     
     with open(output_file, 'w', newline='', encoding='utf-8') as f:
         writer = csv.DictWriter(f, fieldnames=(['filename'] + valid_keys))
