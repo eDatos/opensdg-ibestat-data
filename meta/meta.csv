@@ -1,239 +1,239 @@
 indicator_key,published,reporting_status,goal_meta_link,un_custodian_agency,un_designated_tier
 1-1-1,True,notstarted,https://unstats.un.org/sdgs/metadata/files/Metadata-01-01-01a.pdf,World Bank,1
-1-2-1,True,complete,,World Health Organisation (WHO),1
-1-2-2,True,complete,,World Health Organisation (WHO),1
-1-3-1,True,notstarted,https://unstats.un.org/sdgs/metadata/files/Metadata-01-03-01a.pdf,ILO,2
-1-4-1,True,complete,https://unstats.un.org/sdgs/metadata/files/Metadata-01-04-01.pdf,UN-Habitat,1
-1-4-2,True,notstarted,NA,World Bank (WB),2
-1-5-1,True,complete,,World Health Organisation (WHO),1
-1-5-2,True,complete,https://unstats.un.org/sdgs/metadata/files/Metadata-01-05-02.pdf,UNISDR,2
-1-5-3,True,notstarted,https://unstats.un.org/sdgs/metadata/files/Metadata-01-05-03.pdf,UNISDR,1
-1-5-4,True,notstarted,,UNISDR,2
-1-a-1,True,inprogress,https://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-1.pdf,,3
-1-a-2,True,complete,https://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-1.pdf,Discussions are occurring between the following organisations<br> International Labour Organization (ILO) United Nations Educational Scientific and<br> Cultural Organization - Institute for Statistics (UNESCO-UIS) and World Health Organization<br> (WHO),3
-1-b-1,True,notstarted,https://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-1.pdf,,3
-2-1-1,True,notstarted,https://unstats.un.org/sdgs/metadata/files/Metadata-02-01-01.pdf,FAO,1
-2-1-2,True,notstarted,,Food and Agriculture Organization (FAO),1
-2-2-1,True,notstarted,https://unstats.un.org/sdgs/metadata/files/Metadata-02-02-01.pdf,UNICEF,1
-2-2-2,True,complete,,,
-2-2-3,True,notstarted,,,
-2-3-1,True,inprogress,https://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-2.pdf,Food and Agricultural Organization (FAO),3
-2-3-2,True,inprogress,https://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-2.pdf,Food and Agricultural Organization (FAO),3
-2-4-1,True,complete,https://unstats.un.org/sdgs/metadata/files/Metadata-02-04-01.pdf,Food and Agriculture Organization (FAO),3
+1-2-1,True,complete,https://unstats.un.org/sdgs/metadata/files/Metadata-01-02-01.pdf,World Bank,1
+1-2-2,True,complete,https://unstats.un.org/sdgs/metadata/files/Metadata-01-02-02.pdf,"World Bank United Nations Children’s Fund (UNICEF), United Nations Development Programme (UNDP)",1
+1-3-1,True,notstarted,https://unstats.un.org/sdgs/metadata/files/Metadata-01-03-01a.pdf,International Labour Organization (ILO),2
+1-4-1,True,complete,https://unstats.un.org/sdgs/metadata/files/Metadata-01-04-01.pdf,"United Nations Human Settlements Programme (UN-Habitat), WHO/UNICEF Joint Monitoring Programme for Water Supply, Sanitation and Hygiene (1.4.1a, b and c)",1
+1-4-2,True,notstarted,https://unstats.un.org/sdgs/metadata/files/Metadata-01-04-02.pdf,United Nations Human Settlements Programme (UN-Habitat) and World Bank,2
+1-5-1,True,complete,https://unstats.un.org/sdgs/metadata/files/Metadata-01-05-01.pdf,United Nations Office for Disaster Reduction (UNDRR),1
+1-5-2,True,complete,https://unstats.un.org/sdgs/metadata/files/Metadata-01-05-02.pdf,United Nations Office for Disaster Reduction (UNISDR),2
+1-5-3,True,notstarted,https://unstats.un.org/sdgs/metadata/files/Metadata-01-05-03.pdf,United Nations Office for Disaster Reduction (UNISDR),1
+1-5-4,True,notstarted,https://unstats.un.org/sdgs/metadata/files/Metadata-01-05-04.pdf,United Nations Office for Disaster Reduction (UNDRR),2
+1-a-1,True,inprogress,https://unstats.un.org/sdgs/metadata/files/Metadata-01-0a-01.pdf,Organisation for Economic Cooperation and Development (OECD),3
+1-a-2,True,complete,https://unstats.un.org/sdgs/metadata/files/Metadata-01-0a-02a.pdf,"International Monetary Fund (IMF), Statistics Department (Government Finance Division)",3
+1-b-1,True,notstarted,https://unstats.un.org/sdgs/metadata/files/Metadata-01-0b-01.pdf,"United Nations Children’s Fund (UNICEF), Save the Children",3
+2-1-1,True,notstarted,https://unstats.un.org/sdgs/metadata/files/Metadata-02-01-01.pdf,Food and Agriculture Organization (FAO),1
+2-1-2,True,notstarted,https://unstats.un.org/sdgs/metadata/files/Metadata-02-01-02.pdf,Food and Agriculture Organization (FAO),1
+2-2-1,True,notstarted,https://unstats.un.org/sdgs/metadata/files/Metadata-02-02-01.pdf,United Nations Children's Fund (UNICEF),1
+2-2-2,True,complete,https://unstats.un.org/sdgs/metadata/files/Metadata-02-02-02a.pdf,"United Nations Children's Fund (UNICEF), World Health Organization (WHO)",1
+2-2-3,True,notstarted,https://unstats.un.org/sdgs/metadata/files/Metadata-02-02-03.pdf,World Health Organization (WHO),1
+2-3-1,True,inprogress,https://unstats.un.org/sdgs/metadata/files/Metadata-02-03-01.pdf,Food and Agricultural Organization (FAO),3
+2-3-2,True,inprogress,https://unstats.un.org/sdgs/metadata/files/Metadata-02-03-02.pdf,Food and Agricultural Organization (FAO),3
+2-4-1,True,complete,https://unstats.un.org/sdgs/metadata/files/Metadata-02-04-01.pdf,Food and Agricultural Organization (FAO),3
 2-5-1,True,notstarted,https://unstats.un.org/sdgs/metadata/files/Metadata-02-05-01.pdf,Food and Agricultural Organization (FAO),1
 2-5-2,True,notstarted,https://unstats.un.org/sdgs/metadata/files/Metadata-02-05-02.pdf,Food and Agricultural Organization (FAO),1
 2-a-1,True,notstarted,https://unstats.un.org/sdgs/metadata/files/Metadata-02-0A-01.pdf,Food and Agricultural Organization (FAO),2
-2-a-2,True,inprogress,https://unstats.un.org/sdgs/metadata/files/Metadata-02-0A-02.pdf,Organisation for Economic Co-operation and Development (OECD),1
-2-b-1,True,notstarted,https://unstats.un.org/sdgs/metadata/files/Metadata-02-0B-01.pdf,WTO,1
+2-a-2,True,inprogress,https://unstats.un.org/sdgs/metadata/files/Metadata-02-0A-02.pdf,Organisation for Economic Cooperation and Development (OECD),1
+2-b-1,True,notstarted,https://unstats.un.org/sdgs/metadata/files/Metadata-02-0B-01.pdf,World Trade Organization (WTO),1
 2-c-1,True,complete,https://unstats.un.org/sdgs/metadata/files/Metadata-02-0C-01.pdf,Food and Agriculture Organization (FAO),2
-3-1-1,True,complete,https://unstats.un.org/sdgs/metadata/files/Metadata-03-01-01.pdf,WHO,1
-3-1-2,True,complete,https://unstats.un.org/sdgs/metadata/files/Metadata-03-01-02.pdf,UNICEF y WHO,1
+3-1-1,True,complete,https://unstats.un.org/sdgs/metadata/files/Metadata-03-01-01.pdf,World Health Organisation (WHO),1
+3-1-2,True,complete,https://unstats.un.org/sdgs/metadata/files/Metadata-03-01-02.pdf,"United Nations Children's Fund (UNICEF), World Health Organization (WHO)",1
 3-2-1,True,complete,https://unstats.un.org/sdgs/metadata/files/Metadata-03-02-01.pdf,United Nations Children's Fund (UNICEF),1
 3-2-2,True,complete,https://unstats.un.org/sdgs/metadata/files/Metadata-03-02-02.pdf,United Nations Children's Fund (UNICEF),1
 3-3-1,True,complete,https://unstats.un.org/sdgs/metadata/files/Metadata-03-03-01.pdf,The Joint United Nations Programme on HIV/AIDS (UNAIDS),2
 3-3-2,True,complete,https://unstats.un.org/sdgs/metadata/files/Metadata-03-03-02.pdf,World Health Organization (WHO),1
 3-3-3,True,complete,https://unstats.un.org/sdgs/metadata/files/Metadata-03-03-03.pdf,World Health Organization (WHO),1
 3-3-4,True,complete,https://unstats.un.org/sdgs/metadata/files/Metadata-03-03-04.pdf,World Health Organization (WHO),2
-3-3-5,True,notstarted,https://unstats.un.org/sdgs/metadata/files/Metadata-03-03-05.pdf,WHO,1
+3-3-5,True,notstarted,https://unstats.un.org/sdgs/metadata/files/Metadata-03-03-05.pdf,World Health Organisation (WHO),1
 3-4-1,True,complete,https://unstats.un.org/sdgs/metadata/files/Metadata-03-04-01.pdf,World Health Organisation (WHO),1
 3-4-2,True,complete,https://unstats.un.org/sdgs/metadata/files/Metadata-03-04-02.pdf,World Health Organisation (WHO),1
-3-5-1,True,complete,https://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-3.pdf,"World Health Organisation (WHO), UNODC",3
+3-5-1,True,complete,https://unstats.un.org/sdgs/metadata/files/Metadata-03-05-01.pdf,"World Health Organisation (WHO), United Nations Office on Drugs and Crime (UNODC)",3
 3-5-2,True,complete,https://unstats.un.org/sdgs/metadata/files/Metadata-03-05-02.pdf,World Health Organisation (WHO),1
 3-6-1,True,complete,https://unstats.un.org/sdgs/metadata/files/Metadata-03-06-01.pdf,World Health Organisation (WHO),1
-3-7-1,True,complete,https://unstats.un.org/sdgs/metadata/files/Metadata-03-07-01.pdf,DESA Population Division,1
-3-7-2,True,complete,https://unstats.un.org/sdgs/metadata/files/Metadata-03-07-02.pdf,Department of Economic and Social Affairs (DESA) Population Division <br> United Nations Population Fund (UNFPA),2
-3-8-1,True,complete,https://unstats.un.org/sdgs/metadata/files/Metadata-03-08-01.pdf,WHO,3
-3-8-2,True,complete,https://unstats.un.org/sdgs/metadata/files/Metadata-03-06-01.pdf,World Health Organisation (WHO),1
+3-7-1,True,complete,https://unstats.un.org/sdgs/metadata/files/Metadata-03-07-01.pdf,"Department of Economic and Social Affairs (DESA), Population Division",1
+3-7-2,True,complete,https://unstats.un.org/sdgs/metadata/files/Metadata-03-07-02.pdf,"Department of Economic and Social Affairs (DESA), Population Division, United Nations Population Fund (UNFPA)",2
+3-8-1,True,complete,https://unstats.un.org/sdgs/metadata/files/Metadata-03-08-01.pdf,World Health Organisation (WHO),3
+3-8-2,True,complete,https://unstats.un.org/sdgs/metadata/files/Metadata-03-08-02.pdf,World Health Organisation (WHO) and the World Bank,1
 3-9-1,True,notstarted,https://unstats.un.org/sdgs/metadata/files/Metadata-03-09-01.pdf,World Health Organisation (WHO),1
 3-9-2,True,notstarted,https://unstats.un.org/sdgs/metadata/files/Metadata-03-09-02.pdf,World Health Organisation (WHO),1
 3-9-3,True,complete,https://unstats.un.org/sdgs/metadata/files/Metadata-03-09-03.pdf,World Health Organisation (WHO),1
-3-a-1,True,complete,https://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-3.pdf,"World Health Organization (WHO), Framework Convention on Tobacco Control (FCTC)",1
-3-b-1,True,complete,https://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-3.pdf,World Health Organization (WHO)  United Nations International<br> Children's Emergency Fund (UNICEF),3
-3-b-2,True,inprogress,https://unstats.un.org/sdgs/metadata/files/Metadata-03-0B-02.pdf,Organisation for Economic Co-operation (OECD),1
-3-b-3,True,notstarted,,WHO,3
+3-a-1,True,complete,https://unstats.un.org/sdgs/metadata/files/Metadata-03-0a-01.pdf,"World Health Organization (WHO), Framework Convention on Tobacco Control (FCTC)",1
+3-b-1,True,complete,https://unstats.un.org/sdgs/metadata/files/Metadata-03-0b-01.pdf,"World Health Organization (WHO), United Nations International Children's Emergency Fund (UNICEF)",3
+3-b-2,True,inprogress,https://unstats.un.org/sdgs/metadata/files/Metadata-03-0B-02.pdf,Organisation for Economic Cooperation (OECD),1
+3-b-3,True,notstarted,https://unstats.un.org/sdgs/metadata/files/Metadata-03-0b-03.pdf,World Health Organisation (WHO),3
 3-c-1,True,complete,https://unstats.un.org/sdgs/metadata/files/Metadata-03-0C-01.pdf,World Health Organisation (WHO),1
-3-d-1,True,notstarted,https://unstats.un.org/sdgs/metadata/files/Metadata-03-0D-01.pdf,WHO,1
-3-d-2,True,notstarted,https://unstats.un.org/sdgs/metadata/files/Metadata-03-0D-01.pdf,WHO,1
+3-d-1,True,notstarted,https://unstats.un.org/sdgs/metadata/files/Metadata-03-0D-01.pdf,World Health Organisation (WHO),1
+3-d-2,True,notstarted,https://unstats.un.org/sdgs/metadata/files/Metadata-03-0D-02.pdf,World Health Organisation (WHO),1
 4-1-1,True,complete,https://unstats.un.org/sdgs/metadata/files/Metadata-04-01-01.pdf,UNESCO Institute for Statistics,"3 (a) /2 (b,c)"
 4-1-2,True,complete,https://unstats.un.org/sdgs/metadata/files/Metadata-04-01-02.pdf,UNESCO Institute for Statistics,"3 (a) /2 (b,c)"
 4-2-1,True,notstarted,https://unstats.un.org/sdgs/metadata/files/Metadata-04-02-01.pdf,United Nations Children's Fund (UNICEF),3
 4-2-2,True,complete,https://unstats.un.org/sdgs/metadata/files/Metadata-04-02-02.pdf,United Nations Education and Scientific Cultural Organisation - Institute of Statistics (UNESCO-UIS),1
 4-3-1,True,complete,https://unstats.un.org/sdgs/metadata/files/Metadata-04-03-01.pdf,United Nations Education and Scientific Cultural Organisation - Institute of Statistics (UNESCO-UIS),2
 4-4-1,True,complete,https://unstats.un.org/sdgs/metadata/files/Metadata-04-04-01.pdf,United Nations Education and Scientific Cultural Organisation - Institute of Statistics (UNESCO-UIS),2
-4-5-1,True,complete,https://unstats.un.org/sdgs/metadata/files/Metadata-04-05-01.pdf,"United Nations Educational, Scientific and Cultural Organization (UNESCO)",1/2/3
+4-5-1,True,complete,https://unstats.un.org/sdgs/metadata/files/Metadata-04-05-01.pdf,United Nations Education and Scientific Cultural Organisation (UNESCO),1/2/3
 4-6-1,True,complete,https://unstats.un.org/sdgs/metadata/files/Metadata-04-06-01.pdf,United Nations Education and Scientific Cultural Organisation - Institute of Statistics (UNESCO-UIS),2
-4-7-1,True,notstarted,https://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-4.pdf,UNESCO-UIS,3
+4-7-1,True,notstarted,https://unstats.un.org/sdgs/metadata/files/Metadata-04-07-01.pdf,"United Nations Education and Scientific Cultural Organisation (UNESCO) Education Sector, Division for Peace and Sustainable Development, Section of Education for Sustainable Development (UNESCO-ED/PSD/ESD), UNESCO Institute for Statistics (UNESCO-UIS), Global Education Monitoring Report",3
 4-a-1,True,complete,https://unstats.un.org/sdgs/metadata/files/Metadata-04-0a-01.pdf,United Nations Education and Scientific Cultural Organisation - Institute of Statistics (UNESCO-UIS),2
-4-b-1,True,inprogress,https://unstats.un.org/sdgs/metadata/files/Metadata-04-0B-01.pdf,Organisation for Economic Co-operation and Development (OECD),1
+4-b-1,True,inprogress,https://unstats.un.org/sdgs/metadata/files/Metadata-04-0B-01.pdf,Organisation for Economic Cooperation and Development (OECD),1
 4-c-1,True,complete,https://unstats.un.org/sdgs/metadata/files/Metadata-04-0C-01.pdf,United Nations Education and Scientific Cultural Organisation - Institute of Statistics (UNESCO-UIS),1
-5-1-1,True,complete,https://unstats.un.org/sdgs/metadata/files/Metadata-05-01-01.pdf,"UN Women,World Bank,OECD Development Centre",3
-5-2-1,True,inprogress,https://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-5.pdf,United Nations Children’s Fund (UNICEF) The United Nations Entity for Gender Equality and the Empowerment of Women (UN Women) United Nations Population Fund (UNFPA) World Health Organization (WHO) United Nations Office on Drugs and Crime (UNODC),2
-5-2-2,True,inprogress,https://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-5.pdf,United Nations Children’s Fund (UNICEF) The United Nations Entity for Gender Equality and the Empowerment of Women (UN Women) United Nations Population Fund (UNFPA) World Health Organization (WHO) United Nations Office on Drugs and Crime (UNODC),2
+5-1-1,True,complete,https://unstats.un.org/sdgs/metadata/files/Metadata-05-01-01.pdf,"United Nations Entity for Gender Equality and the Empowerment of Women (UN Women), World Bank, Organisation for Economic Cooperation and Development (OECD) Development Centre",3
+5-2-1,True,inprogress,https://unstats.un.org/sdgs/metadata/files/Metadata-05-02-01.pdf,"World Health Organization (WHO), United Nations Children's Fund (UNICEF), United Nations Entity for Gender Equality and the Empowerment of Women (UN Women), United Nations Office on Drugs and Crime (UNODC), United Nations Population Fund (UNFPA), United Nations Statistics Division (UNSD)",2
+5-2-2,True,inprogress,https://unstats.un.org/sdgs/metadata/files/Metadata-05-02-02.pdf,"United Nations Entity for Gender Equality and the Empowerment of Women (UN Women), United Nations Children's Fund (UNICEF), United Nations Statistics Division (UNSD), World Health Organization (WHO), United Nations Population Fund (UNFPA)",2
 5-3-1,True,complete,https://unstats.un.org/sdgs/metadata/files/Metadata-05-03-01.pdf,United Nations Children's Fund (UNICEFF),1
 5-3-2,True,inprogress,https://unstats.un.org/sdgs/metadata/files/Metadata-05-03-02.pdf,United Nations Children's Fund (UNICEF),2
-5-4-1,True,complete,,,
-5-5-1,True,complete,https://unstats.un.org/sdgs/metadata/files/Metadata-05-05-01.pdf,Inter-Parliamentary Union (IPU),1/2
-5-5-2,True,complete,,World Health Organisation (WHO),1
-5-6-1,True,notstarted,https://unstats.un.org/sdgs/metadata/files/Metadata-05-06-01.pdf,UNFPA,2
-5-6-2,True,notstarted,https://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-5.pdf,UNFPA,3
-5-a-1a,True,complete,https://unstats.un.org/sdgs/metadata/files/Metadata-05-0a-01.pdf,United Nations Entity for Gender Equality and the Empowerment of Women (UN Women) United Nations Statistics Division (UNSD) Food and Agriculture Organization of the United Nations (FAO),2
-5-a-1b,True,complete,,,
-5-a-2,True,complete,https://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-5.pdf,"FAO, World Bank, UN Women",2
+5-4-1,True,complete,https://unstats.un.org/sdgs/metadata/files/Metadata-05-04-01.pdf,UN Statistics Division (UNSD) and United Nations Entity for Gender Equality and the Empowerment of Women (UN Women),2
+5-5-1,True,complete,https://unstats.un.org/sdgs/metadata/files/Metadata-05-05-01a.pdf,Inter-Parliamentary Union (IPU),1/2
+5-5-2,True,complete,https://unstats.un.org/sdgs/metadata/files/Metadata-05-05-02.pdf,International Labour Organization (ILO),1
+5-6-1,True,notstarted,https://unstats.un.org/sdgs/metadata/files/Metadata-05-06-01.pdf,United Nations Population Fund (UNFPA),2
+5-6-2,True,notstarted,https://unstats.un.org/sdgs/metadata/files/Metadata-05-06-02.pdf,United Nations Population Fund (UNFPA),3
+5-a-1a,True,complete,https://unstats.un.org/sdgs/metadata/files/Metadata-05-0a-01.pdf,Food and Agriculture Organization of the United Nations (FAO),2
+5-a-1b,True,complete,https://unstats.un.org/sdgs/metadata/files/Metadata-05-0a-01.pdf,Food and Agriculture Organization of the United Nations (FAO),2
+5-a-2,True,complete,https://unstats.un.org/sdgs/metadata/files/Metadata-05-0a-02.pdf,Food and Agriculture Organization of the United Nations (FAO),2
 5-b-1,True,complete,https://unstats.un.org/sdgs/metadata/files/Metadata-05-0B-01.pdf,International Telecommunication Union (ITU),1
-5-c-1,True,notstarted,https://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-5.pdf,"UN Women,OECD",2
+5-c-1,True,notstarted,https://unstats.un.org/sdgs/metadata/files/Metadata-05-0c-01.pdf,United Nations Entity for Gender Equality and the Empowerment of Women (UN Women) in collaboration with Organisation for Economic Cooperation and Development (OECD) and United Nations Development Programme (UNDP),2
 6-1-1,True,complete,https://unstats.un.org/sdgs/metadata/files/Metadata-06-01-01.pdf,"World Health Organisation (WHO), United Nations Children's Emergency Fund (UNICEF)",2
 6-2-1,True,notstarted,https://unstats.un.org/sdgs/metadata/files/Metadata-06-02-01.pdf,"World Health Organisation (WHO), United Nations International Children's Emergency Fund (UNICEF)",2
-6-3-1,True,notstarted,https://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-6.pdf,"WHO, UN-Habitat,UNSD",2
-6-3-2,True,inprogress,https://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-6.pdf,United Nations Environment Programme (UNEP) (GEMS/Water),3
-6-4-1,True,notstarted,https://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-6.pdf,FAO,2
-6-4-2,True,notstarted,https://unstats.un.org/sdgs/metadata/files/Metadata-06-04-02.pdf,FAO,1
+6-3-1,True,notstarted,https://unstats.un.org/sdgs/metadata/files/Metadata-06-03-01.pdf,"United Nations Human Settlements Programme (UN-Habitat), World Health Organization (WHO), United Nations Statistics Division (UNSD)",2
+6-3-2,True,inprogress,https://unstats.un.org/sdgs/metadata/files/Metadata-06-03-02.pdf,United Nations Environment Programme (UNEP),3
+6-4-1,True,notstarted,https://unstats.un.org/sdgs/metadata/files/Metadata-06-04-01.pdf,Food and Agriculture Organization of the United Nations (FAO),2
+6-4-2,True,notstarted,https://unstats.un.org/sdgs/metadata/files/Metadata-06-04-02.pdf,Food and Agriculture Organization of the United Nations (FAO),1
 6-5-1,True,notstarted,https://unstats.un.org/sdgs/metadata/files/Metadata-06-05-01.pdf,United Nations Environment Programme (UNEP),1
-6-5-2,True,notstarted,https://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-6.pdf,United Nations Education and Scientific Cultural Organisation - Institute for Statistics (UNESCO-UIS) United Nations Economic Commission for Europe (UNECE),2
-6-6-1,True,notstarted,https://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-6.pdf,UNEP,3
-6-a-1,True,inprogress,https://unstats.un.org/sdgs/metadata/files/Metadata-06-0A-01.pdf,World Health Organization (WHO) United Nations Environment Programme (UNEP) Organisation for Economic Co-operation and Development (OECD),1
-6-b-1,True,complete,https://unstats.un.org/sdgs/metadata/files/Metadata-06-0B-01.pdf,"WHO,UNEP, OECD",1
-7-1-1,True,notstarted,,World Bank (WB),1
-7-1-2,True,notstarted,https://unstats.un.org/sdgs/metadata/files/Metadata-07-01-02.pdf,International Trade Centre (ITC) United Nations Conference on Trade and Development (UNCTAD) The World Trade Organization (WTO),1
-7-2-1,True,complete,https://unstats.un.org/sdgs/metadata/files/Metadata-07-02-01.pdf,International Energy Agency (IEA) United Nations Statistics Division (UNSD) United Nations' inter-agency mechanism on energy (UN Energy) and the SE4ALL Global Tracking Framework Consortium,1
-7-a-1,True,inprogress,https://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-7.pdf,Organisation for Economic Co-operation and Development (OECD),2
-7-b-1,True,notstarted,https://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-7.pdf,International Energy Agency (IEA),3
-8-1-1,True,complete,,,
-8-2-1,True,complete,,,
-8-3-1,True,notstarted,https://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-8.pdf,International Labour Organisation (ILO),2
+6-5-2,True,notstarted,https://unstats.un.org/sdgs/metadata/files/Metadata-06-05-02.pdf,"Intergovernmental Hydrological Programme of United Nations Educational, Scientific and Cultural Organization (UNESCO-IHP), United Nations Economic Commission for Europe (UNECE)",2
+6-6-1,True,notstarted,https://unstats.un.org/sdgs/metadata/files/Metadata-06-06-01a.pdf,United Nations Environment Programme (UNEP),3
+6-a-1,True,inprogress,https://unstats.un.org/sdgs/metadata/files/Metadata-06-0A-01.pdf,"World Health Organization (WHO), United Nations Environment Programme (UNEP), Organisation for Economic Cooperation and Development (OECD)",1
+6-b-1,True,complete,https://unstats.un.org/sdgs/metadata/files/Metadata-06-0B-01.pdf,"World Health Organization (WHO), United Nations Environment Programme (UNEP), Organisation for Economic Cooperation and Development (OECD)",1
+7-1-1,True,notstarted,https://unstats.un.org/sdgs/metadata/files/Metadata-07-01-01.pdf,World Bank Group,1
+7-1-2,True,notstarted,https://unstats.un.org/sdgs/metadata/files/Metadata-07-01-02.pdf,"International Trade Centre (ITC), United Nations Conference on Trade and Development (UNCTAD), The World Trade Organization (WTO)",1
+7-2-1,True,complete,https://unstats.un.org/sdgs/metadata/files/Metadata-07-02-01.pdf,"International Energy Agency (IEA), United Nations Statistics Division (UNSD), United Nations' inter-agency mechanism on energy (UN Energy) and the SE4ALL Global Tracking Framework Consortium",1
+7-a-1,True,inprogress,https://unstats.un.org/sdgs/metadata/files/Metadata-07-0a-01.pdf,Organisation for Economic Cooperation and Development (OECD) and International Renewable Energy Agency (IRENA),2
+7-b-1,True,notstarted,https://unstats.un.org/sdgs/metadata/files/Metadata-07-0b-01.pdf,International Renewable Energy Agency (IRENA),3
+8-1-1,True,complete,https://unstats.un.org/sdgs/metadata/files/Metadata-08-01-01.pdf,United Nations Statistics Division (UNSD),1
+8-2-1,True,complete,https://unstats.un.org/sdgs/metadata/files/Metadata-08-02-01.pdf,International Labour Organization (ILO),1
+8-3-1,True,notstarted,https://unstats.un.org/sdgs/metadata/files/Metadata-08-03-01.pdf,International Labour Organization (ILO),2
 8-4-1,True,notstarted,https://unstats.un.org/sdgs/metadata/files/Metadata-08-04-01.pdf,United Nations Environment Programme (UNEP),3
 8-4-2,True,inprogress,https://unstats.un.org/sdgs/metadata/files/Metadata-08-04-02.pdf,United Nations Environment Programme (UNEP),1
 8-5-1,True,complete,https://unstats.un.org/sdgs/metadata/files/Metadata-08-05-01.pdf,International Labour Organization (ILO),2
 8-5-2,True,complete,https://unstats.un.org/sdgs/metadata/files/Metadata-08-05-02.pdf,International Labour Organization (ILO),1
-8-6-1,True,complete,,,
-8-7-1,True,notstarted,https://unstats.un.org/sdgs/metadata/files/Metadata-08-07-01.pdf,"ILO,UNICEF",2
+8-6-1,True,complete,https://unstats.un.org/sdgs/metadata/files/Metadata-08-06-01.pdf,International Labour Organization (ILO),1
+8-7-1,True,notstarted,https://unstats.un.org/sdgs/metadata/files/Metadata-08-07-01.pdf,"United Nations Children's Fund (UNICEF), International Labour Organization (ILO)",2
 8-8-1,True,inprogress,https://unstats.un.org/sdgs/metadata/files/Metadata-08-08-01.pdf,International Labour Organization (ILO),2
-8-8-2,True,notstarted,https://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-8.pdf,ILO,3
+8-8-2,True,notstarted,https://unstats.un.org/sdgs/metadata/files/Metadata-08-08-02.pdf,International Labour Organization (ILO),3
 8-9-1,True,complete,https://unstats.un.org/sdgs/metadata/files/Metadata-08-09-01.pdf,World Tourism Organization (UNTWO),2
-8-10-1,True,complete,https://unstats.un.org/sdgs/metadata/files/Metadata-08-10-01.pdf,IMF,1
-8-10-2,True,complete,https://unstats.un.org/sdgs/metadata/files/Metadata-08-10-02.pdf,World Bank (WB),1
-8-a-1,True,inprogress,https://unstats.un.org/sdgs/metadata/files/Metadata-08-0A-01.pdf,Organisation for Economic Co-operation and Development (OECD),1
-8-b-1,True,complete,https://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-8.pdf,ILO,3
-9-1-1,True,notstarted,https://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-9.pdf,World Bank,3
+8-10-1,True,complete,https://unstats.un.org/sdgs/metadata/files/Metadata-08-10-01.pdf,International Monetary Fund (STAFI - Financial Access Survey Team),1
+8-10-2,True,complete,https://unstats.un.org/sdgs/metadata/files/Metadata-08-10-02.pdf,World Bank,1
+8-a-1,True,inprogress,https://unstats.un.org/sdgs/metadata/files/Metadata-08-0A-01.pdf,Organisation for Economic Cooperation and Development (OECD),1
+8-b-1,True,complete,https://unstats.un.org/sdgs/metadata/files/Metadata-08-0b-01.pdf,International Labour Organization (ILO),3
+9-1-1,True,notstarted,https://unstats.un.org/sdgs/metadata/files/Metadata-09-01-01.pdf,World Bank,3
 9-1-2,True,notstarted,https://unstats.un.org/sdgs/metadata/files/Metadata-09-01-02.pdf,International Civil Aviation Organization (ICAO),1
-9-2-1,True,complete,,,
-9-2-2,True,complete,,,
+9-2-1,True,complete,https://unstats.un.org/sdgs/metadata/files/Metadata-09-02-01.pdf,United Nations Industrial Development Organization (UNIDO),1
+9-2-2,True,complete,https://unstats.un.org/sdgs/metadata/files/Metadata-09-02-02.pdf,"United Nations Industrial Development Organization (UNIDO), (with the collaboration of the International Labour Organization – ILO)",1
 9-3-1,True,complete,https://unstats.un.org/sdgs/metadata/files/Metadata-09-03-01.pdf,United Nations Industrial Development Organization (UNIDO),2
-9-3-2,True,notstarted,https://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-9.pdf,"UNIDO,World Bank",2
-9-4-1,True,complete,https://unstats.un.org/sdgs/metadata/files/Metadata-09-04-01.pdf,International Energy Agency (IEA) United Nations Industrial Development Organization (UNIDO),1
-9-a-1,True,inprogress,https://unstats.un.org/sdgs/metadata/files/Metadata-09-0A-01.pdf,Organisation for Economic Co-operation and Development (OECD),1
+9-3-2,True,notstarted,https://unstats.un.org/sdgs/metadata/files/Metadata-09-03-02.pdf,"United Nations Industrial Development Organization (UNIDO), World Bank",2
+9-4-1,True,complete,https://unstats.un.org/sdgs/metadata/files/Metadata-09-04-01.pdf,"International Energy Agency (IEA), United Nations Industrial Development Organization (UNIDO)",1
+9-a-1,True,inprogress,https://unstats.un.org/sdgs/metadata/files/Metadata-09-0A-01.pdf,Organisation for Economic Cooperation and Development (OECD),1
 9-b-1,True,complete,https://unstats.un.org/sdgs/metadata/files/Metadata-09-0B-01.pdf,United Nations Industrial Development Organization (UNIDO),1
-9-c-1,True,complete,https://unstats.un.org/sdgs/metadata/files/Metadata-09-0C-01.pdf,ITU,1
-10-3-1,True,inprogress,https://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-10.pdf,Office of the United Nations High Commissioner for Human Rights (OHCHR),3
-10-5-1,True,notstarted,https://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-10.pdf,IMF,3
-10-6-1,True,notapplicable,https://unstats.un.org/sdgs/metadata/files/Metadata-10-06-01.pdf,United Nations Department of Economic and Social Affairs (DESA) / Financing for Development Office (FFDO),1
-10-7-1,True,notstarted,https://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-10.pdf,"ILO,World Bank",3
-10-7-2,True,notstarted,https://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-10.pdf,"DESA Population Division,IOM",3
-10-7-3,True,notstarted,https://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-10.pdf,"DESA Population Division,IOM",3
-10-7-4,True,complete,https://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-10.pdf,"DESA Population Division,IOM",3
-10-a-1,True,notstarted,https://unstats.un.org/sdgs/metadata/files/Metadata-10-0A-01.pdf,"ITC,UNCTAD,WTO",1
-10-b-1,True,inprogress,https://unstats.un.org/sdgs/metadata/files/Metadata-10-0B-01.pdf,Organisation for Economic Co-operation and Development (OECD),1 (ODA) / 2 (FDI)
-10-c-1,True,notstarted,https://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-10.pdf,World Bank,2
-11-2-1,True,notstarted,https://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-11.pdf,UN-Habitat,2
-11-3-1,True,notstarted,https://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-11.pdf,UN-Habitat,2
-11-3-2,True,complete,https://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-11.pdf,United Nations Human Settlements Programme (UN-Habitat),3
-11-4-1,True,complete,https://unstats.un.org/sdgs/metadata/files/Metadata-11-04-01.pdf,United Nations Educational Scientific and Cultural Organization (UNESCO),3
+9-c-1,True,complete,https://unstats.un.org/sdgs/metadata/files/Metadata-09-0C-01.pdf,International Telecommunication Union (ITU),1
+10-3-1,True,inprogress,https://unstats.un.org/sdgs/metadata/files/Metadata-10-03-01.pdf,Office of the United Nations High Commissioner for Human Rights (OHCHR),3
+10-5-1,True,notstarted,https://unstats.un.org/sdgs/metadata/files/Metadata-10-05-01.pdf,International Monetary Fund (IMF),3
+10-6-1,True,notapplicable,https://unstats.un.org/sdgs/metadata/files/Metadata-10-06-01.pdf,"United Nations Department of Economic and Social Affairs (DESA), / Financing for Development Office (FFDO)",1
+10-7-1,True,notstarted,https://unstats.un.org/sdgs/metadata/files/Metadata-10-07-01.pdf,International Labour Organization (ILO) and World Bank,3
+10-7-2,True,notstarted,https://unstats.un.org/sdgs/metadata/files/Metadata-10-07-02.pdf,"International Organization for Migration (IOM) and United Nations Department of Economic and Social Affairs (DESA), as custodian agencies",3
+10-7-3,True,notstarted,https://unstats.un.org/sdgs/metadata/files/Metadata-10-07-03.pdf,International Organization for Migration (IOM),3
+10-7-4,True,complete,https://unstats.un.org/sdgs/metadata/files/Metadata-10-07-04.pdf,United Nations High Commissioner for Refugees (UNHCR),3
+10-a-1,True,notstarted,https://unstats.un.org/sdgs/metadata/files/Metadata-10-0A-01.pdf,"International Trade Centre (ITC), United Nations Conference on Trade and Development (UNCTAD), The World Trade Organization (WTO)",1
+10-b-1,True,inprogress,https://unstats.un.org/sdgs/metadata/files/Metadata-10-0B-01.pdf,Organisation for Economic Cooperation and Development (OECD),1 (ODA) / 2 (FDI)
+10-c-1,True,notstarted,https://unstats.un.org/sdgs/metadata/files/Metadata-10-0C-01.pdf,World Bank,2
+11-2-1,True,notstarted,https://unstats.un.org/sdgs/metadata/files/Metadata-11-02-01.pdf,United Nations Human Settlements Programme (UN-Habitat),2
+11-3-1,True,notstarted,https://unstats.un.org/sdgs/metadata/files/Metadata-11-03-01.pdf,United Nations Human Settlements Programme (UN-Habitat),2
+11-3-2,True,complete,https://unstats.un.org/sdgs/metadata/files/Metadata-11-03-02.pdf,United Nations Human Settlements Programme (UN-Habitat),3
+11-4-1,True,complete,https://unstats.un.org/sdgs/metadata/files/Metadata-11-04-01.pdf,UNESCO Institute for Statistics (UIS),3
 11-5-1,True,complete,https://unstats.un.org/sdgs/metadata/files/Metadata-11-05-01.pdf,United Nations Office for Disaster Reduction (UNISDR),2
 11-6-2,True,complete,https://unstats.un.org/sdgs/metadata/files/Metadata-11-06-02.pdf,World Health Organization (WHO),1
-11-7-1,True,notstarted,https://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-11.pdf,United Nations Human Settlements Programme (UN-Habitat),2
-11-7-2,True,notstarted,https://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-11.pdf,United Nations Office on Drugs and Crime (UNODC),3
-11-a-1,True,complete,https://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-11.pdf,UN-Habitat,3
-11-b-1,True,notstarted,https://unstats.un.org/sdgs/metadata/files/Metadata-01-05-03.pdf,UNISDR,2
-11-b-2,True,notstarted,https://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-11.pdf,UNISDR,3
-11-c-1,True,inprogress,https://unstats.un.org/sdgs/metadata/?Text=&Goal=11&Target=, Organisation for Economic Co-operation and Development (OECD) United Nations Environment (UNEP) World Bank (WB),3
-12-1-1,True,complete,https://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-12.pdf,UN Environment (UNEP),2
-12-2-1,True,notstarted,https://unstats.un.org/sdgs/metadata/files/Metadata-08-04-01.pdf,United Nations Environment Programme (UNEP),3
-12-2-2,True,inprogress,https://unstats.un.org/sdgs/metadata/files/Metadata-08-04-02.pdf,United Nations Environment Programme (UNEP),2
-12-3-1,True,notstarted,https://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-12.pdf,"FAO, UNEP",3
-12-4-1,True,notstarted,https://unstats.un.org/sdgs/metadata/files/Metadata-12-04-01.pdf,UNEP,1
-12-4-2,True,inprogress,https://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-12.pdf,"UNSD, UNEP",3
-12-6-1,True,complete,https://unstats.un.org/sdgs/metadata/files/Metadata-12-06-01.pdf,"UNEP,  UNCTAD",3
-12-7-1,True,notstarted,https://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-12.pdf,UNEP,3
-12-8-1,True,notstarted,https://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-12.pdf,UNESCO-UIS,3
-12-a-1,True,inprogress,https://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-12.pdf,"Under discussion among agencies (OECD, UNEP,UNESCO-UIS,World Bank)",3
-12-b-1,True,notstarted,https://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-12.pdf,UNWTO,3
-12-c-1,True,notstarted,https://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-12.pdf,UNEP,3
-13-1-2,True,notstarted,https://unstats.un.org/sdgs/metadata/files/Metadata-01-05-03.pdf,UNISDR,2
-13-1-3,True,notstarted,,UNISDR,3
-13-2-1,True,notstarted,https://unstats.un.org/sdgs/metadata/files/Metadata-13-02-02.pdf,UN Climate Change (UNFCCC Secretariat),1
+11-7-1,True,notstarted,https://unstats.un.org/sdgs/metadata/files/Metadata-11-07-01.pdf,United Nations Human Settlements Programme (UN-Habitat),2
+11-7-2,True,notstarted,https://unstats.un.org/sdgs/metadata/files/Metadata-11-07-02.pdf,United Nations Office on Drugs and Crime (UNODC),3
+11-a-1,True,complete,https://unstats.un.org/sdgs/metadata/files/Metadata-11-0A-01.pdf,"United Nations Human Settlements Programme (UN-Habitat), United Nations Population Fund (UNFPA)",3
+11-b-1,True,notstarted,https://unstats.un.org/sdgs/metadata/files/Metadata-11-0B-01.pdf,United Nations Office for Disaster Reduction (UNDRR),2
+11-b-2,True,notstarted,https://unstats.un.org/sdgs/metadata/files/Metadata-11-0B-02.pdf,United Nations Office for Disaster Reduction (UNDRR),3
+11-c-1,True,inprogress,https://unstats.un.org/sdgs/metadata/files/Metadata-11-0C-01.pdf,"United Nations Human Settlements Programme (UN-Habitat), Organisation for Economic Cooperation and Development (OECD)",3
+12-1-1,True,complete,https://unstats.un.org/sdgs/metadata/files/Metadata-12-01-01.pdf,UN Environment (UNEP),2
+12-2-1,True,notstarted,https://unstats.un.org/sdgs/metadata/files/Metadata-12-02-01.pdf,United Nations Environment Programme (UNEP),3
+12-2-2,True,inprogress,https://unstats.un.org/sdgs/metadata/files/Metadata-12-02-02.pdf,United Nations Environment Programme (UNEP),2
+12-3-1,True,notstarted,https://unstats.un.org/sdgs/metadata/files/Metadata-12-03-01a.pdf,"Food and Agriculture Organization of the United Nations (FAO), UN Environment (UNEP)",3
+12-4-1,True,notstarted,https://unstats.un.org/sdgs/metadata/files/Metadata-12-04-01.pdf,United Nations Environment Programme (UNEP),1
+12-4-2,True,inprogress,https://unstats.un.org/sdgs/metadata/files/Metadata-12-04-02.pdf,"United Nations Environment Programme (UNEP), United Nations Statistics Division (UNSD), United Nations Institute for Training and Research (UNITAR)",3
+12-6-1,True,complete,https://unstats.un.org/sdgs/metadata/files/Metadata-12-06-01.pdf,"United Nations Conference on Trade and Development (UNCTAD), United Nations Environment Programme (UNEP)",3
+12-7-1,True,notstarted,https://unstats.un.org/sdgs/metadata/files/Metadata-12-07-01.pdf,United Nations Environment Programme (UNEP),3
+12-8-1,True,notstarted,https://unstats.un.org/sdgs/metadata/files/Metadata-12-08-01.pdf,"UNESCO Education Sector, Division for Peace and Sustainable Development, Section of Education for Sustainable Development (UNESCO-ED/PSD/ESD), UNESCO Institute for Statistics (UNESCO-UIS), Global Education Monitoring Report",3
+12-a-1,True,inprogress,https://unstats.un.org/sdgs/metadata/files/Metadata-12-0a-01.pdf,International Renewable Energy Agency (IRENA),3
+12-b-1,True,notstarted,https://unstats.un.org/sdgs/metadata/files/Metadata-12-0b-01.pdf,World Tourism Organization (UNWTO),3
+12-c-1,True,notstarted,https://unstats.un.org/sdgs/metadata/files/Metadata-12-0c-01.pdf,United Nations Environment Programme (UNEP),3
+13-1-2,True,notstarted,https://unstats.un.org/sdgs/metadata/files/Metadata-13-01-02.pdf,United Nations Office for Disaster Reduction (UNDRR),2
+13-1-3,True,notstarted,https://unstats.un.org/sdgs/metadata/files/Metadata-13-01-03.pdf,United Nations Office for Disaster Reduction (UNDRR),3
+13-2-1,True,notstarted,https://unstats.un.org/sdgs/metadata/files/Metadata-13-02-01.pdf,UN Climate Change (UNFCCC Secretariat),1
 13-2-2,True,complete,https://unstats.un.org/sdgs/metadata/files/Metadata-13-02-02.pdf,UN Climate Change (UNFCCC Secretariat),1
-13-3-1,True,notstarted,https://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-13.pdf,"UNFCCC,UNESCO-UIS",3
-13-a-1,True,notstarted,https://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-13.pdf,"UNFCCC,OECD",3
-13-b-1,True,notstarted,https://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-13.pdf,"OHRLLS, Regional Commissions, AOSIS, SIDS, Samoa Pathway",3
-14-1-1,True,notstarted,https://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-14.pdf,UNEP,3
-14-2-1,True,notstarted,https://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-14.pdf,UNEP,3
-14-3-1,True,notstarted,https://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-14.pdf,IOC-UNESCO,3
+13-3-1,True,notstarted,https://unstats.un.org/sdgs/metadata/files/Metadata-13-03-01.pdf,"UNESCO Education Sector, Division for Peace and Sustainable Development, Section of Education for Sustainable Development (UNESCO-ED/PSD/ESD), UNESCO Institute for Statistics (UNESCO-UIS), Global Education Monitoring Report",3
+13-a-1,True,notstarted,https://unstats.un.org/sdgs/metadata/files/Metadata-13-0a-01.pdf,UN Climate Change (UNFCCC Secretariat),3
+13-b-1,True,notstarted,https://unstats.un.org/sdgs/metadata/files/Metadata-13-0b-01.pdf,UN Climate Change (UNFCCC Secretariat),3
+14-1-1,True,notstarted,https://unstats.un.org/sdgs/metadata/files/Metadata-14-01-01.pdf,United Nations Environment Programme (UNEP),3
+14-2-1,True,notstarted,https://unstats.un.org/sdgs/metadata/files/Metadata-14-02-01.pdf,United Nations Environment Programme (UNEP),3
+14-3-1,True,notstarted,https://unstats.un.org/sdgs/metadata/files/Metadata-14-03-01.pdf,"Intergovernmental Oceanographic Commission (IOC), of UNESCO",3
 14-4-1,True,notstarted,https://unstats.un.org/sdgs/metadata/files/Metadata-14-04-01.pdf,Food and Agriculture Organization of the United Nations (FAO),1
-14-5-1,True,inprogress,https://unstats.un.org/sdgs/metadata/files/Metadata-14-05-01.pdf,UN Environment World Conservation Monitoring Centre (UNEP-WCMC) BirdLife International (BLI) International Union for Conservation of Nature (IUCN),1
-14-6-1,True,notstarted,https://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-14.pdf,FAO,3
-14-7-1,True,notstarted,https://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-14.pdf,"FAO,UNEP-WCMC",3
-14-a-1,True,notstarted,https://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-14.pdf,IOC-UNESCO,2
-14-b-1,True,notstarted,https://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-14.pdf,FAO,3
-14-c-1,True,notstarted,https://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-14.pdf,"UN-DOALOS,FAO,UNEP,ILO,other UN-Oceans agencies",3
+14-5-1,True,inprogress,https://unstats.un.org/sdgs/metadata/files/Metadata-14-05-01.pdf,"UN Environment World Conservation Monitoring Centre (UNEP-WCMC), BirdLife International (BLI), International Union for Conservation of Nature (IUCN)",1
+14-6-1,True,notstarted,https://unstats.un.org/sdgs/metadata/files/Metadata-14-06-01.pdf,Food and Agricultural Organization (FAO),3
+14-7-1,True,notstarted,https://unstats.un.org/sdgs/metadata/files/Metadata-14-07-01.pdf,Food and Agricultural Organization (FAO),3
+14-a-1,True,notstarted,https://unstats.un.org/sdgs/metadata/files/Metadata-14-0a-01.pdf,Intergovernmental Oceanographic Commission of UNESCO (IOC-UNESCO),2
+14-b-1,True,notstarted,https://unstats.un.org/sdgs/metadata/files/Metadata-14-0b-01.pdf,Food and Agricultural Organization (FAO),3
+14-c-1,True,notstarted,https://unstats.un.org/sdgs/metadata/files/Metadata-14-0c-01.pdf,"Division for Ocean Affairs and the Law of the Sea (DOALOS), Office of Legal Affairs (OLA), United Nations Secretariat",3
 15-1-1,True,complete,https://unstats.un.org/sdgs/metadata/files/Metadata-15-01-01.pdf,Food and Agricultural Organization,1
-15-1-2,True,inprogress,https://unstats.un.org/sdgs/metadata/files/Metadata-15-01-02.pdf,"UNEP-WCMC,UNEP",1
+15-1-2,True,inprogress,https://unstats.un.org/sdgs/metadata/files/Metadata-15-01-02.pdf,"BirdLife International (BLI), International Union for Conservation of Nature (IUCN), UN Environment Programme World Conservation Monitoring Centre (UNEP-WCMC), UN Environment Programme",1
 15-2-1,True,complete,https://unstats.un.org/sdgs/metadata/files/Metadata-15-02-01.pdf,Food and Agriculture Organisation of the United Nations (FAO),1
-15-3-1,True,notstarted,https://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-15.pdf,UNCCD,3
-15-4-1,True,inprogress,https://unstats.un.org/sdgs/metadata/files/Metadata-15-04-01.pdf,"UNEP-WCMC,UNEP",1
+15-3-1,True,notstarted,https://unstats.un.org/sdgs/metadata/files/Metadata-15-03-01.pdf,"United Nations Convention to Combat Desertification (UNCCD) and partners, including: Conservation International (CI), European Space Agency (ESA), Food and Agriculture Organization of the United Nations (FAO), Group on Earth Observation Land Degradation Neutrality Initiative (GEO-LDN), International Soil Reference and Information Centre (ISRIC), International Union for Conservation of Nature (IUCN), Joint Research Centre of the European Commission (JRC), United Nations Statistics Division (UNSD), United Nations Development Programme (UNDP), United Nations Environment (UNEP), World Resources Institute (WRI), United Nations Framework Convention on Climate Change (UNFCCC) and Convention on Biological Diversity (CBD)",3
+15-4-1,True,inprogress,https://unstats.un.org/sdgs/metadata/files/Metadata-15-04-01.pdf,"UN Environment World Conservation Monitoring Centre (UNEP-WCMC), United Nations Environment Programme (UNEP)",1
 15-4-2,True,notstarted,https://unstats.un.org/sdgs/metadata/files/Metadata-15-04-02.pdf,Food and Agriculture Organization (FAO),1
-15-5-1,True,inprogress,,International Union for Conservation of Nature (IUCN) BirdLife International (BLI),1
-15-6-1,True,notstarted,https://unstats.un.org/sdgs/metadata/files/Metadata-15-06-01.pdf,CBD-Secretariat,1
-15-7-1,True,notstarted,https://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-15.pdf,United Nations Office on Drugs and Crime (UNODC),2
-15-8-1,True,complete,https://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-15.pdf,IUCN,2
-15-9-1,True,notstarted,https://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-15.pdf,"CBD-Secretariat,UNEP",3
-15-a-1,True,inprogress,https://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-15.pdf,Organisation for Economic Co-operation and Development (OECD),1/3
-15-b-1,True,inprogress,https://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-15.pdf,Organisation for Economic Co-operation and Development (OECD),1/3
-15-c-1,True,notstarted,,United Nations Office on Drugs and Crime (UNODC),2
-16-1-1,True,inprogress,https://unstats.un.org/sdgs/metadata/files/Metadata-16-01-01.pdf,United Nations Office on Drugs and Crime (UNODC) World Health Organization (WHO),1
-16-1-2,True,notstarted,https://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-16.pdf,Office of the United Nations High Commissioner for Human Rights (OHCHR),3
-16-1-3,True,inprogress,https://unstats.un.org/sdgs/metadata/files/Metadata-16-01-03.pdf,UNODC,2
-16-1-4,True,complete,https://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-16.pdf,United Nations Office on Drugs and Crime (UNODC),2
-16-2-1,True,inprogress,https://unstats.un.org/sdgs/metadata/files/Metadata-16-02-01.pdf,UNICEF,2
+15-5-1,True,inprogress,https://unstats.un.org/sdgs/metadata/files/Metadata-15-05-01.pdf,"International Union for Conservation of Nature (IUCN), BirdLife International (BLI)",1
+15-6-1,True,notstarted,https://unstats.un.org/sdgs/metadata/files/Metadata-15-06-01.pdf,Secretariat of the Convention on Biological Diversity (CBD),1
+15-7-1,True,notstarted,https://unstats.un.org/sdgs/metadata/files/Metadata-15-07-01.pdf,United Nations Office on Drugs and Crime (UNODC),2
+15-8-1,True,complete,https://unstats.un.org/sdgs/metadata/files/Metadata-15-08-01.pdf,"Policy Response Indicator within the suite of Invasive alien species Indicators within the Biodiversity Indicator Partnership (BIP), of the UNEP-WCMC",2
+15-9-1,True,notstarted,https://unstats.un.org/sdgs/metadata/files/Metadata-15-09-01.pdf,"United Nations Environment Programme (UNEP), Convention on Biological Diversity (CBD), United Nations Statistics Division (UNSD)",3
+15-a-1,True,inprogress,https://unstats.un.org/sdgs/metadata/files/Metadata-15-0a-01.pdf,Organisation for Economic Cooperation and Development (OECD),1/3
+15-b-1,True,inprogress,https://unstats.un.org/sdgs/metadata/files/Metadata-15-0b-01.pdf,Organisation for Economic Cooperation and Development (OECD),1/3
+15-c-1,True,notstarted,https://unstats.un.org/sdgs/metadata/files/Metadata-15-0c-01.pdf,United Nations Office on Drugs and Crime (UNODC),2
+16-1-1,True,inprogress,https://unstats.un.org/sdgs/metadata/files/Metadata-16-01-01.pdf,"United Nations Office on Drugs and Crime (UNODC), World Health Organization (WHO)",1
+16-1-2,True,notstarted,https://unstats.un.org/sdgs/metadata/files/Metadata-16-01-02.pdf,Office of the United Nations High Commissioner for Human Rights (OHCHR),3
+16-1-3,True,inprogress,https://unstats.un.org/sdgs/metadata/files/Metadata-16-01-03.pdf,United Nations Office on Drugs and Crime (UNODC),2
+16-1-4,True,complete,https://unstats.un.org/sdgs/metadata/files/Metadata-16-01-04.pdf,United Nations Office on Drugs and Crime (UNODC),2
+16-2-1,True,inprogress,https://unstats.un.org/sdgs/metadata/files/Metadata-16-02-01.pdf,United Nations Children's Fund (UNICEF),2
 16-2-2,True,complete,https://unstats.un.org/sdgs/metadata/files/Metadata-16-02-02.pdf,United Nations Office on Drugs and Crime (UNODC),2
 16-2-3,True,inprogress,https://unstats.un.org/sdgs/metadata/files/Metadata-16-02-03.pdf,United Nations Children's Fund (UNICEF),2
-16-3-1,True,notstarted,https://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-16.pdf,UNODC,2
+16-3-1,True,notstarted,https://unstats.un.org/sdgs/metadata/files/Metadata-16-03-01.pdf,United Nations Office on Drugs and Crime (UNODC),2
 16-3-2,True,complete,https://unstats.un.org/sdgs/metadata/files/Metadata-16-03-02.pdf,United Nations Office on Drugs and Crime (UNODC),1
 16-3-3,True,notstarted,https://unstats.un.org/sdgs/metadata/files/Metadata-16-03-02.pdf,United Nations Office on Drugs and Crime (UNODC),1
-16-4-1,True,notstarted,https://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-16.pdf,"UNODC,UNCTAD",3
-16-4-2,True,notstarted,https://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-16.pdf,"UNODC,UNODA",3
-16-5-1,True,inprogress,https://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-16.pdf,UNODC,2
-16-5-2,True,notstarted,https://unstats.un.org/sdgs/metadata/files/Metadata-16-05-02.pdf,"World Bank,UNODC",2
+16-4-1,True,notstarted,https://unstats.un.org/sdgs/metadata/files/Metadata-16-04-01.pdf,United Nations Office on Drugs and Crime (UNODC) and United Nations Conference on Trade and Development (UNCTAD),3
+16-4-2,True,notstarted,https://unstats.un.org/sdgs/metadata/files/Metadata-16-04-02.pdf,United Nations Office on Drugs and Crime (UNODC) and United Nations Office for Disarmement Affairs (UNODA),3
+16-5-1,True,inprogress,https://unstats.un.org/sdgs/metadata/files/Metadata-16-05-01.pdf,United Nations Office on Drugs and Crime (UNODC),2
+16-5-2,True,notstarted,https://unstats.un.org/sdgs/metadata/files/Metadata-16-05-02.pdf,"World Bank,United Nations Office on Drugs and Crime (UNODC)",2
 16-6-1,True,complete,https://unstats.un.org/sdgs/metadata/files/Metadata-16-06-01.pdf,World Bank,1
-16-6-2,True,complete,https://unstats.un.org/sdgs/metadata/files/Metadata-16-06-02.pdf,UNDP,3
-16-7-1,True,complete,https://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-16.pdf,United Nations Development Programme (UNDP),3
-16-7-2,True,notstarted,https://unstats.un.org/sdgs/tierIII-indicators/files/Tier3-16-07-02.pdf,United Nations Development Programme (UNDP),3
-16-8-1,True,notapplicable,https://unstats.un.org/sdgs/metadata/files/Metadata-10-06-01.pdf,DESA/FFDO,1
+16-6-2,True,complete,https://unstats.un.org/sdgs/metadata/files/Metadata-16-06-02.pdf,United Nations Development Programme (UNDP),3
+16-7-1,True,complete,https://unstats.un.org/sdgs/metadata/files/Metadata-16-07-01a.pdf,Inter-Parliamentary Union (IPU),3
+16-7-2,True,notstarted,https://unstats.un.org/sdgs/metadata/files/Metadata-16-07-02.pdf,United Nations Development Programme (UNDP) Oslo Governance Centre,3
+16-8-1,True,notapplicable,https://unstats.un.org/sdgs/metadata/files/Metadata-16-08-01.pdf,"Financing for Sustainable Development Office (FSDO), United Nations Department of Economic and Social Affairs (UN-DESA)",1
 16-9-1,True,complete,https://unstats.un.org/sdgs/metadata/files/Metadata-16-09-01.pdf,"United Nations Statistics Division (UNSD), United Nations International Children's Emergency Fund (UNICEF)",1
 16-10-1,True,notstarted,https://unstats.un.org/sdgs/metadata/files/Metadata-16-10-01.pdf,Office of the United Nations High Commissioner for Human Rights (OHCHR),2
-16-10-2,True,notstarted,https://unstats.un.org/sdgs/metadata/files/Metadata-16-10-02.pdf,UNESCO-UIS,2
-16-a-1,True,notstarted,https://unstats.un.org/sdgs/metadata/files/Metadata-16-0A-01.pdf,OHCHR,1
-16-b-1,True,inprogress,https://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-10.pdf,Office of the United Nations High Commissioner for Human Rights (OHCHR),3
-17-1-1,True,complete,https://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-17.pdf,International Monetary Fund (IMF),1
-17-1-2,True,complete,https://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-17.pdf,International Monetary Fund (IMF),1
-17-2-1,True,notstarted,https://unstats.un.org/sdgs/metadata/files/Metadata-17-02-01.pdf,Organisation for Economic Co-operation and Development (OECD),1
-17-3-1,True,complete,https://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-17.pdf,"Organisation for Economic Co-operation and Development (OECD), United Nations Conference on Trade and Development (UNCTAD)",1
+16-10-2,True,notstarted,https://unstats.un.org/sdgs/metadata/files/Metadata-16-10-02.pdf,"United Nations Educational, Scientific and Cultural Organization (UNESCO)",2
+16-a-1,True,notstarted,https://unstats.un.org/sdgs/metadata/files/Metadata-16-0A-01.pdf,United Nations Office of the High Commissioner for Human Rights (OHCHR),1
+16-b-1,True,inprogress,https://unstats.un.org/sdgs/metadata/files/Metadata-16-0b-01.pdf,Office of the United Nations High Commissioner for Human Rights (OHCHR),3
+17-1-1,True,complete,https://unstats.un.org/sdgs/metadata/files/Metadata-17-01-01.pdf,"International Monetary Fund (IMF), Statistics Department (Government Finance Division)",1
+17-1-2,True,complete,https://unstats.un.org/sdgs/metadata/files/Metadata-17-01-02.pdf,"International Monetary Fund (IMF), Statistics Department (Government Finance Division)",1
+17-2-1,True,notstarted,https://unstats.un.org/sdgs/metadata/files/Metadata-17-02-01.pdf,Organisation for Economic Cooperation and Development (OECD),1
+17-3-1,True,complete,https://unstats.un.org/sdgs/metadata/files/Metadata-17-03-01.pdf,International Forum on TOSSD (independent entity hosted by the OECD) and the United Nations Trade and Development (UNCTAD),1
 17-3-2,True,complete,https://unstats.un.org/sdgs/metadata/files/Metadata-17-03-02.pdf,World Bank,1
 17-4-1,True,notstarted,https://unstats.un.org/sdgs/metadata/files/Metadata-17-04-01.pdf,World Bank,1
-17-5-1,True,notstarted,https://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-17.pdf,UNCTAD,3
-17-6-1,True,complete,https://unstats.un.org/sdgs/metadata/files/Metadata-17-06-01.pdf,"United Nations Education,Scientific and Cultural Organisation (UNESCO) - Institute for Statistics (UIS)",3
-17-7-1,True,notstarted,https://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-17.pdf,UNEP-CTCN,3
-17-8-1,True,complete,,International Telecommunications Union (ITU),1
-17-9-1,True,notstarted,https://unstats.un.org/sdgs/metadata/files/Metadata-17-09-01.pdf,Organisation for Economic Co-operation and Development (OECD) United Nations Environment (UNEP) World Bank (WB),1
-17-10-1,True,notstarted,https://unstats.un.org/sdgs/metadata/files/Metadata-17-10-01.pdf,"WTO,ITC,UNCTAD",1
-17-11-1,True,notapplicable,https://unstats.un.org/sdgs/metadata/files/Metadata-17-11-01.pdf,"WTO,ITC,UNCTAD",1
-17-12-1,True,notstarted,https://unstats.un.org/sdgs/metadata/files/Metadata-17-12-01.pdf,"WTO,ITC,UNCTAD",1
-17-13-1,True,complete,https://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-17.pdf,World Bank,3
-17-14-1,True,notstarted,https://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-17.pdf,UNEP,3
-17-15-1,True,notstarted,https://unstats.un.org/sdgs/metadata/files/Metadata-17-15-01.pdf,"OECD, UNDP",2
-17-16-1,True,notstarted,https://unstats.un.org/sdgs/metadata/files/Metadata-17-16-01.pdf,"OECD, UNDP",2
-17-17-1,True,notstarted,https://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-17.pdf,World Bank,3
-17-18-1,True,notstarted,https://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-17.pdf,UNSD,3
-17-18-2,True,complete,https://unstats.un.org/sdgs/metadata/files/Metadata-17-18-02.pdf,"UNSD,PARIS21, Regional Commissions,World Bank",2
-17-18-3,True,complete,https://unstats.un.org/sdgs/metadata/files/Metadata-17-18-03.pdf,PARIS21,1
-17-19-1,True,notstarted,https://unstats.un.org/sdgs/metadata/files/Metadata-17-19-01.pdf,PARIS21,1
-17-19-2a,True,complete,https://unstats.un.org/sdgs/metadata/files/Metadata-17-19-02a.pdf,UNSD,1
-17-19-2b,True,complete,https://unstats.un.org/sdgs/metadata/files/Metadata-17-19-02a.pdf,UNSD,1
+17-5-1,True,notstarted,https://unstats.un.org/sdgs/metadata/files/Metadata-17-05-01.pdf,United Nations Conference on Trade and Development (UNCTAD),3
+17-6-1,True,complete,https://unstats.un.org/sdgs/metadata/files/Metadata-17-06-01.pdf,"United Nations Education,Scientific and Cultural Organisation (UNESCO), - Institute for Statistics (UIS)",3
+17-7-1,True,notstarted,https://unstats.un.org/sdgs/metadata/files/Metadata-17-07-01.pdf,United Nations Environment Programme (UNEP),3
+17-8-1,True,complete,https://unstats.un.org/sdgs/metadata/files/Metadata-17-08-01.pdf,International Telecommunications Union (ITU),1
+17-9-1,True,notstarted,https://unstats.un.org/sdgs/metadata/files/Metadata-17-09-01.pdf,"Organisation for Economic Cooperation and Development (OECD), United Nations Environment (UNEP), World Bank",1
+17-10-1,True,notstarted,https://unstats.un.org/sdgs/metadata/files/Metadata-17-10-01.pdf,"International Trade Centre (ITC), United Nations Conference on Trade and Development (UNCTAD), The World Trade Organization (WTO)",1
+17-11-1,True,notapplicable,https://unstats.un.org/sdgs/metadata/files/Metadata-17-11-01.pdf,"International Trade Centre (ITC), United Nations Conference on Trade and Development (UNCTAD), The World Trade Organization (WTO)",1
+17-12-1,True,notstarted,https://unstats.un.org/sdgs/metadata/files/Metadata-17-12-01.pdf,"International Trade Centre (ITC), United Nations Conference on Trade and Development (UNCTAD), The World Trade Organization (WTO)",1
+17-13-1,True,complete,https://unstats.un.org/sdgs/metadata/files/Metadata-17-13-01.pdf,World Bank,3
+17-14-1,True,notstarted,https://unstats.un.org/sdgs/metadata/files/Metadata-17-14-01.pdf,United Nations Environment Programme (UNEP),3
+17-15-1,True,notstarted,https://unstats.un.org/sdgs/metadata/files/Metadata-17-15-01.pdf,"Organisation for Economic Cooperation and Development (OECD), United Nations Development Programme (UNDP)",2
+17-16-1,True,notstarted,https://unstats.un.org/sdgs/metadata/files/Metadata-17-16-01.pdf,"Organisation for Economic Cooperation and Development (OECD), United Nations Development Programme (UNDP)",2
+17-17-1,True,notstarted,https://unstats.un.org/sdgs/metadata/files/Metadata-17-17-01.pdf,World Bank,3
+17-18-1,True,notstarted,https://unstats.un.org/sdgs/metadata/files/Metadata-17-18-01a.pdf,"Open Data Watch (ODW), World Bank",3
+17-18-2,True,complete,https://unstats.un.org/sdgs/metadata/files/Metadata-17-18-02.pdf,"United Nations Statistics Division (UNSD), Partnership in Statistics for Development in the 21st Century (PARIS21), Regional Commissions, World Bank",2
+17-18-3,True,complete,https://unstats.un.org/sdgs/metadata/files/Metadata-17-18-03.pdf,Partnership in Statistics for Development in the 21st Century (PARIS21),1
+17-19-1,True,notstarted,https://unstats.un.org/sdgs/metadata/files/Metadata-17-19-01.pdf,Partnership in Statistics for Development in the 21st Century (PARIS21),1
+17-19-2a,True,complete,https://unstats.un.org/sdgs/metadata/files/Metadata-17-19-02a.pdf,United Nations Statistics Division (UNSD),1
+17-19-2b,True,complete,https://unstats.un.org/sdgs/metadata/files/Metadata-17-19-02b.pdf,"United Nations Statistics Division (UNSD), Department of Economic and Social Affairs, United Nations (UN DESA)",1
