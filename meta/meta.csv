@@ -94,7 +94,8 @@ indicator_key,published,reporting_status,goal_meta_link,un_custodian_agency,un_d
 6-b-1,True,complete,https://unstats.un.org/sdgs/metadata/files/Metadata-06-0B-01.pdf,"World Health Organization (WHO), United Nations Environment Programme (UNEP), Organisation for Economic Cooperation and Development (OECD)",1
 7-1-1,True,notstarted,https://unstats.un.org/sdgs/metadata/files/Metadata-07-01-01.pdf,World Bank Group,1
 7-1-2,True,notstarted,https://unstats.un.org/sdgs/metadata/files/Metadata-07-01-02.pdf,"International Trade Centre (ITC), United Nations Conference on Trade and Development (UNCTAD), The World Trade Organization (WTO)",1
-7-2-1,True,complete,https://unstats.un.org/sdgs/metadata/files/Metadata-07-02-01.pdf,"International Energy Agency (IEA), United Nations Statistics Division (UNSD), United Nations' inter-agency mechanism on energy (UN Energy) and the SE4ALL Global Tracking Framework Consortium",1
+7-2-1,True,complete,https://unstats.un.org/sdgs/metadata/files/Metadata-07-02-01.pdf,"International Energy Agency (IEA), United Nations Statistics Division (UNSD), United Nations' inter-agency mechanism on energy (UN Energy)",1
+7-3-1,True,complete,https://unstats.un.org/sdgs/metadata/files/Metadata-07-03-01.pdf,International Energy Agency (IEA) United Nations Statistics Division (UNSD),1
 7-a-1,True,inprogress,https://unstats.un.org/sdgs/metadata/files/Metadata-07-0a-01.pdf,Organisation for Economic Cooperation and Development (OECD) and International Renewable Energy Agency (IRENA),2
 7-b-1,True,notstarted,https://unstats.un.org/sdgs/metadata/files/Metadata-07-0b-01.pdf,International Renewable Energy Agency (IRENA),3
 8-1-1,True,complete,https://unstats.un.org/sdgs/metadata/files/Metadata-08-01-01.pdf,United Nations Statistics Division (UNSD),1
@@ -120,10 +121,15 @@ indicator_key,published,reporting_status,goal_meta_link,un_custodian_agency,un_d
 9-3-1,True,complete,https://unstats.un.org/sdgs/metadata/files/Metadata-09-03-01.pdf,United Nations Industrial Development Organization (UNIDO),2
 9-3-2,True,notstarted,https://unstats.un.org/sdgs/metadata/files/Metadata-09-03-02.pdf,"United Nations Industrial Development Organization (UNIDO), World Bank",2
 9-4-1,True,complete,https://unstats.un.org/sdgs/metadata/files/Metadata-09-04-01.pdf,"International Energy Agency (IEA), United Nations Industrial Development Organization (UNIDO)",1
+9-5-1,True,complete,https://unstats.un.org/sdgs/metadata/files/Metadata-09-05-01.pdf,"UNESCO Institute for Statistics (UIS)",1
+9-5-2,True,complete,https://unstats.un.org/sdgs/metadata/files/Metadata-09-05-02.pdf,"UNESCO Institute for Statistics (UIS)",1
 9-a-1,True,inprogress,https://unstats.un.org/sdgs/metadata/files/Metadata-09-0A-01.pdf,Organisation for Economic Cooperation and Development (OECD),1
 9-b-1,True,complete,https://unstats.un.org/sdgs/metadata/files/Metadata-09-0B-01.pdf,United Nations Industrial Development Organization (UNIDO),1
 9-c-1,True,complete,https://unstats.un.org/sdgs/metadata/files/Metadata-09-0C-01.pdf,International Telecommunication Union (ITU),1
+10-1-1,True,complete,https://unstats.un.org/sdgs/metadata/files/Metadata-10-01-01.pdf,World Bank,1
+10-2-1,True,complete,https://unstats.un.org/sdgs/metadata/files/Metadata-10-02-01.pdf,World Bank,1
 10-3-1,True,inprogress,https://unstats.un.org/sdgs/metadata/files/Metadata-10-03-01.pdf,Office of the United Nations High Commissioner for Human Rights (OHCHR),3
+10-4-1,True,complete,https://unstats.un.org/sdgs/metadata/files/Metadata-10-04-01.pdf,International Labour Organization (ILO),1
 10-5-1,True,notstarted,https://unstats.un.org/sdgs/metadata/files/Metadata-10-05-01.pdf,International Monetary Fund (IMF),3
 10-6-1,True,notapplicable,https://unstats.un.org/sdgs/metadata/files/Metadata-10-06-01.pdf,"United Nations Department of Economic and Social Affairs (DESA), / Financing for Development Office (FFDO)",1
 10-7-1,True,notstarted,https://unstats.un.org/sdgs/metadata/files/Metadata-10-07-01.pdf,International Labour Organization (ILO) and World Bank,3
@@ -133,11 +139,13 @@ indicator_key,published,reporting_status,goal_meta_link,un_custodian_agency,un_d
 10-a-1,True,notstarted,https://unstats.un.org/sdgs/metadata/files/Metadata-10-0A-01.pdf,"International Trade Centre (ITC), United Nations Conference on Trade and Development (UNCTAD), The World Trade Organization (WTO)",1
 10-b-1,True,inprogress,https://unstats.un.org/sdgs/metadata/files/Metadata-10-0B-01.pdf,Organisation for Economic Cooperation and Development (OECD),1 (ODA) / 2 (FDI)
 10-c-1,True,notstarted,https://unstats.un.org/sdgs/metadata/files/Metadata-10-0C-01.pdf,World Bank,2
+11-1-1,True,complete,https://unstats.un.org/sdgs/metadata/files/Metadata-11-01-01.pdf,United Nations Human Settlements Programme (UN-Habitat),1
 11-2-1,True,notstarted,https://unstats.un.org/sdgs/metadata/files/Metadata-11-02-01.pdf,United Nations Human Settlements Programme (UN-Habitat),2
 11-3-1,True,notstarted,https://unstats.un.org/sdgs/metadata/files/Metadata-11-03-01.pdf,United Nations Human Settlements Programme (UN-Habitat),2
 11-3-2,True,complete,https://unstats.un.org/sdgs/metadata/files/Metadata-11-03-02.pdf,United Nations Human Settlements Programme (UN-Habitat),3
 11-4-1,True,complete,https://unstats.un.org/sdgs/metadata/files/Metadata-11-04-01.pdf,UNESCO Institute for Statistics (UIS),3
 11-5-1,True,complete,https://unstats.un.org/sdgs/metadata/files/Metadata-11-05-01.pdf,United Nations Office for Disaster Reduction (UNISDR),2
+11-6-1,True,complete,https://unstats.un.org/sdgs/metadata/files/Metadata-11-06-01.pdf,United Nations Human Settlements Programme (UN-Habitat) United Nations Statistics Division (UNSD),1
 11-6-2,True,complete,https://unstats.un.org/sdgs/metadata/files/Metadata-11-06-02.pdf,World Health Organization (WHO),1
 11-7-1,True,notstarted,https://unstats.un.org/sdgs/metadata/files/Metadata-11-07-01.pdf,United Nations Human Settlements Programme (UN-Habitat),2
 11-7-2,True,notstarted,https://unstats.un.org/sdgs/metadata/files/Metadata-11-07-02.pdf,United Nations Office on Drugs and Crime (UNODC),3
@@ -151,12 +159,14 @@ indicator_key,published,reporting_status,goal_meta_link,un_custodian_agency,un_d
 12-3-1,True,notstarted,https://unstats.un.org/sdgs/metadata/files/Metadata-12-03-01a.pdf,"Food and Agriculture Organization of the United Nations (FAO), UN Environment (UNEP)",3
 12-4-1,True,notstarted,https://unstats.un.org/sdgs/metadata/files/Metadata-12-04-01.pdf,United Nations Environment Programme (UNEP),1
 12-4-2,True,inprogress,https://unstats.un.org/sdgs/metadata/files/Metadata-12-04-02.pdf,"United Nations Environment Programme (UNEP), United Nations Statistics Division (UNSD), United Nations Institute for Training and Research (UNITAR)",3
+12-5-1,True,complete,https://unstats.un.org/sdgs/metadata/files/Metadata-12-05-01.pdf,"United Nations Statistics Division (UNSD), UN Environment (UNEP)",3
 12-6-1,True,complete,https://unstats.un.org/sdgs/metadata/files/Metadata-12-06-01.pdf,"United Nations Conference on Trade and Development (UNCTAD), United Nations Environment Programme (UNEP)",3
 12-7-1,True,notstarted,https://unstats.un.org/sdgs/metadata/files/Metadata-12-07-01.pdf,United Nations Environment Programme (UNEP),3
 12-8-1,True,notstarted,https://unstats.un.org/sdgs/metadata/files/Metadata-12-08-01.pdf,"UNESCO Education Sector, Division for Peace and Sustainable Development, Section of Education for Sustainable Development (UNESCO-ED/PSD/ESD), UNESCO Institute for Statistics (UNESCO-UIS), Global Education Monitoring Report",3
 12-a-1,True,inprogress,https://unstats.un.org/sdgs/metadata/files/Metadata-12-0a-01.pdf,International Renewable Energy Agency (IRENA),3
 12-b-1,True,notstarted,https://unstats.un.org/sdgs/metadata/files/Metadata-12-0b-01.pdf,World Tourism Organization (UNWTO),3
 12-c-1,True,notstarted,https://unstats.un.org/sdgs/metadata/files/Metadata-12-0c-01.pdf,United Nations Environment Programme (UNEP),3
+13-1-1,True,complete,https://unstats.un.org/sdgs/metadata/files/Metadata-13-01-01.pdf,United Nations Office for Disaster Reduction (UNISDR),2
 13-1-2,True,notstarted,https://unstats.un.org/sdgs/metadata/files/Metadata-13-01-02.pdf,United Nations Office for Disaster Reduction (UNDRR),2
 13-1-3,True,notstarted,https://unstats.un.org/sdgs/metadata/files/Metadata-13-01-03.pdf,United Nations Office for Disaster Reduction (UNDRR),3
 13-2-1,True,notstarted,https://unstats.un.org/sdgs/metadata/files/Metadata-13-02-01.pdf,UN Climate Change (UNFCCC Secretariat),1
