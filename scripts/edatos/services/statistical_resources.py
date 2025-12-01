@@ -387,9 +387,9 @@ def create_opensdg_meta_for_serie(indicator_metadata, serie, output_filepath, co
         # Fórmula teórica escrita en formato MathJax
         'formula_teorica':  i18n.update_translations(translations, f'FORMULA_TEORICA.{indicator_serie_key}-formula-teorica', attributes['FORMULA_TEORICA']), #   Atributo de dimensión (dataset) 
         'unidad_medida': f'OCECAS_UNIDAD_MEDIDA.{attributes["UNIDAD_MEDIDA"]["id"]}', #'OCECAS_UNIDAD_MEDIDA.PT', # Atributo nivel observacion. REMEMBER! OCECAS translations are fixed on OCECAS_UNIDAD_MEDIDA
-        'fuentes_informacion': i18n.update_translations(translations, f'SOURCE_DETAIL.{indicator_serie_key}-fuentes-informacion', attributes.get('SOURCE_DETAIL', None)), #   Atributo de dimensión (dataset) 
+        'fuentes_informacion': '' if attributes.get('SOURCE_DETAIL', None) is None else i18n.update_translations(translations, f'SOURCE_DETAIL.{indicator_serie_key}-fuentes-informacion', attributes.get('SOURCE_DETAIL', None)), #   Atributo de dimensión (dataset) 
         'periodicidad': i18n.update_translations(translations, f'FREQ.{attributes["FREQ"]["id"]}', attributes["FREQ"]["name"]), # Atributo nivel observacion
-        'observaciones': i18n.update_translations(translations, f'COMMENT_TS.{indicator_serie_key}-observaciones', attributes.get('COMMENT_TS', None)), #   Atributo de dimensión (dataset) 
+        'observaciones': '' if attributes.get('COMMENT_TS', None) is None else i18n.update_translations(translations, f'COMMENT_TS.{indicator_serie_key}-observaciones', attributes.get('COMMENT_TS', None)), #   Atributo de dimensión (dataset) 
         # Info de Gráficas
         'graph_title': subindicator_name_key, # CL_SERIES.nombre (igual que el nombre)
         'graph_type': 'bar', # Always bar for series
