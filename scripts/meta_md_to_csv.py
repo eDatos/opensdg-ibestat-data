@@ -60,8 +60,8 @@ def main():
     
     data, all_keys = process_md_files(directory)
     data.sort(key=lambda d: generate_indicator_sort_order(d['indicator_key']))
-    write_csv(data, all_keys, directory + '/meta2.csv')
-    print("File meta2.csv generated successfully.")
+    write_csv(data, all_keys, directory + '/meta.csv')
+    print("File meta.csv generated successfully.")
 
 if __name__ == "__main__":
     main()
