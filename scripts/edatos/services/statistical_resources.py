@@ -277,9 +277,11 @@ def create_opensdg_meta(data, output_filepath, config, indicator_id, indicator_n
         serie = {
             'id': representation["code"],
             'name': serie_metadata['name'],
-            'description': serie_metadata['description'],
+            'description': serie_metadata.get('description', None),
             'attributes': serie_attributes
         }
+        if serie['description'] is  None:
+            logger.warning(f"Serie description is empty for serie {serie['id']} of indicator {indicator_id}")
         
         create_opensdg_meta_for_serie({ **indicator_meta, **indicator_serie_meta }, serie, output_filepath, config)
 
