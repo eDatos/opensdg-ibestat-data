@@ -73,5 +73,5 @@ def update_translations(translations, key, international_string):
             if localized_string['lang'] not in translations:
                 translations[localized_string['lang']] = {}
         
-            translations[localized_string['lang']][key] = html.remove_tags(localized_string['value'])
+            translations[localized_string['lang']][key] = html.remove_tags(localized_string['value']).removeprefix('<br>').removesuffix('<br>').strip()
     return key
