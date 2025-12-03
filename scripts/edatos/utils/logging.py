@@ -3,6 +3,10 @@ import logging
 from io import StringIO as StringBuffer
 import sys
 
+# Force UTF-8 encoding for stdout
+if sys.platform == "win32":
+    sys.stdout.reconfigure(encoding='utf-8')
+
 formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
 
 outputHandler = logging.StreamHandler(sys.stdout)
