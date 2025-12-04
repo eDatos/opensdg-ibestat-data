@@ -8,3 +8,270 @@ _L_ES_020401_4A: Emisiones de amoníaco de la ganadería
 _L_ES_020401_4B: Emisiones de amoníaco por hectárea de la ganadería
 _L_ES_020C01_01: Índice de precios de los alimentos
 _L_ES_020C01_02: Índice de precios del pan y los cereales
+_L_ES_010201_1B: Proporción de personas en riesgo de pobreza relativa, considerando el umbral autonómico de pobreza
+_L_ES_010201_2B: Proporción de personas en riesgo de pobreza relativa con alquiler imputado, considerando el umbral autonómico de pobreza
+_L_ES_010201_2A: Proporción de personas en riesgo de pobreza relativa con alquiler imputado, considerando el umbral nacional de pobreza
+_L_ES_010201_1A: Proporción de personas en riesgo de pobreza relativa, considerando el umbral nacional de pobreza
+_L_ES_010202_02: Proporción de personas en situación de carencia material y social severa
+_L_ES_010202_03: Proporción de personas viviendo en hogares con baja intensidad de trabajo
+_L_ES_010202_1A: 'Proporción de personas en riesgo de pobreza o exclusión social: indicador AROPE, considerando el umbral nacional de pobreza'
+_L_ES_010202_1B: 'Proporción de personas en riesgo de pobreza o exclusión social: indicador AROPE, considerando el umbral autonómico de pobreza'
+_L_ES_010401_01: Proporción de viviendas principales con acceso a agua corriente
+_L_ES_010401_03: Proporción de viviendas principales que disponen de baño o ducha
+SP_ACS_BSRVSAN: Proporción de viviendas principales que disponen de cuarto de aseo con inodoro
+_L_ES_200303_01: Número de personas muertas directamente atribuido a desastres por cada 100.000 habitantes
+_L_ES_200202_01: Indemnizaciones por daños personales, pérdidas pecuniarias y daños de bienes pagadas o provisionadas en proporción al PIB
+_L_ES_010A02_01: Proporción del gasto de las administraciones públicas autonómicas que se dedica a educación
+_L_ES_010A02_02: Proporción del gasto de las administraciones públicas autonómicas que se dedica a salud
+SH_STA_MORT: Tasa de mortalidad materna
+SH_STA_BRTC: Proporción de partos atendidos por personal sanitario especializado
+SH_DYN_MORT: Tasa de mortalidad de menores de 5 años
+SH_DYN_NMRT: Tasa de mortalidad neonatal
+_L_ES_030301_02: Incidencia de los nuevos diagnósticos de VIH en los hombres
+_L_ES_030301_03: Incidencia de los nuevos diagnósticos de VIH en las mujeres
+SH_HIV_INCD: Incidencia de los nuevos diagnósticos de VIH
+_L_ES_030302_02: Incidencia de la tuberculosis en los hombres
+_L_ES_030302_03: Incidencia de la tuberculosis en las mujeres
+SH_TBS_INCD: Incidencia de la tuberculosis
+_L_ES_030303_02: Incidencia de la malaria en los hombres
+_L_ES_030303_03: Incidencia de la malaria en las mujeres
+SH_STA_MALR: Incidencia de la malaria
+_L_ES_030304_01: Incidencia de la hepatitis B
+_L_ES_030304_02: Incidencia de la hepatitis B en los hombres
+_L_ES_030304_03: Incidencia de la hepatitis B en las mujeres
+_L_ES_030401_01: Tasa de mortalidad atribuida a las enfermedades cardiovasculares
+_L_ES_030401_02: Tasa de mortalidad atribuida a las enfermedades respiratorias crónicas
+_L_ES_030401_03: Tasa de mortalidad atribuida a la diabetes
+_L_ES_030401_04: Tasa de mortalidad atribuida al cáncer
+SH_STA_SCIDE: Tasa de mortalidad por suicidio
+_L_ES_030501_01: Número de admisiones a tratamiento por abuso o dependencia de drogas ilegales por cada 100.000 habitantes
+_L_ES_030501_02: Número de admisiones a tratamiento por abuso o dependencia de alcohol por cada 100.000 habitantes
+_L_ES_030501_1A: Número de admisiones a tratamiento por abuso o dependencia de drogas ilegales de hombres por cada 100.000 hombres
+_L_ES_030501_1B: Número de admisiones a tratamiento por abuso o dependencia de drogas ilegales de mujeres por cada 100.000 mujeres
+_L_ES_030501_2A: Número de admisiones a tratamiento por abuso o dependencia de alcohol de hombres por cada 100.000 hombres
+_L_ES_030501_2B: Número de admisiones a tratamiento por abuso o dependencia de alcohol de mujeres por cada 100.000 mujeres
+SH_ALC_CONSPT: Consumo anual de alcohol registrado en litros de alcohol puro por persona de 15 y más años
+SH_STA_TRAF: Tasa de mortalidad por lesiones debidas a accidentes de tráfico
+_L_ES_030701_01: Proporción de mujeres entre 18 y 49 años, casadas con un hombre o con pareja masculina, que cubren sus necesidades de planificación familiar con métodos modernos
+_L_ES_030702_01: Tasa de fecundidad de las adolescentes entre 10 y 14 años por cada 1.000 mujeres de ese grupo de edad
+SP_DYN_ADKL: Tasa de fecundidad de las adolescentes entre 15 y 19 años por cada 1.000 mujeres de ese grupo de edad
+_L_ES_030801_01: Proporción de personas de 16 y más años con necesidad insatisfecha de atención médica
+_L_ES_030801_02: Proporción de personas de 16 y más años con estado de salud percibido bueno o muy bueno
+SH_XPD_EARN10: Proporción de personas que viven en hogares con grandes gastos sanitarios, superiores al 10% del gasto total del hogar
+SH_STA_POISN: Tasa de mortalidad atribuida a intoxicaciones involuntarias
+_L_ES_030A01_01: Proporción de personas de 15 y más años que fuman a diario
+_L_ES_030B01_03: Cobertura de vacunación de recuerdo contra neumococo en la población infantil
+_L_ES_030B01_04: Cobertura de vacunación de segunda dosis contra sarampión, rubéola y parotiditis en la población infantil
+_L_ES_030B01_05: Cobertura de vacunación de segunda dosis contra papiloma humano en las adolescentes
+SH_ACS_DTP3: Cobertura de vacunación de recuerdo contra difteria, tétanos y tosferina en la población infantil
+_L_ES_030C01_01: Número de personas colegiadas en medicina por cada 10.000 habitantes
+_L_ES_030C01_02: Número de personas colegiadas en enfermería por cada 10.000 habitantes
+_L_ES_030C01_03: Número de personas colegiadas en odontología y estomatología por cada 10.000 habitantes
+_L_ES_030C01_04: Número de personas colegiadas en farmacia por cada 10.000 habitantes
+_L_ES_040101_01: Proporción de personas de 15 años que han alcanzado al menos el nivel 2 de competencia en lectura
+_L_ES_040101_02: Proporción de hombres de 15 años que han alcanzado al menos el nivel 2 de competencia en lectura
+_L_ES_040101_03: Proporción de mujeres de 15 años que han alcanzado al menos el nivel 2 de competencia en lectura
+_L_ES_040101_07: Proporción de personas de 15 años que han alcanzado al menos el nivel 2 de competencia en matemáticas
+_L_ES_040101_08: Proporción de hombres de 15 años que han alcanzado al menos el nivel 2 de competencia en matemáticas
+_L_ES_040101_09: Proporción de mujeres de 15 años que han alcanzado al menos el nivel 2 de competencia en matemáticas
+_L_ES_040202_01: Tasa neta de escolarización a los 5 años
+_L_ES_040202_02: Tasa neta de escolarización de los niños de 5 años
+_L_ES_040202_03: Tasa neta de escolarización de las niñas de 5 años
+_L_ES_040401_01: Proporción de personas entre 16 y 74 años que han utilizado alguna habilidad informática
+_L_ES_040401_02: Proporción de personas entre 16 y 24 años que han utilizado alguna habilidad informática
+_L_ES_040401_03: Proporción de personas entre 25 y 74 años que han utilizado alguna habilidad informática
+_L_ES_040601_01: Proporción de personas entre 16 y 65 años que han alcanzado al menos el nivel 2 de competencia en la escala de comprensión lectora
+_L_ES_040601_02: Proporción de hombres entre 16 y 65 años que han alcanzado al menos el nivel 2 de competencia en la escala de comprensión lectora
+_L_ES_040601_03: Proporción de mujeres entre 16 y 65 años que han alcanzado al menos el nivel 2 de competencia en la escala de comprensión lectora
+_L_ES_040601_04: Proporción de personas entre 16 y 65 años que han alcanzado al menos el nivel 2 de competencia en la escala de matemáticas
+_L_ES_040601_05: Proporción de hombres entre 16 y 65 años que han alcanzado al menos el nivel 2 de competencia en la escala de matemáticas
+_L_ES_040601_06: Proporción de mujeres entre 16 y 65 años que han alcanzado al menos el nivel 2 de competencia en la escala de matemáticas
+_L_ES_040A01_0C: Alumnado medio por ordenador destinado a tareas de enseñanza y aprendizaje en centros educativos no universitarios
+SE_ACC_HNDWSH: Proporción de centros educativos no universitarios con acceso a instalaciones básicas para el lavado de manos
+SE_ACS_ELECT: Proporción de centros educativos no universitarios con acceso a electricidad
+SE_ACS_H2O: Proporción de centros educativos no universitarios con acceso a suministro básico de agua potable
+SE_ACS_INTNT: Proporción de aulas habituales de clase con conexión a Internet en centros educativos no universitarios
+SE_ACS_SANIT: Proporción de centros educativos no universitarios con acceso a instalaciones de saneamiento básicas separadas por sexo
+_L_ES_040C01_01: Proporción del profesorado de educación preescolar que ha recibido al menos la mínima formación docente exigida para impartir enseñanza a ese nivel educativo
+_L_ES_040C01_02: Proporción del profesorado de educación primaria que ha recibido al menos la mínima formación docente exigida para impartir enseñanza a ese nivel educativo
+_L_ES_040C01_03: Proporción del profesorado de educación secundaria inferior que ha recibido al menos la mínima formación docente exigida para impartir enseñanza a ese nivel educativo
+_L_ES_040C01_04: Proporción del profesorado de educación secundaria superior que ha recibido al menos la mínima formación docente exigida para impartir enseñanza a ese nivel educativo
+SG_LGL_GENEQEMP: 'Existencia de marcos jurídicos para promover, reforzar y supervisar la igualdad de género: empleo y subsidios económicos'
+SG_LGL_GENEQLFP: 'Existencia de marcos jurídicos para promover, reforzar y supervisar la igualdad de género: marco legal global y vida pública'
+SG_LGL_GENEQMAR: 'Existencia de marcos jurídicos para promover, reforzar y supervisar la igualdad de género: matrimonio y familia'
+SG_LGL_GENEQVAW: 'Existencia de marcos jurídicos para promover, reforzar y supervisar la igualdad de género: violencia contra la mujer'
+_L_ES_050301_01: Proporción de mujeres de 16 y 17 años que han contraído matrimonio con un hombre
+_L_ES_050401_01: Tiempo dedicado al hogar y familia en un día promedio
+_L_ES_050401_02: Tiempo dedicado por las mujeres al hogar y familia en un día promedio
+_L_ES_050401_03: Tiempo dedicado por los hombres al hogar y familia en un día promedio
+_L_ES_050501_00: Proporción de escaños ocupados por mujeres en los parlamentos autonómicos
+_L_ES_050501_03: Proporción de consejerías ocupadas por mujeres en los gobiernos autonómicos
+_L_ES_050501_04: Proporción de alcaldías ocupadas por mujeres en los gobiernos locales
+_L_ES_050501_05: Proporción de concejalías ocupadas por mujeres en los gobiernos locales
+IC_GEN_MGTL: Proporción de mujeres en cargos directivos
+_L_ES_050502_02: Proporción de mujeres en alta dirección
+_L_ES_050502_04: Proporción de mujeres empresarias
+_L_ES_050A1A_01: Proporción de titulares de explotaciones agrícolas, respecto al total de personas trabajadoras en la agricultura
+_L_ES_050A1A_02: Proporción de hombres titulares de explotaciones agrícolas, respecto al total de hombres trabajadores en la agricultura
+_L_ES_050A1A_03: Proporción de mujeres titulares de explotaciones agrícolas, respecto al total de mujeres trabajadoras en la agricultura
+_L_ES_050A1B_01: Proporción de mujeres titulares de explotaciones agrícolas, respecto al total de titulares de explotaciones agrícolas
+_L_ES_050A1B_02: Proporción de mujeres titulares de explotaciones agrícolas en propiedad, respecto al total de titulares de explotaciones agrícolas en propiedad
+_L_ES_050A1B_03: Proporción de mujeres titulares de explotaciones agrícolas en arrendamiento, respecto al total de titulares de explotaciones agrícolas en arrendamiento
+SG_LGL_LNDFEMOD: Grado en que el marco jurídico garantiza la igualdad de derechos de la mujer a la propiedad o el control de tierras
+_L_ES_050B01_01: Proporción de personas entre 16 y 74 años que utilizan el teléfono móvil
+_L_ES_050B01_02: Proporción de mujeres entre 16 y 74 años que utilizan el teléfono móvil
+_L_ES_050B01_03: Proporción de hombres entre 16 y 74 años que utilizan el teléfono móvil
+_L_ES_060101_01: Proporción de personas que reciben suministro de agua con cobertura del Sistema Nacional de Aguas de Consumo
+_L_ES_060B01_01: Proporción de dependencias administrativas locales que han establecido políticas y procedimientos operacionales para la participación de las comunidades locales en la gestión y el saneamiento de aguas de consumo
+_L_ES_060B01_02: Proporción de dependencias administrativas locales que han establecido políticas y procedimientos operacionales para la participación de las comunidades locales en la gestión de aguas de baño
+_L_ES_070201_00: Proporción de energías renovables en la producción de energía eléctrica
+_L_ES_070301_00: Consumo de energía eléctrica por unidad de PIB
+NY_GDP_PCAP: Tasa de crecimiento anual del PIB real per cápita
+_L_ES_080201_1B: Tasa de crecimiento anual del PIB real por hora trabajada
+SL_EMP_PCAP: Tasa de crecimiento anual del PIB real por persona empleada
+_L_ES_080501_01: Ingreso medio por hora de trabajo de las personas con discapacidad
+_L_ES_080501_02: Ingreso medio por hora de trabajo de las mujeres
+_L_ES_080501_03: Ingreso medio por hora de trabajo de los hombres
+_L_ES_080501_04: Ingreso medio por hora de trabajo de las personas sin discapacidad
+SL_EMP_EARN: Ingreso medio por hora de trabajo
+_L_ES_080502_01: Tasa de desempleo de las personas entre 16 y 64 años con discapacidad
+_L_ES_080502_02: Tasa de desempleo de los hombres
+_L_ES_080502_03: Tasa de desempleo de las mujeres
+_L_ES_080502_04: Tasa de desempleo de las personas entre 16 y 64 años sin discapacidad
+_L_ES_080502_05: Tasa de desempleo de las personas entre 16 y 64 años
+SL_TLF_UEM: Tasa de desempleo
+_L_ES_080601_01: Proporción de jóvenes entre 15 y 24 años que no cursan estudios, no están empleados ni reciben formación
+_L_ES_080901_05: Proporción de personas ocupadas en el sector cultural sobre el total de personas ocupadas
+_L_ES_080901_06: Proporción de hombres ocupados en el sector cultural sobre el total de hombres ocupados
+_L_ES_080901_07: Proporción de mujeres ocupadas en el sector cultural sobre el total de mujeres ocupadas
+_L_ES_080901_3A: Pernoctaciones de turistas por habitante
+_L_ES_080901_3B: Pernoctaciones de turistas no residentes por habitante
+_L_ES_080901_3C: Proporción del gasto en viajes culturales sobre el gasto en viajes por ocio, recreo y vacaciones
+_L_ES_080901_3D: Proporción del gasto en viajes culturales sobre el gasto en viajes
+_L_ES_080901_4A: Proporción de pernoctaciones de turistas en los dos meses de máxima ocupación sobre el total de pernoctaciones de turistas
+_L_ES_080901_4B: Proporción de pernoctaciones de turistas no residentes en los dos meses de máxima ocupación sobre el total de pernoctaciones de turistas no residentes
+FB_CBK_BRCH: Número de sucursales de bancos comerciales por cada 100.000 habitantes de 15 y más años
+_L_ES_081002_01: Proporción de personas entre 18 y 79 años que tienen una cuenta corriente
+_L_ES_080B01_6A: Gasto de las administraciones públicas autonómicas en fomento del empleo
+_L_ES_080B01_6B: Proporción del gasto de las administraciones públicas autonómicas en fomento del empleo
+NV_IND_MANF: Valor añadido del sector manufacturero en proporción al PIB
+NV_IND_MANFPC: Valor añadido del sector manufacturero per cápita
+_L_ES_090202_01: Proporción de personas ocupadas en el sector manufacturero
+_L_ES_090202_2B: Empleo del sector manufacturero en proporción al empleo total (horas trabajadas)
+SL_TLF_MANF: Empleo del sector manufacturero en proporción al empleo total (personas empleadas)
+NV_IND_SSIS: Proporción del valor añadido total del sector manufacturero correspondiente a las pequeñas empresas
+EN_ATM_CO2GDP: Emisiones de CO2 por unidad de PIB
+EN_ATM_CO2MVA: Emisiones de CO2 por unidad de valor añadido del sector manufacturero
+_L_ES_090401_03: Emisiones de PM2,5 por unidad de valor añadido del sector manufacturero
+_L_ES_090401_04: Emisiones de PM10 por unidad de valor añadido del sector manufacturero
+_L_ES_090401_05: Emisiones de CO2 respecto al año 1990
+_L_ES_090401_06: Emisiones de CO2 respecto al año 2005
+GB_XPD_RSDV: Gastos en investigación y desarrollo en proporción al PIB
+GB_POP_SCIERD: Número de personas investigadoras (en equivalente a tiempo completo) por cada millón de habitantes
+NV_IND_TECH: Proporción del valor añadido total del sector manufacturero correspondiente a las actividades de media-alta y alta tecnología
+IT_MOB_4GNTWK: Proporción de hogares cubiertos con redes móviles 4G
+_L_ES_090C01_01: Proporción de hogares cubiertos con redes móviles 3,5G
+_L_ES_100101_01: Tasa de crecimiento per cápita de los ingresos de los hogares del 40% más pobre de la población
+_L_ES_100101_02: Tasa de crecimiento per cápita de los gastos de los hogares de la población total
+_L_ES_100101_03: Tasa de crecimiento per cápita de los gastos de los hogares del 40% más pobre de la población
+_L_ES_100101_04: Tasa de crecimiento per cápita de los ingresos de los hogares de la población total
+SI_POV_50MI: Proporción de personas que viven por debajo del 50% de la mediana de los ingresos, considerando la mediana nacional
+_L_ES_100201_1B: Proporción de personas que viven por debajo del 50% de la mediana de los ingresos, considerando la mediana autonómica
+SL_EMP_GTOTL: Proporción del PIB generada por el trabajo asalariado
+SM_POP_REFG_OR: Número de personas refugiadas por cada 100.000 habitantes
+_L_ES_110101_01: Proporción de personas que viven en hogares con determinadas deficiencias en la vivienda
+_L_ES_110101_03: Proporción de personas que en su vivienda sufren problemas de ruidos procedentes del vecindario o del exterior
+SG_URB_CSPART: Proporción de ciudades que cuentan con una estructura de participación directa de la sociedad civil en la planificación y la gestión urbana que funcione con regularidad y democráticamente
+_L_ES_110401_01: Gasto per cápita de las administraciones públicas autonómicas y locales en la preservación, protección y conservación del patrimonio cultural
+_L_ES_110401_03: Gasto per cápita de las administraciones públicas autonómicas en la preservación, protección y conservación del patrimonio cultural
+_L_ES_110401_04: Gasto per cápita de las administraciones públicas locales en la preservación, protección y conservación del patrimonio cultural
+_L_ES_110601_01: Residuos urbanos recogidos per cápita
+_L_ES_110601_02: Proporción de residuos municipales incinerados en relación al total de residuos municipales generados y tratados
+_L_ES_110601_03: Proporción de residuos municipales vertidos en relación al total de residuos municipales generados y tratados
+_L_ES_200201_01: Proporción de residuos municipales reciclados en relación al total de residuos municipales generados y tratados
+EN_ATM_PM25: Nivel medio de PM2,5 en las ciudades ponderado según la población
+_L_ES_110602_01: Nivel medio de PM10 en las ciudades ponderado según la población
+_L_ES_110A01_01: Proporción de la población residente en municipios que disponen de plan general o normas subsidiarias de planeamiento urbanístico
+_L_ES_120101_01: Se elaboran, adoptan o aplican instrumentos de política destinados a apoyar la transición hacia modalidades de consumo y producción sostenibles
+_L_ES_130202_01: Emisiones totales de gases de efecto invernadero por unidad de PIB
+_L_ES_130202_02: Emisiones totales de gases de efecto invernadero per cápita
+_L_ES_130202_03: Emisiones de gases de efecto invernadero respecto al año 1990
+_L_ES_130202_04: Emisiones de gases de efecto invernadero respecto al año 2005
+AG_LND_FRST: Superficie de bosque en proporción a la superficie total
+_L_ES_150201_01: Superficie forestal con instrumentos de gestión sostenible vigentes
+_L_ES_150201_02: Proporción de la superficie forestal con instrumentos de gestión sostenible vigentes
+_L_ES_150801_01: Se dispone de legislación pertinente y se destinan recursos para la prevención o el control de las especies exóticas invasoras
+_L_ES_160104_02: Proporción de personas que viven en una zona con problemas de delincuencia o vandalismo
+VC_SNS_WALN: Proporción de personas de 16 y más años que se sienten seguras al caminar solas en su zona de residencia
+VC_HTF_DETV: Número de víctimas detectadas de tráfico de personas por cada 100.000 habitantes
+VC_HTF_DETVFL: Número de víctimas detectadas de tráfico de personas para explotación laboral por cada 100.000 habitantes
+VC_HTF_DETVOG: Número de víctimas detectadas de tráfico de personas para la obtención de órganos por cada 100.000 habitantes
+VC_HTF_DETVOP: Número de víctimas detectadas de tráfico de personas para otros fines (matrimonios forzados, criminalidad forzada o mendicidad) por cada 100.000 habitantes
+VC_HTF_DETVSX: Número de víctimas detectadas de tráfico de personas para explotación sexual por cada 100.000 habitantes
+VC_PRS_UNSNT: Proporción de personas detenidas que no han sido condenadas respecto al total de personas reclusas
+_L_ES_160601_1A: Gasto liquidado en proporción al gasto inicial de los presupuestos de las administraciones públicas autonómicas
+_L_ES_160601_1B: Gasto liquidado en proporción al gasto inicial de los presupuestos de las administraciones públicas locales
+_L_ES_160602_1A: Proporción de la población que se siente satisfecha con el funcionamiento de los servicios públicos en materia de enseñanza
+_L_ES_160602_1C: Proporción de la población que se siente satisfecha con el funcionamiento de los servicios públicos en materia de gestión de pensiones
+_L_ES_160602_1D: Proporción de la población que se siente satisfecha con el funcionamiento de los servicios públicos en materia de administración de justicia
+_L_ES_160602_1E: Proporción de la población que se siente satisfecha con el funcionamiento de los servicios públicos en materia de seguridad ciudadana
+_L_ES_160602_1F: Proporción de la población que se siente satisfecha con el funcionamiento de los servicios públicos en materia de servicios sociales
+_L_ES_160602_1G: Proporción de la población que se siente satisfecha con el funcionamiento de los servicios públicos en materia de transporte público
+_L_ES_160602_1H: Proporción de la población que se siente satisfecha con el funcionamiento de los servicios públicos en materia de obras públicas
+_L_ES_160602_1I: Proporción de la población que se siente satisfecha con el funcionamiento de los servicios públicos en materia de ayuda a personas dependientes
+SP_PSR_SATIS: Proporción de la población que se siente satisfecha con el funcionamiento de los servicios públicos
+SP_PSR_SATIS_HLTH: Proporción de la población que se siente satisfecha con el funcionamiento de los servicios públicos en materia de asistencia sanitaria
+_L_ES_160701_01: Ratio de la proporción de mujeres en el sector público respecto a la proporción de mujeres en la población entre 16 y 64 años
+_L_ES_160701_02: Ratio de la proporción de mujeres en el sector público estatal respecto a la proporción de mujeres en la población entre 16 y 64 años
+_L_ES_160701_03: Ratio de la proporción de mujeres en las Fuerzas y Cuerpos de Seguridad del Estado respecto a la proporción de mujeres en la población entre 16 y 64 años
+_L_ES_160701_04: Ratio de la proporción de mujeres en las Fuerzas Armadas respecto a la proporción de mujeres en la población entre 16 y 64 años
+_L_ES_160701_05: Ratio de la proporción de mujeres en la Administración de Justicia del Estado respecto a la proporción de mujeres en la población entre 16 y 64 años
+_L_ES_160701_06: Ratio de la proporción de mujeres en el sector público autonómico respecto a la proporción de mujeres en la población entre 16 y 64 años
+_L_ES_160701_09: Ratio de la proporción de mujeres en los centros educativos no universitarios autonómicos respecto a la proporción de mujeres en la población entre 16 y 64 años
+_L_ES_160701_10: Ratio de la proporción de mujeres en las instituciones sanitarias autonómicas respecto a la proporción de mujeres en la población entre 16 y 64 años
+_L_ES_160701_11: Ratio de la proporción de mujeres en las universidades respecto a la proporción de mujeres en la población entre 16 y 64 años
+_L_ES_160701_12: Ratio de la proporción de mujeres en el sector público local respecto a la proporción de mujeres en la población entre 16 y 64 años
+_L_ES_160701_13: Ratio de la proporción de mujeres en los ayuntamientos respecto a la proporción de mujeres en la población entre 16 y 64 años
+_L_ES_160701_14: Ratio de la proporción de mujeres en las diputaciones, cabildos y consejos insulares respecto a la proporción de mujeres en la población entre 16 y 64 años
+SG_REG_BRTH: Proporción de menores de 5 años cuyo nacimiento se ha registrado ante una autoridad civil
+_L_ES_170101_01: Total de ingresos de las administraciones públicas autonómicas y locales en proporción al PIB
+_L_ES_170102_01: Proporción de los ingresos no financieros de las administraciones públicas autonómicas y locales provenientes de impuestos
+_L_ES_170102_02: Proporción de los ingresos de las administraciones públicas autonómicas y locales provenientes de impuestos
+_L_ES_170301_1A: Inversión directa neta en los países receptores de Ayuda Oficial al Desarrollo
+_L_ES_170301_1B: Ayuda Oficial al Desarrollo neta de las administraciones públicas autonómicas y locales
+_L_ES_170301_2A: Inversión directa neta en los países receptores de Ayuda Oficial al Desarrollo en proporción al PIB
+_L_ES_170301_2B: Ayuda Oficial al Desarrollo neta de las administraciones públicas autonómicas y locales en proporción al PIB
+_L_ES_170302_01: Volumen de remesas enviadas al extranjero en proporción al PIB
+_L_ES_170302_02: Volumen de remesas enviadas al extranjero
+IT_NET_BBNDN: Número de líneas de banda ancha fija por cada 100 habitantes
+_L_ES_170601_02: Número de líneas de banda ancha fija con tecnología de acceso DSL por cada 100 habitantes
+_L_ES_170601_03: Número de líneas de banda ancha fija con tecnología de acceso HFC por cada 100 habitantes
+_L_ES_170601_04: Número de líneas de banda ancha fija con tecnología de acceso FTTH por cada 100 habitantes
+_L_ES_170601_05: Número de líneas de banda ancha fija con otra tecnología de acceso por cada 100 habitantes
+_L_ES_170801_01: Proporción de personas entre 16 y 74 años que han utilizado Internet en los últimos tres meses
+_L_ES_171802_01: La legislación sobre estadísticas cumple los Principios Fundamentales de las Estadísticas Oficiales
+_L_ES_171803_01: Se dispone de un plan estadístico plenamente financiado y en fase de aplicación
+_L_ES_17192A_01: Se ha realizado al menos un censo de población y vivienda en los últimos diez años
+_L_ES_17192B_01: Se ha registrado el 100% de los nacimientos y al menos el 80% de las defunciones
+_L_ES_040102_01: Proporción de personas entre 18 y 20 años que han completado al menos la primera etapa de enseñanza secundaria
+_L_ES_040102_02: Proporción de personas entre 20 y 22 años que han completado al menos la segunda etapa de enseñanza secundaria
+_L_ES_040102_1A: Proporción de hombres entre 18 y 20 años que han completado al menos la primera etapa de enseñanza secundaria
+_L_ES_040102_1B: Proporción de mujeres entre 18 y 20 años que han completado al menos la primera etapa de enseñanza secundaria
+_L_ES_040102_2A: Proporción de hombres entre 20 y 22 años que han completado al menos la segunda etapa de enseñanza secundaria
+_L_ES_040102_2B: Proporción de mujeres entre 20 y 22 años que han completado al menos la segunda etapa de enseñanza secundaria
+_L_ES_040301_01: Proporción de personas entre 18 y 64 años que han realizado actividades educativas en los últimos 12 meses
+_L_ES_040301_02: Proporción de personas entre 25 y 64 años que han realizado estudios o formación en las últimas cuatro semanas
+_L_ES_040301_03: Proporción de personas entre 15 y 24 años que han realizado estudios o formación en las últimas cuatro semanas
+_L_ES_040301_04: Proporción de personas entre 15 y 64 años que han realizado estudios o formación en las últimas cuatro semanas
+_L_ES_040501_00: Índice de paridad entre personas con y sin limitaciones por problemas de salud de la población entre 18 y 64 años que ha realizado actividades educativas en los últimos 12 meses
+_L_ES_040501_01: Índice de paridad entre mujeres y hombres de la población entre 18 y 64 años que ha realizado actividades educativas en los últimos 12 meses
+_L_ES_040501_03: Índice de paridad entre personas residentes en municipios de menos de 10.000 habitantes y residentes en municipios de más de 10.000 habitantes de la población entre 15 y 64 años que ha realizado estudios o formación en las últimas cuatro semanas
+_L_ES_040501_04: Índice de paridad entre personas pertenecientes a hogares que se encuentran en el nivel de ingresos inferior y superior de la población entre 18 y 64 años que ha realizado actividades educativas en los últimos 12 meses
+_L_ES_040501_05: Índice de paridad entre mujeres y hombres de la población entre 15 y 64 años que ha realizado estudios o formación en las últimas cuatro semanas
+_L_ES_120601_01: Número de licencias de Etiqueta Ecológica Europea
+_L_ES_120601_02: Número de organizaciones con Sistema comunitario de gestión y auditoría medioambiental
+_L_ES_171301_02: Tasa de variación interanual del PIB real
+_L_ES_171301_09: Tasa de variación interanual del índice de precios de consumo
+_L_ES_171301_18: Deuda bruta de las administraciones públicas autonómicas según el protocolo de déficit excesivo en proporción al PIB
+_L_ES_171301_19: Ingresos fiscales de las administraciones públicas autonómicas en proporción al PIB
+_L_ES_171301_20: Saldo fiscal de las administraciones públicas autonómicas en proporción al PIB
