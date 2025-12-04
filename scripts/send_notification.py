@@ -1,6 +1,7 @@
 import sys
 from edatos.services.notices import NoticesClient, buildNotice
 from edatos.utils.logging import getLogger
+from edatos.services import common_metadata
 
 logger = getLogger("send_notification")
 
@@ -19,8 +20,9 @@ if __name__ == '__main__':
         logger.error(f"Error al leer el archivo '{archivo}': {e}")
         sys.exit(1)
 
-
-    client = NoticesClient('https://estadisticas.arte-consultores.com/notices-internal/apis/notices-internal/v1.0')   
+    config = common_metadata.initialize_properties(config='config_data.yml')
+    notices_rest = config['notices_rest']   
+    client = NoticesClient(f'{notices_rest}/v1.0')   
     notice = buildNotice(contenido)
     
     try:
