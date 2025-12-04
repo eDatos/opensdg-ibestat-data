@@ -8,3 +8,270 @@ _L_ES_020401_4A: Emissions d'amoníac de la ramaderia
 _L_ES_020401_4B: Emissions d'amoníac per hectàrea de la ramaderia
 _L_ES_020C01_01: Índex de preus dels aliments
 _L_ES_020C01_02: Índex de preus del pa i els cereals
+_L_ES_010201_1B: Proporció de persones en risc de pobresa relativa, considerant el llindar autonòmic de pobresa
+_L_ES_010201_2B: Proporció de persones en risc de pobresa relativa amb lloguer imputat, considerant el llindar autonòmic de pobresa
+_L_ES_010201_2A: Proporció de persones en risc de pobresa relativa amb lloguer imputat, considerant el llindar nacional de pobresa
+_L_ES_010201_1A: Proporció de persones en risc de pobresa relativa, considerant el llindar nacional de pobresa
+_L_ES_010202_02: Proporció de persones en situació de carència material i social severa
+_L_ES_010202_03: Proporció de persones que viuen en llars amb baixa intensitat de feina
+_L_ES_010202_1A: 'Proporció de persones en risc de pobresa o exclusió social: indicador AROPE, considerant el llindar nacional de pobresa'
+_L_ES_010202_1B: 'Proporció de persones en risc de pobresa o exclusió social: indicador AROPE, considerant el llindar autonòmic de pobresa'
+_L_ES_010401_01: Proporció d'habitatges principals amb accés a aigua corrent
+_L_ES_010401_03: Proporció d'habitatges principals que disposen de bany o dutxa
+SP_ACS_BSRVSAN: Proporció d'habitatges principals que disposen de quarto de bany amb vàter
+_L_ES_200303_01: Nombre de persones mortes directament atribuït a desastres per cada 100.000 habitants
+_L_ES_200202_01: Indemnitzacions per danys personals, pèrdues pecuniàries i danys a béns pagades i/o provisionades en proporció al PIB
+_L_ES_010A02_01: Proporció de la despesa de les administracions públiques autonòmiques que es dedica a educació
+_L_ES_010A02_02: Proporció de la despesa de les administracions públiques autonòmiques que es dedica a salut
+SH_STA_MORT: Taxa de mortalitat materna
+SH_STA_BRTC: Proporció de parts atesos per personal sanitari especialitzat
+SH_DYN_MORT: Taxa de mortalitat de menors de 5 anys
+SH_DYN_NMRT: Taxa de mortalitat neonatal
+_L_ES_030301_02: Incidència dels nous diagnòstics de VIH en els homes
+_L_ES_030301_03: Incidència dels nous diagnòstics de VIH en les dones
+SH_HIV_INCD: Incidència dels nous diagnòstics de VIH
+_L_ES_030302_02: Incidència de la tuberculosi en els homes
+_L_ES_030302_03: Incidència de la tuberculosi en les dones
+SH_TBS_INCD: Incidència de la tuberculosi
+_L_ES_030303_02: Incidència de la malària en els homes
+_L_ES_030303_03: Incidència de la malària en les dones
+SH_STA_MALR: Incidència de la malària
+_L_ES_030304_01: Incidència de l'hepatitis B
+_L_ES_030304_02: Incidència de l'hepatitis B en els homes
+_L_ES_030304_03: Incidència de l'hepatitis B en les dones
+_L_ES_030401_01: Taxa de mortalitat atribuïda a les malalties cardiovasculars
+_L_ES_030401_02: Taxa de mortalitat atribuïda a les malalties respiratòries cròniques
+_L_ES_030401_03: Taxa de mortalitat atribuïda a la diabetis
+_L_ES_030401_04: Taxa de mortalitat atribuïda al càncer
+SH_STA_SCIDE: Taxa de mortalitat per suïcidi
+_L_ES_030501_01: Nombre d'admissions a tractament per abús o dependència de drogues il·legals per cada 100.000 habitants
+_L_ES_030501_02: Nombre d'admissions a tractament per abús o dependència d'alcohol per cada 100.000 habitants
+_L_ES_030501_1A: Nombre d'admissions a tractament per abús o dependència de drogues il·legals d'homes per cada 100.000 homes
+_L_ES_030501_1B: Nombre d'admissions a tractament per abús o dependència de drogues il·legals de dones per cada 100.000 dones
+_L_ES_030501_2A: Nombre d'admissions a tractament per abús o dependència d'alcohol d'homes per cada 100.000 homes
+_L_ES_030501_2B: Nombre d'admissions a tractament per abús o dependència d'alcohol de dones per cada 100.000 dones
+SH_ALC_CONSPT: Consum anual d'alcohol registrat en litres d'alcohol pur per persona de 15 i més anys
+SH_STA_TRAF: Taxa de mortalitat per lesions degudes a accidents de trànsit
+_L_ES_030701_01: Proporció de dones entre 18 i 49 anys, casades amb un home o amb parella masculina, que cobreixen les seves necessitats de planificació familiar amb mètodes moderns
+_L_ES_030702_01: Taxa de fecunditat de les adolescents d’entre 10 i 14 anys per cada 1.000 dones d’aquest grup d’edat
+SP_DYN_ADKL: Taxa de fecunditat de les adolescents d’entre 15 i 19 anys per cada 1.000 dones d’aquest grup d’edat
+_L_ES_030801_01: Proporció de persones de 16 i més anys amb necessitat insatisfeta d’atenció mèdica
+_L_ES_030801_02: Proporció de persones de 16 i més anys amb estat de salut percebut bo o molt bo
+SH_XPD_EARN10: Proporció de persones que viuen en llars amb grans despeses sanitàries, superiors al 10% de la despesa total de la llar
+SH_STA_POISN: Taxa de mortalitat atribuïda a intoxicacions involuntàries
+_L_ES_030A01_01: Proporció de persones de 15 i més anys que fumen cada dia
+_L_ES_030B01_03: Cobertura de vacunació de record contra pneumococ en la població infantil
+_L_ES_030B01_04: Cobertura de vacunació de segona dosi contra xarampió, rubèola i parotiditis en la població infantil
+_L_ES_030B01_05: Cobertura de vacunació de segona dosi contra papil·loma humà en les adolescents
+SH_ACS_DTP3: Cobertura de vacunació de record contra diftèria, tètanus i tos ferina en la població infantil
+_L_ES_030C01_01: Nombre de persones col·legiades en medicina per cada 10.000 habitants
+_L_ES_030C01_02: Nombre de persones col·legiades en infermeria per cada 10.000 habitants
+_L_ES_030C01_03: Nombre de persones col·legiades en odontologia i estomatologia per cada 10.000 habitants
+_L_ES_030C01_04: Nombre de persones col·legiades en farmàcia per cada 10.000 habitants
+_L_ES_040101_01: Proporció de persones de 15 anys que han aconseguit almenys el nivell 2 de competència en lectura
+_L_ES_040101_02: Proporció d'homes de 15 anys que han aconseguit almenys el nivell 2 de competència en lectura
+_L_ES_040101_03: Proporció de dones de 15 anys que han aconseguit almenys el nivell 2 de competència en lectura
+_L_ES_040101_07: Proporció de persones de 15 anys que han aconseguit almenys el nivell 2 de competència en matemàtiques
+_L_ES_040101_08: Proporció d'homes de 15 anys que han aconseguit almenys el nivell 2 de competència en matemàtiques
+_L_ES_040101_09: Proporció de dones de 15 anys que han aconseguit almenys el nivell 2 de competència en matemàtiques
+_L_ES_040202_01: Taxa neta d'escolarització als 5 anys
+_L_ES_040202_02: Taxa neta d'escolarització dels nins de 5 anys
+_L_ES_040202_03: Taxa neta d'escolarització de les nines de 5 anys
+_L_ES_040401_01: Proporció de persones d’entre 16 i 74 anys que han utilitzat alguna habilitat informàtica
+_L_ES_040401_02: Proporció de persones d’entre 16 i 24 anys que han utilitzat alguna habilitat informàtica
+_L_ES_040401_03: Proporció de persones d’entre 25 i 74 anys que han utilitzat alguna habilitat informàtica
+_L_ES_040601_01: Proporció de persones entre 16 i 65 anys que han aconseguit almenys el nivell 2 de competència en l'escala de comprensió lectora
+_L_ES_040601_02: Proporció d'homes entre 16 i 65 anys que han aconseguit almenys el nivell 2 de competència en l'escala de comprensió lectora
+_L_ES_040601_03: Proporció de dones entre 16 i 65 anys que han aconseguit almenys el nivell 2 de competència en l'escala de comprensió lectora
+_L_ES_040601_04: Proporció de persones entre 16 i 65 anys que han aconseguit almenys el nivell 2 de competència en l'escala de matemàtiques
+_L_ES_040601_05: Proporció d'homes entre 16 i 65 anys que han aconseguit almenys el nivell 2 de competència en l'escala de matemàtiques
+_L_ES_040601_06: Proporció de dones entre 16 i 65 anys que han aconseguit almenys el nivell 2 de competència en l'escala de matemàtiques
+_L_ES_040A01_0C: Alumnat mitjà per ordinador destinat a tasques d'ensenyament i aprenentatge en centres educatius no universitaris
+SE_ACC_HNDWSH: Proporció de centres educatius no universitaris amb accés a instal·lacions bàsiques per a la rentada de mans
+SE_ACS_ELECT: Proporció de centres educatius no universitaris amb accés a electricitat
+SE_ACS_H2O: Proporció de centres educatius no universitaris amb accés a subministrament bàsic d'aigua potable
+SE_ACS_INTNT: Proporció d'aules habituals de classe amb connexió a Internet en centres educatius no universitaris
+SE_ACS_SANIT: Proporció de centres educatius no universitaris amb accés a instal·lacions de sanejament bàsiques separades per sexe
+_L_ES_040C01_01: Proporció del professorat d'educació preescolar que ha rebut almenys la mínima formació docent exigida per a impartir ensenyament a aquest nivell educatiu
+_L_ES_040C01_02: Proporció del professorat d'educació primària que ha rebut almenys la mínima formació docent exigida per a impartir ensenyament a aquest nivell educatiu
+_L_ES_040C01_03: Proporció del professorat d'educació secundària inferior que ha rebut almenys la mínima formació docent exigida per a impartir ensenyament a aquest nivell educatiu
+_L_ES_040C01_04: Proporció del professorat d'educació secundària superior que ha rebut almenys la mínima formació docent exigida per a impartir ensenyament a aquest nivell educatiu
+SG_LGL_GENEQEMP: 'Existència de marcs jurídics per a promoure, reforçar i supervisar la igualtat de gènere: ocupació i subsidis econòmics'
+SG_LGL_GENEQLFP: 'Existència de marcs jurídics per a promoure, reforçar i supervisar la igualtat de gènere: marc legal global i vida pública'
+SG_LGL_GENEQMAR: 'Existència de marcs jurídics per a promoure, reforçar i supervisar la igualtat de gènere: matrimoni i família'
+SG_LGL_GENEQVAW: 'Existència de marcs jurídics per a promoure, reforçar i supervisar la igualtat de gènere: violència contra la dona'
+_L_ES_050301_01: Proporció de dones de 16 i 17 anys que han contret matrimoni amb un home
+_L_ES_050401_01: Temps dedicat a la llar i la família en un dia mitjà
+_L_ES_050401_02: Temps dedicat per les dones a la llar i família en un dia mitjà
+_L_ES_050401_03: Temps dedicat pels homes a la llar i la família en un dia mitjà
+_L_ES_050501_00: Proporció d'escons ocupats per dones en els parlaments autonòmics
+_L_ES_050501_03: Percentatge de conselleries ocupades per dones en els governs autonòmics
+_L_ES_050501_04: Percentatge d'alcaldies ocupades per dones en els governs locals
+_L_ES_050501_05: Percentatge de regidories ocupades per dones en els governs locals
+IC_GEN_MGTL: Proporció de dones en càrrecs directius
+_L_ES_050502_02: Proporció de dones en alta direcció
+_L_ES_050502_04: Proporció de dones empresàries
+_L_ES_050A1A_01: Proporció de titulars d’explotacions agrícoles, respecte al total de persones treballadores en l’agricultura
+_L_ES_050A1A_02: Proporció d’homes titulars d’explotacions agrícoles, respecte al total d’homes treballadors en l’agricultura
+_L_ES_050A1A_03: Proporció de dones titulars d’explotacions agrícoles respecte al total de dones treballadores en l’agricultura
+_L_ES_050A1B_01: Proporció de dones titulars d’explotacions agrícoles, respecte al total de titulars d’explotacions agrícoles
+_L_ES_050A1B_02: Proporció de dones titulars d’explotacions agrícoles en propietat, respecte al total de titulars d’explotacions agrícoles en propietat
+_L_ES_050A1B_03: Proporció de dones titulars d’explotacions agrícoles en arrendament, respecte al total de titulars d’explotacions agrícoles en arrendament
+SG_LGL_LNDFEMOD: Grau en què el marc jurídic garanteix la igualtat de drets de la dona a la propietat o el control de terres
+_L_ES_050B01_01: Proporció de persones d'entre 16 i 74 anys que utilitzen el telèfon mòbil
+_L_ES_050B01_02: Proporció de dones d’entre 16 i 74 anys que utilitzen el telèfon mòbil
+_L_ES_050B01_03: Proporció d’homes d’entre 16 i 74 anys que utilitzen el telèfon mòbil
+_L_ES_060101_01: Proporció de persones que reben subministrament d'aigua amb cobertura del Sistema Nacional d'Aigües de Consum
+_L_ES_060B01_01: Proporció de dependències administratives locals que han establert polítiques i procediments operacionals per a la participació de les comunitats locals en la gestió i el sanejament d'aigües de consum
+_L_ES_060B01_02: Proporció de dependències administratives locals que han establert polítiques i procediments operacionals per a la participació de les comunitats locals en la gestió d'aigües de bany
+_L_ES_070201_00: Proporció d'energies renovables en la producció d'energia elèctrica
+_L_ES_070301_00: Consum d'energia elèctrica per unitat de PIB
+NY_GDP_PCAP: Taxa de creixement anual del PIB real per capita
+_L_ES_080201_1B: Taxa de creixement anual del PIB real per hora treballada
+SL_EMP_PCAP: Taxa de creixement anual del PIB real per persona ocupada
+_L_ES_080501_01: Ingrés mitjà per hora de treball de les persones amb discapacitat
+_L_ES_080501_02: Ingrés mitjà per hora de treball de les dones
+_L_ES_080501_03: Ingrés mitjà per hora de treball dels homes
+_L_ES_080501_04: Ingrés mitjà per hora de treball de les persones sense discapacitat
+SL_EMP_EARN: Ingrés mitjà per hora de treball
+_L_ES_080502_01: Taxa d'atur de les persones entre 16 i 64 anys amb discapacitat
+_L_ES_080502_02: Taxa de desocupació dels homes
+_L_ES_080502_03: Taxa de desocupació de les dones
+_L_ES_080502_04: Taxa d'atur de les persones entre 16 i 64 anys sense discapacitat
+_L_ES_080502_05: Taxa d'atur de les persones entre 16 i 64
+SL_TLF_UEM: Taxa d’atur
+_L_ES_080601_01: Proporció de joves d’entre 15 i 24 anys que no cursen estudis, no tenen feina ni reben formació
+_L_ES_080901_05: Proporció de persones ocupades en el sector cultural sobre el total de persones ocupades
+_L_ES_080901_06: Proporció d'homes ocupats en el sector cultural sobre el total d'homes ocupats
+_L_ES_080901_07: Proporció de dones ocupades en el sector cultural sobre el total de dones ocupades
+_L_ES_080901_3A: Pernoctacions de turistes per habitant
+_L_ES_080901_3B: Pernoctacions de turistes no residents per habitant
+_L_ES_080901_3C: Proporció de la despesa en viatges culturals sobre la despesa en viatges per oci, esbarjo i vacances
+_L_ES_080901_3D: Proporció de la despesa en viatges culturals sobre la despesa en viatges
+_L_ES_080901_4A: Proporció de pernoctacions de turistes en els dos mesos de màxima ocupació sobre el total de pernoctacions de turistes
+_L_ES_080901_4B: Proporció de pernoctacions de turistes no residents en els dos mesos de màxima ocupació sobre el total de pernoctacions de turistes no residents
+FB_CBK_BRCH: Nombre de sucursals de bancs comercials per cada 100.000 habitants de 15 i més anys
+_L_ES_081002_01: Proporció de persones entre 18 i 79 anys que tenen un compte corrent
+_L_ES_080B01_6A: Despesa de les administracions públiques autonòmiques en foment de l'ocupació
+_L_ES_080B01_6B: Proporció de la despesa de les administracions públiques autonòmiques en foment de l'ocupació
+NV_IND_MANF: Valor afegit del sector manufacturer en proporció al PIB
+NV_IND_MANFPC: Valor afegit del sector manufacturer per capita
+_L_ES_090202_01: Proporció de persones ocupades en el sector manufacturer
+_L_ES_090202_2B: Ocupació del sector manufacturer en proporció a l’ocupació total (hores treballades)
+SL_TLF_MANF: Ocupació del sector manufacturer en proporció a l’ocupació total (persones ocupades)
+NV_IND_SSIS: Proporció del valor afegit total del sector manufacturer corresponent a les petites empreses
+EN_ATM_CO2GDP: Emissions de CO2 de les unitats residents per unitat de PIB
+EN_ATM_CO2MVA: Emissions de CO2 de les unitats residents per unitat de valor afegit del sector manufacturer
+_L_ES_090401_03: Emissions de PM2,5 per unitat de valor afegit del sector manufacturer
+_L_ES_090401_04: Emissions de PM10 per unitat de valor afegit del sector manufacturer
+_L_ES_090401_05: Emissions de CO2 respecte a l'any 1990
+_L_ES_090401_06: Emissions de CO₂ respecte a l'any 2005
+GB_XPD_RSDV: Despeses en recerca i desenvolupament en proporció al PIB
+GB_POP_SCIERD: Nombre de persones investigadores en equivalència a jornada completa per cada milió d’habitants
+NV_IND_TECH: Proporció del valor afegit total del sector manufacturer corresponent a les activitats de mitjana-alta i alta tecnologia
+IT_MOB_4GNTWK: Proporció de llars cobertes amb xarxes mòbils 4G
+_L_ES_090C01_01: Proporció de llars cobertes amb xarxes mòbils 3,5G
+_L_ES_100101_01: Taxa de creixement per capita dels ingressos de les llars del 40 % més pobre de la població
+_L_ES_100101_02: Taxa de creixement per capita de les despeses de les llars de la població total
+_L_ES_100101_03: Taxa de creixement per capita de les despeses de les llars del 40 % més pobre de la població
+_L_ES_100101_04: Taxa de creixement per capita dels ingressos de les llars de la població total
+SI_POV_50MI: Proporció de persones que viuen per sota del 50 % de la mediana dels ingressos, considerant la mediana nacional
+_L_ES_100201_1B: Proporció de persones que viuen per sota del 50 % de la mediana dels ingressos, considerant la mediana autonòmica
+SL_EMP_GTOTL: Proporció del PIB generada pel treball assalariat
+SM_POP_REFG_OR: Nombre de persones refugiades per cada 100.000 habitants
+_L_ES_110101_01: Proporció de persones que viuen en llars amb determinades deficiències en l’habitatge
+_L_ES_110101_03: Proporció de persones que en el seu habitatge pateixen problemes de sorolls procedents del veïnat o de l'exterior
+SG_URB_CSPART: Proporció de ciutats que compten amb una estructura de participació directa de la societat civil en la planificació i la gestió urbana que funcioni amb regularitat i democràticament
+_L_ES_110401_01: Despesa per capita de les administracions públiques autonòmiques i locals en la preservació, protecció i conservació del patrimoni cultural
+_L_ES_110401_03: Despesa per capita de les administracions públiques autonòmiques en la preservació, protecció i conservació del patrimoni cultural
+_L_ES_110401_04: Despesa per capita de les administracions públiques locals en la preservació, protecció i conservació del patrimoni cultural
+_L_ES_110601_01: Residus urbans recollits per capita
+_L_ES_110601_02: Proporció de residus municipals incinerats en relació amb el total de residus municipals generats i tractats
+_L_ES_110601_03: Proporció de residus municipals abocats en relació amb el total de residus municipals generats i tractats
+_L_ES_200201_01: Proporció de residus municipals reciclats en relació amb el total de residus municipals generats i tractats
+EN_ATM_PM25: Nivell mitjà de PM2,5 a les ciutats ponderat segons la població
+_L_ES_110602_01: Nivell mitjà de PM10 a les ciutats ponderat segons la població
+_L_ES_110A01_01: Proporció de la població resident en municipis que disposen de pla general o normes subsidiàries de planejament urbanístic
+_L_ES_120101_01: S'elabora, adopta o aplica instruments de política destinats a donar suport a la transició cap a modalitats de consum i producció sostenibles
+_L_ES_130202_01: Emissions totals de gasos amb efecte hivernacle de les unitats residents per unitat de PIB
+_L_ES_130202_02: Emissions totals de gasos amb efecte hivernacle de les unitats residents per capita
+_L_ES_130202_03: Emissions de gasos d'efecte d'hivernacle respecte a l'any 1990
+_L_ES_130202_04: Emissions de gasos d'efecte d'hivernacle respecte a l'any 2005
+AG_LND_FRST: Superfície de bosc en proporció a la superfície total
+_L_ES_150201_01: Superfície forestal amb instruments de gestió sostenible vigents
+_L_ES_150201_02: Proporció de la superfície forestal amb instruments de gestió sostenible vigents
+_L_ES_150801_01: Es disposa de legislació pertinent i es destinen recursos per a la prevenció o el control de les espècies exòtiques invasores
+_L_ES_160104_02: Proporció de persones que viuen en una zona amb problemes de delinqüència o vandalisme
+VC_SNS_WALN: Proporció de persones de 16 anys i més que se senten segures en caminar soles a la seva zona de residència
+VC_HTF_DETV: Nombre de víctimes detectades de tràfic de persones per cada 100.000 habitants
+VC_HTF_DETVFL: Nombre de víctimes detectades de tràfic de persones per a explotació laboral per cada 100.000 habitants
+VC_HTF_DETVOG: Nombre de víctimes detectades de tràfic de persones per a l'obtenció d'òrgans per cada 100.000 habitants
+VC_HTF_DETVOP: Nombre de víctimes detectades de tràfic de persones per a altres fins (matrimonis forçats, criminalitat forçada o mendicitat) per cada 100.000 habitants
+VC_HTF_DETVSX: Nombre de víctimes detectades de tràfic de persones per a explotació sexual per cada 100.000 habitants
+VC_PRS_UNSNT: Proporció de persones detingudes que no han estat condemnades respecte al total de persones recluses
+_L_ES_160601_1A: Despesa liquidada en proporció a la despesa inicial dels pressuposts de les administracions públiques autonòmiques
+_L_ES_160601_1B: Despesa liquidada en proporció a la despesa inicial dels pressuposts de les administracions públiques locals
+_L_ES_160602_1A: Proporció de la població que se sent satisfeta amb el funcionament dels serveis públics en matèria d'ensenyament
+_L_ES_160602_1C: Proporció de la població que se sent satisfeta amb el funcionament dels serveis públics en matèria de gestió de pensions
+_L_ES_160602_1D: Proporció de la població que se sent satisfeta amb el funcionament dels serveis públics en matèria d'administració de justícia
+_L_ES_160602_1E: Proporció de la població que se sent satisfeta amb el funcionament dels serveis públics en matèria de seguretat ciutadana
+_L_ES_160602_1F: Proporció de la població que se sent satisfeta amb el funcionament dels serveis públics en matèria de serveis socials
+_L_ES_160602_1G: Proporció de la població que se sent satisfeta amb el funcionament dels serveis públics en matèria de transport públic
+_L_ES_160602_1H: Proporció de la població que se sent satisfeta amb el funcionament dels serveis públics en matèria d'obres públiques
+_L_ES_160602_1I: Proporció de la població que se sent satisfeta amb el funcionament dels serveis públics en matèria d'ajuda a persones dependents
+SP_PSR_SATIS: Proporció de la població que se sent satisfeta amb el funcionament dels serveis públics
+SP_PSR_SATIS_HLTH: Proporció de la població que se sent satisfeta amb el funcionament dels serveis públics en matèria d'assistència sanitària
+_L_ES_160701_01: Ràtio de la proporció de dones en el sector públic respecte a la proporció de dones en la població entre 16 i 64 anys
+_L_ES_160701_02: Ràtio de la proporció de dones en el sector públic estatal respecte a la proporció de dones en la població entre 16 i 64 anys
+_L_ES_160701_03: Ràtio de la proporció de dones en les Forces i Cossos de Seguretat de l'Estat respecte a la proporció de dones en la població entre 16 i 64 anys
+_L_ES_160701_04: Ràtio de la proporció de dones en les Forces Armades respecte a la proporció de dones en la població entre 16 i 64 anys
+_L_ES_160701_05: Ràtio de la proporció de dones en l'Administració de Justícia de l'Estat respecte a la proporció de dones en la població entre 16 i 64 anys
+_L_ES_160701_06: Ràtio de la proporció de dones en el sector públic autonòmic respecte a la proporció de dones en la població entre 16 i 64 anys
+_L_ES_160701_09: Ràtio de la proporció de dones en els centres educatius no universitaris autonòmics respecte a la proporció de dones en la població entre 16 i 64 anys
+_L_ES_160701_10: Ràtio de la proporció de dones en les institucions sanitàries autonòmiques respecte a la proporció de dones en la població entre 16 i 64 anys
+_L_ES_160701_11: Ràtio de la proporció de dones en les universitats respecte a la proporció de dones en la població entre 16 i 64 anys
+_L_ES_160701_12: Ràtio de la proporció de dones en el sector públic local respecte a la proporció de dones en la població entre 16 i 64 anys
+_L_ES_160701_13: Ràtio de la proporció de dones als ajuntaments respecte a la proporció de dones en la població entre 16 i 64 anys
+_L_ES_160701_14: Ràtio de la proporció de dones en les diputacions, cabildos i consells insulars respecte a la proporció de dones en la població entre 16 i 64 anys
+SG_REG_BRTH: Proporció de menors de 5 anys el naixement dels quals s'ha registrat davant una autoritat civil
+_L_ES_170101_01: Total d'ingressos de les administracions públiques autonòmiques i locals en proporció al PIB
+_L_ES_170102_01: Proporció dels ingressos no financers de les administracions públiques autonòmiques i locals provinents d'impostos
+_L_ES_170102_02: Proporció dels ingressos de les administracions públiques autonòmiques i locals provinents d'impostos
+_L_ES_170301_1A: Inversió directa neta als països receptors d'Ajuda Oficial al Desenvolupament
+_L_ES_170301_1B: Ajuda Oficial al Desenvolupament neta de les administracions públiques autonòmiques i locals
+_L_ES_170301_2A: Inversió directa neta als països receptors d'Ajuda Oficial al Desenvolupament en proporció al PIB
+_L_ES_170301_2B: Ajuda Oficial al Desenvolupament neta de les administracions públiques autonòmiques i locals en proporció al PIB
+_L_ES_170302_01: Volum de remeses enviades a l'estranger en proporció al PIB
+_L_ES_170302_02: Volum de remeses enviades a l'estranger
+IT_NET_BBNDN: Nombre de línies de banda ampla fixa per cada 100 habitants
+_L_ES_170601_02: Nombre de línies de banda ampla fixa amb tecnologia d'accés DSL per cada 100 habitants
+_L_ES_170601_03: Nombre de línies de banda ampla fixa amb tecnologia d'accés HFC per cada 100 habitants
+_L_ES_170601_04: Nombre de línies de banda ampla fixa amb tecnologia d'accés FTTH per cada 100 habitants
+_L_ES_170601_05: Nombre de línies de banda ampla fixa amb una altra tecnologia d'accés per cada 100 habitants
+_L_ES_170801_01: Proporció de persones d'entre 16 i 74 anys que han utilitzat Internet en els últims tres mesos
+_L_ES_171802_01: La legislació sobre estadístiques compleix els Principis Fonamentals de les Estadístiques Oficials
+_L_ES_171803_01: Es disposa d'un pla estadístic autonòmic plenament finançat i en fase d'aplicació
+_L_ES_17192A_01: S'ha realitzat almenys un cens de població i habitatge en els últims deu anys
+_L_ES_17192B_01: S'ha registrat el 100% dels naixements i almenys el 80% de les defuncions
+_L_ES_040102_01: Proporció de persones entre 18 i 20 anys que han completat almenys la primera etapa d'ensenyament secundari
+_L_ES_040102_02: Proporció de persones entre 20 i 22 anys que han completat almenys la segona etapa d'ensenyament secundari
+_L_ES_040102_1A: Proporció d'homes entre 18 i 20 anys que han completat almenys la primera etapa d'ensenyament secundari
+_L_ES_040102_1B: Proporció de dones entre 18 i 20 anys que han completat almenys la primera etapa d'ensenyament secundari
+_L_ES_040102_2A: Proporció d'homes entre 20 i 22 anys que han completat almenys la segona etapa d'ensenyament secundari
+_L_ES_040102_2B: Proporció de dones entre 20 i 22 anys que han completat almenys la segona etapa d'ensenyament secundari
+_L_ES_040301_01: Proporció de persones d’entre 18 i 64 anys que han realitzat activitats educatives en els últims 12 mesos
+_L_ES_040301_02: Proporció de persones d’entre 25 i 64 anys que han realitzat estudis o formació en les últimes quatre setmanes
+_L_ES_040301_03: Proporció de persones d’entre 15 i 24 anys que han realitzat estudis o formació en les últimes quatre setmanes
+_L_ES_040301_04: Proporció de persones d’entre 15 i 64 anys que han realitzat estudis o formació en les últimes quatre setmanes
+_L_ES_040501_00: Índex de paritat entre persones amb i sense limitacions per problemes de salut de la població d’entre 18 i 64 anys que han realitzat activitats educatives en els últims 12 mesos
+_L_ES_040501_01: Índex de paritat entre dones i homes de la població d’entre 18 i 64 anys que han realitzat activitats educatives en els últims 12 mesos
+_L_ES_040501_03: Índex de paritat entre persones residents en municipis de menys de 10.000 habitants i residents en municipis de més de 10.000 habitants de la població d’entre 15 i 64 anys que ha realitzat estudis o formació en les últimes quatre setmanes
+_L_ES_040501_04: Índex de paritat entre persones que pertanyen a llars que es troben en el nivell d’ingressos inferior i superior de la població d’entre 18 i 64 anys que han realitzat activitats educatives en els últims 12 mesos
+_L_ES_040501_05: Índex de paritat entre dones i homes de la població d’entre 15 i 64 anys que han realitzat estudis o formació en les últimes quatre setmanes
+_L_ES_120601_01: Nombre de llicències d'Etiqueta Ecològica Europea
+_L_ES_120601_02: Nombre d'organitzacions amb Sistema comunitari de gestió i auditoria mediambiental
+_L_ES_171301_02: Taxa de variació interanual del PIB real
+_L_ES_171301_09: Taxa de variació interanual de l'índex de preus de consum
+_L_ES_171301_18: Deute brut de les administracions públiques autonòmiques segons el protocol de dèficit excessiu en proporció al PIB
+_L_ES_171301_19: Ingressos fiscals de les administracions públiques autonòmiques en proporció al PIB
+_L_ES_171301_20: Saldo fiscal de les administracions públiques autonòmiques en proporció al PIB

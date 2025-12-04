@@ -89,7 +89,7 @@
 3-1-2-graph-title: "Proporción de partos atendidos por personal sanitario especializado"
 3-1-2-title: "Proporción de partos atendidos por personal sanitario especializado"
 3-2-1-definition:
-3-2-1-graph-title: "Tasa de mortalidad de menores de 5 años"
+3-2-1-graph-title: "Tasa de mortalidad de menores de 5 años"
 3-2-1-title: "Tasa de mortalidad de niños menores de 5 años"
 3-2-2-definition:
 3-2-2-graph-title: "Tasa de mortalidad neonatal"
@@ -116,8 +116,8 @@
 3-4-2-graph-title: "Tasa de mortalidad por suicidio"
 3-4-2-title: "Tasa de mortalidad por suicidio"
 3-5-1-definition:
-3-5-1-graph-title: "Número de admisiones a tratamiento por  abuso o dependencia de sustancias adictivas según tipo de sustancia y sexo"
-3-5-1-title: "Cobertura de los tratamientos(farmacológicos y psicosociales y servicios de rehabilitación y postratamiento) de trastornos por abuso de sustancias adictivas"
+3-5-1-graph-title: "Número de admisiones a tratamiento por abuso o dependencia de sustancias adictivas según tipo de sustancia y sexo"
+3-5-1-title: "Cobertura de los tratamientos (farmacológicos y psicosociales y servicios de rehabilitación y postratamiento) de trastornos por abuso de sustancias adictivas"
 3-5-2-definition:
 3-5-2-graph-title: "Consumo anual de alcohol registrado en litros de alcohol puro por persona de 15 y más años"
 3-5-2-title: "Consumo de alcohol per cápita (a partir de los 15 años de edad) durante un año civil en litros de alcohol puro"
@@ -677,7 +677,7 @@
 16-b-1-graph-title:
 16-b-1-title: "Proporción de la población que declara haberse sentido personalmente discriminada o acosada en los últimos 12 meses por motivos de discriminación prohibidos por el derecho internacional de los derechos humanos"
 17-1-1-definition:
-17-1-1-graph-title: "Total de ingresos de las Administraciones Públicas Autonómicas y Locales en proporción al PIB "
+17-1-1-graph-title: "Total de ingresos de las Administraciones Públicas Autonómicas y Locales en proporción al PIB"
 17-1-1-title: "Total de ingresos del gobierno en proporción al PIB, desglosado por fuente"
 17-1-2-definition:
 17-1-2-graph-title: "Proporción de los ingresos y de los ingresos no financieros de las administraciones públicas autonómicas y locales provenientes de impuestos"
@@ -746,7 +746,7 @@
 17-19-1-graph-title:
 17-19-1-title: "Valor en dólares de todos los recursos proporcionados para fortalecer la capacidad estadística de los países en desarrollo"
 17-19-2a-definition:
-17-19-2a-graph-title: "Se ha realizado al menos un censo de población y vivienda en los últimos diez años  (1=Sí; 0=No)"
+17-19-2a-graph-title: "Se ha realizado al menos un censo de población y vivienda en los últimos diez años (1=Sí; 0=No)"
 17-19-2a-title: "Proporción de países que han realizado al menos un censo de población y vivienda en los últimos diez años"
 17-19-2b-definition:
 17-19-2b-graph-title: "Se ha registrado el 100% de los nacimientos y al menos el 80% de las defunciones"

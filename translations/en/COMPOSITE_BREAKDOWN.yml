@@ -1,0 +1,50 @@
+_L_MI_NUTS2: Median income. NUTS 2 regions
+_L_MI_COUNTRY: Median income. National
+_T: Not disaggregated by this variable
+_L_BSRV_H2O: Basic services. Running water
+_L_BSRV_BATH: Basic amenities. Bathroom/shower
+_L_BSRV_SAN: Basic services. Cleaning
+NCD_CARDIO: Non-communicable diseases. Cardiovascular diseases
+NCD_CRESPD: Non-communicable diseases. Chronic respiratory diseases
+NCD_DIABTS: Non-communicable disease. Diabetes
+NCD_CNCR: Non-communicable disease. Cancer
+_L_SUD_ILLEGAL_DRUGS: 'Addictive substance: Illegal drugs'
+SUD_ALCOHOL: 'Substance use disorder: Alcohol'
+SKILL_READ: 'Skill: Reading'
+SKILL_MATH: Mathematical ability
+_L_TTNR_OWN: Type of ownership. Property
+_L_TTNR_LEASE: 'Type of tenancy: Leasehold'
+_L_WME_HOURS: Method of measuring employment. Hours worked
+_L_WME_EMPLOYEES: Method of measuring employment. Employed persons
+_L_AB_GDP: Accounting balance. GDP
+_L_AB_MVA: Accounting balance. Added value of the manufacturing sector
+_L_ES_LG_AUTONOMOUS_LOCAL: 'Level of government: Regional and local public administrations'
+_L_ES_LG_AUTONOMOUS: 'Level of government: Autonomous public administrations'
+_L_ES_LG_LOCAL: 'Level of government: Local public administrations'
+_L_SERVICE_01: 'Service: Teaching'
+_L_SERVICE_03: 'Service: Pension management'
+_L_SERVICE_04: 'Service: Administration of Justice'
+_L_SERVICE_05: 'Service: Citizen security'
+_L_SERVICE_06: 'Service: Social services'
+_L_SERVICE_07: 'Service: Public transport'
+_L_SERVICE_08: 'Service: Public works'
+_L_SERVICE_09: 'Service: Help for dependent people'
+_L_SERVICE_T: 'Service: Total'
+_L_SERVICE_02: 'Service: Health care'
+_L_INSTITUTION_01: 'Institution: Public sector'
+_L_INSTITUTION_02: 'Institution: State public sector'
+_L_INSTITUTION_03: 'Institution: State Security Forces and Corps'
+_L_INSTITUTION_04: 'Institution: Armed Forces'
+_L_INSTITUTION_05: 'Institution: State Administration of Justice'
+_L_INSTITUTION_06: 'Institution: Autonomous public sector'
+_L_INSTITUTION_09: 'Institution: Autonomous non-university educational centers'
+_L_INSTITUTION_10: 'Institution: Autonomous health institutions'
+_L_INSTITUTION_14: 'Institution: Universities'
+_L_INSTITUTION_11: 'Institution: Local public sector'
+_L_INSTITUTION_12: 'Institution: City Councils'
+_L_INSTITUTION_13: 'Institution: Provincial Councils, Cabildos and Island Councils'
+_L_ACCESS_TECH_T: 'Access technology: Total'
+_L_ACCESS_TECH_DSL: 'Access technology: DSL'
+_L_ACCESS_TECH_HFC: 'Access technology: HFC'
+_L_ACCESS_TECH_FTTH: 'Access technology: FTTH'
+_L_ACCESS_TECH_O: 'Access technology: Other technology'
