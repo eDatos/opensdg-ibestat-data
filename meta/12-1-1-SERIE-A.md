@@ -1,10 +1,9 @@
 ---
-
+# Generated file, don't modify directly.
 # Info genérica
-target_id: '12.1.1'
+target_id: 12.1.1
 reporting_status: complete
 data_non_statistical: false
-indicator_sort_order: 12-01-01-aa
 national_geographical_coverage: nuts.ES53
 
 # Info de Subindicador
@@ -14,22 +13,21 @@ meta_global: global_targets.12-1-title
 objetivo_global: global_goals.12-title
 definicion: subindicator.12-1-1-SERIE-A-definicion
 
+# Fórmula teórica escrita en formato MathJax
 formula_teorica: FORMULA_TEORICA.12-1-1-SERIE-A-formula-teorica
 unidad_medida: OCECAS_UNIDAD_MEDIDA.BOOL_YES_NO
-fuentes_informacion: FUENTES_INFORMACION.12-1-1-SERIE-A-fuentes-informacion
-periodicidad: "FREQ.A"
-observaciones: OBSERVACIONES.12-1-1-SERIE-A-observaciones
+fuentes_informacion: ''
+periodicidad: FREQ.A
+observaciones: ''
 
 # Info de Gráficas
-graph_title: subindicator.12-1-1-SERIE-A-graph-title
+graph_title: subindicator.12-1-1-SERIE-A-nombre
 graph_type: bar
 
-# Info de navegación
-sort_order: 1
-tab_name:
+# Info para las tabs
+sort_order: A
+tab_name: SERIE.SERIE_A
 
-#Coordinación con OCECAS
+# Coordinación con OCECAS
 coordinado_con_ocecas: true
-
 ---
-

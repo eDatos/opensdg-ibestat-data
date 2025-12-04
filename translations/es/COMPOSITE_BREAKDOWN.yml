@@ -1,0 +1,50 @@
+_L_MI_NUTS2: Mediana de ingresos. Regiones NUTS 2
+_L_MI_COUNTRY: Mediana de ingresos. Nacional
+_T: No desagregado por esta variable
+_L_BSRV_H2O: Servicios básicos. Agua corriente
+_L_BSRV_BATH: Servicios básicos. Baño/ducha
+_L_BSRV_SAN: Servicios básicos. Aseo
+NCD_CARDIO: Enfermedad no transmisible. Enfermedades cardiovasculares
+NCD_CRESPD: Enfermedad no transmisible. Enfermedades respiratorias crónicas
+NCD_DIABTS: Enfermedad no transmisible. Diabetes
+NCD_CNCR: Enfermedad no transmisible. Cáncer
+_L_SUD_ILLEGAL_DRUGS: 'Sustancia adictiva: Drogas ilegales'
+SUD_ALCOHOL: 'Sustancia adictiva: Alcohol'
+SKILL_READ: Habilidad lectora
+SKILL_MATH: Habilidad matemática
+_L_TTNR_OWN: Tipo de tenencia. Propiedad
+_L_TTNR_LEASE: Tipo de tenencia. Arrendamiento
+_L_WME_HOURS: Forma de medir el empleo. Horas trabajadas
+_L_WME_EMPLOYEES: Forma de medir el empleo. Personas empleadas
+_L_AB_GDP: Saldo contable. PIB
+_L_AB_MVA: Saldo contable. Valor añadido del sector manufacturero
+_L_ES_LG_AUTONOMOUS_LOCAL: 'Nivel de gobierno: Administraciones públicas autonómicas y locales'
+_L_ES_LG_AUTONOMOUS: 'Nivel de gobierno: Administraciones públicas autonómicas'
+_L_ES_LG_LOCAL: 'Nivel de gobierno: Administraciones públicas locales'
+_L_SERVICE_01: 'Servicio: Enseñanza'
+_L_SERVICE_03: 'Servicio: Gestión de pensiones'
+_L_SERVICE_04: 'Servicio: Administración de justicia'
+_L_SERVICE_05: 'Servicio: Seguridad ciudadana'
+_L_SERVICE_06: 'Servicio: Servicios sociales'
+_L_SERVICE_07: 'Servicio: Transporte público'
+_L_SERVICE_08: 'Servicio: Obras públicas'
+_L_SERVICE_09: 'Servicio: Ayuda a personas dependientes'
+_L_SERVICE_T: Servicio:Total
+_L_SERVICE_02: 'Servicio: Asistencia sanitaria'
+_L_INSTITUTION_01: 'Institución: Sector público'
+_L_INSTITUTION_02: 'Institución: Sector público estatal'
+_L_INSTITUTION_03: 'Institución: Fuerzas y Cuerpos de Seguridad del Estado'
+_L_INSTITUTION_04: 'Institución: Fuerzas Armadas'
+_L_INSTITUTION_05: 'Institución: Administración de Justicia del Estado'
+_L_INSTITUTION_06: 'Institución: Sector público autonómico'
+_L_INSTITUTION_09: 'Institución: Centros educativos no universitarios autonómicos'
+_L_INSTITUTION_10: 'Institución: Instituciones sanitarias autonómicas'
+_L_INSTITUTION_14: 'Institución: Universidades'
+_L_INSTITUTION_11: 'Institución: Sector público local'
+_L_INSTITUTION_12: 'Institución: Ayuntamientos'
+_L_INSTITUTION_13: 'Institución: Diputaciones, Cabildos y Consejos insulares'
+_L_ACCESS_TECH_T: 'Teconología de acceso: Total'
+_L_ACCESS_TECH_DSL: 'Teconolgía de acceso: DSL'
+_L_ACCESS_TECH_HFC: 'Teconolgía de acceso: HFC'
+_L_ACCESS_TECH_FTTH: 'Teconolgía de acceso: FTTH'
+_L_ACCESS_TECH_O: 'Teconolgía de acceso: Otra tecnología'

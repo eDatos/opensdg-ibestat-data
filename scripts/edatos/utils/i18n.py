@@ -2,8 +2,11 @@ import os
 import shutil
 from edatos.utils import html
 from edatos.utils.yaml import yaml
+from edatos.utils.logging import getLogger
 
 base_dir = 'translations'
+
+logger = getLogger('i18n')
 
 # Sample international string
 # 'text': [
@@ -64,11 +67,11 @@ def update_translation_files(translations):
 
 def update_translations(translations, key, international_string):
     if not international_string or 'text' not in international_string:
-        print(f"WARNING: international_string is empty for key '{key}'")
+        logger.warning(f"international_string is empty for key '{key}'")
     else:
         for localized_string in international_string['text']:
             if localized_string['lang'] not in translations:
                 translations[localized_string['lang']] = {}
         
-            translations[localized_string['lang']][key] = html.remove_tags(localized_string['value'])
+            translations[localized_string['lang']][key] = html.remove_tags(localized_string['value']).removeprefix('<br>').removesuffix('<br>').strip()
     return key

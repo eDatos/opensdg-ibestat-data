@@ -1,11 +1,10 @@
 ---
-
+# Generated file, don't modify directly.
 # Info genérica
-target_id: '17.1.2'
+target_id: 17.1.2
 reporting_status: complete
 data_non_statistical: false
-indicator_sort_order: 17-01-02-bb
-national_geographical_coverage: Canarias
+national_geographical_coverage: nuts.ES53
 
 # Info de Subindicador
 nombre: subindicator.17-1-2-SERIE-B-nombre
@@ -14,21 +13,21 @@ meta_global: global_targets.17-1-title
 objetivo_global: global_goals.17-title
 definicion: subindicator.17-1-2-SERIE-B-definicion
 
+# Fórmula teórica escrita en formato MathJax
 formula_teorica: FORMULA_TEORICA.17-1-2-SERIE-B-formula-teorica
 unidad_medida: OCECAS_UNIDAD_MEDIDA.PT
-fuentes_informacion: FUENTES_INFORMACION.17-1-2-SERIE-B-fuentes-informacion
-periodicidad: "FREQ.A"
-observaciones: OBSERVACIONES.17-1-2-SERIE-B-observaciones
+fuentes_informacion: SOURCE_DETAIL.17-1-2-SERIE-B-fuentes-informacion
+periodicidad: FREQ.A
+observaciones: COMMENT_TS.17-1-2-SERIE-B-observaciones
 
 # Info de Gráficas
-graph_title: subindicator.17-1-2-SERIE-B-graph-title
+graph_title: subindicator.17-1-2-SERIE-B-nombre
 graph_type: bar
 
-# Info de navegación
-sort_order: 2
+# Info para las tabs
+sort_order: B
 tab_name: SERIE.SERIE_B
 
-#Coordinación con OCECAS
+# Coordinación con OCECAS
 coordinado_con_ocecas: true
-
 ---

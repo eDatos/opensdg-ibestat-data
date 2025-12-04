@@ -11,7 +11,7 @@
 1-3-1-graph-title:
 1-3-1-title: "Proporción de la población cubierta por sistemas o niveles mínimos de protección social, desglosada por sexo, distinguiendo entre los niños, los desempleados, los ancianos, las personas con discapacidad, las mujeres embarazadas, los recién nacidos, las víctimas de accidentes de trabajo, los pobres y los vulnerables"
 1-4-1-definition:
-1-4-1-graph-title: "Proporción de la población que vive en hogares con acceso a los servicios básicos"
+1-4-1-graph-title: "Proporción de la población que vive en hogares con acceso a los servicios básicos"
 1-4-1-title: "Proporción de la población que vive en hogares con acceso a los servicios básicos"
 1-4-2-definition:
 1-4-2-graph-title:
@@ -89,7 +89,7 @@
 3-1-2-graph-title: "Proporción de partos atendidos por personal sanitario especializado"
 3-1-2-title: "Proporción de partos atendidos por personal sanitario especializado"
 3-2-1-definition:
-3-2-1-graph-title: "Tasa de mortalidad de menores de 5 años"
+3-2-1-graph-title: "Tasa de mortalidad de menores de 5 años"
 3-2-1-title: "Tasa de mortalidad de niños menores de 5 años"
 3-2-2-definition:
 3-2-2-graph-title: "Tasa de mortalidad neonatal"
@@ -110,14 +110,14 @@
 3-3-5-graph-title:
 3-3-5-title: "Número de personas que requieren intervenciones contra enfermedades tropicales desatendidas"
 3-4-1-definition:
-3-4-1-graph-title: "Tasa de mortalidad atribuida a las enfermedades cardiovasculares, el cáncer, la diabetes o las enfermedades respiratorias crónicas"
+3-4-1-graph-title: "Tasa de mortalidad atribuida a las enfermedades cardiovasculares, el cáncer, la diabetes o las enfermedades respiratorias crónicas"
 3-4-1-title: "Tasa de mortalidad atribuida a las enfermedades cardiovasculares, el cáncer, la diabetes o las enfermedades respiratorias crónicas"
 3-4-2-definition:
 3-4-2-graph-title: "Tasa de mortalidad por suicidio"
 3-4-2-title: "Tasa de mortalidad por suicidio"
 3-5-1-definition:
-3-5-1-graph-title: "Número de admisiones a tratamiento por  abuso o dependencia de sustancias adictivas según tipo de sustancia y sexo"
-3-5-1-title: "Cobertura de los tratamientos(farmacológicos y psicosociales y servicios de rehabilitación y postratamiento) de trastornos por abuso de sustancias adictivas"
+3-5-1-graph-title: "Número de admisiones a tratamiento por abuso o dependencia de sustancias adictivas según tipo de sustancia y sexo"
+3-5-1-title: "Cobertura de los tratamientos (farmacológicos y psicosociales y servicios de rehabilitación y postratamiento) de trastornos por abuso de sustancias adictivas"
 3-5-2-definition:
 3-5-2-graph-title: "Consumo anual de alcohol registrado en litros de alcohol puro por persona de 15 y más años"
 3-5-2-title: "Consumo de alcohol per cápita (a partir de los 15 años de edad) durante un año civil en litros de alcohol puro"
@@ -149,7 +149,7 @@
 3-a-1-graph-title: "Proporción de personas de 15 y más años que fuman a diario"
 3-a-1-title: "Prevalencia del consumo actual de tabaco a partir de los 15 años de edad (edades ajustadas)"
 3-b-1-definition:
-3-b-1-graph-title: "Proporción de la población inmunizada con todas las vacunas incluidas en cada programa nacional"
+3-b-1-graph-title: "Proporción de la población inmunizada con todas las vacunas incluidas en cada programa nacional"
 3-b-1-title: "Proporción de la población inmunizada con todas las vacunas incluidas en cada programa nacional"
 3-b-2-definition:
 3-b-2-graph-title:
@@ -299,7 +299,7 @@
 7-b-1-graph-title:
 7-b-1-title: "Capacidad instalada de generación de energía renovable en los países en desarrollo (expresada en vatios per cápita)"
 8-1-1-definition:
-8-1-1-graph-title: "Tasa de crecimiento anual del PIB real per cápita"
+8-1-1-graph-title: "Tasa de crecimiento anual del PIB real per cápita"
 8-1-1-title: "Tasa de crecimiento anual del PIB real per cápita"
 8-2-1-definition:
 8-2-1-graph-title: "Tasa de crecimiento anual del PIB real según forma de medir el empleo"
@@ -366,7 +366,7 @@
 9-3-2-title: "Proporción de las pequeñas industrias que han obtenido un préstamo o una línea de crédito"
 9-4-1-definition:
 9-4-1-graph-title: "Emisiones de CO2 de las unidades residentes"
-9-4-1-title: "Emisiones de CO2 por unidad de valor añadido"
+9-4-1-title: "Emisiones de CO2 por unidad de valor añadido"
 9-5-1-definition:
 9-5-1-graph-title: "Gastos en investigación y desarrollo en proporción al PIB"
 9-5-1-title: "Gastos en investigación y desarrollo en proporción al PIB"
@@ -413,7 +413,7 @@
 10-7-3-graph-title:
 10-7-3-title: "Número de personas que murieron o desaparecieron en el proceso de migración hacia un destino internacional"
 10-7-4-definition:
-10-7-4-graph-title: "Nombre de persones refugiades per cada 100.000 habitants"
+10-7-4-graph-title: "Número de personas refugiadas por cada 100.000 habitantes"
 10-7-4-title: "Proporción de la población integrada por refugiados, desglosada por país de origen"
 10-a-1-definition:
 10-a-1-graph-title:
@@ -434,7 +434,7 @@
 11-3-1-graph-title:
 11-3-1-title: "Relación entre la tasa de consumo de tierras y la tasa de crecimiento de la población"
 11-3-2-definition:
-11-3-2-graph-title: "Proporción de ciudades que cuentan con una estructura de participación directa de la sociedad civil en la planificación y la gestión urbanas que funcione con regularidad y democráticamente"
+11-3-2-graph-title: "Proporción de ciudades que cuentan con una estructura de participación directa de la sociedad civil en la planificación y la gestión urbanas y funcionan con regularidad y democráticamente"
 11-3-2-title: "Proporción de ciudades que cuentan con una estructura de participación directa de la sociedad civil en la planificación y la gestión urbanas y funcionan con regularidad y democráticamente"
 11-4-1-definition:
 11-4-1-graph-title: "Gasto per cápita de las administraciones públicas en la preservación, protección y conservación del patrimonio cultural según nivel de gobierno"
@@ -677,7 +677,7 @@
 16-b-1-graph-title:
 16-b-1-title: "Proporción de la población que declara haberse sentido personalmente discriminada o acosada en los últimos 12 meses por motivos de discriminación prohibidos por el derecho internacional de los derechos humanos"
 17-1-1-definition:
-17-1-1-graph-title: "Total de ingresos de las Administraciones Públicas Autonómicas y Locales en proporción al PIB "
+17-1-1-graph-title: "Total de ingresos de las Administraciones Públicas Autonómicas y Locales en proporción al PIB"
 17-1-1-title: "Total de ingresos del gobierno en proporción al PIB, desglosado por fuente"
 17-1-2-definition:
 17-1-2-graph-title: "Proporción de los ingresos y de los ingresos no financieros de las administraciones públicas autonómicas y locales provenientes de impuestos"
@@ -746,7 +746,7 @@
 17-19-1-graph-title:
 17-19-1-title: "Valor en dólares de todos los recursos proporcionados para fortalecer la capacidad estadística de los países en desarrollo"
 17-19-2a-definition:
-17-19-2a-graph-title: "Se ha realizado al menos un censo de población y vivienda en los últimos diez años  (1=Sí; 0=No)"
+17-19-2a-graph-title: "Se ha realizado al menos un censo de población y vivienda en los últimos diez años (1=Sí; 0=No)"
 17-19-2a-title: "Proporción de países que han realizado al menos un censo de población y vivienda en los últimos diez años"
 17-19-2b-definition:
 17-19-2b-graph-title: "Se ha registrado el 100% de los nacimientos y al menos el 80% de las defunciones"

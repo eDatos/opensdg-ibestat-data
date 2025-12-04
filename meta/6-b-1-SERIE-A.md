@@ -1,10 +1,10 @@
 ---
+# Generated file, don't modify directly.
 # Info genérica
 target_id: 6.b.1
 reporting_status: complete
 data_non_statistical: false
-indicator_sort_order: 06-bb-01-aa
-national_geographical_coverage: Canarias
+national_geographical_coverage: nuts.ES53
 
 # Info de Subindicador
 nombre: subindicator.6-b-1-SERIE-A-nombre
@@ -13,24 +13,21 @@ meta_global: global_targets.6-b-title
 objetivo_global: global_goals.6-title
 definicion: subindicator.6-b-1-SERIE-A-definicion
 
+# Fórmula teórica escrita en formato MathJax
 formula_teorica: FORMULA_TEORICA.6-b-1-SERIE-A-formula-teorica
-unidad_medida: Porcentaje
-fuentes_informacion: FUENTES_INFORMACION.6-b-1-SERIE-A-fuentes-informacion
+unidad_medida: OCECAS_UNIDAD_MEDIDA.PT
+fuentes_informacion: SOURCE_DETAIL.6-b-1-SERIE-A-fuentes-informacion
 periodicidad: FREQ.A
-observaciones: OBSERVACIONES.6-b-1-SERIE-A-observaciones
+observaciones: COMMENT_TS.6-b-1-SERIE-A-observaciones
 
 # Info de Gráficas
-graph_title: subindicator.6-b-1-SERIE-A-graph-title
+graph_title: subindicator.6-b-1-SERIE-A-nombre
 graph_type: bar
 
 # Info para las tabs
-# Orden en que se mostrará esta tab...
-sort_order: 1
-
-# Nombre que tendrá la tab
+sort_order: A
 tab_name: SERIE.SERIE_A
 
-#Coordinación con OCECAS
+# Coordinación con OCECAS
 coordinado_con_ocecas: true
 ---
-

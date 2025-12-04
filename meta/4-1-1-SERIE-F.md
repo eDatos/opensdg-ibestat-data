@@ -1,11 +1,10 @@
 ---
-
+# Generated file, don't modify directly.
 # Info genérica
-target_id: '4.1.1'
+target_id: 4.1.1
 reporting_status: complete
 data_non_statistical: false
-indicator_sort_order: 04-01-01-ff
-national_geographical_coverage: Canarias
+national_geographical_coverage: nuts.ES53
 
 # Info de Subindicador
 nombre: subindicator.4-1-1-SERIE-F-nombre
@@ -14,21 +13,21 @@ meta_global: global_targets.4-1-title
 objetivo_global: global_goals.4-title
 definicion: subindicator.4-1-1-SERIE-F-definicion
 
+# Fórmula teórica escrita en formato MathJax
 formula_teorica: FORMULA_TEORICA.4-1-1-SERIE-F-formula-teorica
 unidad_medida: OCECAS_UNIDAD_MEDIDA.PT
-fuentes_informacion: FUENTES_INFORMACION.4-1-1-SERIE-F-fuentes-informacion
-periodicidad: "FREQ.A3"
-observaciones: OBSERVACIONES.4-1-1-SERIE-F-observaciones
+fuentes_informacion: SOURCE_DETAIL.4-1-1-SERIE-F-fuentes-informacion
+periodicidad: FREQ.A3
+observaciones: COMMENT_TS.4-1-1-SERIE-F-observaciones
 
 # Info de Gráficas
-graph_title: subindicator.4-1-1-SERIE-F-graph-title
+graph_title: subindicator.4-1-1-SERIE-F-nombre
 graph_type: bar
 
-# Info de navegación
-sort_order: 6
+# Info para las tabs
+sort_order: F
 tab_name: SERIE.SERIE_F
 
-#Coordinación con OCECAS
+# Coordinación con OCECAS
 coordinado_con_ocecas: true
-
 ---

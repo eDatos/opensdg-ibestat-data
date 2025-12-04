@@ -16,9 +16,9 @@ definicion: subindicator.2-4-1-SERIE-D-definicion
 # Fórmula teórica escrita en formato MathJax
 formula_teorica: FORMULA_TEORICA.2-4-1-SERIE-D-formula-teorica
 unidad_medida: OCECAS_UNIDAD_MEDIDA.KT
-fuentes_informacion: FUENTES_INFORMACION.2-4-1-SERIE-D-fuentes-informacion
+fuentes_informacion: SOURCE_DETAIL.2-4-1-SERIE-D-fuentes-informacion
 periodicidad: FREQ.A
-observaciones: OBSERVACIONES.2-4-1-SERIE-D-observaciones
+observaciones: COMMENT_TS.2-4-1-SERIE-D-observaciones
 
 # Info de Gráficas
 graph_title: subindicator.2-4-1-SERIE-D-nombre

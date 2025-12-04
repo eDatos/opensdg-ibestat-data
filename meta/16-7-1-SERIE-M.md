@@ -1,10 +1,9 @@
 ---
-
+# Generated file, don't modify directly.
 # Info genérica
-target_id: '16.7.1'
+target_id: 16.7.1
 reporting_status: complete
 data_non_statistical: false
-indicator_sort_order: 16-07-01-mm
 national_geographical_coverage: nuts.ES53
 
 # Info de Subindicador
@@ -14,21 +13,21 @@ meta_global: global_targets.16-7-title
 objetivo_global: global_goals.16-title
 definicion: subindicator.16-7-1-SERIE-M-definicion
 
+# Fórmula teórica escrita en formato MathJax
 formula_teorica: FORMULA_TEORICA.16-7-1-SERIE-M-formula-teorica
 unidad_medida: OCECAS_UNIDAD_MEDIDA.IX
-fuentes_informacion: FUENTES_INFORMACION.16-7-1-SERIE-M-fuentes-informacion
-periodicidad: "FREQ.A"
-observaciones: OBSERVACIONES.16-7-1-SERIE-M-observaciones
+fuentes_informacion: SOURCE_DETAIL.16-7-1-SERIE-M-fuentes-informacion
+periodicidad: FREQ.A
+observaciones: COMMENT_TS.16-7-1-SERIE-M-observaciones
 
 # Info de Gráficas
-graph_title: subindicator.16-7-1-SERIE-M-graph-title
+graph_title: subindicator.16-7-1-SERIE-M-nombre
 graph_type: bar
 
-# Info de navegación
-sort_order: 13
+# Info para las tabs
+sort_order: M
 tab_name: SERIE.SERIE_M
 
-#Coordinación con OCECAS
+# Coordinación con OCECAS
 coordinado_con_ocecas: true
-
 ---

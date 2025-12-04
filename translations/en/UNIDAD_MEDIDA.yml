@@ -3,3 +3,28 @@ KT: Kilotons
 PT: Percent
 OVERNIGHT_STAY: Overnight stays
 IX: Index
+PER_100000_POP: Per 100,000 population
+PER_100000_LIVE_BIRTHS: Per 100,000 live births
+PER_1000_LIVE_BIRTHS: Per 1,000 live births
+PER_1000: Per 1,000
+PER_100000: Per 100,000
+LITRES_PURE_ALCOHOL: Litres pure alcohol
+PER_1000_POP: Per 1,000 population
+PER_10000_POP: Per 10,000 population
+NUMBER: Number
+MN: Minute
+T_OE_PER_1000000_EUR: Tonnes oil equivalent per million euros
+EUR: Euro
+EUR_1000000: Million of euros
+PER_1000000_POP: Per million population
+KG_PER_CAPITA: Kilograms per capita
+GPERM3: Micrograms per cubic meter
+KG_CO2_PER_GDP_EUR: Kilograms CO2 equivalent per euro of gdp
+T_CO2_PER_CAPITA: Tonnes CO2 equivalent per capita
+HA: Hectares
+1T6: Range (1=No evidence to 6=Highest levels of guarantees)
+KG_CO2_E: 'Kilograms of CO2-equivalent'
+G_PER_EUR: Grams per euro
+BOOL_YES_NO: Logic (1=Yes, 0=No)
+LICENCES: Licences
+ORGANISATIONS: Organisations

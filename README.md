@@ -176,5 +176,9 @@ En windows:
 
 ## Ejecutar
 ```
+  poetry run python .\scripts\build_sources.py
   poetry run python .\scripts\build_data.py
 ```
+
+# Manteniendo meta.csv
+Parte de la información puede obtenerse desde aquí https://unstats.un.org/sdgs/files/Tier%20Classification%20of%20SDG%20Indicators_%2010%20Apr%202025_web.pdf

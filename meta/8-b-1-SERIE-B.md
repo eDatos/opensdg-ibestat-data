@@ -1,10 +1,10 @@
 ---
+# Generated file, don't modify directly.
 # Info genérica
 target_id: 8.b.1
 reporting_status: complete
 data_non_statistical: false
-indicator_sort_order: 08-bb-01-bb
-national_geographical_coverage: Canarias
+national_geographical_coverage: nuts.ES53
 
 # Info de Subindicador
 nombre: subindicator.8-b-1-SERIE-B-nombre
@@ -16,22 +16,18 @@ definicion: subindicator.8-b-1-SERIE-B-definicion
 # Fórmula teórica escrita en formato MathJax
 formula_teorica: FORMULA_TEORICA.8-b-1-SERIE-B-formula-teorica
 unidad_medida: OCECAS_UNIDAD_MEDIDA.PT
-fuentes_informacion: FUENTES_INFORMACION.8-b-1-SERIE-B-fuentes-informacion
+fuentes_informacion: SOURCE_DETAIL.8-b-1-SERIE-B-fuentes-informacion
 periodicidad: FREQ.A
-observaciones: OBSERVACIONES.8-b-1-SERIE-B-observaciones
+observaciones: COMMENT_TS.8-b-1-SERIE-B-observaciones
 
 # Info de Gráficas
-graph_title: subindicator.8-b-1-SERIE-B-graph-title
+graph_title: subindicator.8-b-1-SERIE-B-nombre
 graph_type: bar
 
 # Info para las tabs
-# Orden en que se mostrará esta tab...
-sort_order: 2
-
-# Nombre que tendrá la tab
+sort_order: B
 tab_name: SERIE.SERIE_B
 
-#Coordinación con OCECAS
+# Coordinación con OCECAS
 coordinado_con_ocecas: true
 ---
-

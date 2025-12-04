@@ -123,12 +123,15 @@ docs_intro: This is a list of examples of endpoints and output that are
 
 edatos:
   common_metadata:
-    rest: https://pre.ibestat.es/edatos/apis/cmetadata/v1.0
+    rest: https://ibestat.es/edatos/apis/cmetadata/v1.0
     keys:
       unit_measure_id: metamac.srm.dsd.unit_measure.id
-      statistical_resources_rest: metamac.statistical_resources.rest.external
-      structural_resources_rest: metamac.srm.rest.external
       root_collection: edatos.opensdg.root.collection.urn
+      # FIXME Apuntar a externo cuando sea necesario?
+      # statistical_resources_rest: metamac.statistical_resources.rest.external
+      # structural_resources_rest: metamac.srm.rest.external      
+      statistical_resources_rest: metamac.statistical_resources.rest.internal
+      structural_resources_rest: metamac.srm.rest.internal
       languages: metamac.edition.languages
       organisation: metamac.organisation.urn
   organisation_config:

@@ -2,14 +2,17 @@ from io import StringIO
 import itertools
 import re
 import pandas
+from pydash import py_
 from edatos.utils import i18n, json, urn as urn_utils
 from edatos.utils.yaml import yaml
+from edatos.utils.logging import getLogger
 from ruamel.yaml.comments import CommentedMap
 from edatos.services import structural_resources
 
 SERIES_ORDEN_ATTRIBUTE_ID = 'SERIES_ORDEN'
 SERIES_ID = 'SERIES'
 
+logger = getLogger('statistical_resources')
 def process_nodes(collection, config, meta_from_csv, organisation):
     if 'data' in collection and 'nodes' in collection['data'] and 'node' in collection['data']['nodes']:
         for node in collection['data']['nodes']['node']:
@@ -24,26 +27,30 @@ def process_node(node, config, meta_from_csv, organisation, parent_node = None, 
     elif level == 3:
         node_type = 'indicator'
     else:
-        print(f"Unsupported level {level}")
-        return
+        raise ValueError(f"Unsupported level {level}")
 
     default_language = config['languages'][0]
     # Invariable between languages
     node_id = i18n.international_string_to_string(node['name'], default_language)
-    print(f"Processing {node_type}: {node_id}")
+    logger.info(f"Processing {node_type}: {node_id}")    
 
     if 'dataset' in node:
         dataset_url = node['dataset']['selfLink']['href'] + ".json?fields=+dimension.description"
         indicator_key = kebab_case(node_id)
-        print(f"Downloading dataset from: {dataset_url}")
-        data = json.download(dataset_url)
-        create_opensdg_data(data, f'data/indicator_{indicator_key}', config) 
-        node_meta_from_csv = meta_from_csv.get(indicator_key, {})
-        create_opensdg_meta(data, f'meta/{indicator_key}', config, node_id, node, node_meta_from_csv, organisation)
+        try:
+            logger.info(f"Downloading dataset from: {dataset_url}")
+            data = json.download(dataset_url)
+            create_opensdg_data(data, f'data/indicator_{indicator_key}', config) 
+            node_meta_from_csv = meta_from_csv.get(indicator_key, {})
+            create_opensdg_meta(data, f'meta/{indicator_key}', config, node_id, node, node_meta_from_csv, organisation)
+        except Exception as e:
+            logger.exception(f"Exception creating OpenSDG data for dataset {node_id} - {dataset_url}")
+            return
 
     if 'nodes' in node and 'node' in node['nodes']:
         for child_node in node['nodes']['node']:
             process_node(child_node, config, meta_from_csv, organisation, node, level + 1)            
+
 
 def urn_to_url(base_url, urn):
     prefix, agency_id, item_scheme_id, version, resource_id = urn_utils.split_urn(urn, False)
@@ -54,14 +61,16 @@ def urn_to_url(base_url, urn):
         raise ValueError("Resource type is not supported")
 
 def create_opensdg_data(data, output_filepath, config):   
+    default_language = config['languages'][0]
      
     observations = data['data']['observations'].split(" | ")
     
-    unit_measure_attribute = next(attr for attr in data['data']['attributes']['attribute'] if attr['id'] == config['unit_measure_id'])
+    unit_measure_attribute = next((attr for attr in data['data']['attributes']['attribute'] if attr['id'] == config['unit_measure_id']), None)
+    if (unit_measure_attribute is None):
+        raise ValueError(f"unit_measure_attribute '{config['unit_measure_id']}' not found in dataset {data['urn']}.")
     unit_measure_attribute_values = unit_measure_attribute['value'].split(" | ")
-
-    series_orden_attribute = next(attr for attr in data['data']['attributes']['attribute'] if attr['id'] == SERIES_ORDEN_ATTRIBUTE_ID)
-    series_orden_attribute_values = series_orden_attribute['value'].split(" | ")
+    series_orden_attribute = next(attr for attr in data['data']['attributes']['internationalAttribute'] if attr['id'] == SERIES_ORDEN_ATTRIBUTE_ID)
+    series_orden_attribute_values = py_.chain(series_orden_attribute['values']).map(lambda text: i18n.international_string_to_string(text, default_language)).value()
 
     dimensions = data['data']['dimensions']['dimension']
     dimensions_metadata = data['metadata']['dimensions']['dimension']
@@ -168,7 +177,7 @@ def clean_disaggregated_values(records, additional_columns):
         for column in additional_columns:
             unique_values = set(record.get(column, None) for record in units_records)
             if len(unique_values) == 1:
-                print(f"Column {column} in unit {units} have single value: {unique_values}")
+                logger.debug(f"Column {column} in unit {units} have single value: {unique_values}")
                 for record in units_records:
                     if column in record:
                         record[column] = ''
@@ -189,18 +198,22 @@ def create_opensdg_meta(data, output_filepath, config, indicator_id, indicator_n
     goal_node = target_node['parent']
     sgd_goal = i18n.international_string_to_string(goal_node['name'], default_language)    
 
+    indicator_node_description = indicator_node.get('description', None)
+    if (indicator_node_description is None):
+        logger.error(f"indicator_node description is empty for indicator {indicator_id}") 
+
     indicator_meta = {
         'data_non_statistical': False, # Always False
 
         'goal_meta_link': node_meta_from_csv.get('goal_meta_link'),
-        'goal_meta_link_text': node_meta_from_csv.get('goal_meta_link_text'),
+        'goal_meta_link_text': "United Nations Sustainable Development Goals Metadata (PDF)",
 
         'graph_title': i18n.update_translations(translations, f'global_indicators.{indicator_key}-graph-title', data['name']),
         'graph_type': 'line', # Always line for indicators
 
         'indicator_number': indicator_id,
         'indicator_definition': '', # Always empty, not found in built web
-        'indicator_name': i18n.update_translations(translations, f'global_indicators.{indicator_key}-title', indicator_node['description']),
+        'indicator_name': i18n.update_translations(translations, f'global_indicators.{indicator_key}-title', indicator_node_description),
         'indicator_sort_order': generate_indicator_sort_order(indicator_key),
 
         'data_show_map': calculate_data_show_map(data), 
@@ -264,11 +277,13 @@ def create_opensdg_meta(data, output_filepath, config, indicator_id, indicator_n
         serie = {
             'id': representation["code"],
             'name': serie_metadata['name'],
-            'description': serie_metadata['description'],
+            'description': serie_metadata.get('description', None),
             'attributes': serie_attributes
         }
+        if serie['description'] is  None:
+            logger.warning(f"Serie description is empty for serie {serie['id']} of indicator {indicator_id}")
         
-        create_opensdg_meta_for_serie({ **indicator_meta, **indicator_serie_meta }, serie, output_filepath)
+        create_opensdg_meta_for_serie({ **indicator_meta, **indicator_serie_meta }, serie, output_filepath, config)
 
 def extract_serie_dimension_info(data):
     dimensions_data = data['data']['dimensions']['dimension']
@@ -310,6 +325,9 @@ def extract_serie_dimension_info(data):
         # for dimension_index, representation_index in enumerate(idx):
         for attribute in attributes_metadata:
             attribute_id = attribute['id']
+            if (attribute_id in ["DATA_LAST_UPDATE", "OBS_STATUS"]):
+                logger.debug(f"Skipping attribute {attribute_id} in serie dimension extraction")
+                continue
             if attribute['attachmentLevel'] == "PRIMARY_MEASURE":
                 attribute_values = next((attr for attr in data['data']['attributes']['attribute'] if attr['id'] == attribute_id), None)
                 if (attribute_values):                    
@@ -341,10 +359,12 @@ def extract_serie_dimension_info(data):
             
     return dimension_series_data,dimension_series_metadata_indexed,attributes_series_data
 
-def create_opensdg_meta_for_serie(indicator_metadata, serie, output_filepath):    
+def create_opensdg_meta_for_serie(indicator_metadata, serie, output_filepath, config):
+    default_language = config['languages'][0]
 
     attributes = serie['attributes']
-    serie_letter = attributes[SERIES_ORDEN_ATTRIBUTE_ID]
+    serie_letter = i18n.international_string_to_string(attributes[SERIES_ORDEN_ATTRIBUTE_ID], default_language)
+    logger.info(f"Creating meta for serie {serie_letter} of indicator {indicator_metadata['indicator_number']}")
     indicator_serie_key = kebab_case(indicator_metadata['indicator_number']) + '-SERIE-' + serie_letter
     translations = {}
     # Strings coming from indicator_metadata are already translated, no need to update_translations
@@ -370,9 +390,9 @@ def create_opensdg_meta_for_serie(indicator_metadata, serie, output_filepath):
         # Fórmula teórica escrita en formato MathJax
         'formula_teorica':  i18n.update_translations(translations, f'FORMULA_TEORICA.{indicator_serie_key}-formula-teorica', attributes['FORMULA_TEORICA']), #   Atributo de dimensión (dataset) 
         'unidad_medida': f'OCECAS_UNIDAD_MEDIDA.{attributes["UNIDAD_MEDIDA"]["id"]}', #'OCECAS_UNIDAD_MEDIDA.PT', # Atributo nivel observacion. REMEMBER! OCECAS translations are fixed on OCECAS_UNIDAD_MEDIDA
-        'fuentes_informacion': i18n.update_translations(translations, f'FUENTES_INFORMACION.{indicator_serie_key}-fuentes-informacion', attributes.get('FUENTES_INFORMACION', None)), #   Atributo de dimensión (dataset) 
+        'fuentes_informacion': '' if attributes.get('SOURCE_DETAIL', None) is None else i18n.update_translations(translations, f'SOURCE_DETAIL.{indicator_serie_key}-fuentes-informacion', attributes.get('SOURCE_DETAIL', None)), #   Atributo de dimensión (dataset) 
         'periodicidad': i18n.update_translations(translations, f'FREQ.{attributes["FREQ"]["id"]}', attributes["FREQ"]["name"]), # Atributo nivel observacion
-        'observaciones': i18n.update_translations(translations, f'OBSERVACIONES.{indicator_serie_key}-observaciones', attributes.get('OBSERVACIONES', None)), #   Atributo de dimensión (dataset) 
+        'observaciones': '' if attributes.get('COMMENT_TS', None) is None else i18n.update_translations(translations, f'COMMENT_TS.{indicator_serie_key}-observaciones', attributes.get('COMMENT_TS', None)), #   Atributo de dimensión (dataset) 
         # Info de Gráficas
         'graph_title': subindicator_name_key, # CL_SERIES.nombre (igual que el nombre)
         'graph_type': 'bar', # Always bar for series
@@ -429,7 +449,7 @@ def calculate_computation_units(data, config):
         # No need to translate, is translated inside create_opensdg_meta_for_serie
         return "UNIDAD_MEDIDA." + unit_measure_values[0]
     else:
-        print(f"No single value for attribute '{config['unit_measure_id']}'. Existing values: {unit_measure_values}")
+        logger.info(f"No single value for attribute '{config['unit_measure_id']}'. Existing values: {unit_measure_values}")
         return None
 
 def calculate_data_show_map(data):

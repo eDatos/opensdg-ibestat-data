@@ -1,9 +1,9 @@
 ---
+# Generated file, don't modify directly.
 # Info genérica
 target_id: 3.8.2
 reporting_status: complete
 data_non_statistical: false
-indicator_sort_order: 03-08-02-aa
 national_geographical_coverage: nuts.ES53
 
 # Info de Subindicador
@@ -14,24 +14,20 @@ objetivo_global: global_goals.3-title
 definicion: subindicator.3-8-2-SERIE-A-definicion
 
 # Fórmula teórica escrita en formato MathJax
-# https://math.meta.stackexchange.com/questions/5020/mathjax-basic-tutorial-and-quick-reference
 formula_teorica: FORMULA_TEORICA.3-8-2-SERIE-A-formula-teorica
 unidad_medida: OCECAS_UNIDAD_MEDIDA.PT
-fuentes_informacion: FUENTES_INFORMACION.3-8-2-SERIE-A-fuentes-informacion
+fuentes_informacion: SOURCE_DETAIL.3-8-2-SERIE-A-fuentes-informacion
 periodicidad: FREQ.A
-observaciones: OBSERVACIONES.3-8-2-SERIE-A-observaciones
+observaciones: COMMENT_TS.3-8-2-SERIE-A-observaciones
 
 # Info de Gráficas
-graph_title: subindicator.3-8-2-SERIE-A-graph-title
+graph_title: subindicator.3-8-2-SERIE-A-nombre
 graph_type: bar
 
 # Info para las tabs
-# Orden en que se mostrará esta tab...
-sort_order: 1
+sort_order: A
+tab_name: SERIE.SERIE_A
 
-# Nombre que tendrá la tab
-tab_name:
-
-#Coordinación con OCECAS
+# Coordinación con OCECAS
 coordinado_con_ocecas: true
 ---

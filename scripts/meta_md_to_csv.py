@@ -2,6 +2,7 @@ import os
 import yaml
 import csv
 import sys
+from edatos.services.statistical_resources import generate_indicator_sort_order
 
 # This script was generated with ChatGPT to be executed once to generate a CSV file 
 # from the properties stored in .md files. It remains here as documentation and 
@@ -31,7 +32,7 @@ def process_md_files(directory):
             file_path = os.path.join(directory, filename)
             yaml_data = extract_yaml_from_md(file_path)
             if yaml_data:
-                yaml_data['filename'] = filename
+                yaml_data['indicator_key'] = filename[:-3]  # Remove .md extension
                 data.append(yaml_data)
                 all_keys.update(yaml_data.keys())
     
@@ -39,10 +40,10 @@ def process_md_files(directory):
 
 def write_csv(data, keys, output_file):
     """Writes the extracted data to a CSV file."""
-    valid_keys = [ 'published', 'reporting_status', 'goal_meta_link', 'goal_meta_link_text', 'un_custodian_agency', 'un_designated_tier' ]
+    valid_keys = [ 'indicator_key', 'published', 'reporting_status', 'goal_meta_link', 'un_custodian_agency', 'un_designated_tier' ]
     
     with open(output_file, 'w', newline='', encoding='utf-8') as f:
-        writer = csv.DictWriter(f, fieldnames=(['filename'] + valid_keys))
+        writer = csv.DictWriter(f, fieldnames=(valid_keys))
         writer.writeheader()
         for row in data:
             writer.writerow({key: row.get(key, '') for key in writer.fieldnames})
@@ -58,8 +59,9 @@ def main():
         sys.exit(1)
     
     data, all_keys = process_md_files(directory)
-    write_csv(data, all_keys, directory + '/meta2.csv')
-    print("File meta2.csv generated successfully.")
+    data.sort(key=lambda d: generate_indicator_sort_order(d['indicator_key']))
+    write_csv(data, all_keys, directory + '/meta.csv')
+    print("File meta.csv generated successfully.")
 
 if __name__ == "__main__":
     main()

@@ -21,3 +21,9 @@ ACTIVITY: "Actividad económica"
 NIVEL_GOBIERNO: "Nivel de gobierno"
 SERVICIO: "Servicio"
 TECNOLOGIA_ACCESO: "Tecnología de acceso"
+COMPOSITE_BREAKDOWN: Desagregación compuesta
+AGE: Edad
+OCCUPATION: Ocupación
+EDUCATION_LEV: Nivel educativo
+DISABILITY_STATUS: Estado de discapacidad
+INCOME_WEALTH_QUANTILE: Cuantil de ingresos o riqueza

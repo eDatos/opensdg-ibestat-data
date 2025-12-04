@@ -1,10 +1,9 @@
 ---
-
+# Generated file, don't modify directly.
 # Info genérica
-target_id: '5.b.1'
+target_id: 5.b.1
 reporting_status: complete
 data_non_statistical: false
-indicator_sort_order: 05-bb-01-cc
 national_geographical_coverage: nuts.ES53
 
 # Info de Subindicador
@@ -14,20 +13,21 @@ meta_global: global_targets.5-b-title
 objetivo_global: global_goals.5-title
 definicion: subindicator.5-b-1-SERIE-C-definicion
 
+# Fórmula teórica escrita en formato MathJax
 formula_teorica: FORMULA_TEORICA.5-b-1-SERIE-C-formula-teorica
 unidad_medida: OCECAS_UNIDAD_MEDIDA.PT
-fuentes_informacion: FUENTES_INFORMACION.5-b-1-SERIE-C-fuentes-informacion
+fuentes_informacion: SOURCE_DETAIL.5-b-1-SERIE-C-fuentes-informacion
 periodicidad: FREQ.A
-observaciones: OBSERVACIONES.5-b-1-SERIE-C-observaciones
+observaciones: COMMENT_TS.5-b-1-SERIE-C-observaciones
+
 # Info de Gráficas
-graph_title: subindicator.5-b-1-SERIE-C-graph-title
+graph_title: subindicator.5-b-1-SERIE-C-nombre
 graph_type: bar
 
-# Info de navegación
-sort_order: 3
+# Info para las tabs
+sort_order: C
 tab_name: SERIE.SERIE_C
 
-#Coordinación con OCECAS
+# Coordinación con OCECAS
 coordinado_con_ocecas: true
-
 ---

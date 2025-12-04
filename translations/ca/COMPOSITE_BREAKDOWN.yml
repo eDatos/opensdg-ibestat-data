@@ -1,0 +1,50 @@
+_L_MI_NUTS2: Mitjana dingressos. Regions NUTS 2
+_L_MI_COUNTRY: Mitjana dingressos. Nacional
+_T: No desagregat per aquesta variable
+_L_BSRV_H2O: Serveis bàsics. Aigua corrent
+_L_BSRV_BATH: Serveis bàsics. Bany/dutxa
+_L_BSRV_SAN: Serveis bàsics. Lavabo
+NCD_CARDIO: Malaltia no transmissible. Malalties cardiovasculars
+NCD_CRESPD: Malaltia no transmissible. Malalties respiratòries cròniques
+NCD_DIABTS: Malaltia no transmissible. Diabetis
+NCD_CNCR: Malaltia no transmissible. Càncer
+_L_SUD_ILLEGAL_DRUGS: 'Substància addictiva: Drogues il·legals'
+SUD_ALCOHOL: 'Substància addictiva: Alcohol'
+SKILL_READ: Habilitat lectora
+SKILL_MATH: Habilitat matemàtica
+_L_TTNR_OWN: Tipus de tinença. Propietat
+_L_TTNR_LEASE: Tipus de tinença.
+_L_WME_HOURS: Forma de mesurar la feina. Hores treballades
+_L_WME_EMPLOYEES: Forma de mesurar la feina. Persones emprades
+_L_AB_GDP: Saldo comptable. PIB
+_L_AB_MVA: Saldo comptable. Valor afegit del sector manufacturer
+_L_ES_LG_AUTONOMOUS_LOCAL: 'Nivell de govern: Administracions públiques autonòmiques i locals'
+_L_ES_LG_AUTONOMOUS: 'Nivell de govern: Administracions públiques autonòmiques'
+_L_ES_LG_LOCAL: 'Nivell de govern: Administracions públiques locals'
+_L_SERVICE_01: 'Servei: Ensenyament'
+_L_SERVICE_03: 'Servei: Gestió de pensions'
+_L_SERVICE_04: 'Servei: Administració de justícia'
+_L_SERVICE_05: 'Servei: Seguretat ciutadana'
+_L_SERVICE_06: 'Servei: Serveis socials'
+_L_SERVICE_07: 'Servei: Transport públic'
+_L_SERVICE_08: 'Servei: Obres públiques'
+_L_SERVICE_09: 'Servei: Ajuda a persones dependents'
+_L_SERVICE_T: 'Servei: Total'
+_L_SERVICE_02: 'Servei: Assistència sanitària'
+_L_INSTITUTION_01: 'Institució: Sector públic'
+_L_INSTITUTION_02: 'Institució: Sector públic estatal'
+_L_INSTITUTION_03: "Institució: forces i cossos de seguretat de l'Estat"
+_L_INSTITUTION_04: 'Institució: Forces Armades'
+_L_INSTITUTION_05: "Institució: Administració de Justícia de l'Estat"
+_L_INSTITUTION_06: 'Institució: Sector públic autonòmic'
+_L_INSTITUTION_09: 'Institució: Centres educatius no universitaris autonòmics'
+_L_INSTITUTION_10: 'Institució: Institucions sanitàries autonòmiques'
+_L_INSTITUTION_14: 'Institució: Universitats'
+_L_INSTITUTION_11: 'Institució: Sector públic local'
+_L_INSTITUTION_12: 'Institució: Ajuntaments'
+_L_INSTITUTION_13: 'Institució: Diputacions, Cabildos i Consells insulars'
+_L_ACCESS_TECH_T: "Teconologia d'accés: Total"
+_L_ACCESS_TECH_DSL: "tecnologia d'accés: DSL"
+_L_ACCESS_TECH_HFC: "Econògia d'accés: HFC"
+_L_ACCESS_TECH_FTTH: "Tecnologia d'accés: FTTH"
+_L_ACCESS_TECH_O: "Tecnologia d'accés: Una altra tecnologia"

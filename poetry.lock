@@ -343,6 +343,23 @@ pytz = ">=2017.3"
 test = ["hypothesis (>=3.58)", "pytest (>=5.0.1)", "pytest-xdist"]
 
 [[package]]
+name = "pydash"
+version = "8.0.5"
+description = "The kitchen sink of Python utility libraries for doing \"stuff\" in a functional way. Based on the Lo-Dash Javascript library."
+optional = false
+python-versions = ">=3.8"
+files = [
+    {file = "pydash-8.0.5-py3-none-any.whl", hash = "sha256:b2625f8981862e19911daa07f80ed47b315ce20d9b5eb57aaf97aaf570c3892f"},
+    {file = "pydash-8.0.5.tar.gz", hash = "sha256:7cc44ebfe5d362f4f5f06c74c8684143c5ac481376b059ff02570705523f9e2e"},
+]
+
+[package.dependencies]
+typing-extensions = ">3.10,<4.6.0 || >4.6.0"
+
+[package.extras]
+dev = ["build", "coverage", "furo", "invoke", "mypy", "pytest", "pytest-cov", "pytest-mypy-testing", "ruff", "sphinx", "sphinx-autodoc-typehints", "tox", "twine", "wheel"]
+
+[[package]]
 name = "python-dateutil"
 version = "2.9.0.post0"
 description = "Extensions to the standard Python datetime module"
@@ -796,4 +813,4 @@ resolved_reference = "5020aa295bdefc69b9193ce8a3c2698e26a8be63"
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.9"
-content-hash = "9aff2f03a8a1a12b52c460062f25f5f8bad4784eb2fdbd8e095e915adaab5959"
+content-hash = "4d0bb150ff593f4cf96ded0ef967d0e0bbedbada874354ee2ff422454ccf8d04"
