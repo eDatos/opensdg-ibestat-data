@@ -176,6 +176,7 @@ En windows:
 
 ## Ejecutar
 ```
+  poetry run python .\scripts\build_sources.py
   poetry run python .\scripts\build_data.py
 ```
 
