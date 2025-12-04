@@ -132,6 +132,7 @@ edatos:
       # structural_resources_rest: metamac.srm.rest.external      
       statistical_resources_rest: metamac.statistical_resources.rest.internal
       structural_resources_rest: metamac.srm.rest.internal
+      notices_rest: metamac.notices.rest.internal
       languages: metamac.edition.languages
       organisation: metamac.organisation.urn
   organisation_config:
