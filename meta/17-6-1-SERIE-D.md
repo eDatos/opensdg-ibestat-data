@@ -1,10 +1,9 @@
 ---
-
+# Generated file, don't modify directly.
 # Info genérica
-target_id: '17.6.1'
+target_id: 17.6.1
 reporting_status: complete
 data_non_statistical: false
-indicator_sort_order: 17-06-01-dd
 national_geographical_coverage: nuts.ES53
 
 # Info de Subindicador
@@ -14,22 +13,21 @@ meta_global: global_targets.17-6-title
 objetivo_global: global_goals.17-title
 definicion: subindicator.17-6-1-SERIE-D-definicion
 
+# Fórmula teórica escrita en formato MathJax
 formula_teorica: FORMULA_TEORICA.17-6-1-SERIE-D-formula-teorica
-unidad_medida: OCECAS_UNIDAD_MEDIDA.PER_100_POP
-fuentes_informacion: FUENTES_INFORMACION.17-6-1-SERIE-D-fuentes-informacion
-periodicidad: "FREQ.A"
-observaciones: OBSERVACIONES.17-6-1-SERIE-D-observaciones
-
+unidad_medida: OCECAS_UNIDAD_MEDIDA.PER_100000
+fuentes_informacion: SOURCE_DETAIL.17-6-1-SERIE-D-fuentes-informacion
+periodicidad: FREQ.A
+observaciones: ''
 
 # Info de Gráficas
-graph_title: subindicator.17-6-1-SERIE-D-graph-title
+graph_title: subindicator.17-6-1-SERIE-D-nombre
 graph_type: bar
 
-# Info de navegación
-sort_order: 4
+# Info para las tabs
+sort_order: D
 tab_name: SERIE.SERIE_D
 
-#Coordinación con OCECAS
+# Coordinación con OCECAS
 coordinado_con_ocecas: true
-
 ---

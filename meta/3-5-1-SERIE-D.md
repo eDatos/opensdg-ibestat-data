@@ -1,9 +1,9 @@
 ---
+# Generated file, don't modify directly.
 # Info genérica
 target_id: 3.5.1
 reporting_status: complete
 data_non_statistical: false
-indicator_sort_order: 03-05-01-dd
 national_geographical_coverage: nuts.ES53
 
 # Info de Subindicador
@@ -15,21 +15,19 @@ definicion: subindicator.3-5-1-SERIE-D-definicion
 
 # Fórmula teórica escrita en formato MathJax
 formula_teorica: FORMULA_TEORICA.3-5-1-SERIE-D-formula-teorica
-unidad_medida: OCECAS_UNIDAD_MEDIDA.PER_100000_POP
-fuentes_informacion: FUENTES_INFORMACION.3-5-1-SERIE-D-fuentes-informacion
+unidad_medida: OCECAS_UNIDAD_MEDIDA.PER_100000
+fuentes_informacion: SOURCE_DETAIL.3-5-1-SERIE-D-fuentes-informacion
 periodicidad: FREQ.A
-observaciones: OBSERVACIONES.3-5-1-SERIE-D-observaciones
+observaciones: COMMENT_TS.3-5-1-SERIE-D-observaciones
 
 # Info de Gráficas
-graph_title: subindicator.3-5-1-SERIE-D-graph-title
+graph_title: subindicator.3-5-1-SERIE-D-nombre
 graph_type: bar
 
 # Info para las tabs
-sort_order: 4
+sort_order: D
 tab_name: SERIE.SERIE_D
 
-#Coordinación con OCECAS
+# Coordinación con OCECAS
 coordinado_con_ocecas: true
-
-show_map: true
 ---

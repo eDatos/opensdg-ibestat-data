@@ -1,10 +1,9 @@
 ---
-
+# Generated file, don't modify directly.
 # Info genérica
-target_id: '16.7.1'
+target_id: 16.7.1
 reporting_status: complete
 data_non_statistical: false
-indicator_sort_order: 16-07-01-kk
 national_geographical_coverage: nuts.ES53
 
 # Info de Subindicador
@@ -14,21 +13,21 @@ meta_global: global_targets.16-7-title
 objetivo_global: global_goals.16-title
 definicion: subindicator.16-7-1-SERIE-K-definicion
 
+# Fórmula teórica escrita en formato MathJax
 formula_teorica: FORMULA_TEORICA.16-7-1-SERIE-K-formula-teorica
 unidad_medida: OCECAS_UNIDAD_MEDIDA.IX
-fuentes_informacion: FUENTES_INFORMACION.16-7-1-SERIE-K-fuentes-informacion
-periodicidad: "FREQ.A"
-observaciones: OBSERVACIONES.16-7-1-SERIE-K-observaciones
+fuentes_informacion: SOURCE_DETAIL.16-7-1-SERIE-K-fuentes-informacion
+periodicidad: FREQ.A
+observaciones: COMMENT_TS.16-7-1-SERIE-K-observaciones
 
 # Info de Gráficas
-graph_title: subindicator.16-7-1-SERIE-K-graph-title
+graph_title: subindicator.16-7-1-SERIE-K-nombre
 graph_type: bar
 
-# Info de navegación
-sort_order: 11
+# Info para las tabs
+sort_order: K
 tab_name: SERIE.SERIE_K
 
-#Coordinación con OCECAS
+# Coordinación con OCECAS
 coordinado_con_ocecas: true
-
 ---

@@ -16,9 +16,9 @@ definicion: subindicator.2-4-1-SERIE-B-definicion
 # Fórmula teórica escrita en formato MathJax
 formula_teorica: FORMULA_TEORICA.2-4-1-SERIE-B-formula-teorica
 unidad_medida: OCECAS_UNIDAD_MEDIDA.KT
-fuentes_informacion: FUENTES_INFORMACION.2-4-1-SERIE-B-fuentes-informacion
+fuentes_informacion: SOURCE_DETAIL.2-4-1-SERIE-B-fuentes-informacion
 periodicidad: FREQ.A
-observaciones: OBSERVACIONES.2-4-1-SERIE-B-observaciones
+observaciones: COMMENT_TS.2-4-1-SERIE-B-observaciones
 
 # Info de Gráficas
 graph_title: subindicator.2-4-1-SERIE-B-nombre

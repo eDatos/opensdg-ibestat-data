@@ -1,9 +1,9 @@
 ---
+# Generated file, don't modify directly.
 # Info genérica
 target_id: 16.6.2
 reporting_status: complete
 data_non_statistical: false
-indicator_sort_order: 16-06-02-aa
 national_geographical_coverage: nuts.ES53
 
 # Info de Subindicador
@@ -16,18 +16,18 @@ definicion: subindicator.16-6-2-SERIE-A-definicion
 # Fórmula teórica escrita en formato MathJax
 formula_teorica: FORMULA_TEORICA.16-6-2-SERIE-A-formula-teorica
 unidad_medida: OCECAS_UNIDAD_MEDIDA.PT
-fuentes_informacion: FUENTES_INFORMACION.16-6-2-SERIE-A-fuentes-informacion
-periodicidad: "FREQ.A"
-observaciones: OBSERVACIONES.16-6-2-SERIE-A-observaciones
+fuentes_informacion: SOURCE_DETAIL.16-6-2-SERIE-A-fuentes-informacion
+periodicidad: FREQ.A
+observaciones: ''
 
 # Info de Gráficas
-graph_title: subindicator.16-6-2-SERIE-A-graph-title
+graph_title: subindicator.16-6-2-SERIE-A-nombre
 graph_type: bar
 
 # Info para las tabs
-sort_order: 1
+sort_order: A
 tab_name: SERIE.SERIE_A
 
-#Coordinación con OCECAS
+# Coordinación con OCECAS
 coordinado_con_ocecas: true
 ---

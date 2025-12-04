@@ -16,9 +16,9 @@ definicion: subindicator.2-4-1-SERIE-E-definicion
 # Fórmula teórica escrita en formato MathJax
 formula_teorica: FORMULA_TEORICA.2-4-1-SERIE-E-formula-teorica
 unidad_medida: OCECAS_UNIDAD_MEDIDA.KG
-fuentes_informacion: FUENTES_INFORMACION.2-4-1-SERIE-E-fuentes-informacion
+fuentes_informacion: SOURCE_DETAIL.2-4-1-SERIE-E-fuentes-informacion
 periodicidad: FREQ.A
-observaciones: OBSERVACIONES.2-4-1-SERIE-E-observaciones
+observaciones: COMMENT_TS.2-4-1-SERIE-E-observaciones
 
 # Info de Gráficas
 graph_title: subindicator.2-4-1-SERIE-E-nombre

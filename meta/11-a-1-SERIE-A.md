@@ -1,10 +1,10 @@
 ---
+# Generated file, don't modify directly.
 # Info genérica
-target_id: '11.a.1'
+target_id: 11.a.1
 reporting_status: complete
 data_non_statistical: false
-indicator_sort_order: 11-aa-01-aa
-national_geographical_coverage: Illes Balears
+national_geographical_coverage: nuts.ES53
 
 # Info de Subindicador
 nombre: subindicator.11-a-1-SERIE-A-nombre
@@ -13,21 +13,21 @@ meta_global: global_targets.11-a-title
 objetivo_global: global_goals.11-title
 definicion: subindicator.11-a-1-SERIE-A-definicion
 
+# Fórmula teórica escrita en formato MathJax
 formula_teorica: FORMULA_TEORICA.11-a-1-SERIE-A-formula-teorica
 unidad_medida: OCECAS_UNIDAD_MEDIDA.PT
-fuentes_informacion: FUENTES_INFORMACION.11-a-1-SERIE-A-fuentes-informacion
+fuentes_informacion: SOURCE_DETAIL.11-a-1-SERIE-A-fuentes-informacion
 periodicidad: FREQ.A
-observaciones: OBSERVACIONES.11-a-1-SERIE-A-observaciones
+observaciones: ''
 
 # Info de Gráficas
-graph_title: subindicator.11-a-1-SERIE-A-graph-title
+graph_title: subindicator.11-a-1-SERIE-A-nombre
 graph_type: bar
 
-# Info de navegación
-sort_order: 1
-tab_name:
+# Info para las tabs
+sort_order: A
+tab_name: SERIE.SERIE_A
 
-#Coordinación con OCECAS
+# Coordinación con OCECAS
 coordinado_con_ocecas: true
-
 ---
