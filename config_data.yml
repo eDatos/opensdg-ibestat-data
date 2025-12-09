@@ -127,11 +127,10 @@ edatos:
     keys:
       unit_measure_id: metamac.srm.dsd.unit_measure.id
       root_collection: edatos.opensdg.root.collection.urn
-      # FIXME Apuntar a externo cuando sea necesario?
-      # statistical_resources_rest: metamac.statistical_resources.rest.external
-      # structural_resources_rest: metamac.srm.rest.external      
-      statistical_resources_rest: metamac.statistical_resources.rest.internal
-      structural_resources_rest: metamac.srm.rest.internal
+      statistical_resources_rest: metamac.statistical_resources.rest.external
+      structural_resources_rest: metamac.srm.rest.external      
+      # statistical_resources_rest: metamac.statistical_resources.rest.internal
+      # structural_resources_rest: metamac.srm.rest.internal
       notices_rest: metamac.notices.rest.internal
       languages: metamac.edition.languages
       organisation: metamac.organisation.urn
