@@ -11,6 +11,15 @@
 1-a-2-SERIE-A-fuentes-informacion: Comptabilitat nacional. Classificació funcional de la despesa de les administracions públiques, Ministeri d'Hisenda
 1-a-2-SERIE-B-fuentes-informacion: Comptabilitat nacional. Classificació funcional de la despesa de les administracions públiques, Ministeri d'Hisenda
 2-2-2-SERIE-A-fuentes-informacion: Enquesta nacional de salut, Institut Nacional d'Estadística (INE) i Ministeri de Sanitat
+2-4-1-SERIE-A-fuentes-informacion: Estadística de la producció ecològica, Ministeri d'Agricultura, Pesca i Alimentació<br> Enquesta de superfícies i rendiments de conreu, Ministeri d'Agricultura, Pesca i Alimentació
+2-4-1-SERIE-B-fuentes-informacion: Inventari nacional de contaminants atmosfèrics, Ministeri per a la Transició Ecològica i el Repte Demogràfic
+2-4-1-SERIE-C-fuentes-informacion: Inventari nacional de contaminants atmosfèrics, Ministeri per a la Transició Ecològica i el Repte Demogràfic<br>Enquesta sobre superfícies i rendiments de cultius, Ministeri d'Agricultura, Pesca i Alimentació
+2-4-1-SERIE-D-fuentes-informacion: Inventari nacional de contaminants atmosfèrics, Ministeri per a la Transició Ecològica i el Repte Demogràfic
+2-4-1-SERIE-E-fuentes-informacion: Inventari nacional de contaminants atmosfèrics, Ministeri per a la Transició Ecològica i el Repte Demogràfic<br>Enquesta sobre superfícies i rendiments de cultius, Ministeri d'Agricultura, Pesca i Alimentació
+2-4-1-SERIE-F-fuentes-informacion: Inventari nacional de contaminants atmosfèrics, Ministeri per a la Transició Ecològica i el Repte Demogràfic
+2-4-1-SERIE-G-fuentes-informacion: Inventari nacional de contaminants atmosfèrics, Ministeri per a la Transició Ecològica i el Repte Demogràfic<br>Enquesta sobre superfícies i rendiments de cultius, Ministeri d'Agricultura, Pesca i Alimentació
+2-c-1-SERIE-A-fuentes-informacion: Índex de preus de consum, Institut Nacional d'Estadística (INE)
+2-c-1-SERIE-B-fuentes-informacion: Índex de preus de consum, Institut Nacional d'Estadística (INE)
 3-1-1-SERIE-A-fuentes-informacion: Estadística de defuncions segons la causa de mort, Institut Nacional d'Estadística (INE)<br> Estadística de naixements, Institut Nacional d'Estadística (INE)
 3-1-2-SERIE-A-fuentes-informacion: Estadística de naixements, Institut Nacional d'Estadística (INE)
 3-2-2-SERIE-A-fuentes-informacion: Estadística de defuncions, Institut Nacional d'Estadística (INE)<br> Estadística de naixements, Institut Nacional d'Estadística (INE)
@@ -97,6 +106,15 @@
 8-5-2-SERIE-D-fuentes-informacion: Estadística de l'ocupació de les persones amb discapacitat, Institut Nacional d'Estadística (INE)
 8-5-2-SERIE-A-fuentes-informacion: Enquesta de població activa, Institut Nacional d'Estadística (INE)
 8-6-1-SERIE-A-fuentes-informacion: Enquesta de població activa, Institut Nacional d'Estadística (INE)
+8-9-1-SERIE-G-fuentes-informacion: Enquesta de població activa, Institut Nacional d'Estadística (INE)
+8-9-1-SERIE-H-fuentes-informacion: Enquesta de població activa, Institut Nacional d'Estadística (INE)
+8-9-1-SERIE-I-fuentes-informacion: Enquesta de població activa, Institut Nacional d'Estadística (INE)
+8-9-1-SERIE-A-fuentes-informacion: Enquesta de turisme de residents, Institut Nacional d'Estadística (INE)<br>Enquesta de despesa turística, Institut Nacional d'Estadística (INE)<br>Xifres de població, Institut Nacional d'Estadística (INE)
+8-9-1-SERIE-B-fuentes-informacion: Enquesta de turisme de residents, Institut Nacional d'Estadística (INE)<br>Enquesta de despesa turística, Institut Nacional d'Estadística (INE)<br>Xifres de població, Institut Nacional d'Estadística (INE)
+8-9-1-SERIE-C-fuentes-informacion: Enquesta de turisme de residents, Institut Nacional d'Estadística (INE)<br>Enquesta de despesa turística, Institut d'Estadística de les Illes Balears (IBESTAT) i Institut Nacional d'Estadística (INE)
+8-9-1-SERIE-D-fuentes-informacion: Enquesta de turisme de residents, Institut Nacional d'Estadística (INE)<br>Enquesta de despesa turística, Institut d'Estadística de les Illes Balears (IBESTAT) i Institut Nacional d'Estadística (INE)
+8-9-1-SERIE-E-fuentes-informacion: Enquesta de turisme de residents, Institut Nacional d'Estadística (INE)<br>Enquesta de despesa turística, Institut Nacional d'Estadística (INE)
+8-9-1-SERIE-F-fuentes-informacion: Enquesta de turisme de residents, Institut Nacional d'Estadística (INE)<br>Enquesta de despesa turística, Institut Nacional d'Estadística (INE)
 8-10-1-SERIE-A-fuentes-informacion: Entitats de crèdit i establiments financers de crèdit, Banc d'Espanya<br>Xifres de població, Institut Nacional d'Estadística (INE)
 8-10-2-SERIE-A-fuentes-informacion: Enquesta de competències financeres, Banc d'Espanya i Comissió Nacional del Mercat de Valors (CNMV)
 8-b-1-SERIE-A-fuentes-informacion: Liquidació dels pressuposts de les comunitats autònomes, Ministeri d'Hisenda
@@ -106,9 +124,10 @@
 9-2-2-SERIE-A-fuentes-informacion: Enquesta de població activa, Institut Nacional d'Estadística (INE)
 9-2-2-SERIE-C-fuentes-informacion: Comptabilitat regional d'Espanya, Institut Nacional d'Estadística (INE)
 9-2-2-SERIE-B-fuentes-informacion: Comptabilitat regional d'Espanya, Institut Nacional d'Estadística (INE)
-9-3-1-SERIE-A-fuentes-informacion: "Estadística estructural d''empreses: sector industrial, Institut Nacional d''Estadística (INE)"
+9-3-1-SERIE-A-fuentes-informacion: "Estadística estructural d'empreses: sector industrial, Institut Nacional d'Estadística (INE)"
 9-5-1-SERIE-A-fuentes-informacion: Estadística sobre activitats d'I+D, Institut Nacional d'Estadística (INE)<br>Comptabilitat regional d'Espanya, Institut Nacional d'Estadística (INE)
 9-5-2-SERIE-A-fuentes-informacion: Estadística sobre activitats d'I+D, Institut Nacional d'Estadística (INE)<br>Enquesta contínua de població, Institut Nacional d'Estadística (INE)
+9-b-1-SERIE-A-fuentes-informacion: "Estadística estructural d'empreses: sector industrial, Institut Nacional d'Estadística (INE)"
 9-c-1-SERIE-B-fuentes-informacion: Cobertura de banda ampla a Espanya, Ministeri d'Assumptes Econòmics i Transformació Digital
 9-c-1-SERIE-A-fuentes-informacion: Cobertura de banda ampla a Espanya, Ministeri d'Assumptes Econòmics i Transformació Digital
 10-1-1-SERIE-C-fuentes-informacion: Enquesta de condicions de vida, Institut Nacional d'Estadística (INE)
@@ -121,11 +140,16 @@
 10-7-4-SERIE-A-fuentes-informacion: Estadística de població estrangera sol·licitant de protecció internacional, refugiats, beneficiaris de protecció subsidiària, desplaçats i apàtrides, Ministeri de l'Interior <br>Estadística contínua de població, Institut Nacional d'Estadística (INE)
 11-1-1-SERIE-A-fuentes-informacion: Enquesta de condicions de vida, Institut Nacional d'Estadística (INE)
 11-1-1-SERIE-B-fuentes-informacion: Enquesta de condicions de vida, Institut Nacional d'Estadística (INE)
+11-4-1-SERIE-A-fuentes-informacion: Estadística de finançament i despesa pública en cultura, Ministeri de Cultura i Esport<br>Xifres de població, Institut Nacional d'Estadística (INE)
+11-4-1-SERIE-B-fuentes-informacion: Estadística de finançament i despesa pública en cultura, Ministeri de Cultura i Esport<br>Xifres de població, Institut Nacional d'Estadística (INE)
+11-4-1-SERIE-C-fuentes-informacion: Estadística de finançament i despesa pública en cultura, Ministeri de Cultura i Esport<br>Xifres de població, Institut Nacional d'Estadística (INE)
 11-5-1-SERIE-A-fuentes-informacion: Estadística de defuncions segons la causa de mort, Institut Nacional d'Estadística (INE)<br>Xifres de població, Institut Nacional d'Estadística (INE)
 11-6-1-SERIE-A-fuentes-informacion: Estadístiques sobre recollida i tractament de residus, Institut Nacional d'Estadística (INE)<br>Enquesta contínua de població, Institut Nacional d'Estadística (INE)
 11-6-1-SERIE-B-fuentes-informacion: Memòria anual de generació i gestió de residus. Residus de competència municipal, Ministeri per a la Transició Ecològica i el Repte Demogràfic
 11-6-1-SERIE-C-fuentes-informacion: Memòria anual de generació i gestió de residus. Residus de competència municipal, Ministeri per a la Transició Ecològica i el Repte Demogràfic
 11-6-1-SERIE-D-fuentes-informacion: Memòria anual de generació i gestió de residus. Residus de competència municipal, Ministeri per a la Transició Ecològica i el Repte Demogràfic
+11-6-2-SERIE-B-fuentes-informacion: Estadística de qualitat de l'aire, Ministeri per a la Transició Ecològica i el Repte Demogràfic
+11-6-2-SERIE-A-fuentes-informacion: Estadística de qualitat de l'aire, Ministeri per a la Transició Ecològica i el Repte Demogràfic
 11-a-1-SERIE-A-fuentes-informacion: Sistema d'informació urbana, Ministeri d'Habitatge i Agenda Urbana<br>Estadística contínua de població, Institut Nacional d'Estadística (INE)
 12-5-1-SERIE-A-fuentes-informacion: Estadístiques sobre recollida i tractament de residus, Institut Nacional d'Estadística (INE)<br>Xifres de població, Institut Nacional d'Estadística (INE)
 13-2-2-SERIE-A-fuentes-informacion: Inventari nacional de gasos amb efecte hivernacle (GEH), Ministeri per a la Transició Ecològica i el Repte Demogràfic<br> Compte d'emissions a l'atmosfera, Institut Nacional d'Estadística (INE)<br> Comptabilitat regional d'Espanya, Institut Nacional d'Estadística (INE)
@@ -181,6 +205,12 @@
 1-4-1-SERIE-A-fuentes-informacion: Censos de població i habitatges, Institut Nacional d'Estadística (INE)
 1-4-1-SERIE-C-fuentes-informacion: Censos de població i habitatges, Institut Nacional d'Estadística (INE)
 1-4-1-SERIE-B-fuentes-informacion: Censos de població i habitatges, Institut Nacional d'Estadística (INE)
+4-1-2-SERIE-A-fuentes-informacion: Enquesta de població activa, Institut Nacional d'Estadística (INE)
+4-1-2-SERIE-D-fuentes-informacion: Enquesta de població activa, Institut Nacional d'Estadística (INE)
+4-1-2-SERIE-B-fuentes-informacion: Enquesta de població activa, Institut Nacional d'Estadística (INE)
+4-1-2-SERIE-C-fuentes-informacion: Enquesta de població activa, Institut Nacional d'Estadística (INE)
+4-1-2-SERIE-E-fuentes-informacion: Enquesta de població activa, Institut Nacional d'Estadística (INE)
+4-1-2-SERIE-F-fuentes-informacion: Enquesta de població activa, Institut Nacional d'Estadística (INE)
 4-3-1-SERIE-A-fuentes-informacion: Enquesta sobre la participació de la població adulta en les activitats d'aprenentatge, Institut Nacional d'Estadística (INE)
 4-3-1-SERIE-D-fuentes-informacion: Enquesta de població activa, Institut Nacional d'Estadística (INE)
 4-3-1-SERIE-C-fuentes-informacion: Enquesta de població activa, Institut Nacional d'Estadística (INE)
@@ -195,6 +225,12 @@
 3-4-1-SERIE-D-fuentes-informacion: Estadística de defuncions segons la causa de mort, Institut Nacional d'Estadística (INE)<br> Xifres de població, Institut Nacional d'Estadística (INE)
 3-4-1-SERIE-C-fuentes-informacion: Estadística de defuncions segons la causa de mort, Institut Nacional d'Estadística (INE)<br> Xifres de població, Institut Nacional d'Estadística (INE)
 3-4-1-SERIE-B-fuentes-informacion: Estadística de defuncions segons la causa de mort, Institut Nacional d'Estadística (INE)<br> Xifres de població, Institut Nacional d'Estadística (INE)
+3-5-1-SERIE-A-fuentes-informacion: "Indicadors de consum de substàncies psicoactives de l'Observatori Espanyol de les Drogues i les Addiccions: admissions a tractament, Ministeri de Sanitat <br>Enquesta contínua de població, Institut Nacional d'Estadística (INE)"
+3-5-1-SERIE-D-fuentes-informacion: "Indicadors de consum de substàncies psicoactives de l'Observatori Espanyol de les Drogues i les Addiccions: admissions a tractament, Ministeri de Sanitat <br>Enquesta contínua de població, Institut Nacional d'Estadística (INE)"
+3-5-1-SERIE-B-fuentes-informacion: "Indicadors de consum de substàncies psicoactives de l'Observatori Espanyol de les Drogues i les Addiccions: admissions a tractament, Ministeri de Sanitat <br>Enquesta contínua de població, Institut Nacional d'Estadística (INE)"
+3-5-1-SERIE-C-fuentes-informacion: "Indicadors de consum de substàncies psicoactives de l'Observatori Espanyol de les Drogues i les Addiccions: admissions a tractament, Ministeri de Sanitat <br>Enquesta contínua de població, Institut Nacional d'Estadística (INE)"
+3-5-1-SERIE-E-fuentes-informacion: "Indicadors de consum de substàncies psicoactives de l'Observatori Espanyol de les Drogues i les Addiccions: admissions a tractament, Ministeri de Sanitat <br>Enquesta contínua de població, Institut Nacional d'Estadística (INE)"
+3-5-1-SERIE-F-fuentes-informacion: "Indicadors de consum de substàncies psicoactives de l'Observatori Espanyol de les Drogues i les Addiccions: admissions a tractament, Ministeri de Sanitat <br>Enquesta contínua de població, Institut Nacional d'Estadística (INE)"
 3-7-1-SERIE-A-fuentes-informacion: Enquesta de fecunditat, Institut Nacional d'Estadística (INE)
 3-b-1-SERIE-B-fuentes-informacion: Estadística de vacunacions sistemàtiques, Ministeri de Sanitat
 3-b-1-SERIE-C-fuentes-informacion: Estadística de vacunacions sistemàtiques, Ministeri de Sanitat
@@ -221,3 +257,10 @@
 17-3-2-SERIE-B-fuentes-informacion: Balança de pagaments, Banc d'Espanya<br> Estadística del Padró continu, Institut Nacional d'Estadística (INE)<br> Comptabilitat regional d'Espanya, Institut Nacional d'Estadística (INE)
 17-3-2-SERIE-A-fuentes-informacion: Balança de pagaments, Banc d'Espanya<br> Estadística del Padró continu, Institut Nacional d'Estadística (INE)
 17-19-2a-SERIE-A-fuentes-informacion: Censos de població i habitatges, Institut Nacional d'Estadística (INE)
+17-13-1-SERIE-D-fuentes-informacion: Balança de pagaments, Banc d'Espanya<br>Estadística del Padró continu, Institut Nacional d'Estadística (INE)<br>Comptabilitat regional d'Espanya, Institut Nacional d'Estadística (INE)
+17-13-1-SERIE-A-fuentes-informacion: Comptabilitat regional d'Espanya, Institut Nacional d'Estadística (INE)
+17-13-1-SERIE-C-fuentes-informacion: Índex de preus de consum, Institut Nacional d'Estadística (INE)
+17-13-1-SERIE-E-fuentes-informacion: Deute públic segons el protocol de dèficit excessiu, Banc d'Espanya<br>Comptabilitat regional d'Espanya, Institut Nacional d'Estadística (INE)
+17-13-1-SERIE-F-fuentes-informacion: Operacions no financeres del sector administracions públiques i els seus subsectors, Ministeri d'Hisenda i Funció Pública
+17-13-1-SERIE-G-fuentes-informacion: Operacions no financeres del sector administracions públiques i els seus subsectors, Ministeri d'Hisenda i Funció Pública
+17-13-1-SERIE-B-fuentes-informacion: Enquesta de població activa, Institut Nacional d'Estadística (INE)
