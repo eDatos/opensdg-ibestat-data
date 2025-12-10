@@ -146,7 +146,7 @@ def create_opensdg_data(data, output_filepath, config):
     # Creating base CSV
     df = pandas.DataFrame(records)    
     # Trying to match order of rows and columns the same way as the original CSVs
-    column_order = ['Year', 'Units', 'general.territorio', 'Serie', 'general.series'] + list(additional_columns) + ['Value']
+    column_order = ['Year', 'Units', 'general.territorio', 'Serie', 'general.series'] + sorted(additional_columns) + ['Value']
     df = df.sort_values(by=['Serie', 'Year', 'general.territorio', 'general.series'], ascending=[True, True, True, True])
     df.to_csv(output_filepath + ".csv", index=False, columns=column_order)
 
@@ -402,7 +402,9 @@ def create_opensdg_meta_for_serie(indicator_metadata, serie, output_filepath, co
         'tab_name': f'SERIE.SERIE_{serie_letter}', # Atributo a nivel de dimensión (SERIES_ORDEN) - Use existing translation
 
         # Coordinación con OCECAS
-        'coordinado_con_ocecas': bool("OCECAS" in attributes and attributes['OCECAS']) # Atributo de dimensión (dataset) 
+        'coordinado_con_ocecas': bool("OCECAS" in attributes and attributes['OCECAS']), # Atributo de dimensión (dataset) 
+
+        'show_map': indicator_metadata['data_show_map'] # We'll assume the same value as the indicator
     }
 
     serie_meta = CommentedMap(serie_meta)
