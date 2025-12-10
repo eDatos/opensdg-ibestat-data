@@ -146,7 +146,7 @@ def create_opensdg_data(data, output_filepath, config):
     # Creating base CSV
     df = pandas.DataFrame(records)    
     # Trying to match order of rows and columns the same way as the original CSVs
-    column_order = ['Year', 'Units', 'general.territorio', 'Serie', 'general.series'] + list(additional_columns) + ['Value']
+    column_order = ['Year', 'Units', 'general.territorio', 'Serie', 'general.series'] + sorted(additional_columns) + ['Value']
     df = df.sort_values(by=['Serie', 'Year', 'general.territorio', 'general.series'], ascending=[True, True, True, True])
     df.to_csv(output_filepath + ".csv", index=False, columns=column_order)
 
