@@ -402,7 +402,9 @@ def create_opensdg_meta_for_serie(indicator_metadata, serie, output_filepath, co
         'tab_name': f'SERIE.SERIE_{serie_letter}', # Atributo a nivel de dimensión (SERIES_ORDEN) - Use existing translation
 
         # Coordinación con OCECAS
-        'coordinado_con_ocecas': bool("OCECAS" in attributes and attributes['OCECAS']) # Atributo de dimensión (dataset) 
+        'coordinado_con_ocecas': bool("OCECAS" in attributes and attributes['OCECAS']), # Atributo de dimensión (dataset) 
+
+        'show_map': indicator_metadata['data_show_map'] # We'll assume the same value as the indicator
     }
 
     serie_meta = CommentedMap(serie_meta)
