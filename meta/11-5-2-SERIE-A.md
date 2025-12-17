@@ -2,7 +2,7 @@
 # Generated file, don't modify directly.
 # Info genérica
 target_id: 11.5.2
-reporting_status:
+reporting_status: complete
 data_non_statistical: false
 national_geographical_coverage: nuts.ES53
 
