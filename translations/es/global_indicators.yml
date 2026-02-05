@@ -62,7 +62,7 @@
 2-3-2-graph-title:
 2-3-2-title: "Media de ingresos de los productores de alimentos en pequeña escala, desglosada por sexo y condición indígena"
 2-4-1-definition:
-2-4-1-graph-title: "Proporción de la superficie agrícola en que se practica una agricultura productiva y sostenible; y emisiones de amoníaco"
+2-4-1-graph-title: "Proporción de la superficie agrícola en que se practica una agricultura productiva y sostenible, y emisiones de amoníaco"
 2-4-1-title: "Proporción de la superficie agrícola en que se practica una agricultura productiva y sostenible"
 2-5-1-definition:
 2-5-1-graph-title:
@@ -746,7 +746,7 @@
 17-19-1-graph-title:
 17-19-1-title: "Valor en dólares de todos los recursos proporcionados para fortalecer la capacidad estadística de los países en desarrollo"
 17-19-2a-definition:
-17-19-2a-graph-title: "Se ha realizado al menos un censo de población y vivienda en los últimos diez años (1=Sí; 0=No)"
+17-19-2a-graph-title: "Se ha realizado al menos un censo de población y vivienda en los últimos diez años (1=Sí, 0=No)"
 17-19-2a-title: "Proporción de países que han realizado al menos un censo de población y vivienda en los últimos diez años"
 17-19-2b-definition:
 17-19-2b-graph-title: "Se ha registrado el 100% de los nacimientos y al menos el 80% de las defunciones"

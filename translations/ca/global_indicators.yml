@@ -62,7 +62,7 @@
 2-3-2-graph-title: ''
 2-3-2-title: "Mitjana d’ingressos dels productors d’aliments a petita escala, desglossada per sexe i condició indígena"
 2-4-1-definition: ''
-2-4-1-graph-title: "Proporció de la superfície agrícola en què es practica una agricultura productiva i sostenible; i emissions d'amoníac"
+2-4-1-graph-title: "Proporció de la superfície agrícola en què es practica una agricultura productiva i sostenible, i emissions d'amoníac"
 2-4-1-title: "Proporció de la superfície agrícola en què es practica una agricultura productiva i sostenible"
 2-5-1-definition: ''
 2-5-1-graph-title: ''
@@ -746,7 +746,7 @@
 17-19-1-graph-title: ''
 17-19-1-title: "Valor en dòlars de tots els recursos proporcionats per enfortir la capacitat estadística dels països en desenvolupament"
 17-19-2a-definition: ''
-17-19-2a-graph-title: "S'ha realitzat almenys un cens de població i habitatge en els últims deu anys (1 = Sí; 0 = No)"
+17-19-2a-graph-title: "S'ha realitzat almenys un cens de població i habitatge en els últims deu anys (1 = Sí, 0 = No)"
 17-19-2a-title: "Proporció de països que han realitzat almenys un cens de població i habitatge en els últims deu anys"
 17-19-2b-definition: ''
 17-19-2b-graph-title: "S'ha registrat el 100% dels naixements i almenys el 80% de les defuncions"
