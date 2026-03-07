@@ -1,23 +1,23 @@
-_L_MI_NUTS2: Median income. NUTS 2 regions
-_L_MI_COUNTRY: Median income. National
+_L_MI_NUTS2: 'Median income: NUTS 2 regions'
+_L_MI_COUNTRY: 'Median income: National'
 _T: Not disaggregated by this variable
-_L_BSRV_H2O: Basic services. Running water
-_L_BSRV_BATH: Basic amenities. Bathroom/shower
-_L_BSRV_SAN: Basic services. Cleaning
-NCD_CARDIO: Non-communicable diseases. Cardiovascular diseases
-NCD_CRESPD: Non-communicable diseases. Chronic respiratory diseases
-NCD_DIABTS: Non-communicable disease. Diabetes
-NCD_CNCR: Non-communicable disease. Cancer
+_L_BSRV_H2O: 'Basic services: Running water'
+_L_BSRV_BATH: 'Basic amenities: Bathroom/shower'
+_L_BSRV_SAN: 'Basic services: Cleaning'
+NCD_CARDIO: 'Non-communicable diseases: Cardiovascular diseases'
+NCD_CRESPD: 'Non-communicable diseases: Chronic respiratory diseases'
+NCD_DIABTS: 'Non-communicable disease: Diabetes'
+NCD_CNCR: 'Non-communicable disease: Cancer'
 _L_SUD_ILLEGAL_DRUGS: 'Addictive substance: Illegal drugs'
 SUD_ALCOHOL: 'Substance use disorder: Alcohol'
 SKILL_READ: 'Skill: Reading'
 SKILL_MATH: Mathematical ability
-_L_TTNR_OWN: Type of ownership. Property
+_L_TTNR_OWN: 'Type of ownership: Property'
 _L_TTNR_LEASE: 'Type of tenancy: Leasehold'
-_L_WME_HOURS: Method of measuring employment. Hours worked
-_L_WME_EMPLOYEES: Method of measuring employment. Employed persons
-_L_AB_GDP: Accounting balance. GDP
-_L_AB_MVA: Accounting balance. Added value of the manufacturing sector
+_L_WME_HOURS: 'Method of measuring employment: Hours worked'
+_L_WME_EMPLOYEES: 'Method of measuring employment: Employed persons'
+_L_AB_GDP: 'Accounting balance: GDP'
+_L_AB_MVA: 'Accounting balance: Added value of the manufacturing sector'
 _L_ES_LG_AUTONOMOUS_LOCAL: 'Level of government: Regional and local public administrations'
 _L_ES_LG_AUTONOMOUS: 'Level of government: Autonomous public administrations'
 _L_ES_LG_LOCAL: 'Level of government: Local public administrations'

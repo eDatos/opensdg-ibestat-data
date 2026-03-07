@@ -1,23 +1,23 @@
-_L_MI_NUTS2: Mediana de ingresos. Regiones NUTS 2
-_L_MI_COUNTRY: Mediana de ingresos. Nacional
+_L_MI_NUTS2: 'Mediana de ingresos: Regiones NUTS 2'
+_L_MI_COUNTRY: 'Mediana de ingresos: Nacional'
 _T: No desagregado por esta variable
-_L_BSRV_H2O: Servicios básicos. Agua corriente
-_L_BSRV_BATH: Servicios básicos. Baño/ducha
-_L_BSRV_SAN: Servicios básicos. Aseo
-NCD_CARDIO: Enfermedad no transmisible. Enfermedades cardiovasculares
-NCD_CRESPD: Enfermedad no transmisible. Enfermedades respiratorias crónicas
-NCD_DIABTS: Enfermedad no transmisible. Diabetes
-NCD_CNCR: Enfermedad no transmisible. Cáncer
+_L_BSRV_H2O: 'Servicios básicos: Agua corriente'
+_L_BSRV_BATH: 'Servicios básicos: Baño/ducha'
+_L_BSRV_SAN: 'Servicios básicos: Aseo'
+NCD_CARDIO: 'Enfermedad no transmisible: Enfermedades cardiovasculares'
+NCD_CRESPD: 'Enfermedad no transmisible: Enfermedades respiratorias crónicas'
+NCD_DIABTS: 'Enfermedad no transmisible: Diabetes'
+NCD_CNCR: 'Enfermedad no transmisible: Cáncer'
 _L_SUD_ILLEGAL_DRUGS: 'Sustancia adictiva: Drogas ilegales'
 SUD_ALCOHOL: 'Sustancia adictiva: Alcohol'
 SKILL_READ: Habilidad lectora
 SKILL_MATH: Habilidad matemática
-_L_TTNR_OWN: Tipo de tenencia. Propiedad
-_L_TTNR_LEASE: Tipo de tenencia. Arrendamiento
-_L_WME_HOURS: Forma de medir el empleo. Horas trabajadas
-_L_WME_EMPLOYEES: Forma de medir el empleo. Personas empleadas
-_L_AB_GDP: Saldo contable. PIB
-_L_AB_MVA: Saldo contable. Valor añadido del sector manufacturero
+_L_TTNR_OWN: 'Tipo de tenencia: Propiedad'
+_L_TTNR_LEASE: 'Tipo de tenencia: Arrendamiento'
+_L_WME_HOURS: 'Forma de medir el empleo: Horas trabajadas'
+_L_WME_EMPLOYEES: 'Forma de medir el empleo: Personas empleadas'
+_L_AB_GDP: 'Saldo contable: PIB'
+_L_AB_MVA: 'Saldo contable: Valor añadido del sector manufacturero'
 _L_ES_LG_AUTONOMOUS_LOCAL: 'Nivel de gobierno: Administraciones públicas autonómicas y locales'
 _L_ES_LG_AUTONOMOUS: 'Nivel de gobierno: Administraciones públicas autonómicas'
 _L_ES_LG_LOCAL: 'Nivel de gobierno: Administraciones públicas locales'

@@ -1,23 +1,23 @@
-_L_MI_NUTS2: Mitjana dingressos. Regions NUTS 2
-_L_MI_COUNTRY: Mitjana dingressos. Nacional
+_L_MI_NUTS2: 'Mitjana dingressos: Regions NUTS 2'
+_L_MI_COUNTRY: 'Mitjana dingressos: Nacional'
 _T: No desagregat per aquesta variable
-_L_BSRV_H2O: Serveis bàsics. Aigua corrent
-_L_BSRV_BATH: Serveis bàsics. Bany/dutxa
-_L_BSRV_SAN: Serveis bàsics. Lavabo
-NCD_CARDIO: Malaltia no transmissible. Malalties cardiovasculars
-NCD_CRESPD: Malaltia no transmissible. Malalties respiratòries cròniques
-NCD_DIABTS: Malaltia no transmissible. Diabetis
-NCD_CNCR: Malaltia no transmissible. Càncer
+_L_BSRV_H2O: 'Serveis bàsics: Aigua corrent'
+_L_BSRV_BATH: 'Serveis bàsics: Bany/dutxa'
+_L_BSRV_SAN: 'Serveis bàsics: Lavabo'
+NCD_CARDIO: 'Malaltia no transmissible: Malalties cardiovasculars'
+NCD_CRESPD: 'Malaltia no transmissible: Malalties respiratòries cròniques'
+NCD_DIABTS: 'Malaltia no transmissible: Diabetis'
+NCD_CNCR: 'Malaltia no transmissible: Càncer'
 _L_SUD_ILLEGAL_DRUGS: 'Substància addictiva: Drogues il·legals'
 SUD_ALCOHOL: 'Substància addictiva: Alcohol'
 SKILL_READ: Habilitat lectora
 SKILL_MATH: Habilitat matemàtica
-_L_TTNR_OWN: Tipus de tinença. Propietat
+_L_TTNR_OWN: 'Tipus de tinença: Propietat'
 _L_TTNR_LEASE: Tipus de tinença.
-_L_WME_HOURS: Forma de mesurar la feina. Hores treballades
-_L_WME_EMPLOYEES: Forma de mesurar la feina. Persones emprades
-_L_AB_GDP: Saldo comptable. PIB
-_L_AB_MVA: Saldo comptable. Valor afegit del sector manufacturer
+_L_WME_HOURS: 'Forma de mesurar la feina: Hores treballades'
+_L_WME_EMPLOYEES: 'Forma de mesurar la feina: Persones emprades'
+_L_AB_GDP: 'Saldo comptable: PIB'
+_L_AB_MVA: 'Saldo comptable: Valor afegit del sector manufacturer'
 _L_ES_LG_AUTONOMOUS_LOCAL: 'Nivell de govern: Administracions públiques autonòmiques i locals'
 _L_ES_LG_AUTONOMOUS: 'Nivell de govern: Administracions públiques autonòmiques'
 _L_ES_LG_LOCAL: 'Nivell de govern: Administracions públiques locals'
