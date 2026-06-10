@@ -20,6 +20,11 @@ if __name__ == '__main__':
         logger.error(f"Error al leer el archivo '{archivo}': {e}")
         sys.exit(1)
 
+    if not contenido:
+        logger.info("El archivo está vacío. No se enviará notificación.")
+        print("false")
+        sys.exit(0)
+
     config = common_metadata.initialize_properties(config='config_data.yml')
     notices_rest = config['notices_rest']   
     client = NoticesClient(f'{notices_rest}/v1.0')   
@@ -31,3 +36,5 @@ if __name__ == '__main__':
         logger.info(f"Respuesta: {response.text}")
     except Exception as e:
         logger.error(f"Error al crear notificación: {e}")
+    
+    print("true")
