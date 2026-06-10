@@ -4,6 +4,7 @@
 # import shutil
 import csv
 import re
+import sys
 from overrides import *
 from sdg import open_sdg
 import yaml
@@ -23,7 +24,7 @@ def create_index_csv():
     """
     with open(CONFIG_FILE, 'r') as stream:
         languages = yaml.safe_load(stream)['languages']
-        print("Lenguajes detectados: ", languages)
+        print("Lenguajes detectados: ", languages, file=sys.stderr)
 
     for language in languages:
         with open(INDEX_FILEPATH.format(language), 'w', newline='', encoding="utf-8") as csv_file:
@@ -32,7 +33,7 @@ def create_index_csv():
                 header_i18n = HEADER_TRANSLATIONS[language]
             else:
                 print(f"Advertencia: no se ha encontrado el header traducido al idioma {language}, por lo que se "
-                      f"usará por defecto el español")
+                      f"usará por defecto el español", file=sys.stderr)
                 header_i18n = HEADER_TRANSLATIONS['es']
             csv_writer.writerow(header_i18n)
             with open(f'translations/{language}/subindicator.yml', 'r', encoding="utf-8") as translations_file:
@@ -44,15 +45,15 @@ def create_index_csv():
 if __name__ == "__main__":
 
     # Validate the indicators.
-    print("Validando datos...")
+    print("Validando datos...", file=sys.stderr)
     validation_successful = open_sdg.open_sdg_check(config='config_data.yml')
     # If everything was valid, perform the build.
     if not validation_successful:
         print("Se han producido errores de validación. Consulte la salida del proceso para más detalles.")
     else:
-        print("Creando índice...")
+        print("Creando índice...", file=sys.stderr)
         create_index_csv()
-        print("Construyendo datos...")
+        print("Construyendo datos...", file=sys.stderr)
         try:
             success = open_sdg.open_sdg_build(config='config_data.yml')
             if not success:
