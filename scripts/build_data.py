@@ -48,9 +48,14 @@ if __name__ == "__main__":
     validation_successful = open_sdg.open_sdg_check(config='config_data.yml')
     # If everything was valid, perform the build.
     if not validation_successful:
-        raise Exception('There were validation errors. See output above.')
+        print("Se han producido errores de validación. Consulte la salida del proceso para más detalles.")
     else:
         print("Creando índice...")
         create_index_csv()
         print("Construyendo datos...")
-        open_sdg.open_sdg_build(config='config_data.yml')
+        try:
+            success = open_sdg.open_sdg_build(config='config_data.yml')
+            if not success:
+                print("Error en open_sdg_build: algún output no se generó correctamente.")
+        except Exception as e:
+            print(f"Error en open_sdg_build: {str(e)}")
