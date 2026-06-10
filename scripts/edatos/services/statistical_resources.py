@@ -14,12 +14,15 @@ SERIES_ID = 'SERIES'
 
 logger = getLogger('statistical_resources')
 def process_nodes(collection, config, meta_from_csv, organisation):
+    errors = []
     if 'data' in collection and 'nodes' in collection['data'] and 'node' in collection['data']['nodes']:
         for node in collection['data']['nodes']['node']:
-            process_node(node, config, meta_from_csv, organisation)
+            errors.extend(process_node(node, config, meta_from_csv, organisation))
+    return errors
 
 def process_node(node, config, meta_from_csv, organisation, parent_node = None, level=1):
-    node['parent'] = parent_node   
+    errors = []
+    node['parent'] = parent_node
     if level == 1:
         node_type = 'objective'
     elif level == 2:
@@ -32,7 +35,7 @@ def process_node(node, config, meta_from_csv, organisation, parent_node = None, 
     default_language = config['languages'][0]
     # Invariable between languages
     node_id = i18n.international_string_to_string(node['name'], default_language)
-    logger.info(f"Processing {node_type}: {node_id}")    
+    logger.info(f"Processing {node_type}: {node_id}")
 
     if 'dataset' in node:
         dataset_url = node['dataset']['selfLink']['href'] + ".json?fields=+dimension.description"
@@ -40,16 +43,19 @@ def process_node(node, config, meta_from_csv, organisation, parent_node = None, 
         try:
             logger.info(f"Downloading dataset from: {dataset_url}")
             data = json.download(dataset_url)
-            create_opensdg_data(data, f'data/indicator_{indicator_key}', config) 
+            create_opensdg_data(data, f'data/indicator_{indicator_key}', config)
             node_meta_from_csv = meta_from_csv.get(indicator_key, {})
             create_opensdg_meta(data, f'meta/{indicator_key}', config, node_id, node, node_meta_from_csv, organisation)
         except Exception as e:
             logger.exception(f"Exception creating OpenSDG data for dataset {node_id} - {dataset_url}")
-            return
+            errors.append(f"Error procesando indicador {node_id} ({dataset_url}): {str(e)}")
+            return errors
 
     if 'nodes' in node and 'node' in node['nodes']:
         for child_node in node['nodes']['node']:
-            process_node(child_node, config, meta_from_csv, organisation, node, level + 1)            
+            errors.extend(process_node(child_node, config, meta_from_csv, organisation, node, level + 1))
+
+    return errors
 
 
 def urn_to_url(base_url, urn):

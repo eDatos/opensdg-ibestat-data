@@ -180,5 +180,35 @@ En windows:
   poetry run python .\scripts\build_data.py
 ```
 
+# Envío de notificaciones
+
+El script `send_notification.py` permite enviar notificaciones al sistema de avisos cuando se producen errores durante la generación de datos.
+
+## Comportamiento
+
+- Si el fichero de texto que se le pasa como argumento está **vacío**, no se envía ninguna notificación y el script imprime `false` por stdout.
+- Si el fichero tiene **contenido**, se envía una notificación con ese contenido y el script imprime `true` por stdout.
+
+## Uso
+
+```
+poetry run python scripts/send_notification.py <archivo_texto>
+```
+
+## Integración con build_sources
+
+`build_sources.py` emite por stdout los errores ocurridos durante el procesamiento de indicadores, uno por línea, con el siguiente formato:
+
+```
+Error procesando indicador <id> (<url>): <descripción del error>
+```
+
+Si no se producen errores, no emite nada. El flujo típico para capturar errores y notificarlos sería:
+
+```
+poetry run python scripts/build_sources.py > errors.txt
+poetry run python scripts/send_notification.py errors.txt
+```
+
 # Manteniendo meta.csv
 Parte de la información puede obtenerse desde aquí https://unstats.un.org/sdgs/files/Tier%20Classification%20of%20SDG%20Indicators_%2010%20Apr%202025_web.pdf

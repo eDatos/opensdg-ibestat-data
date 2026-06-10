@@ -14,8 +14,10 @@ def build_sources():
     meta_from_csv = csv_utils.load_indexed_csv('indicator_key', 'meta/meta.csv')
     meta_from_csv = opensdg.setup_indicators_navigation(meta_from_csv)
     
-    statistical_resources.process_nodes(collection, config, meta_from_csv, organisation)
+    return statistical_resources.process_nodes(collection, config, meta_from_csv, organisation)
 
 if __name__ == "__main__":
 
-    build_sources()
+    errors = build_sources()
+    for error in errors:
+        print(error)
