@@ -1,5 +1,8 @@
-import yaml
+import os
+
 import requests
+import yaml
+
 
 def initialize_properties(config):
     with open(config, 'r', encoding='utf-8') as file:
@@ -38,7 +41,8 @@ def initialize_properties(config):
 
 def get_property(base_url, key):
     url = f"{base_url}/properties/{key}.json"
-    response = requests.get(url)
+    api_key = os.environ.get('ODS_LOAD_API_KEY')
+    response = requests.get(url, headers={'api-key': api_key} if api_key else None)
     response.raise_for_status()
     if 'value' not in response.json():
         return None
