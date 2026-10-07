@@ -15,7 +15,7 @@ definicion: subindicator.17-6-1-SERIE-D-definicion
 
 # Fórmula teórica escrita en formato MathJax
 formula_teorica: FORMULA_TEORICA.17-6-1-SERIE-D-formula-teorica
-unidad_medida: OCECAS_UNIDAD_MEDIDA.PER_100000
+unidad_medida: OCECAS_UNIDAD_MEDIDA.PER_100_POP
 fuentes_informacion: SOURCE_DETAIL.17-6-1-SERIE-D-fuentes-informacion
 periodicidad: FREQ.A
 observaciones: ''
